@@ -90,7 +90,8 @@
 		}
 	}
 }
-[t:template,n:mushroom_glb_06]
+[t:template,n:mushroom_glb_06] { specializes = mushroom_glb_06_base; }
+[t:template,n:mushroom_glb_06_base]
 {
 	category_name = "foliage";
 	doc = "shroom_red_xlg";
@@ -106,7 +107,8 @@
 		}
 	}
 }
-[t:template,n:mushroom_glb_07]
+[t:template,n:mushroom_glb_07] { specializes = mushroom_glb_07_base; }
+[t:template,n:mushroom_glb_07_base]
 {
 	category_name = "foliage";
 	doc = "shroom_prpl_lg";
@@ -122,7 +124,8 @@
 		}
 	}
 }
-[t:template,n:mushroom_glb_08]
+[t:template,n:mushroom_glb_08] { specializes = mushroom_glb_08_base; }
+[t:template,n:mushroom_glb_08_base]
 {
 	category_name = "foliage";
 	doc = "shroom_teal_lg";
@@ -138,7 +141,8 @@
 		}
 	}
 }
-[t:template,n:mushroom_glb_09]
+[t:template,n:mushroom_glb_09] { specializes = mushroom_glb_09_base; }
+[t:template,n:mushroom_glb_09_base]
 {
 	category_name = "foliage";
 	doc = "shroom_lime_lg";
@@ -154,7 +158,8 @@
 		}
 	}
 }
-[t:template,n:mushroom_glb_10]
+[t:template,n:mushroom_glb_10] { specializes = mushroom_glb_10_base; }
+[t:template,n:mushroom_glb_10_base]
 {
 	category_name = "foliage";
 	doc = "shroom_tan_med";
@@ -170,7 +175,8 @@
 		}
 	}
 }
-[t:template,n:mushrooms_cav_01]
+[t:template,n:mushrooms_cav_01] { specializes = mushrooms_cav_01_base; }
+[t:template,n:mushrooms_cav_01_base]
 {
 	category_name = "foliage";
 	doc = "cav_mushrooms_flat_dk";
@@ -182,7 +188,8 @@
 		model = m_i_cav_mushrooms-01;
 	}
 }
-[t:template,n:mushrooms_cav_02]
+[t:template,n:mushrooms_cav_02] { specializes = mushrooms_cav_02_base; }
+[t:template,n:mushrooms_cav_02_base]
 {
 	category_name = "foliage";
 	doc = "cav_mushrooms_flat_lt";
@@ -194,7 +201,8 @@
 		model = m_i_cav_mushrooms-02;
 	}
 }
-[t:template,n:mushrooms_cav_03]
+[t:template,n:mushrooms_cav_03] { specializes = mushrooms_cav_03_base; }
+[t:template,n:mushrooms_cav_03_base]
 {
 	category_name = "foliage";
 	doc = "cav_mushrooms_flat_red";
@@ -206,7 +214,8 @@
 		model = m_i_cav_mushrooms-03;
 	}
 }
-[t:template,n:mushrooms_cav_04]
+[t:template,n:mushrooms_cav_04] { specializes = mushrooms_cav_04_base; }
+[t:template,n:mushrooms_cav_04_base]
 {
 	category_name = "foliage";
 	doc = "shroom_pink_med";
@@ -222,7 +231,8 @@
 		}
 	}
 }
-[t:template,n:mushrooms_cav_05]
+[t:template,n:mushrooms_cav_05] { specializes = mushrooms_cav_05_base; }
+[t:template,n:mushrooms_cav_05_base]
 {
 	category_name = "foliage";
 	doc = "shroom_white_delicate_lg";
@@ -238,7 +248,8 @@
 		}
 	}
 }
-[t:template,n:mushrooms_cav_06]
+[t:template,n:mushrooms_cav_06] { specializes = mushrooms_cav_06_base; }
+[t:template,n:mushrooms_cav_06_base]
 {
 	category_name = "foliage";
 	doc = "shroom_red_med";
@@ -254,7 +265,8 @@
 		}
 	}
 }
-[t:template,n:mushrooms_cav_07]
+[t:template,n:mushrooms_cav_07] { specializes = mushrooms_cav_07_base; }
+[t:template,n:mushrooms_cav_07_base]
 {
 	category_name = "foliage";
 	doc = "shroom_tan_squat_med";
