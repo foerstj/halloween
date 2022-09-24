@@ -1,2 +1,4 @@
 *.lqd20
 *.psd
+
+/world/maps/*
