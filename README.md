@@ -5,6 +5,7 @@ A little mod for Dungeon Siege 1 / LoA
 - Replaces Krug dogs with zombie Krug dogs (texture replacement)
 - Replaces wolves with zombie wolves (texture replacement)
 - Replaces bears with zombie bears / ursae (texture replacement)
+- Replaces flowers with mushrooms (template replacement)
 
 ## Attribution
 
