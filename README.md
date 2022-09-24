@@ -7,6 +7,14 @@ A little mod for Dungeon Siege 1 / LoA
 - Replaces bears with zombie bears / ursae (texture replacement)
 - Replaces flowers with mushrooms (template replacement)
 
+## Installation
+
+Put the dsres file into the DSLOA folder.
+
+## Compatibility
+
+Not compatible with Wintermod.
+
 ## Attribution
 
 - Zombie wolf & bear textures courtesy of Eksevis
