@@ -1,7 +1,0 @@
-[t:tsd,n:b_c_edm_br-02]
-{
-  b dither = true;
-  b hasalpha = true;
-    layer1texture1 = b_c_edm_br-02;
-  i texturedetail = 0;
-}
