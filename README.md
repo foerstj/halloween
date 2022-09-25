@@ -10,6 +10,7 @@ A little mod for Dungeon Siege 1 / LoA
 - Autumn
   - Replaces flowers with mushrooms (template replacement)
   - Makes fog grayer and closer (mood replacement)
+  - Replaces green trees with autumn trees (texture replacement) and adds falling leaves (template replacement)
 - Horror
   - Crypt ambience if no other was used (mood replacement)
   - Replaces music in Stonebridge, Elddim, Meren, Hiroth & Island with Halloween themes (mood replacement)
@@ -23,7 +24,7 @@ Put the dsres file into the DSLOA folder.
 ## Compatibility
 
 Not compatible with Wintermod.
-- Overrides natural_nonblocking.gas
+- Overrides natural_nonblocking.gas & natural_trees.gas
 - Overrides original mood files
 
 ## Attribution
