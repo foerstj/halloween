@@ -205,6 +205,12 @@
 			0 = b_i_grs_tree-madrona;
 		}
 	}
+	[generic_emitter]
+	{
+		other_effect = leaf_madrona_01;
+		rep_freq_min = 4.0;
+		rep_freq_max = 8.0;
+	}
 }
 [t:template,n:tree_grs_deciduous_14]
 {
@@ -220,6 +226,12 @@
 		{
 			0 = b_i_grs_tree-laurel;
 		}
+	}
+	[generic_emitter]
+	{
+		other_effect = leaf_laurel_01;
+		rep_freq_min = 4.0;
+		rep_freq_max = 8.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_15]
@@ -237,6 +249,12 @@
 			0 = b_i_grs_tree-mauve;
 		}
 	}
+	[generic_emitter]
+	{
+		other_effect = leaf_mauve_01;
+		rep_freq_min = 4.0;
+		rep_freq_max = 8.0;
+	}
 }
 [t:template,n:tree_grs_deciduous_16]
 {
@@ -252,6 +270,12 @@
 		{
 			0 = b_i_grs_tree-ash;
 		}
+	}
+	[generic_emitter]
+	{
+		other_effect = leaf_ash_01;
+		rep_freq_min = 4.0;
+		rep_freq_max = 8.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_17]
@@ -269,6 +293,12 @@
 			0 = b_i_grs_tree-madrona;
 		}
 	}
+	[generic_emitter]
+	{
+		other_effect = leaf_madrona_01;
+		rep_freq_min = 8.0;
+		rep_freq_max = 16.0;
+	}
 }
 [t:template,n:tree_grs_deciduous_18]
 {
@@ -284,6 +314,12 @@
 		{
 			0 = b_i_grs_tree-laurel;
 		}
+	}
+	[generic_emitter]
+	{
+		other_effect = leaf_laurel_01;
+		rep_freq_min = 8.0;
+		rep_freq_max = 16.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_19]
@@ -301,6 +337,12 @@
 			0 = b_i_grs_tree-mauve;
 		}
 	}
+	[generic_emitter]
+	{
+		other_effect = leaf_mauve_01;
+		rep_freq_min = 8.0;
+		rep_freq_max = 16.0;
+	}
 }
 [t:template,n:tree_grs_deciduous_20]
 {
@@ -316,6 +358,12 @@
 		{
 			0 = b_i_grs_tree-ash;
 		}
+	}
+	[generic_emitter]
+	{
+		other_effect = leaf_ash_01;
+		rep_freq_min = 8.0;
+		rep_freq_max = 16.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_21]
@@ -416,8 +464,8 @@
 	[generic_emitter]
 	{
 		other_effect = leaf_madrona_01;
-		rep_freq_min = 8.0;
-		rep_freq_max = 20.0;
+		rep_freq_min = 2.0;
+		rep_freq_max = 4.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_sway_02]
@@ -454,8 +502,8 @@
 	[generic_emitter]
 	{
 		other_effect = leaf_laurel_01;
-		rep_freq_min = 8.0;
-		rep_freq_max = 20.0;
+		rep_freq_min = 2.0;
+		rep_freq_max = 4.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_sway_03]
@@ -492,8 +540,8 @@
 	[generic_emitter]
 	{
 		other_effect = leaf_mauve_01;
-		rep_freq_min = 8.0;
-		rep_freq_max = 20.0;
+		rep_freq_min = 2.0;
+		rep_freq_max = 4.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_sway_04]
@@ -530,8 +578,8 @@
 	[generic_emitter]
 	{
 		other_effect = leaf_ash_01;
-		rep_freq_min = 8.0;
-		rep_freq_max = 20.0;
+		rep_freq_min = 2.0;
+		rep_freq_max = 4.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_sway_05]
@@ -568,8 +616,8 @@
 	[generic_emitter]
 	{
 		other_effect = leaf_burgandy_01;
-		rep_freq_min = 8.0;
-		rep_freq_max = 20.0;
+		rep_freq_min = 2.0;
+		rep_freq_max = 4.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_sway_06]
@@ -606,8 +654,8 @@
 	[generic_emitter]
 	{
 		other_effect = leaf_burgandy_01;
-		rep_freq_min = 8.0;
-		rep_freq_max = 20.0;
+		rep_freq_min = 2.0;
+		rep_freq_max = 4.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_sway_07]
@@ -644,8 +692,8 @@
 	[generic_emitter]
 	{
 		other_effect = leaf_oak_01;
-		rep_freq_min = 8.0;
-		rep_freq_max = 20.0;
+		rep_freq_min = 2.0;
+		rep_freq_max = 4.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_sway_08]
@@ -682,8 +730,8 @@
 	[generic_emitter]
 	{
 		other_effect = leaf_burgandy_01;
-		rep_freq_min = 8.0;
-		rep_freq_max = 20.0;
+		rep_freq_min = 2.0;
+		rep_freq_max = 4.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_sway_09]
@@ -720,8 +768,8 @@
 	[generic_emitter]
 	{
 		other_effect = leaf_madrona_01;
-		rep_freq_min = 8.0;
-		rep_freq_max = 20.0;
+		rep_freq_min = 4.0;
+		rep_freq_max = 8.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_sway_10]
@@ -758,8 +806,8 @@
 	[generic_emitter]
 	{
 		other_effect = leaf_laurel_01;
-		rep_freq_min = 8.0;
-		rep_freq_max = 20.0;
+		rep_freq_min = 4.0;
+		rep_freq_max = 8.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_sway_11]
@@ -796,8 +844,8 @@
 	[generic_emitter]
 	{
 		other_effect = leaf_mauve_01;
-		rep_freq_min = 8.0;
-		rep_freq_max = 20.0;
+		rep_freq_min = 4.0;
+		rep_freq_max = 8.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_sway_12]
@@ -834,8 +882,8 @@
 	[generic_emitter]
 	{
 		other_effect = leaf_ash_01;
-		rep_freq_min = 8.0;
-		rep_freq_max = 20.0;
+		rep_freq_min = 4.0;
+		rep_freq_max = 8.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_sway_13]
@@ -872,8 +920,8 @@
 	[generic_emitter]
 	{
 		other_effect = leaf_burgandy_01;
-		rep_freq_min = 8.0;
-		rep_freq_max = 20.0;
+		rep_freq_min = 4.0;
+		rep_freq_max = 8.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_sway_14]
@@ -910,8 +958,8 @@
 	[generic_emitter]
 	{
 		other_effect = leaf_burgandy_01;
-		rep_freq_min = 8.0;
-		rep_freq_max = 20.0;
+		rep_freq_min = 4.0;
+		rep_freq_max = 8.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_sway_15]
@@ -948,8 +996,8 @@
 	[generic_emitter]
 	{
 		other_effect = leaf_oak_01;
-		rep_freq_min = 8.0;
-		rep_freq_max = 20.0;
+		rep_freq_min = 4.0;
+		rep_freq_max = 8.0;
 	}
 }
 [t:template,n:tree_grs_deciduous_sway_16]
@@ -986,8 +1034,8 @@
 	[generic_emitter]
 	{
 		other_effect = leaf_burgandy_01;
-		rep_freq_min = 8.0;
-		rep_freq_max = 20.0;
+		rep_freq_min = 4.0;
+		rep_freq_max = 8.0;
 	}
 }
 [t:template,n:tree_grs_maple_burgandy_01]
@@ -1053,6 +1101,12 @@
 			0 = b_i_grs_tree-burgandy-02;
 		}
 	}
+	[generic_emitter]
+	{
+		other_effect = leaf_burgandy_01;
+		rep_freq_min = 4.0;
+		rep_freq_max = 8.0;
+	}
 }
 [t:template,n:tree_grs_maple_burgandy_05]
 {
@@ -1068,6 +1122,12 @@
 		{
 			0 = b_i_grs_tree-burgandy-02;
 		}
+	}
+	[generic_emitter]
+	{
+		other_effect = leaf_burgandy_01;
+		rep_freq_min = 8.0;
+		rep_freq_max = 16.0;
 	}
 }
 [t:template,n:tree_grs_maple_burgandy_06]
@@ -1189,6 +1249,12 @@
 		lodfi_upper = 0.65;
 		model = m_i_glb_tree-deciduous-04;
 	}
+	[generic_emitter]
+	{
+		other_effect = leaf_oak_01;
+		rep_freq_min = 4.0;
+		rep_freq_max = 8.0;
+	}
 }
 [t:template,n:tree_grs_maple_yellow_05]
 {
@@ -1200,6 +1266,12 @@
 		lodfi_lower = 0.35;
 		lodfi_upper = 0.75;
 		model = m_i_glb_tree-deciduous-05;
+	}
+	[generic_emitter]
+	{
+		other_effect = leaf_oak_01;
+		rep_freq_min = 8.0;
+		rep_freq_max = 16.0;
 	}
 }
 [t:template,n:tree_grs_maple_yellow_06]
