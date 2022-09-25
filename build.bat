@@ -16,6 +16,7 @@ set tc=..\TankCreator
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%doc_dsloa%\Bits\art" "%tmp%\Bits\art" /E /xf .gitignore /xf *.psd
 robocopy "%doc_dsloa%\Bits\world\contentdb" "%tmp%\Bits\world\contentdb" /E
+robocopy "%doc_dsloa%\Bits\world\global\moods" "%tmp%\Bits\world\global\moods" /E
 %tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\DSLOA\%mod_cs%.dsres" -copyright "CC-BY-SA 2022" -title "%mod_cs%" -author "Johannes Förstner"
 if %errorlevel% neq 0 pause
 
