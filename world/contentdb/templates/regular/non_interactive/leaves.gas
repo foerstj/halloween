@@ -180,7 +180,7 @@
 		model = m_i_glb_leaf;
 		[textures]
 		{
-			0 = b_i_grs_leaf-ash;
+			0 = b_i_grs_leaf-mauve;
 		}
 	}
 	[body]
