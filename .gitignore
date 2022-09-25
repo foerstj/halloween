@@ -1,4 +1,6 @@
 *.lqd20
 *.psd
 
+git-ignore
+
 /world/maps/*
