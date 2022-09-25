@@ -12,6 +12,8 @@ A little mod for Dungeon Siege 1 / LoA
 - Horror
   - Crypt ambience if no other was used (mood replacement)
   - Replaces music in Stonebridge, Elddim, Meren, Hiroth & Island with Halloween themes (mood replacement)
+- Blood
+  - Skrubbs spit blood (effect & texture replacement)
 
 ## Installation
 
