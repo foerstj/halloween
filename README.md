@@ -6,6 +6,7 @@ A little mod for Dungeon Siege 1 / LoA
   - Replaces Krug dogs with zombie Krug dogs (texture replacement)
   - Replaces wolves with zombie wolves (texture replacement)
   - Replaces bears with zombie bears / ursae (texture replacement)
+  - Replaces packmules with zombie packmules (texture replacement)
 - Autumn
   - Replaces flowers with mushrooms (template replacement)
   - Makes fog grayer and closer (mood replacement)
@@ -28,5 +29,6 @@ Not compatible with Wintermod.
 ## Attribution
 
 - Halloween music by Alexander Nakarada https://www.serpentsoundstudios.com/royalty-free-music/ambient
+- Zombie packmule textures from Lands of Hyperborea by Xaa plz dont sue me
 - Zombie wolf & bear textures courtesy of Eksevis
 - Zombie Krug, Krug dog & black wolf textures: original textures, partly unused
