@@ -4,16 +4,16 @@
 
 	script	=[[
 			sfx create explosion #TARGET
-				"dark()radius(.2)use_fog()splat()dur(18)splat_life(6)stexture(b_sfx_yellow_goo-01)
-				color0(1,1,.1)color2(.15,.1,.066)fade_range(0,0,0)scale_range(.1,.15,0)
+				"dark()radius(.2)use_fog()splat()dur(18)splat_life(6)stexture(b_sfx_blood_001)
+				color0(1,.1,.1)color2(.15,.066,.066)fade_range(0,0,0)scale_range(.1,.15,0)
 				count(15)vmin(3)vmax(4)omni_dir()splatskip(1)";
 			sfx snap_to_ground #PEEK;
 			sfx start #POP;
 			
 			sfx create explosion #TARGET
 				"dark()radius(.3)use_fog()splat()dur(18)splat_life(6)
-				stexture(b_sfx_green_goo-01)
-				color0(.2,1,.1)color2(.15,.1,.066)fade_range(0,0,0)scale_range(.1,.2,0)
+				stexture(b_sfx_blood_003)
+				color0(1,.2,.1)color2(.15,.066,.066)fade_range(0,0,0)scale_range(.1,.2,0)
 				count(20)vmin(3)vmax(4)omni_dir()splatskip(1)";
 			sfx snap_to_ground #PEEK;
 			sfx start #POP;
@@ -26,14 +26,14 @@
 
 	script	=[[
 			sfx create explosion #TARGET
-				"dark()radius(.5)use_fog()dur(12)color0(.4,.35,.2)color1(0,.05,0)
-				color2(.4,.35,.2)fade_range(0,0,0)scale_range(.6,.7,0)
+				"dark()radius(.5)use_fog()dur(12)color0(.4,.2,.2)color1(.05,0,0)
+				color2(.4,.2,.2)fade_range(0,0,0)scale_range(.6,.7,0)
 				count(20)vmin(1)vmax(3)omni_dir()";
 			sfx start #POP;
 			
 			sfx create explosion #TARGET
-				"dark()radius(1)use_fog()dur(12)color0(.2,.6,.1)color1(0,.3,0)
-				color2(.2,.6,.1)fade_range(0,0,0)scale_range(.6,.7,0)
+				"dark()radius(1)use_fog()dur(12)color0(.6,.2,.1)color1(.3,0,0)
+				color2(.6,.2,.1)fade_range(0,0,0)scale_range(.6,.7,0)
 				count(20)vmin(1)vmax(3)omni_dir()";
 			sfx start #POP;
 			
@@ -46,15 +46,15 @@
 
 	script	=[[
 			sfx create explosion #TARGET
-				"dark()radius(.2)use_fog()splat()dur(18)splat_life(6)stexture(b_sfx_yellow_goo-01)
-				color0(1,1,.1)color2(.15,.1,.066)fade_range(0,0,0)scale_range(.1,.15,0)
+				"dark()radius(.2)use_fog()splat()dur(18)splat_life(6)stexture(b_sfx_blood_001)
+				color0(1,.1,.1)color2(.15,.066,.066)fade_range(0,0,0)scale_range(.1,.15,0)
 				count(15)vmin(1)vmax(2)omni_dir()splatskip(1)";
 			sfx start #POP;
 			
 			sfx create explosion #TARGET
 				"dark()radius(.3)use_fog()splat()dur(18)splat_life(6)
-				stexture(b_sfx_green_goo-01)
-				color0(.2,1,.1)color2(.15,.1,.066)fade_range(0,0,0)scale_range(.1,.2,0)
+				stexture(b_sfx_blood_003)
+				color0(1,.2,.1)color2(.15,.066,.066)fade_range(0,0,0)scale_range(.1,.2,0)
 				count(20)vmin(1)vmax(3)omni_dir()";
 			sfx start #POP;
 			]];
@@ -65,15 +65,15 @@
 
 	script	=[[
 			sfx create explosion #TARGET
-				"dark()radius(.2)use_fog()splat()dur(18)splat_life(6)stexture(b_sfx_yellow_goo-01)
-				color0(1,1,.1)color2(.15,.1,.066)fade_range(0,0,0)scale_range(.1,.15,0)
+				"dark()radius(.2)use_fog()splat()dur(18)splat_life(6)stexture(b_sfx_blood_001)
+				color0(1,.1,.1)color2(.15,.066,.066)fade_range(0,0,0)scale_range(.1,.15,0)
 				count(15)vmin(1)vmax(2)omni_dir()splatskip(1)scale(.66)";
 			sfx start #POP;
 			
 			sfx create explosion #TARGET
 				"dark()radius(.3)use_fog()splat()dur(18)splat_life(6)
-				stexture(b_sfx_green_goo-01)
-				color0(.2,1,.1)color2(.15,.1,.066)fade_range(0,0,0)scale_range(.1,.2,0)
+				stexture(b_sfx_blood_003)
+				color0(1,.2,.1)color2(.15,.066,.066)fade_range(0,0,0)scale_range(.1,.2,0)
 				count(20)vmin(1)vmax(3)omni_dir()scale(.66)";
 			sfx start #POP;
 			]];
@@ -88,13 +88,13 @@
 
 			sfx create fire #TARGET
 				"must_update()max_displace(0)instant()scale(.55)dark()grey_tex()count(40)
-				color0(.4,.4,.2)color1(0,0,0)velocity(0,0,0)accel(0,0,0)
+				color0(.4,.2,.2)color1(0,0,0)velocity(0,0,0)accel(0,0,0)
 				flamesize(5)alphafade(1)max_radius(10)";
 			set $fire #POP;
 			sfx start $fire;
 
 			sfx create fire #TARGET
-				"must_update()max_displace(0)instant()scale(.55)count(40)dark()color0(.2,.9,.1)
+				"must_update()max_displace(0)instant()scale(.55)count(40)dark()color0(.9,.2,.1)
 				color1(0,0,0)velocity(0,0,0)accel(0,0,0)flamesize(2)
 				alphafade(1)max_radius(8)";
 			set $fire2 #POP;
@@ -115,13 +115,13 @@
 
 			sfx create fire #TARGET
 				"must_update()max_displace(0)instant()scale(.15)dark()grey_tex()count(40)
-				color0(.33,.33,.066)color1(0,0,0)velocity(0,0,0)accel(0,0,0)
+				color0(.33,.066,.066)color1(0,0,0)velocity(0,0,0)accel(0,0,0)
 				flamesize(5)alphafade(1)max_radius(17)";
 			set $fire #POP;
 			sfx start $fire;
 
 			sfx create fire #TARGET
-				"must_update()max_displace(0)instant()scale(.15)count(40)dark()color0(.35,.3,.033)
+				"must_update()max_displace(0)instant()scale(.15)count(40)dark()color0(.35,.033,.033)
 				color1(0,0,0)velocity(0,0,0)accel(0,0,0)flamesize(2)
 				alphafade(1)max_radius(17)";
 			set $fire2 #POP;
@@ -142,13 +142,13 @@
 
 			sfx create fire #TARGET
 				"must_update()max_displace(0)instant()scale(.1)dark()grey_tex()count(40)
-				color0(.33,.33,.066)color1(0,0,0)velocity(0,0,0)accel(0,0,0)
+				color0(.33,.066,.066)color1(0,0,0)velocity(0,0,0)accel(0,0,0)
 				flamesize(5)alphafade(1)max_radius(17)";
 			set $fire #POP;
 			sfx start $fire;
 
 			sfx create fire #TARGET
-				"must_update()max_displace(0)instant()scale(.1)count(40)dark()color0(.35,.3,.033)
+				"must_update()max_displace(0)instant()scale(.1)count(40)dark()color0(.35,.033,.033)
 				color1(0,0,0)velocity(0,0,0)accel(0,0,0)flamesize(2)
 				alphafade(1)max_radius(17)";
 			set $fire2 #POP;
