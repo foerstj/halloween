@@ -3,6 +3,11 @@
 	mood_name = multiplayer_world_abc_r1_1;
 	transition_time = 1.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 20.0f;
@@ -11,11 +16,6 @@
 		fog_lowdetail_far_dist = 25.0f;
 		fog_color = 0xFF000000;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -32,6 +32,11 @@
 	mood_name = multiplayer_world_abc_r1_2;
 	transition_time = 2.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 20.0f;
@@ -40,11 +45,6 @@
 		fog_lowdetail_far_dist = 25.0f;
 		fog_color = 0xFF000000;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -61,6 +61,11 @@
 	mood_name = multiplayer_world_abc_r1_3;
 	transition_time = 2.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 20.0f;
@@ -69,11 +74,6 @@
 		fog_lowdetail_far_dist = 25.0f;
 		fog_color = 0xFF000000;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -91,6 +91,11 @@
 	mood_name = multiplayer_world_abc_r1_4;
 	transition_time = 1.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 20.0f;
@@ -99,11 +104,6 @@
 		fog_lowdetail_far_dist = 25.0f;
 		fog_color = 0xFF000000;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -121,6 +121,11 @@
 	mood_name = multiplayer_world_castle_1;
 	transition_time = 6.0f;
 	interior = false;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 30.0f;
@@ -129,11 +134,6 @@
 		fog_lowdetail_far_dist = 45.0f;
 		fog_color = 0xFF505050;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -152,6 +152,11 @@
 	mood_name = multiplayer_world_castle_2;
 	transition_time = 3.0f;
 	interior = false;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 30.0f;
@@ -160,11 +165,6 @@
 		fog_lowdetail_far_dist = 45.0f;
 		fog_color = 0xFF404040;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -188,6 +188,11 @@
 	mood_name = multiplayer_world_castle_3;
 	transition_time = 1.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 20.0f;
@@ -196,11 +201,6 @@
 		fog_lowdetail_far_dist = 25.0f;
 		fog_color = 0xFF000000;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -218,6 +218,11 @@
 	mood_name = multiplayer_world_castle_4;
 	transition_time = 1.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 20.0f;
@@ -226,11 +231,6 @@
 		fog_lowdetail_far_dist = 25.0f;
 		fog_color = 0xFF000000;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -248,6 +248,11 @@
 	mood_name = multiplayer_world_castle_dun_1;
 	transition_time = 1.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 30.0f;
@@ -256,11 +261,6 @@
 		fog_lowdetail_far_dist = 35.0f;
 		fog_color = 0xFF000000;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -278,6 +278,11 @@
 	mood_name = multiplayer_world_castle_dun_2;
 	transition_time = 5.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 30.0f;
@@ -286,11 +291,6 @@
 		fog_lowdetail_far_dist = 35.0f;
 		fog_color = 0xFF000000;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -308,6 +308,11 @@
 	mood_name = multiplayer_world_castle_dun_3;
 	transition_time = 5.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 30.0f;
@@ -316,11 +321,6 @@
 		fog_lowdetail_far_dist = 35.0f;
 		fog_color = 0xFF000000;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -338,6 +338,11 @@
 	mood_name = multiplayer_world_castle_dun_4;
 	transition_time = 5.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 30.0f;
@@ -346,11 +351,6 @@
 		fog_lowdetail_far_dist = 35.0f;
 		fog_color = 0xFF000000;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -368,6 +368,11 @@
 	mood_name = multiplayer_world_castle_town_1;
 	transition_time = 6.0f;
 	interior = false;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 30.0f;
@@ -376,11 +381,6 @@
 		fog_lowdetail_far_dist = 45.0f;
 		fog_color = 0xFF646464;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -397,6 +397,11 @@
 	mood_name = multiplayer_world_castle_town_1_1;
 	transition_time = 6.0f;
 	interior = false;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 20.0f;
@@ -405,11 +410,6 @@
 		fog_lowdetail_far_dist = 45.0f;
 		fog_color = 0xFF646464;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -426,6 +426,11 @@
 	mood_name = multiplayer_world_castle_town_2;
 	transition_time = 10.0f;
 	interior = false;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 30.0f;
@@ -435,10 +440,10 @@
 		fog_color = 0xFF545464;
 		fog_density = 0.5f;
 	}
-	[frustum]
+	[rain]
 	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
+		rain_density = 50.0f;
+		lightning = false;
 	}
 	[music]
 	{
@@ -446,17 +451,17 @@
 		standard_track = "s_m_BesiegedTown_04";
 		room_type = rt_generic;
 	}
-	[rain]
-	{
-		rain_density = 50.0f;
-		lightning = false;
-	}
 }
 [mood_setting*]
 {
 	mood_name = multiplayer_world_castle_town_3;
 	transition_time = 4.0f;
 	interior = false;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 30.0f;
@@ -465,11 +470,6 @@
 		fog_lowdetail_far_dist = 45.0f;
 		fog_color = 0xFF1e281e;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -486,6 +486,11 @@
 	mood_name = multiplayer_world_castle_town_tavern;
 	transition_time = 6.0f;
 	interior = false;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 30.0f;
@@ -494,11 +499,6 @@
 		fog_lowdetail_far_dist = 45.0f;
 		fog_color = 0xFF646464;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -644,6 +644,11 @@
 	mood_name = multiplayer_world_dark_forest_1;
 	transition_time = 4.0f;
 	interior = false;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 30.0f;
@@ -652,11 +657,6 @@
 		fog_lowdetail_far_dist = 45.0f;
 		fog_color = 0xFF656d65;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -674,6 +674,11 @@
 	mood_name = multiplayer_world_dark_forest_2;
 	transition_time = 4.0f;
 	interior = false;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 30.0f;
@@ -682,11 +687,6 @@
 		fog_lowdetail_far_dist = 40.0f;
 		fog_color = 0xFF192119;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -704,6 +704,11 @@
 	mood_name = multiplayer_world_dark_forest_2_2;
 	transition_time = 7.0f;
 	interior = false;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 30.0f;
@@ -712,11 +717,6 @@
 		fog_lowdetail_far_dist = 40.0f;
 		fog_color = 0xFF192119;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -1263,14 +1263,14 @@
 		fog_color = 0xFF323b32;
 		fog_density = 0.6f;
 	}
+	[rain]
+	{
+		rain_density = 50.0f;
+	}
 	[wind]
 	{
 		wind_velocity = 1.25f;
 		wind_direction = 1.57f;
-	}
-	[rain]
-	{
-		rain_density = 50.0f;
 	}
 	[music]
 	{
@@ -1299,14 +1299,14 @@
 		fog_color = 0xFF323b32;
 		fog_density = 0.6f;
 	}
+	[rain]
+	{
+		rain_density = 50.0f;
+	}
 	[wind]
 	{
 		wind_velocity = 1.25f;
 		wind_direction = 1.57f;
-	}
-	[rain]
-	{
-		rain_density = 50.0f;
 	}
 	[music]
 	{
@@ -1335,13 +1335,13 @@
 		fog_color = 0xFF323b32;
 		fog_density = 0.6f;
 	}
+	[rain]
+	{
+	}
 	[wind]
 	{
 		wind_velocity = 1.25f;
 		wind_direction = 1.57f;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -1370,17 +1370,17 @@
 		fog_color = 0xFF363636;
 		fog_density = 0.6f;
 	}
-	[wind]
+	[rain]
 	{
-		wind_velocity = 1.25f;
-		wind_direction = 1.57f;
 	}
 	[snow]
 	{
 		snow_density = 30;
 	}
-	[rain]
+	[wind]
 	{
+		wind_velocity = 1.25f;
+		wind_direction = 1.57f;
 	}
 	[music]
 	{
@@ -1504,17 +1504,17 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.6f;
 	}
-	[wind]
+	[rain]
 	{
-		wind_velocity = 2.5f;
-		wind_direction = 3.14f;
 	}
 	[snow]
 	{
 		snow_density = 200;
 	}
-	[rain]
+	[wind]
 	{
+		wind_velocity = 2.5f;
+		wind_direction = 3.14f;
 	}
 	[music]
 	{
@@ -1594,17 +1594,17 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.6f;
 	}
-	[wind]
+	[rain]
 	{
-		wind_velocity = 2.5f;
-		wind_direction = 3.14f;
 	}
 	[snow]
 	{
 		snow_density = 200;
 	}
-	[rain]
+	[wind]
 	{
+		wind_velocity = 2.5f;
+		wind_direction = 3.14f;
 	}
 	[music]
 	{
@@ -1684,17 +1684,17 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.5f;
 	}
-	[wind]
+	[rain]
 	{
-		wind_velocity = 2.5f;
-		wind_direction = 5f;
 	}
 	[snow]
 	{
 		snow_density = 400;
 	}
-	[rain]
+	[wind]
 	{
+		wind_velocity = 2.5f;
+		wind_direction = 5f;
 	}
 	[music]
 	{
@@ -2749,6 +2749,11 @@
 	mood_name = multiplayer_world_gp_r1_1;
 	transition_time = 6.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 120.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 35.0f;
@@ -2757,11 +2762,6 @@
 		fog_lowdetail_far_dist = 35.0f;
 		fog_color = 0xff454545;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 120.0f;
 	}
 	[rain]
 	{
@@ -2778,6 +2778,11 @@
 	mood_name = multiplayer_world_gp_r1_1b;
 	transition_time = 2.5f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 120.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 35.0f;
@@ -2786,11 +2791,6 @@
 		fog_lowdetail_far_dist = 35.0f;
 		fog_color = 0xff454545;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 120.0f;
 	}
 	[rain]
 	{
@@ -2807,6 +2807,11 @@
 	mood_name = multiplayer_world_gp_r1_2;
 	transition_time = 3.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 35.0f;
@@ -2815,11 +2820,6 @@
 		fog_lowdetail_far_dist = 30.0f;
 		fog_color = 0xFF454545;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -2836,6 +2836,11 @@
 	mood_name = multiplayer_world_gp_r1_3;
 	transition_time = 0.3f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 120.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 35.0f;
@@ -2844,11 +2849,6 @@
 		fog_lowdetail_far_dist = 30.0f;
 		fog_color = 0xFF3f3f3f;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 120.0f;
 	}
 	[rain]
 	{
@@ -2865,6 +2865,11 @@
 	mood_name = multiplayer_world_gp_r2_1;
 	transition_time = 0.3f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 120.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 35.0f;
@@ -2873,11 +2878,6 @@
 		fog_lowdetail_far_dist = 30.0f;
 		fog_color = 0xFF000000;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 120.0f;
 	}
 	[rain]
 	{
@@ -2911,17 +2911,17 @@
 	[rain]
 	{
 	}
+	[wind]
+	{
+		wind_velocity = 2.0f;
+		wind_direction = 1.57f;
+	}
 	[music]
 	{
 		ambient_track = "";
 		standard_repeat_delay = 10.0f;
 		standard_track = "s_m_DesertCanyons_01";
 		room_type = rt_generic;
-	}
-	[wind]
-	{
-		wind_velocity = 2.0f;
-		wind_direction = 1.57f;
 	}
 }
 [mood_setting*]
@@ -2946,17 +2946,17 @@
 	[rain]
 	{
 	}
+	[wind]
+	{
+		wind_velocity = 2.7f;
+		wind_direction = 1.57f;
+	}
 	[music]
 	{
 		ambient_track = "";
 		standard_repeat_delay = 10.0f;
 		standard_track = "s_m_DesertCanyons_01";
 		room_type = rt_generic;
-	}
-	[wind]
-	{
-		wind_velocity = 2.7f;
-		wind_direction = 1.57f;
 	}
 }
 [mood_setting*]
@@ -2981,17 +2981,17 @@
 	[rain]
 	{
 	}
+	[wind]
+	{
+		wind_velocity = 2.0f;
+		wind_direction = 1.57f;
+	}
 	[music]
 	{
 		ambient_track = "";
 		standard_repeat_delay = 10.0f;
 		standard_track = "s_m_DesertCanyons_02";
 		room_type = rt_generic;
-	}
-	[wind]
-	{
-		wind_velocity = 2.0f;
-		wind_direction = 1.57f;
 	}
 }
 [mood_setting*]
@@ -3016,17 +3016,17 @@
 	[rain]
 	{
 	}
+	[wind]
+	{
+		wind_velocity = 3.0f;
+		wind_direction = 1.57f;
+	}
 	[music]
 	{
 		ambient_track = "";
 		standard_repeat_delay = 10.0f;
 		standard_track = "s_m_DesertCanyons_01";
 		room_type = rt_generic;
-	}
-	[wind]
-	{
-		wind_velocity = 3.0f;
-		wind_direction = 1.57f;
 	}
 }
 [mood_setting*]
@@ -3051,17 +3051,17 @@
 	[rain]
 	{
 	}
+	[wind]
+	{
+		wind_velocity = 2.0f;
+		wind_direction = 1.57f;
+	}
 	[music]
 	{
 		ambient_track = "";
 		standard_repeat_delay = 10.0f;
 		standard_track = "s_m_DesertCanyons_02";
 		room_type = rt_generic;
-	}
-	[wind]
-	{
-		wind_velocity = 2.0f;
-		wind_direction = 1.57f;
 	}
 }
 [mood_setting*]
@@ -3086,17 +3086,17 @@
 	[rain]
 	{
 	}
+	[wind]
+	{
+		wind_velocity = 1.2f;
+		wind_direction = 1.57f;
+	}
 	[music]
 	{
 		ambient_track = "";
 		standard_repeat_delay = 10.0f;
 		standard_track = "s_m_DesertCanyons_01";
 		room_type = rt_generic;
-	}
-	[wind]
-	{
-		wind_velocity = 1.2f;
-		wind_direction = 1.57f;
 	}
 }
 [mood_setting*]
@@ -3121,17 +3121,17 @@
 	[rain]
 	{
 	}
+	[wind]
+	{
+		wind_velocity = 1.2f;
+		wind_direction = 1.57f;
+	}
 	[music]
 	{
 		ambient_track = "";
 		standard_repeat_delay = 10.0f;
 		standard_track = "s_m_DesertCanyons_05";
 		room_type = rt_generic;
-	}
-	[wind]
-	{
-		wind_velocity = 1.2f;
-		wind_direction = 1.57f;
 	}
 }
 [mood_setting*]
@@ -3156,17 +3156,17 @@
 	[rain]
 	{
 	}
+	[wind]
+	{
+		wind_velocity = 1.2f;
+		wind_direction = 4.77f;
+	}
 	[music]
 	{
 		ambient_track = "";
 		standard_repeat_delay = 10.0f;
 		standard_track = "s_m_DesertCanyons_02";
 		room_type = rt_generic;
-	}
-	[wind]
-	{
-		wind_velocity = 1.2f;
-		wind_direction = 4.77f;
 	}
 }
 [mood_setting*]
@@ -3191,17 +3191,17 @@
 	[rain]
 	{
 	}
+	[wind]
+	{
+		wind_velocity = 1.2f;
+		wind_direction = 4.77f;
+	}
 	[music]
 	{
 		ambient_track = "";
 		standard_repeat_delay = 10.0f;
 		standard_track = "s_m_DesertCanyons_02";
 		room_type = rt_generic;
-	}
-	[wind]
-	{
-		wind_velocity = 1.2f;
-		wind_direction = 4.77f;
 	}
 }
 [mood_setting*]
@@ -3829,15 +3829,6 @@
 	mood_name = multiplayer_world_id_r2_1;
 	transition_time = 1.0f;
 	interior = true;
-	[fog]
-	{
-		fog_near_dist = 25.0f;
-		fog_far_dist = 35.0f;
-		fog_lowdetail_near_dist = 25.0f;
-		fog_lowdetail_far_dist = 30.0f;
-		fog_color = 0xFF000000;
-		fog_density = 0.5f;
-	}
 	[sun]
 	{
 		[00h00m]
@@ -3888,6 +3879,15 @@
 		{
 			color = 0xFF000000;
 		}
+	}
+	[fog]
+	{
+		fog_near_dist = 25.0f;
+		fog_far_dist = 35.0f;
+		fog_lowdetail_near_dist = 25.0f;
+		fog_lowdetail_far_dist = 30.0f;
+		fog_color = 0xFF000000;
+		fog_density = 0.5f;
 	}
 	[rain]
 	{
@@ -3904,15 +3904,6 @@
 	mood_name = multiplayer_world_id_r2_2;
 	transition_time = 1.0f;
 	interior = true;
-	[fog]
-	{
-		fog_near_dist = 25.0f;
-		fog_far_dist = 35.0f;
-		fog_lowdetail_near_dist = 25.0f;
-		fog_lowdetail_far_dist = 30.0f;
-		fog_color = 0xFF000000;
-		fog_density = 0.5f;
-	}
 	[sun]
 	{
 		[00h00m]
@@ -3963,6 +3954,15 @@
 		{
 			color = 0xFF000000;
 		}
+	}
+	[fog]
+	{
+		fog_near_dist = 25.0f;
+		fog_far_dist = 35.0f;
+		fog_lowdetail_near_dist = 25.0f;
+		fog_lowdetail_far_dist = 30.0f;
+		fog_color = 0xFF000000;
+		fog_density = 0.5f;
 	}
 	[rain]
 	{
@@ -4153,13 +4153,13 @@
 		fog_color = 0xFF757584;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[wind]
 	{
 		wind_velocity = 1.0f;
 		wind_direction = 2.0f;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -4234,6 +4234,11 @@
 	mood_name = multiplayer_world_md_r1_1;
 	transition_time = 5.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 90.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 45.0f;
@@ -4242,11 +4247,6 @@
 		fog_lowdetail_far_dist = 45.0f;
 		fog_color = 0xFF000000;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 90.0f;
 	}
 	[rain]
 	{
@@ -4278,15 +4278,15 @@
 		fog_color = 0xff323f32;
 		fog_density = 0.5f;
 	}
-	[wind]
-	{
-		wind_velocity = 0.5f;
-		wind_direction = 0.7f;
-	}
 	[rain]
 	{
 		rain_density = 150.0f;
 		lightning = false;
+	}
+	[wind]
+	{
+		wind_velocity = 0.5f;
+		wind_direction = 0.7f;
 	}
 	[music]
 	{
@@ -4315,13 +4315,13 @@
 		fog_color = 0xff323f32;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[wind]
 	{
 		wind_velocity = 0.5f;
 		wind_direction = 3.8f;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -4350,13 +4350,13 @@
 		fog_color = 0xff393939;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[wind]
 	{
 		wind_velocity = 0.5f;
 		wind_direction = 3.8f;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -4417,15 +4417,15 @@
 		fog_color = 0xff3b3f3b;
 		fog_density = 0.5f;
 	}
-	[wind]
-	{
-		wind_velocity = 1.0f;
-		wind_direction = 1.2f;
-	}
 	[rain]
 	{
 		rain_density = 50.0f;
 		lightning = false;
+	}
+	[wind]
+	{
+		wind_velocity = 1.0f;
+		wind_direction = 1.2f;
 	}
 	[music]
 	{
@@ -4454,15 +4454,15 @@
 		fog_color = 0xff323f32;
 		fog_density = 0.5f;
 	}
-	[wind]
-	{
-		wind_velocity = 0.5f;
-		wind_direction = 0.7f;
-	}
 	[rain]
 	{
 		rain_density = 100.0f;
 		lightning = false;
+	}
+	[wind]
+	{
+		wind_velocity = 0.5f;
+		wind_direction = 0.7f;
 	}
 	[music]
 	{
@@ -4491,15 +4491,15 @@
 		fog_color = 0xff242b24;
 		fog_density = 0.5f;
 	}
-	[wind]
-	{
-		wind_velocity = 0.5f;
-		wind_direction = 0.7f;
-	}
 	[rain]
 	{
 		rain_density = 350.0f;
 		lightning = true;
+	}
+	[wind]
+	{
+		wind_velocity = 0.5f;
+		wind_direction = 0.7f;
 	}
 	[music]
 	{
@@ -4528,13 +4528,13 @@
 		fog_color = 0xff323f32;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[wind]
 	{
 		wind_velocity = 0.5f;
 		wind_direction = 0.7f;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -5160,13 +5160,13 @@
 		fog_color = 0xFF646484;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[wind]
 	{
 		wind_velocity = 1.5f;
 		wind_direction = 0.0f;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -5343,13 +5343,13 @@
 		fog_color = 0xFF646484;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[wind]
 	{
 		wind_velocity = 1.5f;
 		wind_direction = 0.0f;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -5378,13 +5378,13 @@
 		fog_color = 0xFF646484;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[wind]
 	{
 		wind_velocity = 1.5f;
 		wind_direction = 0.0f;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -5413,13 +5413,13 @@
 		fog_color = 0xFF646484;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[wind]
 	{
 		wind_velocity = 1.5f;
 		wind_direction = 0.0f;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -5448,13 +5448,13 @@
 		fog_color = 0xFF646484;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[wind]
 	{
 		wind_velocity = 1.5f;
 		wind_direction = 0.0f;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -5520,13 +5520,13 @@
 		fog_color = 0xff263226;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[wind]
 	{
 		wind_velocity = 1.5f;
 		wind_direction = 0.0f;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -5555,13 +5555,13 @@
 		fog_color = 0xFF243224;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[wind]
 	{
 		wind_velocity = 0.5f;
 		wind_direction = 0.0f;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -5696,6 +5696,11 @@
 	mood_name = multiplayer_world_of_r1_7;
 	transition_time = 10.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 30.0f;
@@ -5704,11 +5709,6 @@
 		fog_lowdetail_far_dist = 35.0f;
 		fog_color = 0xFF202620;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -5726,6 +5726,11 @@
 	mood_name = multiplayer_world_of_r1_8;
 	transition_time = 5.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 90.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 30.0f;
@@ -5734,11 +5739,6 @@
 		fog_lowdetail_far_dist = 35.0f;
 		fog_color = 0xFF000000;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 90.0f;
 	}
 	[rain]
 	{
@@ -5864,17 +5864,17 @@
 		rain_density = 200.0f;
 		lightning = false;
 	}
+	[wind]
+	{
+		wind_velocity = 2.0f;
+		wind_direction = 3.14f;
+	}
 	[music]
 	{
 		ambient_track = "";
 		standard_repeat_delay = 10.0f;
 		standard_track = "s_m_Path2Stonebridge_02";
 		room_type = rt_generic;
-	}
-	[wind]
-	{
-		wind_velocity = 2.0f;
-		wind_direction = 3.14f;
 	}
 }
 [mood_setting*]
@@ -5976,17 +5976,17 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.6f;
 	}
-	[wind]
+	[rain]
 	{
-		wind_velocity = 1.0f;
-		wind_direction = 0.0f;
 	}
 	[snow]
 	{
 		snow_density = 100;
 	}
-	[rain]
+	[wind]
 	{
+		wind_velocity = 1.0f;
+		wind_direction = 0.0f;
 	}
 	[music]
 	{
@@ -6066,13 +6066,13 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.6f;
 	}
+	[rain]
+	{
+	}
 	[wind]
 	{
 		wind_velocity = 1.0f;
 		wind_direction = 0.0f;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -6152,17 +6152,17 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.6f;
 	}
-	[wind]
+	[rain]
 	{
-		wind_velocity = 0.5f;
-		wind_direction = 0.0f;
 	}
 	[snow]
 	{
 		snow_density = 200;
 	}
-	[rain]
+	[wind]
 	{
+		wind_velocity = 0.5f;
+		wind_direction = 0.0f;
 	}
 	[music]
 	{
@@ -6242,17 +6242,17 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.6f;
 	}
-	[wind]
+	[rain]
 	{
-		wind_velocity = 1.0f;
-		wind_direction = 0.0f;
 	}
 	[snow]
 	{
 		snow_density = 100;
 	}
-	[rain]
+	[wind]
 	{
+		wind_velocity = 1.0f;
+		wind_direction = 0.0f;
 	}
 	[music]
 	{
@@ -6332,17 +6332,17 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.6f;
 	}
-	[wind]
+	[rain]
 	{
-		wind_velocity = 1.0f;
-		wind_direction = 0.0f;
 	}
 	[snow]
 	{
 		snow_density = 100;
 	}
-	[rain]
+	[wind]
 	{
+		wind_velocity = 1.0f;
+		wind_direction = 0.0f;
 	}
 	[music]
 	{
@@ -6422,17 +6422,17 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.6f;
 	}
-	[wind]
+	[rain]
 	{
-		wind_velocity = 1.25f;
-		wind_direction = 1.57f;
 	}
 	[snow]
 	{
 		snow_density = 400;
 	}
-	[rain]
+	[wind]
 	{
+		wind_velocity = 1.25f;
+		wind_direction = 1.57f;
 	}
 	[music]
 	{
@@ -6512,17 +6512,17 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.6f;
 	}
-	[wind]
+	[rain]
 	{
-		wind_velocity = 1.25f;
-		wind_direction = 1.57f;
 	}
 	[snow]
 	{
 		snow_density = 400;
 	}
-	[rain]
+	[wind]
 	{
+		wind_velocity = 1.25f;
+		wind_direction = 1.57f;
 	}
 	[music]
 	{
@@ -6554,16 +6554,16 @@
 	[rain]
 	{
 	}
+	[wind]
+	{
+		wind_velocity = 0.5f;
+		wind_direction = 3.14f;
+	}
 	[music]
 	{
 		ambient_track = "";
 		standard_track = "s_m_maintheme";
 		room_type = rt_generic;
-	}
-	[wind]
-	{
-		wind_velocity = 0.5f;
-		wind_direction = 3.14f;
 	}
 }
 [mood_setting*]
@@ -6590,17 +6590,17 @@
 		rain_density = 100.0f;
 		lightning = false;
 	}
+	[wind]
+	{
+		wind_velocity = 2.0f;
+		wind_direction = 3.14f;
+	}
 	[music]
 	{
 		ambient_track = "";
 		standard_repeat_delay = 10.0f;
 		standard_track = "s_m_DwarvenMines_01";
 		room_type = rt_generic;
-	}
-	[wind]
-	{
-		wind_velocity = 2.0f;
-		wind_direction = 3.14f;
 	}
 }
 [mood_setting*]
@@ -6627,17 +6627,17 @@
 		rain_density = 400.0f;
 		lightning = true;
 	}
+	[wind]
+	{
+		wind_velocity = 4.0f;
+		wind_direction = 3.14f;
+	}
 	[music]
 	{
 		ambient_track = "";
 		standard_repeat_delay = 10.0f;
 		standard_track = "s_m_Path2Crypts_01";
 		room_type = rt_generic;
-	}
-	[wind]
-	{
-		wind_velocity = 4.0f;
-		wind_direction = 3.14f;
 	}
 }
 [mood_setting*]
@@ -6692,16 +6692,16 @@
 	[rain]
 	{
 	}
+	[wind]
+	{
+		wind_velocity = 0.5f;
+		wind_direction = 3.14f;
+	}
 	[music]
 	{
 		ambient_track = "";
 		standard_track = "s_m_maintheme";
 		room_type = rt_generic;
-	}
-	[wind]
-	{
-		wind_velocity = 0.5f;
-		wind_direction = 3.14f;
 	}
 }
 [mood_setting*]
@@ -6774,13 +6774,13 @@
 		fog_color = 0xFFa8a8b8;
 		fog_density = 0.6f;
 	}
+	[rain]
+	{
+	}
 	[wind]
 	{
 		wind_velocity = 1.25f;
 		wind_direction = 1.57f;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -6860,17 +6860,17 @@
 		fog_color = 0xFFa8a8b8;
 		fog_density = 0.6f;
 	}
-	[wind]
+	[rain]
 	{
-		wind_velocity = 1.25f;
-		wind_direction = 1.57f;
 	}
 	[snow]
 	{
 		snow_density = 100.0f;
 	}
-	[rain]
+	[wind]
 	{
+		wind_velocity = 1.25f;
+		wind_direction = 1.57f;
 	}
 	[music]
 	{
@@ -6950,17 +6950,17 @@
 		fog_color = 0xFFa8a8b8;
 		fog_density = 0.6f;
 	}
-	[wind]
+	[rain]
 	{
-		wind_velocity = 1.25f;
-		wind_direction = 1.57f;
 	}
 	[snow]
 	{
 		snow_density = 200.0f;
 	}
-	[rain]
+	[wind]
 	{
+		wind_velocity = 1.25f;
+		wind_direction = 1.57f;
 	}
 	[music]
 	{
@@ -7040,17 +7040,17 @@
 		fog_color = 0xFFa8a8b8;
 		fog_density = 0.6f;
 	}
-	[wind]
+	[rain]
 	{
-		wind_velocity = 1.25f;
-		wind_direction = 1.57f;
 	}
 	[snow]
 	{
 		snow_density = 100.0f;
 	}
-	[rain]
+	[wind]
 	{
+		wind_velocity = 1.25f;
+		wind_direction = 1.57f;
 	}
 	[music]
 	{
@@ -7082,17 +7082,17 @@
 	[rain]
 	{
 	}
+	[wind]
+	{
+		wind_velocity = 2.0f;
+		wind_direction = 1.57f;
+	}
 	[music]
 	{
 		ambient_track = "s_e_ambient_wind_01b";
 		standard_repeat_delay = 10.0f;
 		standard_track = "s_m_FortKroth_01";
 		room_type = rt_generic;
-	}
-	[wind]
-	{
-		wind_velocity = 2.0f;
-		wind_direction = 1.57f;
 	}
 }
 [mood_setting*]
@@ -7463,12 +7463,12 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[snow]
 	{
 		snow_density = 350;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -7548,6 +7548,9 @@
 		fog_color = 0xFFa8a8b0;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[snow]
 	{
 		snow_density = 250;
@@ -7556,9 +7559,6 @@
 	{
 		wind_velocity = 0.75f;
 		wind_direction = 0.0f;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -7638,12 +7638,12 @@
 		fog_color = 0xFFa8a8b0;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[snow]
 	{
 		snow_density = 150;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -7723,12 +7723,12 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[snow]
 	{
 		snow_density = 150;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -7808,12 +7808,12 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[snow]
 	{
 		snow_density = 150;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -7893,12 +7893,12 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[snow]
 	{
 		snow_density = 150;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -7913,6 +7913,11 @@
 	mood_name = multiplayer_world_sno_r1_1;
 	transition_time = 2.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 10.0f;
@@ -7921,11 +7926,6 @@
 		fog_lowdetail_far_dist = 35.0f;
 		fog_color = 0xff121926;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -7943,6 +7943,11 @@
 	mood_name = multiplayer_world_sno_r1_2;
 	transition_time = 2.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 10.0f;
@@ -7951,11 +7956,6 @@
 		fog_lowdetail_far_dist = 35.0f;
 		fog_color = 0xff122619;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -7973,6 +7973,11 @@
 	mood_name = multiplayer_world_sno_r1_3;
 	transition_time = 2.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 10.0f;
@@ -7981,11 +7986,6 @@
 		fog_lowdetail_far_dist = 35.0f;
 		fog_color = 0xff122619;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -8003,6 +8003,11 @@
 	mood_name = multiplayer_world_sno_r1_teleport;
 	transition_time = 20.0f;
 	interior = true;
+	[frustum]
+	{
+		frustum_width = 45.0f;
+		frustum_height = 60.0f;
+	}
 	[fog]
 	{
 		fog_near_dist = 10.0f;
@@ -8011,11 +8016,6 @@
 		fog_lowdetail_far_dist = 35.0f;
 		fog_color = 0xff122619;
 		fog_density = 0.5f;
-	}
-	[frustum]
-	{
-		frustum_width = 45.0f;
-		frustum_height = 60.0f;
 	}
 	[rain]
 	{
@@ -8098,12 +8098,12 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[snow]
 	{
 		snow_density = 250;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -8262,12 +8262,12 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[snow]
 	{
 		snow_density = 100;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -8346,12 +8346,12 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[snow]
 	{
 		snow_density = 100;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -8430,12 +8430,12 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[snow]
 	{
 		snow_density = 100;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -8594,12 +8594,12 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[snow]
 	{
 		snow_density = 250;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -8678,12 +8678,12 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[snow]
 	{
 		snow_density = 150;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -8762,12 +8762,12 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[snow]
 	{
 		snow_density = 150;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -8926,12 +8926,12 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[snow]
 	{
 		snow_density = 150;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -9010,12 +9010,12 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[snow]
 	{
 		snow_density = 100;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -9094,12 +9094,12 @@
 		fog_color = 0xFFc0c0c8;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[snow]
 	{
 		snow_density = 250;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -9633,13 +9633,13 @@
 		fog_color = 0xFF646464;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[wind]
 	{
 		wind_velocity = 1.0f;
 		wind_direction = 0.0f;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
@@ -9697,13 +9697,13 @@
 		fog_color = 0xFF646464;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	}
 	[wind]
 	{
 		wind_velocity = 1.0f;
 		wind_direction = 0.0f;
-	}
-	[rain]
-	{
 	}
 	[music]
 	{
