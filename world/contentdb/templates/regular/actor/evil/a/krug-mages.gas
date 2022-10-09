@@ -1,0 +1,349 @@
+[t:template,n:krug_shaman_base]
+{
+	  category_name = "1W_evil_a";
+	  doc = "krug shaman base";
+	  specializes = base_krug;
+	[actor]
+	{
+		  drops_spellbook = true;
+		  race = krug;
+          drops_spellbook = false;
+	}
+	[aspect]
+	{
+		  model = m_c_eam_ks_pos_1;
+		  selection_indicator_scale = 0.85;
+	}
+	[body]
+	{
+		min_move_velocity = 1.00;
+		avg_move_velocity = 1.16;
+		max_move_velocity = 1.50;
+
+		[bone_translator]
+		{
+			  body_anterior = bip01_head;
+			  body_mid = bip01_spine2;
+			  body_posterior = bip01_pelvis;
+			  kill_bone = bip01_spine2;
+			  shield_bone = weapon_grip;
+			  weapon_bone = shield_grip;
+		}
+	}
+	[common]
+	{
+		  membership = krug, monster;
+	}
+	[inventory]
+	{
+		  selected_active_location = il_active_primary_spell;
+		[other]
+		{
+			  il_active_primary_spell   = spell_fireshot;
+			  il_active_secondary_spell = spell_resurrect_monster;
+		}
+	}
+
+	[mind]
+	{
+		actor_weapon_preference              = WP_MAGIC;
+
+		actor_auto_switches_to_magic         = true;
+		actor_auto_reanimates_friends        = true;
+		actor_auto_uses_stored_items         = true;
+
+//		Krug shaman looks funny when he runs away. disabling fleeing. -ET
+//		on_enemy_entered_ocz_flee            = true;
+		on_life_ratio_low_flee               = true;
+		actor_life_ratio_low_threshold  	 = 0.25;
+		flee_count							 = 1;
+		flee_distance						 = 20;
+
+		on_enemy_entered_icz_switch_to_melee = true;
+		actor_life_ratio_low_threshold      = 0.5;
+		melee_engage_range                   = 14;
+		ranged_engage_range                  = 14;
+		sight_range                          = 14;
+
+		jat_fidget							= world\ai\jobs\common\job_fidget.skrit
+			?curious						= 0.75
+			&interest						= interest
+			&still							= false;
+
+		jat_flee_from_object				 = world\ai\jobs\common\job_flee_from_object.skrit
+			?run_chance						 = 1.0;
+
+		jat_brain							 = world\ai\jobs\common\brain_hero.skrit
+			?actor_creates_own_party		 = true
+			&party_template					 = "party_krug_shaman";
+
+		jat_attack_object_melee				= world\ai\jobs\common\job_attack_object_melee.skrit
+			?persistence					= 0.0;
+	}
+	[physics]
+	{
+		  break_sound = s_e_meat_explosion;
+		  explosion_magnitude = 1.5;
+		[break_particulate]
+		{
+			  frag_glb_krug_shaman_01 = 1;
+			  frag_glb_krug_shaman_02 = 1;
+			  frag_glb_krug_shaman_03 = 1;
+			  frag_glb_krug_shaman_04 = 1;
+			  frag_glb_krug_shaman_05 = 1;
+			  frag_glb_krug_shaman_06 = 1;
+			  frag_glb_krug_shaman_07 = 1;
+			  frag_glb_krug_shaman_08 = 1;
+		}
+	}
+}
+
+[t:template,n:krug_shaman]
+{
+	  category_name = "1W_evil_a";
+	  doc = "krug shaman";
+	  specializes = krug_shaman_base;
+	[actor]
+	{
+		[skills]
+		{
+			  combat_magic = 3, 0;
+			  dexterity = 4, 0;
+			  intelligence = 8, 0;
+			  melee = 1, 0;
+			  strength = 8, 0;
+		}
+	}
+	[aspect]
+	{
+		  experience_value = 16;
+		  life = 19;
+		  mana = 81;
+		  max_life = 19;
+		  max_mana = 81;
+	}
+	[attack]
+	{
+		  damage_max = 12;
+		  damage_min = 8;
+	}
+	[common]
+	{
+		  screen_name = "Krug Shaman";
+	}
+	[defend]
+	{
+		  defense = 22;
+	}
+	[inventory]
+	{
+		  selected_active_location = il_active_primary_spell;
+		[other]
+		{
+			  il_active_primary_spell   = spell_fireshot;
+			  il_active_secondary_spell = spell_resurrect_monster;
+		}
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[gold*]
+				{
+					  chance = 0.3;
+					  max = 41;
+					  min = 24;
+				}
+				[oneof*]
+				{
+					  il_main = potion_mana_small;
+					  il_main = potion_health_small;
+					  max = 2;
+					  min = 1;
+                      chance = 0.3;
+				}
+				[all*]
+				{
+					  chance = 0.3;
+					  il_main = spell_fireshot;
+				}
+				[oneof*]
+				{
+					  chance = 0.1;
+					  il_main = book_glb_magic_01;
+					  il_main = #body,ro/12-17;
+				}
+             }
+		}
+	}
+}
+
+[t:template,n:krug_shaman_boss_01]
+{
+	  category_name = "1W_evil_a";
+	  doc = "krug shaman boss 01";
+	  specializes = krug_shaman_base;
+	[actor]
+	{
+		[skills]
+		{
+			  combat_magic = 4, 0;
+			  dexterity = 6, 0;
+			  intelligence = 10, 0;
+			  melee = 2, 0;
+			  strength = 10, 0;
+		}
+	}
+	[aspect]
+	{
+		textures:0 = b_c_eam_ks-02;
+		  experience_value = 85;
+		  life = 44;
+		  mana = 500;
+		  max_life = 44;
+		  max_mana = 500;
+	      selection_indicator_scale = 1.2;
+	}
+	[attack]
+	{
+		  damage_max = 12;
+		  damage_min = 8;
+	}
+	[common]
+	{
+		  screen_name = "Huskar the Shaman";
+		  membership = krug,monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_ray_yellow(sgx)");
+
+			}
+
+		}
+
+	}
+	[defend]
+	{
+		  defense = 70;
+	}
+	[inventory]
+	{
+		  selected_active_location = il_active_primary_spell;
+		[other]
+		{
+			  il_active_primary_spell   = spell_fireshot;
+			  il_active_secondary_spell = spell_resurrect_monster;
+		}
+		[pcontent]
+		{
+			[all*]
+			{
+				[gold*]
+				{
+					max = 121;
+					min = 84;
+					min_pile = 10;
+					piles = 4 - 6;
+				}
+				[all*]
+				{
+					il_main = #weapon/14-16;
+					il_main = #body/29-35;
+				    il_main = #body,ro/29-35;
+					  max = 2;
+					  min = 1;
+				}
+             }
+		}
+	}
+	[mind]
+	{
+		jat_brain							 = world\ai\jobs\common\brain_hero.skrit
+			?actor_creates_own_party			= true
+			&form_party_on_friend_entered_ICZ	= true
+			&form_party_on_friend_entered_OCZ	= true
+			&party_template						= "party_krug_shaman";
+	}
+}
+
+
+[t:template,n:krug_apprentice]
+{
+	  category_name = "1W_evil_a";
+	  doc = "krug Apprentice";
+	  specializes = krug_shaman_base;
+	[actor]
+	{
+		[skills]
+		{
+			  combat_magic = 1, 0;
+			  dexterity = 4, 0;
+			  intelligence = 8, 0;
+			  melee = 1, 0;
+			  strength = 8, 0;
+		}
+	}
+	[aspect]
+	{
+		  experience_value = 12;
+		  life = 12;
+		  mana = 81;
+		  max_life = 12;
+		  max_mana = 81;
+	}
+	[attack]
+	{
+		  damage_max = 7;
+		  damage_min = 4;
+	}
+	[common]
+	{
+		  screen_name = "Krug Apprentice";
+	}
+	[defend]
+	{
+		  defense = 12;
+	}
+	[inventory]
+	{
+		  selected_active_location = il_active_primary_spell;
+		[other]
+		{
+			  il_active_primary_spell   = spell_apprentice_zap;
+		}
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[gold*]
+				{
+					  chance = 0.3;
+					  max = 21;
+					  min = 14;
+				}
+				[oneof*]
+				{
+					  il_main = potion_mana_small;
+					  il_main = potion_health_small;
+					  max = 2;
+					  min = 1;
+                      chance = 0.3;
+				}
+				[oneof*]
+				{
+					  chance = 0.1;
+					  il_main = book_glb_magic_01;
+   					  il_main = #body,ro/12-17;
+				}
+             }
+		}
+	}
+	[mind]
+	{
+		jat_brain							 = world\ai\jobs\common\brain_hero.skrit;
+	}
+}
