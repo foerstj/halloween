@@ -9,6 +9,8 @@ A little mod for Dungeon Siege 1 / LoA
   - Replaces packmules with zombie packmules (texture replacement)
 - Spiders
   - Makes spiders larger (template replacement)
+- Witches
+  - Replaces Krug mages (shamans & apprentices) with witches (template replacement)
 - Autumn
   - Replaces flowers with mushrooms (template replacement)
   - Makes fog grayer and closer (mood replacement)
@@ -31,7 +33,7 @@ Put the dsres file into the DSLOA folder.
 
 Not compatible with Wintermod.
 - Overrides original template files like natural_nonblocking.gas
-- Overrides original actor template files of spiders
+- Overrides original actor template files like of krug & spiders
 - Overrides original mood files
 
 ## Attribution
