@@ -34,18 +34,7 @@
 		model = m_i_csl_banner-03;
 	}
 }
-[t:template,n:basket_glb_01]
-{
-	category_name = "indoor";
-	doc = "basket_handle";
-	specializes = non_interactive_nonblocking;
-	[aspect]
-	{
-		lodfi_lower = 0.7;
-		lodfi_upper = 1;
-		model = m_i_glb_basket-01;
-	}
-}
+[t:template,n:basket_glb_01] { specializes = pumpkin_m_base; }
 [t:template,n:bearhead_glb]
 {
 	category_name = "indoor";
@@ -340,18 +329,7 @@
 		model = m_i_csl_bowl;
 	}
 }
-[t:template,n:bread_glb]
-{
-	category_name = "indoor";
-	doc = "bread";
-	specializes = non_interactive_nonblocking;
-	[aspect]
-	{
-		lodfi_lower = 0.3;
-		lodfi_upper = 0.6;
-		model = m_i_glb_bread;
-	}
-}
+[t:template,n:bread_glb] { specializes = pumpkin_m_base; }
 [t:template,n:brick_csl_04]
 {
 	category_name = "indoor";
@@ -627,22 +605,7 @@
 		model = m_i_csl_crate-webbed-02;
 	}
 }
-[t:template,n:crystal_glb_ball]
-{
-	category_name = "indoor";
-	doc = "crystal_ball";
-	specializes = non_interactive_nonblocking;
-	[aspect]
-	{
-		lodfi_lower = 0.8;
-		lodfi_upper = 1;
-		model = m_i_glb_crystal-ball;
-		[textures]
-		{
-			0 = b_i_glb_crystal-ball;
-		}
-	}
-}
+[t:template,n:crystal_glb_ball] { specializes = pumpkin_s_base; }
 [t:template,n:cup_glb]
 {
 	category_name = "indoor";
@@ -707,18 +670,7 @@
 		model = m_i_csl_hay-bed;
 	}
 }
-[t:template,n:jars_glb]
-{
-	category_name = "indoor";
-	doc = "jars_colored";
-	specializes = non_interactive_nonblocking;
-	[aspect]
-	{
-		lodfi_lower = 0.8;
-		lodfi_upper = 1;
-		model = m_i_glb_jars;
-	}
-}
+[t:template,n:jars_glb] { specializes = pumpkin_l_base; }
 [t:template,n:jug_csl_broken_01]
 {
 	category_name = "indoor";

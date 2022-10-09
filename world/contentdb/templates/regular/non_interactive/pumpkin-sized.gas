@@ -1,3 +1,11 @@
+[t:template,n:pumpkin_s_base]
+{
+    specializes = pumpkin_base;
+    [aspect]
+    {
+        scale_multiplier = 0.79;  // 1/2 volume
+    }
+}
 [t:template,n:pumpkin_m_base]
 {
     specializes = pumpkin_base;
