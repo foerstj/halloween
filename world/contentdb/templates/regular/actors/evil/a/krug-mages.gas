@@ -6,13 +6,13 @@
 	doc = "krug shaman base";
 	[actor]
 	{
-		  drops_spellbook = true;
+		  //drops_spellbook = true;
 		  race = krug;
           drops_spellbook = false;
 	}
 	[aspect]
 	{
-		  model = m_c_eam_ks_pos_1;
+		  //model = m_c_eam_ks_pos_1;
 		  selection_indicator_scale = 0.85;
 	}
 	[body]
@@ -50,7 +50,7 @@
 		flee_count							 = 1;
 		flee_distance						 = 20;
 
-		on_enemy_entered_icz_switch_to_melee = true;
+		//on_enemy_entered_icz_switch_to_melee = true;
 		actor_life_ratio_low_threshold      = 0.5;
 		melee_engage_range                   = 14;
 		ranged_engage_range                  = 14;
