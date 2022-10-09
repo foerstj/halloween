@@ -6,25 +6,13 @@
 	doc = "krug shaman base";
 	[actor]
 	{
-		  //drops_spellbook = true;
-		  race = krug;
-          drops_spellbook = false;
-	}
-	[aspect]
-	{
-		  //model = m_c_eam_ks_pos_1;
-		  selection_indicator_scale = 0.85;
-	}
-	[body]
-	{
-		min_move_velocity = 1.00;
-		avg_move_velocity = 1.16;
-		max_move_velocity = 1.50;
+		race = krug;
 	}
 	[common]
 	{
 		  membership = krug, monster;
 	}
+
 	[inventory]
 	{
 		  selected_active_location = il_active_primary_spell;
@@ -35,57 +23,20 @@
 		}
 	}
 
+	[guts_manager]
+	{
+		effect_name = melee_hit_2;
+	}
+	[water_effects] {}
+
 	[mind]
 	{
-		actor_weapon_preference              = WP_MAGIC;
-
-		actor_auto_switches_to_magic         = true;
-		actor_auto_reanimates_friends        = true;
-		actor_auto_uses_stored_items         = true;
-
-//		Krug shaman looks funny when he runs away. disabling fleeing. -ET
-//		on_enemy_entered_ocz_flee            = true;
-		on_life_ratio_low_flee               = true;
-		actor_life_ratio_low_threshold  	 = 0.25;
-		flee_count							 = 1;
-		flee_distance						 = 20;
-
-		//on_enemy_entered_icz_switch_to_melee = true;
-		actor_life_ratio_low_threshold      = 0.5;
-		melee_engage_range                   = 14;
-		ranged_engage_range                  = 14;
-		sight_range                          = 14;
-
-		jat_fidget							= world\ai\jobs\common\job_fidget.skrit
-			?curious						= 0.75
-			&interest						= interest
-			&still							= false;
-
-		jat_flee_from_object				 = world\ai\jobs\common\job_flee_from_object.skrit
-			?run_chance						 = 1.0;
-
+		com_channels						= dyn_party, krug;
+		com_range							= 8.0;
 		jat_brain							 = world\ai\jobs\common\brain_hero.skrit
 			?actor_creates_own_party		 = true
 			&party_template					 = "party_krug_shaman";
-
-		jat_attack_object_melee				= world\ai\jobs\common\job_attack_object_melee.skrit
-			?persistence					= 0.0;
-	}
-	[physics]
-	{
-		  break_sound = s_e_meat_explosion;
-		  explosion_magnitude = 1.5;
-		[break_particulate]
-		{
-			  frag_glb_krug_shaman_01 = 1;
-			  frag_glb_krug_shaman_02 = 1;
-			  frag_glb_krug_shaman_03 = 1;
-			  frag_glb_krug_shaman_04 = 1;
-			  frag_glb_krug_shaman_05 = 1;
-			  frag_glb_krug_shaman_06 = 1;
-			  frag_glb_krug_shaman_07 = 1;
-			  frag_glb_krug_shaman_08 = 1;
-		}
+		jat_die 						= world\ai\jobs\common\job_die.skrit;
 	}
 }
 
@@ -131,7 +82,7 @@
 		  selected_active_location = il_active_primary_spell;
 		[other]
 		{
-			  il_active_primary_spell   = spell_fireshot;
+			  il_active_primary_spell   = spell_witch_fireshot;
 			  il_active_secondary_spell = spell_resurrect_monster;
 		}
 		[pcontent]
@@ -226,7 +177,7 @@
 		  selected_active_location = il_active_primary_spell;
 		[other]
 		{
-			  il_active_primary_spell   = spell_fireshot;
+			  il_active_primary_spell   = spell_witch_fireshot;
 			  il_active_secondary_spell = spell_resurrect_monster;
 		}
 		[pcontent]
@@ -304,7 +255,7 @@
 		  selected_active_location = il_active_primary_spell;
 		[other]
 		{
-			  il_active_primary_spell   = spell_apprentice_zap;
+			  il_active_primary_spell   = spell_witch_zap;
 		}
 		[pcontent]
 		{

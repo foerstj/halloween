@@ -1,0 +1,83 @@
+[effect_script*]
+{
+	name	=zap_delayed;
+
+	script	=[[
+            pause 1.0;
+
+
+			sound play s_e_spell_zap_cast_SED at #SOURCE_POSITION dist 3 20;
+
+			sfx create lightning #TARGET_KB 
+				"must_update()scale(.75)bolt_life(1)mindisplace(-.15)maxdisplace(.15)
+				color0(.7,.7,1)[0][1]";
+			set $bolt #POP;
+			sfx target $bolt source;
+			sfx attach_point $bolt @weapon_bone source;
+			sfx start $bolt;
+
+			sfx create lightning #TARGET_KB 
+				"must_update()scale(.75)bolt_life(1)mindisplace(-.15)maxdisplace(.15)
+				color0(.8,1,.8)[1]";
+			set $bolt2 #POP;
+			sfx target $bolt2 source;
+			sfx attach_point $bolt2 @weapon_bone source;
+			sfx start $bolt2;
+
+			sfx create explosion #TARGET_KB 
+				"must_update()vmin(2)vmax(3)omni_dir()ivel(0,0,0)rvel(2,0,2)
+				scale_range(0,.3,0)texture(b_sfx_sparkle01)color0(.5,.75,.75)
+				color1(0,.25,.25)dur(2)radius(.4)fade_range(0,1,0)count(16)";
+			sfx freeze_targets #PEEK;
+			sfx start #POP;
+
+			sfx create explosion #TARGET_KB 
+				"must_update()srate(.01)vmin(2)vmax(3)omni_dir()ivel(0,0,0)
+				rvel(2,0,2)scale_range(0,.3,0)texture(b_sfx_sparkle01)
+				color0(.5,.75,.75)color1(0,.25,.25)dur(2)radius(.4)
+				fade_range(0,1,0)count(16)[1]";
+			sfx freeze_targets #PEEK;
+			sfx start #POP;
+			]];
+}
+
+[effect_script*] // - ET
+{
+	name	=fireshot_delayed;
+
+	script	=[[
+            pause 1.0;
+
+
+			sound play s_e_spell_fireshot_cast at #SOURCE_POSITION dist 3 20;
+			
+			call fireshot_base v<0 0 0> u<1>;
+			waitfor script #POP #DEFAULT_TIMEOUT;
+						
+			worldmsg WE_SPELL_SYNC_END #OWNER_GOID #OWNER_GOID #TARGET_GOID;
+			]];
+}
+[effect_script*] // - ET
+{
+	name	=fireshot_charge_delayed;
+
+	script	=[[
+            pause 1.0;
+
+
+			sfx create explosion #SOURCE 
+				"srate(.001)vmin(8)vmax(8)omni_dir()ts(.15)
+				scale_range(.33,.66,0)texture(b_sfx_sparkle01)color0(1,.66,.33)
+				color1(0,0,0)dur(.55)radius(.2)fade_range(16,16,0)count(16)
+				scale(.45)";
+			sfx attach_point #PEEK @weapon_bone target;
+			sfx start #POP;
+	
+			sfx create fire #SOURCE 
+				"velocity(0,5,0)accel(0,10,0)min_displace(-1)max_displace(1)
+				dur(.4)scale(.4)color0(1,.5,.25)ts(1.5)count(16)color0(1,.8,.6)
+				texture(b_sfx_fireball-01)alphafade(1.66)max_radius(2)";
+			sfx attach_point #PEEK @weapon_bone target;
+			sfx start #POP;
+			]];
+}

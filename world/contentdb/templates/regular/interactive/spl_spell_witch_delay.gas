@@ -1,0 +1,122 @@
+[t:template,n:spell_apprentice_zap_base]  // = spell_apprentice_zap
+{
+	category_name = "magic";
+	doc = "spell zap";
+	specializes = base_spell_monster;
+	[attack]
+	{
+		damage_max = 0;
+		damage_min = 0;
+	}
+	[magic]
+	{
+		attack_damage_modifier_max = (#magic+1) * 4.1 + 0.9;
+		attack_damage_modifier_min = (#magic+1) * 3.4 + 0.7;
+		cast_range = 8;
+		cast_reload_delay = 1.0;
+		mana_cost = 1;
+        max_level = 67;
+		mana_cost_modifier = (#magic*0.7);
+		requires_line_of_sight = true;
+		speed_bias = 2;
+		target_type_flags = tt_conscious_enemy | tt_unconscious_enemy | tt_breakable;
+		usage_context_flags = uc_offensive;
+	}
+	[spell_lightning]
+	{
+		effect_script	= zap;
+		dur				= 0.15;
+	}
+}
+[t:template,n:spell_witch_zap]
+{
+    specializes = spell_apprentice_zap_base;
+	[spell_lightning]
+	{
+		effect_script	= zap_delayed;
+	}
+}
+
+[t:template,n:spell_fireshot_base]  // = spell_fireshot
+{
+	category_name = "magic";
+	doc = "spell fireshot";
+	specializes = base_spell_dark;
+	[aspect]
+	{
+		gold_value = 8;
+	}
+	[attack]
+	{
+		damage_max = 0;
+		damage_min = 0;
+	}
+	[common]
+	{
+		description = "Hurls a ball of fire at the Target.";
+		screen_name = "Fireshot";
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("fireshot");
+				condition* = receive_world_message("we_req_cast");
+			}
+			[*]
+			{
+				action* = call_sfx_script( "combat_spell_sparkle" );
+				condition* = receive_world_message("we_dropped");
+			}
+			[*]
+			{
+				action* = call_sfx_script( "fireshot_charge" );
+				condition* = receive_world_message("we_req_cast_charge");
+			}
+		}
+	}
+	[gui]
+	{
+		active_icon = b_gui_ig_i_ic_sp_078;
+		inventory_icon = b_gui_ig_i_ic_sp_078_inv;
+	}
+	[magic]
+	{
+		attack_damage_modifier_max = ((#magic*1.8)*1.2)+5.99*(1.15+((#magic+1)/50));
+		attack_damage_modifier_min = ((#magic*1.8)*1.2)+5.99*(0.86-((#magic+1)/50));
+		cast_range = 10;
+		cast_reload_delay = 1;
+		mana_cost = 1;
+		mana_cost_modifier = .85+((#magic ** 0.8)+0.74);
+		max_level = 17;
+		requires_line_of_sight = true;
+		speed_bias = 1;
+		target_type_flags = tt_conscious_enemy | tt_unconscious_enemy | tt_breakable | tt_terrain;
+		usage_context_flags = uc_offensive;
+	}
+	[spell_default] {}
+}
+[t:template,n:spell_witch_fireshot]
+{
+    specializes = spell_fireshot_base;
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("fireshot_delayed");  // EDITED
+				condition* = receive_world_message("we_req_cast");
+			}
+			[*]
+			{
+				action* = call_sfx_script( "combat_spell_sparkle" );
+				condition* = receive_world_message("we_dropped");
+			}
+			[*]
+			{
+				action* = call_sfx_script( "fireshot_charge_delayed" );  // EDITED
+				condition* = receive_world_message("we_req_cast_charge");
+			}
+		}
+	}
+}
