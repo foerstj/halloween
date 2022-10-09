@@ -1,0 +1,1432 @@
+[t:template,n:aloe_des_01]
+{
+	category_name = "foliage";
+	doc = "des_bush_aloe";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.5;
+		model = m_i_des_aloe-01;
+	}
+}
+[t:template,n:brush_des_dry_01]
+{
+	category_name = "foliage";
+	doc = "des_scraggly_dead";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.75;
+		model = m_i_glb_brush-01;
+		[textures]
+		{
+			0 = b_i_des_dry-brush-01;
+		}
+	}
+}
+[t:template,n:brush_des_dry_02]
+{
+	category_name = "foliage";
+	doc = "des_scraggly_leafy";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.75;
+		model = m_i_glb_brush-01;
+		[textures]
+		{
+			0 = b_i_des_dry-brush-02;
+		}
+	}
+}
+[t:template,n:brush_des_dry_03]
+{
+	category_name = "foliage";
+	doc = "des_scraggly_full";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.75;
+		model = m_i_glb_brush-01;
+		[textures]
+		{
+			0 = b_i_des_dry-brush-03;
+		}
+	}
+}
+[t:template,n:cabbage_glb_01]
+{
+	category_name = "foliage";
+	doc = "grs_cabbage";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = .55;
+		lodfi_upper = .85;
+		model = m_i_glb_cabbage;
+	}
+}
+[t:template,n:cactus_des_04]
+{
+	category_name = "foliage";
+	doc = "des_bush_star cactus";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		does_block_camera = TRUE;
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.55;
+		model = m_i_des_cactus-04;
+	}
+}
+[t:template,n:cactus_des_star_01]
+{
+	category_name = "foliage";
+	doc = "des_cactus_star_yllw";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.4;
+		lodfi_upper = 0.65;
+		model = m_i_des_cactus-star-01;
+	}
+}
+[t:template,n:cattail_grs_01]
+{
+	category_name = "foliage";
+	doc = "grs_cattail_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.5;
+		model = m_i_grs_cattail-01;
+		scale_multiplier = 2;
+	}
+}
+[t:template,n:cattail_grs_02]
+{
+	category_name = "foliage";
+	doc = "grs_cattail_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.15;
+		lodfi_upper = 0.6;
+		model = m_i_grs_cattail-02;
+		scale_multiplier = 2;
+	}
+}
+[t:template,n:cattail_grs_03]
+{
+	category_name = "foliage";
+	doc = "grs_cattail_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.65;
+		model = m_i_grs_cattail-03;
+		scale_multiplier = 2;
+	}
+}
+[t:template,n:cattail_grs_04]
+{
+	category_name = "foliage";
+	doc = "grs_cattail_sm_sway";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.9;
+		model = m_i_grs_cattail-04;
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_grs;
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = cattail-04-sway;
+				}
+			}
+		}
+	}
+}
+[t:template,n:cattail_grs_05]
+{
+	category_name = "foliage";
+	doc = "grs_cattail_lg_sway";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.6;
+		lodfi_upper = 1;
+		model = m_i_grs_cattail-05;
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_grs;
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = cattail-05-sway;
+				}
+			}
+		}
+	}
+}
+[t:template,n:cornstalk_grs_burnt_01]
+{
+	category_name = "foliage";
+	doc = "grs_cornstalk_burnt";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.3;
+		model = m_i_glb_cornstalk-01-burnt;
+	}
+}
+[t:template,n:cornstalk_grs_burnt_02]
+{
+	category_name = "foliage";
+	doc = "grs_cornstalk_burnt_bent";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.35;
+		model = m_i_glb_cornstalk-02-burnt;
+	}
+}
+[t:template,n:cress_swp_water_01]
+{
+	category_name = "foliage";
+	doc = "swp_watercress_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_water-cress-01;
+	}
+}
+[t:template,n:cress_swp_water_02]
+{
+	category_name = "foliage";
+	doc = "swp_watercress_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_water-cress-02;
+	}
+}
+[t:template,n:cress_swp_water_03]
+{
+	category_name = "foliage";
+	doc = "swp_watercress_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_water-cress-03;
+	}
+}
+[t:template,n:fern_grs_01]
+{
+	category_name = "foliage";
+	doc = "grs_fern";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.4;
+		lodfi_upper = 0.8;
+		model = m_i_grs_fern-01;
+	}
+}
+[t:template,n:fern_grs_02]
+{
+	category_name = "foliage";
+	doc = "grs_fern_clump_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.7;
+		lodfi_upper = 1;
+		model = m_i_grs_fern-02;
+	}
+}
+[t:template,n:fern_grs_03]
+{
+	category_name = "foliage";
+	doc = "grs_fern_clump_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.7;
+		lodfi_upper = 1;
+		model = m_i_grs_fern-03;
+	}
+}
+[t:template,n:fern_grs_04]
+{
+	category_name = "foliage";
+	doc = "grs_fern_clump_xlg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.8;
+		lodfi_upper = 1;
+		model = m_i_grs_fern-04;
+	}
+}
+[t:template,n:foliage_grs_01]
+{
+	category_name = "foliage";
+	doc = "grs_ferns_grndcvr";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.2;
+		lodfi_upper = 0.9;
+		model = m_i_grs_foliage-01;
+	}
+}
+[t:template,n:grass_des_01]
+{
+	category_name = "foliage";
+	doc = "des_grs_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.7;
+		model = m_i_des_grass-01;
+	}
+}
+[t:template,n:grass_des_02]
+{
+	category_name = "foliage";
+	doc = "des_grs_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.7;
+		model = m_i_des_grass-02;
+	}
+}
+[t:template,n:grass_des_03]
+{
+	category_name = "foliage";
+	doc = "des_grass_clump";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.6;
+		model = m_i_des_grass-03;
+	}
+}
+[t:template,n:grass_glb_beach_01]
+{
+	category_name = "foliage";
+	doc = "beach_grass_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.15;
+		lodfi_upper = 0.6;
+		model = m_i_glb_grass-beach-01;
+	}
+}
+[t:template,n:grass_glb_beach_02]
+{
+	category_name = "foliage";
+	doc = "beach_grass_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.6;
+		model = m_i_glb_grass-beach-02;
+	}
+}
+[t:template,n:grass_grs_01]
+{
+	category_name = "foliage";
+	doc = "grs_grass_short_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.51;
+		model = m_i_grs_grass-01;
+	}
+}
+[t:template,n:grass_grs_02]
+{
+	category_name = "foliage";
+	doc = "grs_grass_short_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.55;
+		lodfi_upper = 1;
+		model = m_i_grs_grass-02;
+	}
+}
+[t:template,n:grass_grs_03]
+{
+	category_name = "foliage";
+	doc = "grs_grass_short_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.85;
+		lodfi_upper = 1;
+		model = m_i_grs_grass-03;
+	}
+}
+[t:template,n:grass_grs_04]
+{
+	category_name = "foliage";
+	doc = "grs_grass_tall_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.5;
+		model = m_i_grs_grass-04;
+	}
+}
+[t:template,n:grass_grs_05]
+{
+	category_name = "foliage";
+	doc = "grs_grass_tall_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.4;
+		model = m_i_grs_grass-05;
+	}
+}
+[t:template,n:grass_grs_06]
+{
+	category_name = "foliage";
+	doc = "grs_grass_tall_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.6;
+		lodfi_upper = 1;
+		model = m_i_grs_grass-06;
+	}
+}
+[t:template,n:grass_grs_07]
+{
+	category_name = "foliage";
+	doc = "grs_grass_seeded_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.7;
+		model = m_i_grs_grass-07;
+	}
+}
+[t:template,n:grass_grs_08]
+{
+	category_name = "foliage";
+	doc = "grs_grass_seeded_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 0.9;
+		model = m_i_grs_grass-08;
+	}
+}
+[t:template,n:grass_grs_09]
+{
+	category_name = "foliage";
+	doc = "grs_grass_seeded_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.4;
+		lodfi_upper = 0.65;
+		model = m_i_grs_grass-09;
+	}
+}
+[t:template,n:grass_swp_01]
+{
+	category_name = "foliage";
+	doc = "swp_grass_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.8;
+		model = m_i_swp_grass-01;
+	}
+}
+[t:template,n:grass_swp_02]
+{
+	category_name = "foliage";
+	doc = "swp_grass_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.2;
+		lodfi_upper = 0.7;
+		model = m_i_swp_grass-02;
+	}
+}
+[t:template,n:grass_swp_03]
+{
+	category_name = "foliage";
+	doc = "swp_grass_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.25;
+		model = m_i_swp_grass-03;
+	}
+}
+[t:template,n:grass_swp_04]
+{
+	category_name = "foliage";
+	doc = "swp_grass_clumpy_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_grass-04;
+		[textures]
+		{
+			0 = b_i_swp_grass-01;
+		}
+	}
+}
+[t:template,n:grass_swp_05]
+{
+	category_name = "foliage";
+	doc = "swp_grass_clumpy_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_grass-05;
+		[textures]
+		{
+			0 = b_i_swp_grass-01;
+		}
+	}
+}
+[t:template,n:grass_swp_06]
+{
+	category_name = "foliage";
+	doc = "swp_grass_clumpy_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.75;
+		lodfi_upper = 1;
+		model = m_i_glb_grass-06;
+		[textures]
+		{
+			0 = b_i_swp_grass-01;
+		}
+	}
+}
+[t:template,n:groundcover_grs_01]
+{
+	category_name = "foliage";
+	doc = "grs_groundcover_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.35;
+		model = m_i_glb_groundcover-01;
+	}
+}
+[t:template,n:groundcover_grs_02]
+{
+	category_name = "foliage";
+	doc = "grs_groundcover_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.35;
+		model = m_i_glb_groundcover-02;
+	}
+}
+[t:template,n:groundcover_grs_03]
+{
+	category_name = "foliage";
+	doc = "grs_groundcover_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.3;
+		model = m_i_glb_groundcover-03;
+	}
+}
+[t:template,n:groundcover_grs_05]
+{
+	category_name = "foliage";
+	doc = "grs_fern_grndcvr_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.35;
+		lodfi_upper = 0.8;
+		model = m_i_glb_ground-cover-01;
+		[textures]
+		{
+			0 = b_i_grs_ground-cover-01;
+		}
+	}
+}
+[t:template,n:groundcover_grs_06]
+{
+	category_name = "foliage";
+	doc = "grs_fern_grndcvr_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.6;
+		model = m_i_glb_ground-cover-02;
+		[textures]
+		{
+			0 = b_i_grs_ground-cover-01;
+		}
+	}
+}
+[t:template,n:groundcover_grs_07]
+{
+	category_name = "foliage";
+	doc = "grs_fern_grndcvr_lg_sparse";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.6;
+		model = m_i_glb_ground-cover-03;
+		[textures]
+		{
+			0 = b_i_grs_ground-cover-01;
+		}
+	}
+}
+[t:template,n:groundcover_grs_08]
+{
+	category_name = "foliage";
+	doc = "grs_fern_grndcvr_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.8;
+		model = m_i_glb_ground-cover-04;
+		[textures]
+		{
+			0 = b_i_grs_ground-cover-01;
+		}
+	}
+}
+[t:template,n:groundcover_swp_01]
+{
+	category_name = "foliage";
+	doc = "swp_fern_groundcover_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.7;
+		model = m_i_glb_ground-cover-01;
+		[textures]
+		{
+			0 = b_i_swp_ground-cover-01;
+		}
+	}
+}
+[t:template,n:groundcover_swp_02]
+{
+	category_name = "foliage";
+	doc = "swp_fern_groundcover_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.6;
+		model = m_i_glb_ground-cover-02;
+		[textures]
+		{
+			0 = b_i_swp_ground-cover-01;
+		}
+	}
+}
+[t:template,n:groundcover_swp_03]
+{
+	category_name = "foliage";
+	doc = "swp_fern_groundcover_sparse";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 6;
+		model = m_i_glb_ground-cover-03;
+		[textures]
+		{
+			0 = b_i_swp_ground-cover-01;
+		}
+	}
+}
+[t:template,n:groundcover_swp_04]
+{
+	category_name = "foliage";
+	doc = "swp_fern_groundcover_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.8;
+		model = m_i_glb_ground-cover-04;
+		[textures]
+		{
+			0 = b_i_swp_ground-cover-01;
+		}
+	}
+}
+[t:template,n:ivy_grs_01]
+{
+	category_name = "foliage";
+	doc = "grs_ivy_right_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.2;
+		lodfi_upper = 0.65;
+		model = m_i_grs_ivy-01;
+	}
+}
+[t:template,n:ivy_grs_02]
+{
+	category_name = "foliage";
+	doc = "grs_ivy_left_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.2;
+		lodfi_upper = 0.65;
+		model = m_i_grs_ivy-02;
+	}
+}
+[t:template,n:ivy_grs_03]
+{
+	category_name = "foliage";
+	doc = "grs_ivy_thin_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.35;
+		model = m_i_grs_ivy-03;
+	}
+}
+[t:template,n:ivy_grs_04]
+{
+	category_name = "foliage";
+	doc = "grs_ivy_right_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.35;
+		model = m_i_grs_ivy-04;
+	}
+}
+[t:template,n:ivy_grs_05]
+{
+	category_name = "foliage";
+	doc = "grs_ivy_border_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.25;
+		model = m_i_grs_ivy-05;
+	}
+}
+[t:template,n:ivy_grs_06]
+{
+	category_name = "foliage";
+	doc = "grs_ivy_clump_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_grs_ivy-06;
+	}
+}
+[t:template,n:lilypad_swp_01]
+{
+	category_name = "foliage";
+	doc = "swp_lilypads_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_lilypad-01;
+	}
+}
+[t:template,n:lilypad_swp_02]
+{
+	category_name = "foliage";
+	doc = "swp_lilypads_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_lilypad-02;
+	}
+}
+[t:template,n:lilypad_swp_03]
+{
+	category_name = "foliage";
+	doc = "swp_lilypads_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_lilypad-03;
+	}
+}
+[t:template,n:lilypad_swp_04]
+{
+	category_name = "foliage";
+	doc = "swp_lilypad_lg_sway";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_lilypad-04;
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_swp;
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = lilypad-04-sway;
+				}
+			}
+		}
+	}
+}
+[t:template,n:lilypad_swp_05]
+{
+	category_name = "foliage";
+	doc = "swp_lilypad_sm_sway";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_lilypad-05;
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_swp;
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = lilypad-05-sway;
+				}
+			}
+		}
+	}
+}
+[t:template,n:moss_swp_01]
+{
+	category_name = "foliage";
+	doc = "swp_moss_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.75;
+		lodfi_upper = 1;
+		model = m_i_swp_moss-01;
+	}
+}
+[t:template,n:moss_swp_02]
+{
+	category_name = "foliage";
+	doc = "swp_moss_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.75;
+		lodfi_upper = 1;
+		model = m_i_swp_moss-02;
+	}
+}
+[t:template,n:moss_swp_03]
+{
+	category_name = "foliage";
+	doc = "swp_moss_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.3;
+		model = m_i_swp_moss-03;
+	}
+}
+[t:template,n:moss_swp_04]
+{
+	category_name = "foliage";
+	doc = "swp_moss_tan_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_glb_moss-01;
+		[textures]
+		{
+			0 = b_i_swp_moss-01;
+		}
+	}
+}
+[t:template,n:moss_swp_05]
+{
+	category_name = "foliage";
+	doc = "swp_moss_tan_sm_a";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_glb_moss-02;
+		[textures]
+		{
+			0 = b_i_swp_moss-01;
+		}
+	}
+}
+[t:template,n:moss_swp_06]
+{
+	category_name = "foliage";
+	doc = "swp_moss_tan_sm_b";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_glb_moss-03;
+		[textures]
+		{
+			0 = b_i_swp_moss-01;
+		}
+	}
+}
+[t:template,n:moss_swp_07]
+{
+	category_name = "foliage";
+	doc = "swp_moss_tan_sm_c";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_glb_moss-04;
+		[textures]
+		{
+			0 = b_i_swp_moss-01;
+		}
+	}
+}
+[t:template,n:moss_swp_08]
+{
+	category_name = "foliage";
+	doc = "swp_moss_tan_sm_d";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_glb_moss-05;
+		[textures]
+		{
+			0 = b_i_swp_moss-01;
+		}
+	}
+}
+[t:template,n:plant_glb_squash]
+{
+	category_name = "foliage";
+	doc = "grs_squash";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.8;
+		lodfi_upper = 1.0;
+		model = m_i_glb_plant-squash-01;
+		[textures]
+		{
+			0 = b_i_glb_plant-squash;
+		}
+	}
+}
+[t:template,n:reed_des_01]
+{
+	category_name = "foliage";
+	doc = "des_reed_group_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.8;
+		lodfi_upper = 1;
+		model = m_i_des_reed-01;
+	}
+}
+[t:template,n:reed_des_02]
+{
+	category_name = "foliage";
+	doc = "des_reed_group_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.7;
+		lodfi_upper = 1;
+		model = m_i_des_reed-02;
+	}
+}
+[t:template,n:reed_des_03]
+{
+	category_name = "foliage";
+	doc = "des_reeds_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.15;
+		model = m_i_des_reed-03;
+	}
+}
+[t:template,n:reed_des_04]
+{
+	category_name = "foliage";
+	doc = "des_reeds_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.8;
+		lodfi_upper = 1;
+		model = m_i_des_reed-01;
+	}
+}
+[t:template,n:reed_des_05]
+{
+	category_name = "foliage";
+	doc = "des_reeds_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.7;
+		lodfi_upper = 1;
+		model = m_i_des_reed-02;
+	}
+}
+[t:template,n:reed_des_06]
+{
+	category_name = "foliage";
+	doc = "des_reed_group_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.15;
+		model = m_i_des_reed-03;
+	}
+}
+[t:template,n:reed_grs_01]
+{
+	category_name = "foliage";
+	doc = "grs_reed_short";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.6;
+		model = m_i_glb_reed-01;
+	}
+}
+[t:template,n:reed_grs_02]
+{
+	category_name = "foliage";
+	doc = "grs_reed_tall";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.35;
+		lodfi_upper = 0.6;
+		model = m_i_glb_reed-02;
+	}
+}
+[t:template,n:reed_grs_03]
+{
+	category_name = "foliage";
+	doc = "grs_reed_clump";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.5;
+		lodfi_upper = 0.8;
+		model = m_i_glb_reed-03;
+	}
+}
+[t:template,n:reed_swp_04]
+{
+	category_name = "foliage";
+	doc = "swp_reeds_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.2;
+		model = m_i_swp_reed-04;
+	}
+}
+[t:template,n:reed_swp_05]
+{
+	category_name = "foliage";
+	doc = "swp_reeds_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.45;
+		lodfi_upper = 0.75;
+		model = m_i_swp_reed-05;
+	}
+}
+[t:template,n:reed_swp_06]
+{
+	category_name = "foliage";
+	doc = "swp_reeds_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.7;
+		lodfi_upper = 1;
+		model = m_i_swp_reed-06;
+	}
+}
+[t:template,n:reed_swp_07]
+{
+	category_name = "foliage";
+	doc = "swp_reed_sm_sway";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.4;
+		lodfi_upper = 0.75;
+		model = m_i_swp_reed-07;
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_swp;
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = reed-07-sway;
+				}
+			}
+		}
+	}
+}
+[t:template,n:reed_swp_08]
+{
+	category_name = "foliage";
+	doc = "swp_reed_lg_sway";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.7;
+		lodfi_upper = 1;
+		model = m_i_swp_reed-08;
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_swp;
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = reed-07-sway;
+				}
+			}
+		}
+	}
+}
+[t:template,n:roots_glb_01]
+{
+	category_name = "foliage";
+	doc = "dun_roots_delicate_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		cam_fade_alpha = 110;
+		does_block_camera = TRUE;
+		lodfi_lower = 0.35;
+		lodfi_upper = 0.65;
+		model = m_i_glb_roots-01;
+	}
+}
+[t:template,n:roots_glb_02]
+{
+	category_name = "foliage";
+	doc = "dun_roots_delicate_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		cam_fade_alpha = 110;
+		does_block_camera = TRUE;
+		lodfi_lower = 0.6;
+		lodfi_upper = 0.8;
+		model = m_i_glb_roots-02;
+	}
+}
+[t:template,n:roots_glb_03]
+{
+	category_name = "foliage";
+	doc = "dun_roots_delicate_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		cam_fade_alpha = 110;
+		does_block_camera = TRUE;
+		lodfi_lower = 0.4;
+		lodfi_upper = 0.7;
+		model = m_i_glb_roots-03;
+	}
+}
+[t:template,n:roots_glb_04]
+{
+	category_name = "foliage";
+	doc = "dun_roots_delicate_xlg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		cam_fade_alpha = 110;
+		does_block_camera = TRUE;
+		lodfi_lower = 0.4;
+		lodfi_upper = 0.7;
+		model = m_i_glb_roots-04;
+	}
+}
+[t:template,n:roots_glb_05]
+{
+	category_name = "foliage";
+	doc = "dun_roots_thick_double";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		cam_fade_alpha = 110;
+		does_block_camera = TRUE;
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.8;
+		model = m_i_glb_roots-05;
+	}
+}
+[t:template,n:roots_glb_06]
+{
+	category_name = "foliage";
+	doc = "dun_roots_thick_single_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		cam_fade_alpha = 110;
+		does_block_camera = TRUE;
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.7;
+		model = m_i_glb_roots-06;
+	}
+}
+[t:template,n:roots_glb_07]
+{
+	category_name = "foliage";
+	doc = "dun_roots_thick_single_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		cam_fade_alpha = 110;
+		does_block_camera = TRUE;
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.7;
+		model = m_i_glb_roots-07;
+	}
+}
+[t:template,n:roots_glb_08]
+{
+	category_name = "foliage";
+	doc = "dun_roots_thick_single_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		cam_fade_alpha = 110;
+		does_block_camera = TRUE;
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.7;
+		model = m_i_glb_roots-08;
+	}
+}
+[t:template,n:seaweed_glb_01]
+{
+	category_name = "foliage";
+	doc = "beach_algae_plum";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_glb_seaweed-01;
+	}
+}
+[t:template,n:seaweed_glb_02]
+{
+	category_name = "foliage";
+	doc = "beach_algea_green";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_glb_seaweed-02;
+	}
+}
+[t:template,n:seaweed_glb_03]
+{
+	category_name = "foliage";
+	doc = "beach_kelp_brown";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.15;
+		model = m_i_glb_seaweed-03;
+	}
+}
+[t:template,n:tumbleweed_des_01]
+{
+	category_name = "foliage";
+	doc = "des_tumbleweed_01";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 0.9;
+		model = m_i_des_tumbleweed-01;
+	}
+}
+[t:template,n:tumbleweed_des_02]
+{
+	category_name = "foliage";
+	doc = "des_tumbleweed_02";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.55;
+		lodfi_upper = 0.85;
+		model = m_i_des_tumbleweed-02;
+	}
+}
+[t:template,n:weed_swp_water_01]
+{
+	category_name = "foliage";
+	doc = "swp_waterweed_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_water-weed-01;
+	}
+}
+[t:template,n:weed_swp_water_02]
+{
+	category_name = "foliage";
+	doc = "swp_waterweed_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_water-weed-02;
+	}
+}
+[t:template,n:weed_swp_water_03]
+{
+	category_name = "foliage";
+	doc = "swp_waterweed_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_water-weed-03;
+	}
+}
