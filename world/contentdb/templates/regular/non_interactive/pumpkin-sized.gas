@@ -1,0 +1,32 @@
+[t:template,n:pumpkin_m_base]
+{
+    specializes = pumpkin_base;
+    [aspect]
+    {
+        scale_multiplier = 1.0;  // 1x volume
+    }
+}
+[t:template,n:pumpkin_l_base]
+{
+    specializes = pumpkin_base;
+    [aspect]
+    {
+        scale_multiplier = 1.26;  // 2x volume
+    }
+}
+[t:template,n:pumpkin_xl_base]
+{
+    specializes = pumpkin_base;
+    [aspect]
+    {
+        scale_multiplier = 1.59;  // 4x volume
+    }
+}
+[t:template,n:pumpkin_xxl_base]
+{
+    specializes = pumpkin_base;
+    [aspect]
+    {
+        scale_multiplier = 2.0;  // 8x volume
+    }
+}
