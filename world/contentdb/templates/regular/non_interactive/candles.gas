@@ -1,48 +1,9 @@
-[t:template,n:candle_glb_01]
-{
-	category_name = "lighting";
-	doc = "candle_short";
-	specializes = base_light;
-	[aspect]
-	{
-//		display_cost = 0.396819813;
-		model = m_i_glb_candle-01;
-	}
-	[common]
-	{
-		[template_triggers]
-		{
-			[*]
-			{
-				action* = call_sfx_script("candle_fire1");
-				condition* = receive_world_message("WE_ENTERED_WORLD");
-			}
-		}
-	}
-}
-[t:template,n:candle_glb_02]
-{
-	category_name = "lighting";
-	doc = "candle_tall";
-	specializes = base_light;
-	[aspect]
-	{
-//		display_cost = 0.467440563;
-		model = m_i_glb_candle-02;
-	}
-	[common]
-	{
-		[template_triggers]
-		{
-			[*]
-			{
-				action* = call_sfx_script("candle_fire1");
-				condition* = receive_world_message("WE_ENTERED_WORLD");
-			}
-		}
-	}
-}
-[t:template,n:candle_glb_skull_01]
+[t:template,n:candle_glb_01] { specializes = candle_glb_skull_01_base; }
+
+[t:template,n:candle_glb_02] { specializes = candle_glb_skull_02_base; }
+
+[t:template,n:candle_glb_skull_01] { specializes = candle_glb_skull_01_base; }
+[t:template,n:candle_glb_skull_01_base]
 {
 	category_name = "lighting";
 	doc = "candle_skull_sm";
@@ -64,7 +25,9 @@
 		}
 	}
 }
-[t:template,n:candle_glb_skull_02]
+
+[t:template,n:candle_glb_skull_02] { specializes = candle_glb_skull_02_base; }
+[t:template,n:candle_glb_skull_02_base]
 {
 	category_name = "lighting";
 	doc = "candle_skull_lg";
@@ -87,6 +50,7 @@
 		}
 	}
 }
+
 [t:template,n:candlestand_csl_01]
 {
 	category_name = "lighting";
@@ -109,6 +73,7 @@
 		}
 	}
 }
+
 [t:template,n:candlestand_csl_02]
 {
 	category_name = "lighting";
@@ -142,6 +107,7 @@
 		model = m_i_csl_candlestand-02;
 	}
 }
+
 [t:template,n:candlestand_csl_03]
 {
 	category_name = "lighting";
