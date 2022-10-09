@@ -1,8 +1,9 @@
 [t:template,n:krug_shaman_base]
 {
-	  category_name = "1W_evil_a";
-	  doc = "krug shaman base";
-	  specializes = base_krug;
+    specializes = base_swamp_witch;
+
+    category_name = "1W_evil_a";
+	doc = "krug shaman base";
 	[actor]
 	{
 		  drops_spellbook = true;
@@ -19,16 +20,6 @@
 		min_move_velocity = 1.00;
 		avg_move_velocity = 1.16;
 		max_move_velocity = 1.50;
-
-		[bone_translator]
-		{
-			  body_anterior = bip01_head;
-			  body_mid = bip01_spine2;
-			  body_posterior = bip01_pelvis;
-			  kill_bone = bip01_spine2;
-			  shield_bone = weapon_grip;
-			  weapon_bone = shield_grip;
-		}
 	}
 	[common]
 	{
@@ -129,7 +120,7 @@
 	}
 	[common]
 	{
-		  screen_name = "Krug Shaman";
+		  screen_name = "Witch";
 	}
 	[defend]
 	{
@@ -195,7 +186,7 @@
 	}
 	[aspect]
 	{
-		textures:0 = b_c_eam_ks-02;
+		//textures:0 = b_c_eam_ks-02;
 		  experience_value = 85;
 		  life = 44;
 		  mana = 500;
@@ -210,7 +201,7 @@
 	}
 	[common]
 	{
-		  screen_name = "Huskar the Shaman";
+		  screen_name = "Huska the Witch";
 		  membership = krug,monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
 		[template_triggers]
 		{
@@ -302,7 +293,7 @@
 	}
 	[common]
 	{
-		  screen_name = "Krug Apprentice";
+		  screen_name = "Apprentice Witch";
 	}
 	[defend]
 	{
