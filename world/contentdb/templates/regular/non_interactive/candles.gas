@@ -1,0 +1,166 @@
+[t:template,n:candle_glb_01]
+{
+	category_name = "lighting";
+	doc = "candle_short";
+	specializes = base_light;
+	[aspect]
+	{
+//		display_cost = 0.396819813;
+		model = m_i_glb_candle-01;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("candle_fire1");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+			}
+		}
+	}
+}
+[t:template,n:candle_glb_02]
+{
+	category_name = "lighting";
+	doc = "candle_tall";
+	specializes = base_light;
+	[aspect]
+	{
+//		display_cost = 0.467440563;
+		model = m_i_glb_candle-02;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("candle_fire1");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+			}
+		}
+	}
+}
+[t:template,n:candle_glb_skull_01]
+{
+	category_name = "lighting";
+	doc = "candle_skull_sm";
+	specializes = base_light;
+	[aspect]
+	{
+//		display_cost = 0.495406875;
+		model = m_i_glb_skull-candle-01;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("skull_candle_fire1");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+			}
+		}
+	}
+}
+[t:template,n:candle_glb_skull_02]
+{
+	category_name = "lighting";
+	doc = "candle_skull_lg";
+	specializes = base_light;
+	[aspect]
+	{
+//		display_cost = 0.493285875;
+		model = m_i_glb_skull-candle-01;
+		scale_base = 2;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("skull_candle_fire2");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+			}
+		}
+	}
+}
+[t:template,n:candlestand_csl_01]
+{
+	category_name = "lighting";
+	doc = "candlestick_single";
+	specializes = base_light;
+	[aspect]
+	{
+//		display_cost = 0.51455675;
+		model = m_i_csl_candlestand-01;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("candle_fire1");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+			}
+		}
+	}
+}
+[t:template,n:candlestand_csl_02]
+{
+	category_name = "lighting";
+	doc = "candlestick_floor";
+	specializes = base_light;
+	[aspect]
+	{
+//		display_cost = 1.21049175;
+		model = m_i_csl_candlestand-02;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("candle_fire2");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+			}
+		}
+	}
+}
+[t:template,n:candlestand_csl_02_noflame]
+{
+	category_name = "lighting";
+	doc = "candlestick_floor_no_flame";
+	specializes = base_light;
+	[aspect]
+	{
+//		display_cost = 1.21049175;
+		model = m_i_csl_candlestand-02;
+	}
+}
+[t:template,n:candlestand_csl_03]
+{
+	category_name = "lighting";
+	doc = "candlestick_tri";
+	specializes = base_light;
+	[aspect]
+	{
+//		display_cost = 1.45781525;
+		model = m_i_csl_candlestand-03;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("candle_fire3");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+			}
+		}
+	}
+}
