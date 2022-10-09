@@ -24,7 +24,8 @@
       mana = 0;
       max_mana = 0;
       model = m_c_edm_sp_pos_1;
-            scale_base = 1.5;
+            //scale_base = 1.5;
+        scale_base = 1.89;  // EDITED: 2x volume
 		[voice]
 		{
 			[die]			{ priority = high; * = s_e_die_spider_SED; }
@@ -174,6 +175,7 @@
 			[enemy_spotted]	{ priority = high; * = s_e_call_spider_SED; }
 			[attack]	{ priority = high; * = s_e_attack_spider_SED; }
 		}
+        scale_base = 1.26;  // EDITED: 2x volume
     }
   [attack]
     {
@@ -214,6 +216,7 @@
       max_life = 39;
       mana = 0;
       max_mana = 0;
+        scale_base = 1.26;  // EDITED: 2x volume
       [voice]
 	{
 	  [cast]			{ * = s_e_attack_frostnid_SED; }
@@ -272,7 +275,8 @@
       mana = 0;
       max_mana = 0;
       model = m_c_edm_as_pos_1;
-      scale_base = 0.5;
+      //scale_base = 0.5;
+        scale_base = 0.63;  // EDITED: 2x volume
       [textures] { 0=b_c_edm_as-yel; }
       [voice]
 	{
@@ -401,6 +405,7 @@
       mana = 0;
       max_mana = 0;
       model = m_c_edm_as_pos_1;
+        scale_base = 1.26;  // EDITED: 2x volume
       [voice]
 	{
 	  [die]			{ priority = high; * = s_e_die_grub_SED; }

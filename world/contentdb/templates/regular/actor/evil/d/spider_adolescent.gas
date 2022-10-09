@@ -26,6 +26,7 @@
 			[die]			{ priority = high; * = s_e_die_spider; }
 			[enemy_spotted]	{ priority = high; * = s_e_call_spider_SED; }
 		}
+        scale_base = 1.26;  // EDITED: 2x volume
 	}
 	[attack]
 	{

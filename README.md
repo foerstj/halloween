@@ -7,6 +7,8 @@ A little mod for Dungeon Siege 1 / LoA
   - Replaces wolves with zombie wolves (texture replacement)
   - Replaces bears with zombie bears / ursae (texture replacement)
   - Replaces packmules with zombie packmules (texture replacement)
+- Spiders
+  - Makes spiders larger (template replacement)
 - Autumn
   - Replaces flowers with mushrooms (template replacement)
   - Makes fog grayer and closer (mood replacement)
@@ -14,12 +16,12 @@ A little mod for Dungeon Siege 1 / LoA
 - Horror
   - Crypt ambience if no other was used (mood replacement)
   - Replaces music in Stonebridge, Elddim, Meren, Hiroth & Island with Halloween themes (mood replacement)
-  - Replaced small candles with skull candles (template replacement)
+  - Replaces small candles with skull candles (template replacement)
 - Blood
   - Skrubbs spit blood (effect & texture replacement)
 - Halloween
   - Pumpkin helmet available in pcontent (low shops & drops) (new template)
-  - Replaced some plants & items with pumpkins (template replacement)
+  - Replaces some plants & items with pumpkins (template replacement)
 
 ## Installation
 
@@ -29,6 +31,7 @@ Put the dsres file into the DSLOA folder.
 
 Not compatible with Wintermod.
 - Overrides original template files like natural_nonblocking.gas
+- Overrides original actor template files of spiders
 - Overrides original mood files
 
 ## Attribution
