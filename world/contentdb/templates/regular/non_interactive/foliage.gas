@@ -1,3 +1,36 @@
+[t:template,n:pumpkin_m_base]
+{
+    specializes = pumpkin_base;
+    [aspect]
+    {
+        scale_multiplier = 1.0;  // 1x volume
+    }
+}
+[t:template,n:pumpkin_l_base]
+{
+    specializes = pumpkin_base;
+    [aspect]
+    {
+        scale_multiplier = 1.26;  // 2x volume
+    }
+}
+[t:template,n:pumpkin_xl_base]
+{
+    specializes = pumpkin_base;
+    [aspect]
+    {
+        scale_multiplier = 1.59;  // 4x volume
+    }
+}
+[t:template,n:pumpkin_xxl_base]
+{
+    specializes = pumpkin_base;
+    [aspect]
+    {
+        scale_multiplier = 2.0;  // 8x volume
+    }
+}
+
 [t:template,n:aloe_des_01]
 {
 	category_name = "foliage";
@@ -10,66 +43,10 @@
 		model = m_i_des_aloe-01;
 	}
 }
-[t:template,n:brush_des_dry_01]
-{
-	category_name = "foliage";
-	doc = "des_scraggly_dead";
-	specializes = non_interactive_nonblocking;
-	[aspect]
-	{
-		lodfi_lower = 0.05;
-		lodfi_upper = 0.75;
-		model = m_i_glb_brush-01;
-		[textures]
-		{
-			0 = b_i_des_dry-brush-01;
-		}
-	}
-}
-[t:template,n:brush_des_dry_02]
-{
-	category_name = "foliage";
-	doc = "des_scraggly_leafy";
-	specializes = non_interactive_nonblocking;
-	[aspect]
-	{
-		lodfi_lower = 0.05;
-		lodfi_upper = 0.75;
-		model = m_i_glb_brush-01;
-		[textures]
-		{
-			0 = b_i_des_dry-brush-02;
-		}
-	}
-}
-[t:template,n:brush_des_dry_03]
-{
-	category_name = "foliage";
-	doc = "des_scraggly_full";
-	specializes = non_interactive_nonblocking;
-	[aspect]
-	{
-		lodfi_lower = 0.05;
-		lodfi_upper = 0.75;
-		model = m_i_glb_brush-01;
-		[textures]
-		{
-			0 = b_i_des_dry-brush-03;
-		}
-	}
-}
-[t:template,n:cabbage_glb_01]
-{
-	category_name = "foliage";
-	doc = "grs_cabbage";
-	specializes = non_interactive_nonblocking;
-	[aspect]
-	{
-		lodfi_lower = .55;
-		lodfi_upper = .85;
-		model = m_i_glb_cabbage;
-	}
-}
+[t:template,n:brush_des_dry_01] { specializes = pumpkin_l_base; }
+[t:template,n:brush_des_dry_02] { specializes = pumpkin_xl_base; }
+[t:template,n:brush_des_dry_03] { specializes = pumpkin_xl_base; }
+[t:template,n:cabbage_glb_01] { specializes = pumpkin_xxl_base; }
 [t:template,n:cactus_des_04]
 {
 	category_name = "foliage";
@@ -83,18 +60,7 @@
 		model = m_i_des_cactus-04;
 	}
 }
-[t:template,n:cactus_des_star_01]
-{
-	category_name = "foliage";
-	doc = "des_cactus_star_yllw";
-	specializes = non_interactive_nonblocking;
-	[aspect]
-	{
-		lodfi_lower = 0.4;
-		lodfi_upper = 0.65;
-		model = m_i_des_cactus-star-01;
-	}
-}
+[t:template,n:cactus_des_star_01] { specializes = pumpkin_m_base; }
 [t:template,n:cattail_grs_01]
 {
 	category_name = "foliage";
@@ -346,18 +312,7 @@
 		model = m_i_des_grass-03;
 	}
 }
-[t:template,n:grass_glb_beach_01]
-{
-	category_name = "foliage";
-	doc = "beach_grass_sm";
-	specializes = non_interactive_nonblocking;
-	[aspect]
-	{
-		lodfi_lower = 0.15;
-		lodfi_upper = 0.6;
-		model = m_i_glb_grass-beach-01;
-	}
-}
+[t:template,n:grass_glb_beach_01] { specializes = pumpkin_xxl_base; }
 [t:template,n:grass_glb_beach_02]
 {
 	category_name = "foliage";
@@ -1006,22 +961,7 @@
 		}
 	}
 }
-[t:template,n:plant_glb_squash]
-{
-	category_name = "foliage";
-	doc = "grs_squash";
-	specializes = non_interactive_nonblocking;
-	[aspect]
-	{
-		lodfi_lower = 0.8;
-		lodfi_upper = 1.0;
-		model = m_i_glb_plant-squash-01;
-		[textures]
-		{
-			0 = b_i_glb_plant-squash;
-		}
-	}
-}
+[t:template,n:plant_glb_squash] { specializes = pumpkin_l_base; }
 [t:template,n:reed_des_01]
 {
 	category_name = "foliage";
