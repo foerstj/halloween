@@ -1,0 +1,41 @@
+[t:template,n:he_ca_base_pumpkin]
+{
+	specializes = base_helm;
+
+	doc = "Pumpkin";
+	[common]
+	{
+		screen_name = "Pumpkin";
+		description = "Makes you look seasonal.";
+	}
+	[defend]
+	{
+		armor_style = pumpkin;
+		armor_type = pumpkin;
+	}
+	[gui]
+	{
+		inventory_icon = b_gui_ig_i_a_hlmt_pumpkin;
+		inventory_height = 2;
+		inventory_width = 2;
+	}
+}
+
+[t:template,n:he_ca_pumpkin_base]
+{
+	specializes = he_ca_base_pumpkin;
+
+    [aspect]
+	{
+		gold_value = 10;
+	}
+	[defend]
+	{
+	  f defense = 2.000000;
+	}
+}
+
+[t:template,n:he_ca_pumpkin]
+{
+    specializes = he_ca_pumpkin_base;
+}

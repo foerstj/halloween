@@ -1,0 +1,19 @@
+[t:template,n:pumpkin_lantern]
+{
+	specializes = pumpkin_base;
+
+	category_name = "lighting";
+	doc = "Pumpkin lantern";
+	[aspect]
+	{
+		lodfi_lower = 0;
+		lodfi_upper = 0;
+	}
+	[light_flicker_lightweight]
+	{
+		duration = 0;
+		flicker_frequency_max = 12;
+		flicker_frequency_min = 10;
+		magnitude = 0.15;
+	}
+}

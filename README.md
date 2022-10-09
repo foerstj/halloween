@@ -16,6 +16,8 @@ A little mod for Dungeon Siege 1 / LoA
   - Replaces music in Stonebridge, Elddim, Meren, Hiroth & Island with Halloween themes (mood replacement)
 - Blood
   - Skrubbs spit blood (effect & texture replacement)
+- Halloween
+  - Pumpkin helmet available in pcontent (low shops & drops)
 
 ## Installation
 
@@ -31,5 +33,6 @@ Not compatible with Wintermod.
 
 - Halloween music by Alexander Nakarada https://www.serpentsoundstudios.com/royalty-free-music/ambient
 - Zombie packmule textures from Lands of Hyperborea by Xaa plz dont sue me
+- Pumpkin courtesy of Ghastly, from HS LLS map/mod
 - Zombie wolf & bear textures courtesy of Eksevis
 - Zombie Krug, Krug dog & black wolf textures: original textures, partly unused
