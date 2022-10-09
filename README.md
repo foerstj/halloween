@@ -14,10 +14,12 @@ A little mod for Dungeon Siege 1 / LoA
 - Horror
   - Crypt ambience if no other was used (mood replacement)
   - Replaces music in Stonebridge, Elddim, Meren, Hiroth & Island with Halloween themes (mood replacement)
+  - Replaced small candles with skull candles (template replacement)
 - Blood
   - Skrubbs spit blood (effect & texture replacement)
 - Halloween
-  - Pumpkin helmet available in pcontent (low shops & drops)
+  - Pumpkin helmet available in pcontent (low shops & drops) (new template)
+  - Replaced some plants & items with pumpkins (template replacement)
 
 ## Installation
 
@@ -26,7 +28,7 @@ Put the dsres file into the DSLOA folder.
 ## Compatibility
 
 Not compatible with Wintermod.
-- Overrides natural_nonblocking.gas & natural_trees.gas
+- Overrides original template files like natural_nonblocking.gas
 - Overrides original mood files
 
 ## Attribution
