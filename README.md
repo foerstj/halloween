@@ -9,6 +9,7 @@ A little mod for Dungeon Siege 1 / LoA
   - Replaces packmules with zombie packmules (texture replacement)
 - Spiders
   - Makes spiders larger (template replacement)
+  - Replaces some pines with webbed ones (template replacement)
 - Witches
   - Replaces Krug mages (shamans & apprentices) with witches (template replacement)
 - Autumn
@@ -42,4 +43,5 @@ Not compatible with Wintermod.
 - Zombie packmule textures from Lands of Hyperborea by Xaa plz dont sue me
 - Pumpkin courtesy of Ghastly, from HS LLS map/mod
 - Zombie wolf & bear textures courtesy of Eksevis
+- Webbed pines from Yesterhaven
 - Zombie Krug, Krug dog & black wolf textures: original textures, partly unused
