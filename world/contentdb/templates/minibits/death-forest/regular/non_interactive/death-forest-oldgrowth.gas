@@ -1,0 +1,182 @@
+[t:template,n:gpg_base_log_glb_old]
+{
+	specializes = non_interactive_blocking;
+
+	category_name = "misc";
+}
+
+[t:template,n:gpg_log_glb_old_01] { specializes = gpg_log_glb_old_01_base; }
+[t:template,n:gpg_log_glb_old_01_base]
+{
+    specializes = gpg_base_log_glb_old;
+
+	doc = "swp_log_long_old";
+	[aspect]
+	{
+		model = m_i_glb_log-old-01;
+		textures:0 = b_i_glb_log-old-01;
+	}
+}
+
+[t:template,n:gpg_log_glb_old_02] { specializes = gpg_log_glb_old_02_base; }
+[t:template,n:gpg_log_glb_old_02_base]
+{
+	specializes = gpg_base_log_glb_old;
+
+	doc = "swp_log_branched_old";
+	[aspect]
+	{
+		model = m_i_glb_log-old-02;
+		textures:0 = b_i_glb_log-old-01;
+	}
+}
+
+[t:template,n:gpg_log_glb_old_webbed_01] { specializes = gpg_log_glb_old_webbed_01_base; }
+[t:template,n:gpg_log_glb_old_webbed_01_base]
+{
+	specializes = gpg_base_log_glb_old;
+
+	doc = "swp_log_long_webbed";
+	[aspect]
+	{
+		model = m_i_glb_log-old-01;
+		textures:0 = b_i_glb_log-old-webbed-01;
+	}
+}
+
+[t:template,n:gpg_log_glb_old_webbed_02] { specializes = gpg_log_glb_old_webbed_02_base; }
+[t:template,n:gpg_log_glb_old_webbed_02_base]
+{
+	specializes = gpg_base_log_glb_old;
+
+	doc = "swp_log_branched_webbed";
+	[aspect]
+	{
+		model = m_i_glb_log-old-02;
+		textures:0 = b_i_glb_log-old-webbed-01;
+	}
+}
+
+[t:template,n:gpg_log_glb_old_webbed_03] { specializes = gpg_log_glb_old_webbed_03_base; }
+[t:template,n:gpg_log_glb_old_webbed_03_base]
+{
+	specializes = gpg_base_log_glb_old;
+
+	doc = "swp_log_long_webbed_lots";
+	[aspect]
+	{
+		model = m_i_glb_log-old-webbed-02;
+		textures:0 = b_i_glb_log-old-webbed-02;
+	}
+}
+
+[t:template,n:gpg_log_glb_old_webbed_04] { specializes = gpg_log_glb_old_webbed_04_base; }
+[t:template,n:gpg_log_glb_old_webbed_04_base]
+{
+	specializes = gpg_base_log_glb_old;
+
+	doc = "swp_log_branched_webbed_lots";
+	[aspect]
+	{
+		model = m_i_glb_log-old-webbed-03;
+		textures:0 = b_i_glb_log-old-webbed-03;
+	}
+}
+
+
+[t:template,n:gpg_base_tree_glb_oldgrowth_dead]
+{
+	specializes = base_tree;
+
+	category_name = "misc";
+}
+
+[t:template,n:gpg_tree_glb_oldgrowth_dead_01] { specializes = gpg_tree_glb_oldgrowth_dead_01_base; }
+[t:template,n:gpg_tree_glb_oldgrowth_dead_01_base]
+{
+    specializes = gpg_base_tree_glb_oldgrowth_dead;
+
+	doc = "grs_branches_2_old";
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = .9;
+		model = m_i_glb_tree-oldgrowth-dead-01;
+		textures:0 = b_i_glb_tree-oldgrowth-dead-01;
+	}
+}
+
+[t:template,n:gpg_tree_glb_oldgrowth_dead_02] { specializes = gpg_tree_glb_oldgrowth_dead_02_base; }
+[t:template,n:gpg_tree_glb_oldgrowth_dead_02_base]
+{
+    specializes = gpg_base_tree_glb_oldgrowth_dead;
+
+	doc = "grs_branches_3_old";
+	[aspect]
+	{
+		lodfi_lower = 0.7;
+		lodfi_upper = 1.0;
+		model = m_i_glb_tree-oldgrowth-dead-02;
+		textures:0 = b_i_glb_tree-oldgrowth-dead-01;
+	}
+}
+
+[t:template,n:gpg_tree_glb_oldgrowth_dead_webbed_01] { specializes = gpg_tree_glb_oldgrowth_dead_webbed_01_base; }
+[t:template,n:gpg_tree_glb_oldgrowth_dead_webbed_01_base]
+{
+    specializes = gpg_base_tree_glb_oldgrowth_dead;
+
+	doc = "grs_branches_2_webbed";
+	[aspect]
+	{
+		lodfi_lower = 0.7;
+		lodfi_upper = 1.0;
+		model = m_i_glb_tree-oldgrowth-dead-01;
+		textures:0 = b_i_glb_tree-oldgrth-dead-webd-01;
+	}
+}
+
+[t:template,n:gpg_tree_glb_oldgrowth_dead_webbed_02] { specializes = gpg_tree_glb_oldgrowth_dead_webbed_02_base; }
+[t:template,n:gpg_tree_glb_oldgrowth_dead_webbed_02_base]
+{
+    specializes = gpg_base_tree_glb_oldgrowth_dead;
+
+	doc = "grs_branches_3_webbed";
+	[aspect]
+	{
+		lodfi_lower = 0.7;
+		lodfi_upper = 1.0;
+		model = m_i_glb_tree-oldgrowth-dead-02;
+		textures:0 = b_i_glb_tree-oldgrth-dead-webd-01;
+	}
+}
+
+[t:template,n:gpg_tree_glb_oldgrowth_dead_webbed_03] { specializes = gpg_tree_glb_oldgrowth_dead_webbed_03_base; }
+[t:template,n:gpg_tree_glb_oldgrowth_dead_webbed_03_base]
+{
+    specializes = gpg_base_tree_glb_oldgrowth_dead;
+
+	doc = "grs_branches_2_webbed_lots";
+	[aspect]
+	{
+		lodfi_lower = 0.8;
+		lodfi_upper = 1.0;
+		model = m_i_glb_tree-oldgrth-dead-webd-01;
+		textures:0 = b_i_glb_tree-oldgrth-dead-webd-02;
+	}
+}
+
+[t:template,n:gpg_tree_glb_oldgrowth_dead_webbed_04] { specializes = gpg_tree_glb_oldgrowth_dead_webbed_04_base; }
+[t:template,n:gpg_tree_glb_oldgrowth_dead_webbed_04_base]
+{
+    specializes = gpg_base_tree_glb_oldgrowth_dead;
+
+	doc = "grs_branches_3_webbed_lots";
+	[aspect]
+	{
+		lodfi_lower = 0.8;
+		lodfi_upper = 1.0;
+		model = m_i_glb_tree-oldgrth-dead-webd-02;
+		textures:0 = b_i_glb_tree-oldgrth-dead-webd-03;
+	}
+}

@@ -1,0 +1,91 @@
+[t:template,n:gpg_base_tree_glb_pine_dead]
+{
+    specializes = base_tree;
+
+	category_name = "trees";
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.75;
+		cam_fade_alpha = 50;
+		scale_base = 0.75;
+	}
+}
+
+[t:template,n:gpg_tree_glb_pine_dead_01] { specializes = gpg_tree_glb_pine_dead_01_base; }
+[t:template,n:gpg_tree_glb_pine_dead_01_base]
+{
+    specializes = gpg_base_tree_glb_pine_dead;
+
+	doc = "grs_pine_9m_webbed_lots";
+	[aspect]
+	{
+		model = m_i_glb_tree-pine-dead-01;
+		textures:0 = b_i_glb_tree-pine-dead-01;
+	}
+}
+
+[t:template,n:gpg_tree_glb_pine_dead_02] { specializes = gpg_tree_glb_pine_dead_02_base; }
+[t:template,n:gpg_tree_glb_pine_dead_02_base]
+{
+    specializes = gpg_base_tree_glb_pine_dead;
+
+	doc = "grs_pine_9m_webbed_some";
+	[aspect]
+	{
+		model = m_i_glb_tree-pine-dead-02;
+		textures:0 = b_i_glb_tree-pine-dead-02;
+	}
+}
+
+[t:template,n:gpg_tree_glb_pine_dead_03] { specializes = gpg_tree_glb_pine_dead_03_base; }
+[t:template,n:gpg_tree_glb_pine_dead_03_base]
+{
+    specializes = gpg_base_tree_glb_pine_dead;
+
+	doc = "grs_pine_9m_webbed_barely";
+	[aspect]
+	{
+		model = m_i_glb_tree-pine-dead-03;
+		textures:0 = b_i_glb_tree-pine-dead-03;
+	}
+}
+
+[t:template,n:gpg_tree_glb_pine_dead_04] { specializes = gpg_tree_glb_pine_dead_04_base; }
+[t:template,n:gpg_tree_glb_pine_dead_04_base]
+{
+    specializes = gpg_base_tree_glb_pine_dead;
+
+	doc = "grs_pine_9m_webbed_some_green";
+	[aspect]
+	{
+		model = m_i_glb_tree-pine-dead-04;
+		textures:0 = b_i_glb_tree-pine-dead-04;
+	}
+}
+
+[t:template,n:gpg_tree_glb_pine_dead_05] { specializes = gpg_tree_glb_pine_dead_05_base; }
+[t:template,n:gpg_tree_glb_pine_dead_05_base]
+{
+    specializes = gpg_base_tree_glb_pine_dead;
+
+	doc = "grs_pine_9m_dying";
+	[aspect]
+	{
+		model = m_i_glb_tree-pine-dead-05;
+		textures:0 = b_i_glb_tree-pine-dead-05;
+	}
+}
+
+[t:template,n:gpg_tree_glb_pine_dead_06] { specializes = gpg_tree_glb_pine_dead_06_base; }
+[t:template,n:gpg_tree_glb_pine_dead_06_base]
+{
+    specializes = gpg_base_tree_glb_pine_dead;
+
+	doc = "grs_pine_9m_sick";
+	[aspect]
+	{
+		model = m_i_glb_tree-pine-dead-06;
+		textures:0 = b_i_glb_tree-pine-dead-06;
+	}
+}
