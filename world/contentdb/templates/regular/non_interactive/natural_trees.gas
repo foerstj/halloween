@@ -35,46 +35,6 @@
 		model = m_i_des_tree-01;
 	}
 }
-[t:template,n:tree_des_dead_01]
-{
-	category_name = "trees";
-	doc = "des_dead_trunk";
-	specializes = base_tree;
-	[aspect]
-	{
-		lodfi_lower = 0.65;
-		lodfi_upper = 0.75;
-		model = m_i_des_tree-dead-01;
-	}
-}
-[t:template,n:tree_des_dead_02]
-{
-	category_name = "trees";
-	doc = "des_dead_tree";
-	specializes = base_tree;
-	[aspect]
-	{
-		lodfi_lower = 0.75;
-		lodfi_upper = 0.9;
-		model = m_i_des_tree-dead-02;
-	}
-}
-[t:template,n:tree_des_dead_03]
-{
-	category_name = "foliage";
-	doc = "des_bush_dead_lg";
-	specializes = base_tree;
-	[aspect]
-	{
-		lodfi_lower = 0.25;
-		lodfi_upper = 0.4;
-		model = m_i_glb_tree-dead-03;
-		[textures]
-		{
-			0 = b_i_des_tree-dead-02;
-		}
-	}
-}
 
 [t:template,n:tree_des_yucca]
 {
@@ -596,23 +556,6 @@
 	}
 }
 
-[t:template,n:tree_ice_dead_01]
-{
-	category_name = "foliage";
-	doc = "ice_bush_dead";
-	specializes = base_tree;
-	[aspect]
-	{
-		lodfi_lower = 0.3;
-		lodfi_upper = 0.6;
-		model = m_i_glb_tree-dead-03;
-		[textures]
-		{
-			0 = b_i_ice_dead-tree-01;
-		}
-	}
-}
-
 [t:template,n:tree_ice_uproot]
 {
 	category_name = "trees";
@@ -682,19 +625,6 @@
 	}
 }
 
-[t:template,n:tree_swp_dead_01]
-{
-	category_name = "trees";
-	doc = "swp_cypress_dead";
-	specializes = base_tree;
-	[aspect]
-	{
-		does_block_camera = FALSE;
-		lodfi_lower = 0.35;
-		lodfi_upper = 0.7;
-		model = m_i_swp_tree-dead-01;
-	}
-}
 [t:template,n:tree_swp_tretch_01]
 {
 	category_name = "trees";
