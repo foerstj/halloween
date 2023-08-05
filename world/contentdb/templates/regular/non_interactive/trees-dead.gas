@@ -24,19 +24,7 @@
 }
 [t:template,n:tree_des_dead_03]
 {
-	category_name = "foliage";
-	doc = "des_bush_dead_lg";
-	specializes = base_tree;
-	[aspect]
-	{
-		lodfi_lower = 0.25;
-		lodfi_upper = 0.4;
-		model = m_i_glb_tree-dead-03;
-		[textures]
-		{
-			0 = b_i_des_tree-dead-02;
-		}
-	}
+	specializes = gpg_bush_glb_dead_01_base;  // webbed_lots
 }
 
 [t:template,n:tree_ice_dead_01]
