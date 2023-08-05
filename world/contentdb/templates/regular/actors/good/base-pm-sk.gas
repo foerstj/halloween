@@ -1,0 +1,23 @@
+[t:template,n:base_pm_sk]
+{
+	category_name = "1W_character";
+	doc = "Base template for party members based on skeleton_good.";
+	specializes = base_skeleton_good;
+	[conversation]
+	{
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_feet = bo_bo_le_f_g_c_avg;
+		}
+	}
+	[store]
+	{
+		can_sell_self = true;
+	}
+	[water_effects]
+	{
+	}
+}
