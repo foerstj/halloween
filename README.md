@@ -7,9 +7,11 @@ A little mod for Dungeon Siege 1 / LoA
   - Replaces wolves with zombie wolves (texture replacement)
   - Replaces bears with zombie bears / ursae (texture replacement)
   - Replaces packmules with zombie packmules (texture replacement)
+  - Replaces some KoE companions with skeletons (template replacement)
 - Spiders
   - Makes spiders larger (template replacement)
   - Replaces some pines with webbed ones (template replacement)
+  - Replaces rhod bushes & dead bushes with webbed ones (template replacement)
 - Witches
   - Replaces Krug mages (shamans & apprentices) with witches (template replacement)
 - Autumn
@@ -22,6 +24,7 @@ A little mod for Dungeon Siege 1 / LoA
   - Replaces small candles with skull candles (template replacement)
 - Blood
   - Skrubbs spit blood (effect & texture replacement)
+  - Phrak Piercers are red (texture replacement) & spit blood (template & effect replacement)
 - Halloween
   - Pumpkin helmet available in pcontent (low shops & drops) (new template)
   - Replaces some plants & items with pumpkins (template replacement)
