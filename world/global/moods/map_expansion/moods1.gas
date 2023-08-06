@@ -511,6 +511,10 @@
 	  x fog_color = 0xFF646464;
 	  f fog_density = 1.000000;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
 	[wind]
 	{
 	  f wind_velocity = 1.000000;
@@ -634,6 +638,10 @@
 	  x fog_color = 0xFF000000;
 	  f fog_density = 1.000000;
 	}
+	[snow]
+	{
+	  f snow_density = 100.000000;
+	}
 }
 [mood_setting*]
 {
@@ -686,6 +694,10 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFF000000;
 	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
 	}
 	[music]
 	{
@@ -753,6 +765,10 @@
 	  x fog_color = 0xFF000000;
 	  f fog_density = 1.000000;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -785,6 +801,10 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFFB6C6C6;
 	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
 	}
 	[music]
 	{
@@ -868,7 +888,7 @@
 	}
 	[snow]
 	{
-	  f snow_density = 450.000000;
+	  f snow_density = 550.000000;
 	}
 	[wind]
 	{
@@ -1041,7 +1061,7 @@
 	}
 	[snow]
 	{
-	  f snow_density = 300.000000;
+	  f snow_density = 400.000000;
 	}
 	[wind]
 	{
@@ -1529,7 +1549,7 @@
 	}
 	[snow]
 	{
-	  f snow_density = 250.000000;
+	  f snow_density = 350.000000;
 	}
 	[music]
 	{
@@ -1613,7 +1633,7 @@
 	}
 	[snow]
 	{
-	  f snow_density = 250.000000;
+	  f snow_density = 350.000000;
 	}
 	[music]
 	{
@@ -1694,6 +1714,10 @@
 	  f fog_lowdetail_far_dist = 35.000000;
 	  x fog_color = 0xFF000000;
 	  f fog_density = 1.000000;
+	}
+	[snow]
+	{
+	  f snow_density = 100.000000;
 	}
 	[wind]
 	{
@@ -1780,6 +1804,10 @@
 	  x fog_color = 0xFF000000;
 	  f fog_density = 1.000000;
 	}
+	[snow]
+	{
+	  f snow_density = 100.000000;
+	}
 	[wind]
 	{
 	  f wind_velocity = 1.500000;
@@ -1864,6 +1892,10 @@
 	  f fog_lowdetail_far_dist = 40.000000;
 	  x fog_color = 0xFF000000;
 	  f fog_density = 0.750000;
+	}
+	[snow]
+	{
+	  f snow_density = 100.000000;
 	}
 	[wind]
 	{
@@ -2029,6 +2061,10 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFF000000;
 	  f fog_density = 1.000000;
+	}
+	[snow]
+	{
+	  f snow_density = 100.000000;
 	}
 	[music]
 	{
@@ -2582,7 +2618,7 @@
 	}
 	[snow]
 	{
-	  f snow_density = 250.000000;
+	  f snow_density = 350.000000;
 	}
 	[music]
 	{
@@ -2666,7 +2702,7 @@
 	}
 	[snow]
 	{
-	  f snow_density = 250.000000;
+	  f snow_density = 350.000000;
 	}
 	[music]
 	{
@@ -3006,6 +3042,10 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFFB0BBBA;
 	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
 	}
 	[music]
 	{
@@ -3742,6 +3782,10 @@
 	  x fog_color = 0xFF97B5B5;
 	  f fog_density = 1.000000;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
 	[wind]
 	{
 	  f wind_velocity = 1.300000;
@@ -3782,7 +3826,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 200.000000;
+	  f rain_density = 300.000000;
 	  b lightning = false;
 	}
 	[wind]
@@ -3825,7 +3869,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 400.000000;
+	  f rain_density = 500.000000;
 	  b lightning = true;
 	}
 	[music]
@@ -3863,7 +3907,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 600.000000;
+	  f rain_density = 700.000000;
 	  b lightning = true;
 	}
 	[music]
@@ -3901,7 +3945,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 500.000000;
+	  f rain_density = 600.000000;
 	  b lightning = false;
 	}
 	[wind]
@@ -3944,7 +3988,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 600.000000;
+	  f rain_density = 700.000000;
 	  b lightning = false;
 	}
 	[music]
@@ -4015,7 +4059,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 100.000000;
+	  f rain_density = 200.000000;
 	  b lightning = false;
 	}
 	[wind]
@@ -4058,7 +4102,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 200.000000;
+	  f rain_density = 300.000000;
 	  b lightning = true;
 	}
 	[music]
@@ -4096,7 +4140,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 300.000000;
+	  f rain_density = 400.000000;
 	  b lightning = false;
 	}
 	[wind]
@@ -4139,7 +4183,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 130.000000;
+	  f rain_density = 230.000000;
 	  b lightning = false;
 	}
 	[wind]
@@ -4215,7 +4259,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 500.000000;
+	  f rain_density = 600.000000;
 	  b lightning = true;
 	}
 	[music]
@@ -4286,7 +4330,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 600.000000;
+	  f rain_density = 700.000000;
 	  b lightning = true;
 	}
 	[music]
@@ -4324,7 +4368,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 600.000000;
+	  f rain_density = 700.000000;
 	  b lightning = false;
 	}
 	[music]
@@ -4362,7 +4406,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 700.000000;
+	  f rain_density = 800.000000;
 	  b lightning = true;
 	}
 	[music]
@@ -4499,7 +4543,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 35.000000;
+	  f rain_density = 135.000000;
 	  b lightning = true;
 	}
 	[wind]
@@ -4542,7 +4586,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 145.000000;
+	  f rain_density = 245.000000;
 	  b lightning = true;
 	}
 	[wind]
@@ -4585,7 +4629,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 145.000000;
+	  f rain_density = 245.000000;
 	  b lightning = true;
 	}
 	[wind]
@@ -4628,7 +4672,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 255.000000;
+	  f rain_density = 355.000000;
 	  b lightning = true;
 	}
 	[music]
@@ -4699,7 +4743,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 360.000000;
+	  f rain_density = 460.000000;
 	  b lightning = true;
 	}
 	[music]
@@ -4737,7 +4781,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 365.000000;
+	  f rain_density = 465.000000;
 	  b lightning = true;
 	}
 	[wind]
@@ -4780,7 +4824,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 370.000000;
+	  f rain_density = 470.000000;
 	  b lightning = true;
 	}
 	[wind]
@@ -4823,7 +4867,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 470.000000;
+	  f rain_density = 570.000000;
 	  b lightning = true;
 	}
 	[wind]
@@ -4864,6 +4908,10 @@
 	  x fog_color = 0xFF000000;
 	  f fog_density = 1.000000;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -4896,6 +4944,10 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFF000000;
 	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
 	}
 	[music]
 	{
@@ -5295,7 +5347,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 85.000000;
+	  f rain_density = 185.000000;
 	  b lightning = false;
 	}
 	[music]
@@ -5330,6 +5382,10 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFF000000;
 	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
 	}
 	[music]
 	{
@@ -5463,6 +5519,10 @@
 	  x fog_color = 0xFF000000;
 	  f fog_density = 1.000000;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -5495,6 +5555,10 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFF030F03;
 	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
 	}
 	[music]
 	{
@@ -5531,7 +5595,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 0.000000;
+	  f rain_density = 100.000000;
 	  b lightning = true;
 	}
 	[music]
@@ -5569,7 +5633,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 0.000000;
+	  f rain_density = 100.000000;
 	  b lightning = true;
 	}
 	[music]
@@ -5607,7 +5671,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 0.000000;
+	  f rain_density = 100.000000;
 	  b lightning = true;
 	}
 	[music]
@@ -5645,7 +5709,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 0.000000;
+	  f rain_density = 100.000000;
 	  b lightning = true;
 	}
 	[music]
@@ -5683,7 +5747,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 160.000000;
+	  f rain_density = 260.000000;
 	  b lightning = true;
 	}
 	[music]
@@ -5721,7 +5785,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 165.000000;
+	  f rain_density = 265.000000;
 	  b lightning = true;
 	}
 	[wind]
@@ -5764,7 +5828,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 165.000000;
+	  f rain_density = 265.000000;
 	  b lightning = true;
 	}
 	[wind]
@@ -5807,7 +5871,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 200.000000;
+	  f rain_density = 300.000000;
 	  b lightning = true;
 	}
 	[music]
@@ -5990,7 +6054,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 163.000000;
+	  f rain_density = 263.000000;
 	  b lightning = false;
 	}
 	[wind]
@@ -6033,7 +6097,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 168.000000;
+	  f rain_density = 268.000000;
 	  b lightning = true;
 	}
 	[wind]
@@ -6076,7 +6140,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 158.000000;
+	  f rain_density = 258.000000;
 	  b lightning = false;
 	}
 	[wind]
@@ -6119,7 +6183,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 267.000000;
+	  f rain_density = 367.000000;
 	  b lightning = true;
 	}
 	[wind]
@@ -6162,7 +6226,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 180.000000;
+	  f rain_density = 280.000000;
 	  b lightning = true;
 	}
 	[music]
@@ -6297,6 +6361,10 @@
 	  x fog_color = 0xFF999A74;
 	  f fog_density = 1.000000;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
 	[wind]
 	{
 	  f wind_velocity = 0.700000;
@@ -6337,7 +6405,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 105.000000;
+	  f rain_density = 205.000000;
 	  b lightning = true;
 	}
 	[wind]
@@ -6378,6 +6446,10 @@
 	  x fog_color = 0xFF999A74;
 	  f fog_density = 1.000000;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
 	[wind]
 	{
 	  f wind_velocity = 0.750000;
@@ -6415,6 +6487,10 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFF999A74;
 	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
 	}
 	[wind]
 	{
@@ -6454,6 +6530,10 @@
 	  x fog_color = 0xFF999A74;
 	  f fog_density = 1.000000;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
 	[wind]
 	{
 	  f wind_velocity = 0.850000;
@@ -6491,6 +6571,10 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFF999A74;
 	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
 	}
 	[wind]
 	{
@@ -6570,7 +6654,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 268.000000;
+	  f rain_density = 368.000000;
 	  b lightning = true;
 	}
 	[wind]
@@ -6613,7 +6697,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 470.000000;
+	  f rain_density = 570.000000;
 	  b lightning = false;
 	}
 	[wind]
@@ -6656,7 +6740,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 470.000000;
+	  f rain_density = 570.000000;
 	  b lightning = true;
 	}
 	[wind]
@@ -6699,7 +6783,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 370.000000;
+	  f rain_density = 470.000000;
 	  b lightning = true;
 	}
 	[wind]
@@ -6742,7 +6826,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 158.000000;
+	  f rain_density = 258.000000;
 	  b lightning = false;
 	}
 	[wind]
@@ -6785,7 +6869,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 103.000000;
+	  f rain_density = 203.000000;
 	  b lightning = false;
 	}
 	[wind]
@@ -6825,6 +6909,10 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFF999A74;
 	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
 	}
 	[wind]
 	{
@@ -7085,6 +7173,10 @@
 	  x fog_color = 0xFFC9C9C3;
 	  f fog_density = 1.000000;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
 	[wind]
 	{
 	  f wind_velocity = 1.500000;
@@ -7163,7 +7255,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 70.000000;
+	  f rain_density = 170.000000;
 	  b lightning = true;
 	}
 	[wind]
@@ -7204,6 +7296,10 @@
 	  x fog_color = 0xFFC9C9C2;
 	  f fog_density = 1.000000;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
 	[wind]
 	{
 	  f wind_velocity = 1.500000;
@@ -7241,6 +7337,10 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFFC9C9C2;
 	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
 	}
 	[wind]
 	{
@@ -7280,6 +7380,10 @@
 	  x fog_color = 0xFFC8C8BC;
 	  f fog_density = 1.000000;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
 	[wind]
 	{
 	  f wind_velocity = 1.500000;
@@ -7317,6 +7421,10 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFFAB9C87;
 	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
 	}
 	[wind]
 	{
@@ -7358,7 +7466,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 65.000000;
+	  f rain_density = 165.000000;
 	  b lightning = true;
 	}
 	[wind]
@@ -7531,6 +7639,10 @@
 	  x fog_color = 0xFFC6C6B6;
 	  f fog_density = 1.000000;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
 	[wind]
 	{
 	  f wind_velocity = 1.500000;
@@ -7602,6 +7714,10 @@
 	  x fog_color = 0xFFAB9C87;
 	  f fog_density = 1.000000;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
 	[wind]
 	{
 	  f wind_velocity = 1.500000;
@@ -7639,6 +7755,10 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFF988167;
 	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
 	}
 	[wind]
 	{
@@ -7678,6 +7798,10 @@
 	  x fog_color = 0xFF9B8466;
 	  f fog_density = 1.000000;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
 	[wind]
 	{
 	  f wind_velocity = 2.500000;
@@ -7715,6 +7839,10 @@
 	  f fog_lowdetail_far_dist = 40.000000;
 	  x fog_color = 0xFFC2C1A5;
 	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
 	}
 	[music]
 	{
@@ -7979,6 +8107,10 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFFA89683;
 	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
 	}
 	[wind]
 	{
@@ -8381,6 +8513,10 @@
 	  x fog_color = 0xFF221B14;
 	  f fog_density = 1.000000;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
 	[wind]
 	{
 	  f wind_velocity = 30.000000;
@@ -8418,6 +8554,10 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFF221B14;
 	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
 	}
 	[wind]
 	{
@@ -8457,6 +8597,10 @@
 	  x fog_color = 0xFF221B14;
 	  f fog_density = 1.000000;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
 	[wind]
 	{
 	  f wind_velocity = 1.500000;
@@ -8494,6 +8638,10 @@
 	  f fog_lowdetail_far_dist = 55.000000;
 	  x fog_color = 0xFF221B14;
 	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
 	}
 	[wind]
 	{
@@ -8731,6 +8879,10 @@
 	  x fog_color = 0xFFC1C1C5;
 	  f fog_density = 0.500000;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -8849,6 +9001,10 @@
 	  x fog_color = 0xFF000000;
 	  f fog_density = 1.000000;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -8914,6 +9070,10 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFF000000;
 	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
 	}
 	[music]
 	{
@@ -8987,7 +9147,7 @@
 	}
 	[rain]
 	{
-	  f rain_density = 700.000000;
+	  f rain_density = 800.000000;
 	  b lightning = true;
 	}
 	[wind]

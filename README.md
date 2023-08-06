@@ -18,6 +18,7 @@ A little mod for Dungeon Siege 1 / LoA
 - Autumn
   - Replaces flowers with mushrooms (template replacement)
   - Makes fog grayer and closer (mood replacement)
+  - Increase rain and snow (mood replacement)
   - Replaces green trees with autumn trees (texture replacement) and adds falling leaves (template replacement)
 - Horror
   - Crypt ambience if no other was used (mood replacement)
@@ -50,5 +51,5 @@ Not compatible with Wintermod.
 - Zombie packmule textures from Lands of Hyperborea by Xaa plz dont sue me
 - Pumpkin courtesy of Ghastly, from HS LLS map/mod
 - Zombie wolf & bear textures courtesy of Eksevis
-- Webbed pines from Yesterhaven
+- Webbed pines & bushes from Yesterhaven
 - Zombie Krug, Krug dog & black wolf textures: original textures, partly unused
