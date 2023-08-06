@@ -226,6 +226,7 @@
 	{
 		model=m_w_misc_023;
 		scale_base = 1.0;
+        textures:0 = b_c_edm_ph-02;  // ADDED
 	}
 	[attack]
 	{
@@ -249,7 +250,7 @@
 		{
 			[*]
 			{
-				action* = call_sfx_script("phrak_dart_dust");
+				action* = call_sfx_script("gib_blood");  // EDITED
 				condition* = receive_world_message("WE_ENTERED_WORLD");
 				single_shot = true;
 			}
