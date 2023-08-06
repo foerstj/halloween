@@ -1,0 +1,160 @@
+[t:template,n:braak_magic_base]
+{
+	category_name = "1W_evil_c";
+	doc = "braak, magic";
+	specializes = base_braak;
+	[common] { screen_name="Ice Braak"; }
+	[actor]
+	{
+		[skills]
+		{
+			strength =  9, 0;
+			intelligence =  10, 0;
+			dexterity =  10, 0;
+            nature_magic =  7,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 85;
+		life = 137;
+        max_life = 137;
+		mana = 40;
+		max_mana = 40;
+        scale_base = 0.7;
+        [textures] { 0 = b_c_ecm_bk-02; }
+        [voice]
+		{
+			[cast]			{ * = s_e_attack_braak_mage; }
+			[die]			{ priority = high; * = s_e_die_braak; }
+			[hit_glance]	{ priority = low; * = s_e_hit_braak; }
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 28;
+		damage_min = 24;
+	}
+	[common] { screen_name="Braak Mage"; }
+	[defend] { defense=36; }
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other] { il_active_primary_spell=spell_braak_iceblast; }
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+				   chance = 0.05;
+				   il_main = potion_health_small;
+				   il_main = potion_mana_small;
+				}
+				[all*]
+				{
+       				chance = 0.02;
+	                il_main = #spell/8-14;
+				}
+				[oneof*]
+				{
+					chance = 0.25;
+					il_main = #*/25-32;
+					il_main = #armor/13-66;
+	                il_main = #weapon/25-32;
+                    il_main = #body,ro/30-66;
+                }
+                [oneof*]
+				{
+	                   chance = 0.004;
+	                   il_main = #weapon/-rare(1)/29-38;
+	                   il_main = #armor/-rare(1)/52-91;
+                       il_main = #*/-rare(1)/29-38;
+                }
+				[oneof*]
+				{
+                       chance = 0.002;
+	                   il_main = #weapon/-unique(2)/29-38;
+	                   il_main = #armor/-unique(2)/52-91;
+                       il_main = #*/-unique(2)/29-38;
+				}
+				[gold*]
+				{
+					chance = 0.125;
+					max = 147;
+					min = 88;
+				}
+			}
+		}
+	}
+	[mind]
+	{
+		actor_weapon_preference			= WP_MAGIC;
+		actor_auto_switches_to_magic	= true;
+		actor_auto_switches_to_karate	= false;
+		actor_auto_switches_to_melee	= false;
+		jat_fidget						= world\ai\jobs\common\job_fidget.skrit
+			?social							= 0.5
+			&meander						= false
+			&still							= false;
+	}
+}
+[t:template,n:braak_magic]
+{
+	category_name = "1W_evil_c";
+	doc = "braak magic";
+	specializes = braak_magic_base;
+}
+
+[t:template,n:braak_magic_reveal]
+{
+	category_name = "1W_evil_c";
+	doc = "revealing braak magic";
+	specializes = braak_magic_base;
+	[mind]
+	{
+		jat_startup = world\ai\jobs\common\job_startup_reveal.skrit
+			?invisible = true;
+		sight_origin_height = 1;
+		actor_auto_fidgets = false;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				single_shot = true;
+				action* = call_sfx_script("braak_magic_reveal");
+				condition* = receive_world_message("we_enemy_spotted");
+			}
+		}
+	}
+}
+[t:template,n:braak_magic_reveal_act]
+{
+	category_name = "1W_evil_c";
+	doc = "revealing braak magic activate";
+	specializes = braak_magic_base;
+	[mind]
+	{
+		jat_startup = world\ai\jobs\common\job_startup_reveal.skrit
+			?invisible = true
+			&activate = true;
+		sight_origin_height = 1;
+		actor_auto_fidgets = false;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				single_shot = true;
+				action* = call_sfx_script("braak_magic_reveal");
+				condition* = receive_world_message("we_req_activate");
+			}
+		}
+	}
+}
