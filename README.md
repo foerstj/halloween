@@ -20,8 +20,11 @@ A little mod for Dungeon Siege 1 / LoA
   - Replaces green trees with autumn trees (texture replacement) and adds falling leaves (template replacement)
 - Horror
   - Crypt ambience if no other was used (mood replacement)
-  - Replaces music in Stonebridge, Elddim, Meren, Hiroth & Island with Halloween themes (mood replacement)
   - Replaces small candles with skull candles (template replacement)
+  - Replaces music with Halloween themes (mood replacement)
+    - The KoE intro
+    - Farmhouse, Stonebridge
+    - Elddim, Crystwind, Meren, Hiroth, Abandoned Ruins & Island
 - Blood
   - Skrubbs spit blood (effect & texture replacement)
   - Phrak Piercers are red (texture replacement) & spit blood (template & effect replacement)

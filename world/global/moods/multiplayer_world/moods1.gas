@@ -2143,7 +2143,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 0.0f;
-		standard_track = "s_m_MainTheme_03";
+		standard_track = "s_m_executioner";
 		room_type = rt_stonecorridor;
 	}
 }
@@ -2885,7 +2885,7 @@
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
-		standard_track = "s_m_MainTheme_03";
+		standard_track = "s_m_executioner";
 		room_type = rt_stonecorridor;
 	}
 }
@@ -6554,7 +6554,7 @@
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
-		standard_track = "s_m_maintheme";
+		standard_track = "s_m_executioner";
 		room_type = rt_generic;
 	}
 }
@@ -6692,7 +6692,7 @@
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
-		standard_track = "s_m_maintheme";
+		standard_track = "s_m_executioner";
 		room_type = rt_generic;
 	}
 }
@@ -9636,7 +9636,7 @@
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
-		standard_track = "s_m_maintheme";
+		standard_track = "s_m_executioner";
 		room_type = rt_generic;
 	}
 }
