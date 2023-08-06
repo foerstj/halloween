@@ -14,6 +14,7 @@ A little mod for Dungeon Siege 1 / LoA
   - Replaces rhod bushes & dead bushes with webbed ones (template replacement)
 - Witches
   - Replaces Krug mages (shamans & apprentices) with witches (template replacement)
+  - Replaces Braak mages with witches (template replacement)
 - Autumn
   - Replaces flowers with mushrooms (template replacement)
   - Makes fog grayer and closer (mood replacement)

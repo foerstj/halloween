@@ -2,8 +2,7 @@
 {
 	category_name = "1W_evil_c";
 	doc = "braak, magic";
-	specializes = base_braak;
-	[common] { screen_name="Ice Braak"; }
+	specializes = base_swamp_witch;  // EDITED
 	[actor]
 	{
 		[skills]
@@ -22,13 +21,13 @@
 		mana = 40;
 		max_mana = 40;
         scale_base = 0.7;
-        [textures] { 0 = b_c_ecm_bk-02; }
-        [voice]
-		{
-			[cast]			{ * = s_e_attack_braak_mage; }
-			[die]			{ priority = high; * = s_e_die_braak; }
-			[hit_glance]	{ priority = low; * = s_e_hit_braak; }
-		}
+        [textures] { 0 = b_c_edm_img; }  // EDITED
+        //[voice]
+		//{
+		//	[cast]			{ * = s_e_attack_braak_mage; }
+		//	[die]			{ priority = high; * = s_e_die_braak; }
+		//	[hit_glance]	{ priority = low; * = s_e_hit_braak; }
+		//}
 	}
 	[attack]
 	{
@@ -36,7 +35,7 @@
 		damage_max = 28;
 		damage_min = 24;
 	}
-	[common] { screen_name="Braak Mage"; }
+	[common] { screen_name="Snow Witch"; }  // EDITED
 	[defend] { defense=36; }
 	[inventory]
 	{
@@ -98,6 +97,7 @@
 			?social							= 0.5
 			&meander						= false
 			&still							= false;
+		jat_die 						= world\ai\jobs\common\job_die.skrit;  // ADDED
 	}
 }
 [t:template,n:braak_magic]
