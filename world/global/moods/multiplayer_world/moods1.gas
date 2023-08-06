@@ -137,7 +137,7 @@
 	}
 	[rain]
 	{
-		rain_density = 200.0f;
+	  f rain_density = 200.000000;
 	}
 	[music]
 	{
@@ -168,8 +168,8 @@
 	}
 	[rain]
 	{
-		rain_density = 225.0f;
-		lightning = true;
+	  f rain_density = 225.000000;
+	  b lightning = true;
 	}
 	[wind]
 	{
@@ -442,8 +442,8 @@
 	}
 	[rain]
 	{
-		rain_density = 50.0f;
-		lightning = false;
+	  f rain_density = 50.000000;
+	  b lightning = false;
 	}
 	[music]
 	{
@@ -750,8 +750,8 @@
 	}
 	[rain]
 	{
-		rain_density = 75.0f;
-		lightning = false;
+	  f rain_density = 75.000000;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -1265,7 +1265,7 @@
 	}
 	[rain]
 	{
-		rain_density = 50.0f;
+	  f rain_density = 50.000000;
 	}
 	[wind]
 	{
@@ -1301,7 +1301,7 @@
 	}
 	[rain]
 	{
-		rain_density = 50.0f;
+	  f rain_density = 50.000000;
 	}
 	[wind]
 	{
@@ -2143,7 +2143,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 0.0f;
-		standard_track = "s_m_executioner";
+		standard_track = s_m_executioner;
 		room_type = rt_stonecorridor;
 	}
 }
@@ -2203,7 +2203,7 @@
 	}
 	[rain]
 	{
-		rain_density = 100.0f;
+	  f rain_density = 100.000000;
 	}
 	[music]
 	{
@@ -2885,7 +2885,7 @@
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
-		standard_track = "s_m_executioner";
+		standard_track = s_m_executioner;
 		room_type = rt_stonecorridor;
 	}
 }
@@ -4083,8 +4083,8 @@
 	}
 	[rain]
 	{
-		rain_density = 75.0f;
-		lightning = false;
+	  f rain_density = 75.000000;
+	  b lightning = false;
 	}
 	[music]
 	{
@@ -4115,8 +4115,8 @@
 	}
 	[rain]
 	{
-		rain_density = 400.0f;
-		lightning = true;
+	  f rain_density = 400.000000;
+	  b lightning = true;
 	}
 	[wind]
 	{
@@ -4192,7 +4192,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = "s_m_dark_n_deep";
+		standard_track = s_m_dark_n_deep;
 		room_type = rt_cave;
 	}
 }
@@ -4222,7 +4222,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = "s_m_dark_n_deep";
+		standard_track = s_m_dark_n_deep;
 		room_type = rt_cave;
 	}
 }
@@ -4277,8 +4277,8 @@
 	}
 	[rain]
 	{
-		rain_density = 150.0f;
-		lightning = false;
+	  f rain_density = 150.000000;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -4384,8 +4384,8 @@
 	}
 	[rain]
 	{
-		rain_density = 25.0f;
-		lightning = false;
+	  f rain_density = 25.000000;
+	  b lightning = false;
 	}
 	[music]
 	{
@@ -4416,8 +4416,8 @@
 	}
 	[rain]
 	{
-		rain_density = 50.0f;
-		lightning = false;
+	  f rain_density = 50.000000;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -4453,8 +4453,8 @@
 	}
 	[rain]
 	{
-		rain_density = 100.0f;
-		lightning = false;
+	  f rain_density = 100.000000;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -4490,8 +4490,8 @@
 	}
 	[rain]
 	{
-		rain_density = 350.0f;
-		lightning = true;
+	  f rain_density = 350.000000;
+	  b lightning = true;
 	}
 	[wind]
 	{
@@ -4837,7 +4837,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = "s_m_halloween_textures";
+		standard_track = s_m_halloween_textures;
 		room_type = rt_generic;
 	}
 }
@@ -4897,7 +4897,7 @@
 	{
 		ambient_track = "s_e_env_tavern";
 		standard_repeat_delay = 10.0f;
-		standard_track = "s_m_halloween_textures";
+		standard_track = s_m_halloween_textures;
 		room_type = rt_generic;
 	}
 }
@@ -4927,7 +4927,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = "s_m_halloween_textures";
+		standard_track = s_m_halloween_textures;
 		room_type = rt_generic;
 	}
 }
@@ -4957,7 +4957,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = "s_m_halloween_textures";
+		standard_track = s_m_halloween_textures;
 		room_type = rt_generic;
 	}
 }
@@ -4986,7 +4986,7 @@
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
-		standard_track = "s_m_dark_n_deep";
+		standard_track = s_m_dark_n_deep;
 		room_type = rt_parkinglot;
 	}
 }
@@ -5193,8 +5193,8 @@
 	}
 	[rain]
 	{
-		rain_density = 50.0f;
-		lightning = false;
+	  f rain_density = 50.000000;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -5230,8 +5230,8 @@
 	}
 	[rain]
 	{
-		rain_density = 75.0f;
-		lightning = false;
+	  f rain_density = 75.000000;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -5267,8 +5267,8 @@
 	}
 	[rain]
 	{
-		rain_density = 75.0f;
-		lightning = false;
+	  f rain_density = 75.000000;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -5304,8 +5304,8 @@
 	}
 	[rain]
 	{
-		rain_density = 150.0f;
-		lightning = false;
+	  f rain_density = 150.000000;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -5477,8 +5477,8 @@
 	}
 	[rain]
 	{
-		rain_density = 75.0f;
-		lightning = false;
+	  f rain_density = 75.000000;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -5853,8 +5853,8 @@
 	}
 	[rain]
 	{
-		rain_density = 200.0f;
-		lightning = false;
+	  f rain_density = 200.000000;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -6554,7 +6554,7 @@
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
-		standard_track = "s_m_executioner";
+		standard_track = s_m_executioner;
 		room_type = rt_generic;
 	}
 }
@@ -6579,8 +6579,8 @@
 	}
 	[rain]
 	{
-		rain_density = 100.0f;
-		lightning = false;
+	  f rain_density = 100.000000;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -6616,8 +6616,8 @@
 	}
 	[rain]
 	{
-		rain_density = 400.0f;
-		lightning = true;
+	  f rain_density = 400.000000;
+	  b lightning = true;
 	}
 	[wind]
 	{
@@ -6692,7 +6692,7 @@
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
-		standard_track = "s_m_executioner";
+		standard_track = s_m_executioner;
 		room_type = rt_generic;
 	}
 }
@@ -7227,7 +7227,7 @@
 	}
 	[rain]
 	{
-		rain_density = 150.0f;
+	  f rain_density = 150.000000;
 	}
 	[music]
 	{
@@ -9636,7 +9636,7 @@
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
-		standard_track = "s_m_executioner";
+		standard_track = s_m_executioner;
 		room_type = rt_generic;
 	}
 }
