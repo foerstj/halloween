@@ -4192,7 +4192,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = "s_m_FarmHouse_04";
+		standard_track = "s_m_dark_n_deep";
 		room_type = rt_cave;
 	}
 }
@@ -4222,7 +4222,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = "s_m_FarmHouse_04";
+		standard_track = "s_m_dark_n_deep";
 		room_type = rt_cave;
 	}
 }
@@ -4986,7 +4986,7 @@
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
-		standard_track = "s_m_Farmhouse_04";
+		standard_track = "s_m_dark_n_deep";
 		room_type = rt_parkinglot;
 	}
 }
