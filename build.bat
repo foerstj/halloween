@@ -30,6 +30,11 @@ rmdir /S /Q "%tmp%\Bits"
 robocopy "%doc_dsloa%\Bits\language" "%tmp%\Bits\language" *.de.gas /E
 %tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\DSLOA\%mod_cs%.de.dsres" -copyright "%copyright%" -title "%mod_cs%" -author "%author%"
 if %errorlevel% neq 0 pause
+:: Compile Spanish translation resource file
+rmdir /S /Q "%tmp%\Bits"
+robocopy "%doc_dsloa%\Bits\language" "%tmp%\Bits\language" *.es.gas /E
+%tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\DSLOA\%mod_cs%.es.dsres" -copyright "%copyright%" -title "%mod_cs%" -author "%author%"
+if %errorlevel% neq 0 pause
 
 :: Cleanup
 rmdir /S /Q "%tmp%\Bits"
