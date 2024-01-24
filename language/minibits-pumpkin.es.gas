@@ -1,0 +1,23 @@
+[t:0x0c0a,n:text]
+{
+	[0x0000]
+	{
+		from = "Mr Pumpkin Head";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Pumpkin";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Makes you look seasonal.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Makes you look seasonal.\n\nAdds <alter_armor> to Toughness.";
+		to = "";
+	}
+}
