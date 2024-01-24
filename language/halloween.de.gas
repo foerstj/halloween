@@ -1,0 +1,23 @@
+[t:0x0407,n:text]
+{
+	[0x0000]
+	{
+		from = "Witch";
+		to = "Hexe";
+	}
+	[0x0000]
+	{
+		from = "Huska the Witch";
+		to = "Huska die Hexe";
+	}
+	[0x0000]
+	{
+		from = "Apprentice Witch";
+		to = "Hexen-Lehrling";
+	}
+	[0x0000]
+	{
+		from = "Snow Witch";
+		to = "Schneehexe";
+	}
+}
