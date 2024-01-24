@@ -1,0 +1,43 @@
+[t:0x0407,n:text]
+{
+	[0x0000]
+	{
+		from = "Mr Pumpkin Head";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Pumpkin";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Witch";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Huska the Witch";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Apprentice Witch";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Snow Witch";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Makes you look seasonal.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Makes you look seasonal.\n\nAdds <alter_armor> to Toughness.";
+		to = "";
+	}
+}
