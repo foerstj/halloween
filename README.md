@@ -53,3 +53,4 @@ Not compatible with Wintermod.
 - Zombie wolf & bear textures courtesy of Eksevis
 - Webbed pines & bushes from Yesterhaven
 - Zombie Krug, Krug dog & black wolf textures: original textures, partly unused
+- Spanish translation by Nekurrot25
