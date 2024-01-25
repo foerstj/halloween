@@ -35,18 +35,17 @@ A little mod for Dungeon Siege 1 / LoA
   - Replaces some plants & items with pumpkins (template replacement)
 
 ## Installation
-
-Put the dsres file into the DSLOA folder.
+- To install, simply put the .dsres files in the DSLOA folder.
+- The "de" and "es" .dsres files are optional and contain translations into German and Spanish, which will be picked up if you have a German or Spanish installation.
+- To uninstall, simply remove the files again :)
 
 ## Compatibility
-
 Not compatible with Wintermod.
 - Overrides original template files like natural_nonblocking.gas
 - Overrides original actor template files like of krug & spiders
 - Overrides original mood files
 
 ## Attribution
-
 - Halloween music by Alexander Nakarada https://www.serpentsoundstudios.com/royalty-free-music/ambient
 - Zombie packmule textures from Lands of Hyperborea by Xaa plz dont sue me
 - Pumpkin courtesy of Ghastly, from HS LLS map/mod
