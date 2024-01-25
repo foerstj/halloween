@@ -3,21 +3,21 @@
 	[0x0000]
 	{
 		from = "Witch";
-		to = "";
+		to = "Bruja";
 	}
 	[0x0000]
 	{
 		from = "Huska the Witch";
-		to = "";
+		to = "Huska la Bruja";
 	}
 	[0x0000]
 	{
 		from = "Apprentice Witch";
-		to = "";
+		to = "Bruja aprendiz";
 	}
 	[0x0000]
 	{
 		from = "Snow Witch";
-		to = "";
+		to = "Bruja de las nieves";
 	}
 }

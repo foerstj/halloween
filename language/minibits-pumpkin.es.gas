@@ -3,21 +3,21 @@
 	[0x0000]
 	{
 		from = "Mr Pumpkin Head";
-		to = "";
+		to = "Señor Cabeza de Calabaza";
 	}
 	[0x0000]
 	{
 		from = "Pumpkin";
-		to = "";
+		to = "Calabaza";
 	}
 	[0x0000]
 	{
 		from = "Makes you look seasonal.";
-		to = "";
+		to = "Preparado para Halloween";
 	}
 	[0x0000]
 	{
 		from = "Makes you look seasonal.\n\nAdds <alter_armor> to Toughness.";
-		to = "";
+		to = "Te hace lucir estacional";
 	}
 }
