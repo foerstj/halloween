@@ -13,11 +13,11 @@
 	[0x0000]
 	{
 		from = "Makes you look seasonal.";
-		to = "Preparado para Halloween";
+		to = "Preparado para Halloween.";
 	}
 	[0x0000]
 	{
 		from = "Makes you look seasonal.\n\nAdds <alter_armor> to Toughness.";
-		to = "Te hace lucir estacional";
+		to = "Preparado para Halloween.\n\nAñade <alter_armor> a la dureza.";
 	}
 }
