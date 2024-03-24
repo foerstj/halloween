@@ -34,16 +34,15 @@ A little mod for Dungeon Siege 1 / LoA
   - Pumpkin helmet available in pcontent (low shops & drops) (new template)
   - Replaces some plants & items with pumpkins (template replacement)
 
-## Installation
+## Installation & Compatibility
+- This mod is made for LoA, and also alters LoA content. It might work with Vanilla, but wasn't tested.
 - To install, simply put the .dsres files in the DSLOA folder.
 - The "de" and "es" .dsres files are optional and contain translations into German and Spanish, which will be picked up if you have a German or Spanish installation.
 - To uninstall, simply remove the files again :)
-
-## Compatibility
-Not compatible with Wintermod.
-- Overrides original template files like natural_nonblocking.gas
-- Overrides original actor template files like of krug & spiders
-- Overrides original mood files
+- Not compatible with Wintermod.
+  - Overrides original template files like natural_nonblocking.gas
+  - Overrides original actor template files like of krug & spiders
+  - Overrides original mood files
 
 ## Attribution
 - Halloween music by Alexander Nakarada https://www.serpentsoundstudios.com/royalty-free-music/ambient
