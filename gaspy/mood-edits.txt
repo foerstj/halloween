@@ -1,4 +1,5 @@
 rain:add-density:100
+rain:lightning:true
 snow:add-density:100
 music:replace-standard:s_m_maintheme_03:s_m_executioner
 music:replace-standard:s_m_maintheme:s_m_executioner

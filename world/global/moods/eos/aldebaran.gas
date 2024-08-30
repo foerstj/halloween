@@ -20,6 +20,7 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
+	  b lightning = true;
 	}
 	[music]
 	{
@@ -52,6 +53,7 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
+	  b lightning = true;
 	}
 	[music]
 	{
@@ -84,6 +86,7 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
+	  b lightning = true;
 	}
 	[music]
 	{
@@ -116,6 +119,7 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
+	  b lightning = true;
 	}
 	[music]
 	{
@@ -148,6 +152,7 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
+	  b lightning = true;
 	}
 	[music]
 	{
@@ -208,6 +213,7 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
+	  b lightning = true;
 	}
 	[wind]
 	{

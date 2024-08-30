@@ -19,6 +19,7 @@
 	}
 	[rain]
 	{
+	  b lightning = true;
 	}
 	[music]
 	{
@@ -48,6 +49,7 @@
 	}
 	[rain]
 	{
+	  b lightning = true;
 	}
 	[music]
 	{

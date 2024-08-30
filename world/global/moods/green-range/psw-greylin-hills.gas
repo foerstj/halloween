@@ -15,7 +15,7 @@
 	[rain]
 	{
 	  f rain_density = 600.000000;
-	  b lightning = false;
+	  b lightning = true;
 	}
 	[wind]
 	{
@@ -71,7 +71,7 @@
 	[rain]
 	{
 	  f rain_density = 600.000000;
-	  b lightning = false;
+	  b lightning = true;
 	}
 	[wind]
 	{
@@ -104,7 +104,7 @@
 	[rain]
 	{
 	  f rain_density = 600.000000;
-	  b lightning = false;
+	  b lightning = true;
 	}
 	[wind]
 	{
@@ -137,7 +137,7 @@
 	[rain]
 	{
 	  f rain_density = 1100.000000;
-	  b lightning = false;
+	  b lightning = true;
 	}
 	[wind]
 	{
@@ -170,7 +170,7 @@
 	[rain]
 	{
 	  f rain_density = 1100.000000;
-	  b lightning = false;
+	  b lightning = true;
 	}
 	[wind]
 	{
@@ -203,6 +203,7 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
+	  b lightning = true;
 	}
 	[music]
 	{
@@ -230,7 +231,7 @@
 	[rain]
 	{
 	  f rain_density = 600.000000;
-	  b lightning = false;
+	  b lightning = true;
 	}
 	[wind]
 	{
@@ -263,7 +264,7 @@
 	[rain]
 	{
 	  f rain_density = 600.000000;
-	  b lightning = false;
+	  b lightning = true;
 	}
 	[wind]
 	{
