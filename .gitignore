@@ -8,3 +8,5 @@ git-ignore
 *demo*.bat
 
 /language/dscore-text.gas
+
+/art/bitmaps/new
