@@ -6546,7 +6546,7 @@
 		ambient_track = s_e_ambient_crypt;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = "";
+		standard_track = ;
 	  f battle_intro_delay = 10.000000;
 	  f battle_repeat_delay = 10.000000;
 		battle_track = 10.000000;
@@ -6588,7 +6588,7 @@
 		ambient_track = s_e_ambient_crypt;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = "";
+		standard_track = ;
 	  f battle_intro_delay = 10.000000;
 	  f battle_repeat_delay = 10.000000;
 		battle_track = 10.000000;
@@ -6926,7 +6926,7 @@
 		ambient_track = s_e_ambient_crypt;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = "";
+		standard_track = ;
 	  f battle_intro_delay = 10.000000;
 	  f battle_repeat_delay = 10.000000;
 		battle_track = 10.000000;
