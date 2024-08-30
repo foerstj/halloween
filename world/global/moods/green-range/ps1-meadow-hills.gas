@@ -18,7 +18,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 8.000000;
+	  f wind_velocity = 11.000000;
 	  f wind_direction = 0.785400;
 	}
 	[music]
@@ -50,7 +50,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 4.000000;
+	  f wind_velocity = 7.000000;
 	  f wind_direction = 0.785400;
 	}
 	[music]
@@ -83,7 +83,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 2.000000;
+	  f wind_velocity = 5.000000;
 	  f wind_direction = 0.785400;
 	}
 	[music]
@@ -117,7 +117,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.000000;
+	  f wind_velocity = 4.000000;
 	  f wind_direction = 0.785400;
 	}
 	[music]
@@ -151,7 +151,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.000000;
+	  f wind_velocity = 4.000000;
 	  f wind_direction = 0.785400;
 	}
 	[music]
@@ -185,7 +185,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.000000;
+	  f wind_velocity = 4.000000;
 	  f wind_direction = 0.785400;
 	}
 	[music]
@@ -219,7 +219,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.000000;
+	  f wind_velocity = 4.000000;
 	  f wind_direction = 0.785400;
 	}
 	[music]

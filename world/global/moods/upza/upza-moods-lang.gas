@@ -22,6 +22,10 @@
 	  f rain_density = 100.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 		ambient_track = s_e_ambient_swamp;
@@ -54,6 +58,10 @@
 	  f rain_density = 100.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 		ambient_track = s_e_ambient_swamp;
@@ -85,6 +93,10 @@
 	{
 	  f rain_density = 100.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{

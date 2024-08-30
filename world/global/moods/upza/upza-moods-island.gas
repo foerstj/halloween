@@ -15,6 +15,10 @@
 	  f rain_density = 100.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
@@ -50,7 +54,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 3.000000;
+	  f wind_velocity = 6.000000;
 	  f wind_direction = 2.000000;
 	}
 	[music]

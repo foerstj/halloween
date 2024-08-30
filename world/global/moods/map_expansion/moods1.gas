@@ -69,6 +69,10 @@
 	  f rain_density = 100.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -238,6 +242,10 @@
 	  f rain_density = 800.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -322,6 +330,10 @@
 	{
 	  f rain_density = 600.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -518,7 +530,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.000000;
+	  f wind_velocity = 4.000000;
 	  f wind_direction = 0.000000;
 	}
 	[music]
@@ -643,6 +655,10 @@
 	{
 	  f snow_density = 100.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 }
 [mood_setting*]
 {
@@ -700,6 +716,10 @@
 	{
 	  f rain_density = 100.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -772,6 +792,10 @@
 	  f rain_density = 100.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -809,6 +833,10 @@
 	{
 	  f rain_density = 100.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -896,7 +924,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 2.500000;
+	  f wind_velocity = 5.500000;
 	  f wind_direction = 3.140000;
 	}
 	[music]
@@ -1069,7 +1097,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 2.000000;
+	  f wind_velocity = 5.000000;
 	  f wind_direction = 3.140000;
 	}
 	[music]
@@ -1555,6 +1583,10 @@
 	{
 	  f snow_density = 350.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -1638,6 +1670,10 @@
 	[snow]
 	{
 	  f snow_density = 350.000000;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -1725,7 +1761,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 2.000000;
+	  f wind_velocity = 5.000000;
 	  f wind_direction = 1.300000;
 	}
 	[music]
@@ -1814,7 +1850,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 1.500000;
 	}
 	[music]
@@ -1903,7 +1939,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 1.500000;
 	}
 	[music]
@@ -2069,6 +2105,10 @@
 	[snow]
 	{
 	  f snow_density = 100.000000;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -2624,6 +2664,10 @@
 	{
 	  f snow_density = 350.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -2707,6 +2751,10 @@
 	[snow]
 	{
 	  f snow_density = 350.000000;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -3051,6 +3099,10 @@
 	{
 	  f rain_density = 100.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -3794,7 +3846,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.300000;
+	  f wind_velocity = 4.300000;
 	  f wind_direction = 0.600000;
 	}
 	[music]
@@ -3837,7 +3889,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.300000;
+	  f wind_velocity = 4.300000;
 	  f wind_direction = 0.600000;
 	}
 	[music]
@@ -3878,6 +3930,10 @@
 	  f rain_density = 500.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -3915,6 +3971,10 @@
 	{
 	  f rain_density = 700.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -3956,7 +4016,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 2.000000;
+	  f wind_velocity = 5.000000;
 	  f wind_direction = 0.500000;
 	}
 	[music]
@@ -3996,6 +4056,10 @@
 	{
 	  f rain_density = 700.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -4070,7 +4134,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.000000;
+	  f wind_velocity = 4.000000;
 	  f wind_direction = 1.200000;
 	}
 	[music]
@@ -4110,6 +4174,10 @@
 	{
 	  f rain_density = 300.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -4151,7 +4219,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 1.200000;
 	}
 	[music]
@@ -4194,7 +4262,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 1.400000;
 	}
 	[music]
@@ -4268,6 +4336,10 @@
 	  f rain_density = 600.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -4339,6 +4411,10 @@
 	  f rain_density = 700.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -4377,6 +4453,10 @@
 	  f rain_density = 700.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -4414,6 +4494,10 @@
 	{
 	  f rain_density = 800.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -4554,7 +4638,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.200000;
+	  f wind_velocity = 3.200000;
 	  f wind_direction = 0.200000;
 	}
 	[music]
@@ -4597,7 +4681,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.200000;
+	  f wind_velocity = 3.200000;
 	  f wind_direction = 0.300000;
 	}
 	[music]
@@ -4640,7 +4724,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.500000;
+	  f wind_velocity = 3.500000;
 	  f wind_direction = 0.200000;
 	}
 	[music]
@@ -4680,6 +4764,10 @@
 	{
 	  f rain_density = 355.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -4752,6 +4840,10 @@
 	  f rain_density = 460.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -4792,7 +4884,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 1.000000;
 	}
 	[music]
@@ -4835,7 +4927,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.300000;
+	  f wind_velocity = 3.300000;
 	  f wind_direction = 1.000000;
 	}
 	[music]
@@ -4878,7 +4970,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.120000;
+	  f wind_velocity = 3.120000;
 	  f wind_direction = 1.000000;
 	}
 	[music]
@@ -4919,6 +5011,10 @@
 	  f rain_density = 100.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -4956,6 +5052,10 @@
 	{
 	  f rain_density = 100.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -5358,6 +5458,10 @@
 	  f rain_density = 185.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -5395,6 +5499,10 @@
 	{
 	  f rain_density = 100.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -5533,6 +5641,10 @@
 	  f rain_density = 100.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -5570,6 +5682,10 @@
 	{
 	  f rain_density = 100.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -5609,6 +5725,10 @@
 	  f rain_density = 100.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -5646,6 +5766,10 @@
 	{
 	  f rain_density = 100.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -5685,6 +5809,10 @@
 	  f rain_density = 100.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -5723,6 +5851,10 @@
 	  f rain_density = 100.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -5760,6 +5892,10 @@
 	{
 	  f rain_density = 260.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -5801,7 +5937,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.120000;
+	  f wind_velocity = 3.120000;
 	  f wind_direction = 1.000000;
 	}
 	[music]
@@ -5844,7 +5980,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.120000;
+	  f wind_velocity = 3.120000;
 	  f wind_direction = 0.400000;
 	}
 	[music]
@@ -5884,6 +6020,10 @@
 	{
 	  f rain_density = 300.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -6070,7 +6210,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.500000;
+	  f wind_velocity = 3.500000;
 	  f wind_direction = 2.000000;
 	}
 	[music]
@@ -6113,7 +6253,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.800000;
+	  f wind_velocity = 3.800000;
 	  f wind_direction = 2.000000;
 	}
 	[music]
@@ -6156,7 +6296,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.700000;
+	  f wind_velocity = 3.700000;
 	  f wind_direction = 2.000000;
 	}
 	[music]
@@ -6199,7 +6339,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.000000;
+	  f wind_velocity = 4.000000;
 	  f wind_direction = 0.400000;
 	}
 	[music]
@@ -6239,6 +6379,10 @@
 	{
 	  f rain_density = 280.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -6379,7 +6523,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.700000;
+	  f wind_velocity = 3.700000;
 	  f wind_direction = 2.000000;
 	}
 	[music]
@@ -6422,7 +6566,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.700000;
+	  f wind_velocity = 3.700000;
 	  f wind_direction = 2.000000;
 	}
 	[music]
@@ -6465,7 +6609,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.750000;
+	  f wind_velocity = 3.750000;
 	  f wind_direction = 2.000000;
 	}
 	[music]
@@ -6508,7 +6652,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.850000;
+	  f wind_velocity = 3.850000;
 	  f wind_direction = 1.000000;
 	}
 	[music]
@@ -6551,7 +6695,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.850000;
+	  f wind_velocity = 3.850000;
 	  f wind_direction = 1.000000;
 	}
 	[music]
@@ -6594,7 +6738,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.750000;
+	  f wind_velocity = 3.750000;
 	  f wind_direction = 2.000000;
 	}
 	[music]
@@ -6675,7 +6819,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.700000;
+	  f wind_velocity = 3.700000;
 	  f wind_direction = 2.000000;
 	}
 	[music]
@@ -6718,7 +6862,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.120000;
+	  f wind_velocity = 3.120000;
 	  f wind_direction = 0.600000;
 	}
 	[music]
@@ -6761,7 +6905,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.120000;
+	  f wind_velocity = 3.120000;
 	  f wind_direction = 0.600000;
 	}
 	[music]
@@ -6804,7 +6948,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.120000;
+	  f wind_velocity = 3.120000;
 	  f wind_direction = 0.600000;
 	}
 	[music]
@@ -6847,7 +6991,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.700000;
+	  f wind_velocity = 3.700000;
 	  f wind_direction = 2.000000;
 	}
 	[music]
@@ -6890,7 +7034,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.500000;
+	  f wind_velocity = 3.500000;
 	  f wind_direction = 2.000000;
 	}
 	[music]
@@ -6933,7 +7077,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.750000;
+	  f wind_velocity = 3.750000;
 	  f wind_direction = 2.000000;
 	}
 	[music]
@@ -7197,7 +7341,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 0.500000;
 	}
 	[music]
@@ -7278,7 +7422,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 0.500000;
 	}
 	[music]
@@ -7321,7 +7465,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 0.300000;
 	}
 	[music]
@@ -7364,7 +7508,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 0.400000;
 	}
 	[music]
@@ -7407,7 +7551,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 0.600000;
 	}
 	[music]
@@ -7450,7 +7594,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 0.500000;
 	}
 	[music]
@@ -7493,7 +7637,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 1.000000;
 	}
 	[music]
@@ -7668,7 +7812,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 1.000000;
 	}
 	[music]
@@ -7744,7 +7888,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 1.500000;
 	}
 	[music]
@@ -7787,7 +7931,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 2.500000;
+	  f wind_velocity = 5.500000;
 	  f wind_direction = 2.000000;
 	}
 	[music]
@@ -7830,7 +7974,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 2.500000;
+	  f wind_velocity = 5.500000;
 	  f wind_direction = 2.000000;
 	}
 	[music]
@@ -7870,6 +8014,10 @@
 	{
 	  f rain_density = 100.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -8142,7 +8290,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 1.200000;
 	}
 	[music]
@@ -8548,7 +8696,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 30.000000;
+	  f wind_velocity = 33.000000;
 	  f wind_direction = 1.000000;
 	}
 	[music]
@@ -8591,7 +8739,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 1.000000;
 	}
 	[music]
@@ -8634,7 +8782,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 1.300000;
 	}
 	[music]
@@ -8677,7 +8825,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 1.000000;
 	}
 	[music]
@@ -8916,6 +9064,10 @@
 	  f rain_density = 100.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -8960,7 +9112,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 2.000000;
+	  f wind_velocity = 5.000000;
 	  f wind_direction = 0.500000;
 	}
 	[music]
@@ -9039,6 +9191,10 @@
 	  f rain_density = 100.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -9110,6 +9266,10 @@
 	  f rain_density = 100.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -9146,6 +9306,10 @@
 	[snow]
 	{
 	  f snow_density = 700.000000;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -9187,7 +9351,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.200000;
+	  f wind_velocity = 4.200000;
 	  f wind_direction = 1.200000;
 	}
 	[music]
@@ -9437,7 +9601,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 1.000000;
 	}
 	[music]

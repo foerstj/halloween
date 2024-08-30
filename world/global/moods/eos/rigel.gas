@@ -72,6 +72,10 @@
 	{
 	  f snow_density = 100.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -156,6 +160,10 @@
 	[snow]
 	{
 	  f snow_density = 100.000000;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -242,6 +250,10 @@
 	{
 	  f snow_density = 100.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -327,6 +339,10 @@
 	{
 	  f snow_density = 100.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -411,6 +427,10 @@
 	[snow]
 	{
 	  f snow_density = 100.000000;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -908,7 +928,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.300000;
+	  f wind_velocity = 4.300000;
 	  f wind_direction = 0.600000;
 	}
 	[music]
@@ -1090,7 +1110,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.750000;
+	  f wind_velocity = 3.750000;
 	  f wind_direction = 0.700000;
 	}
 	[music]
@@ -1179,6 +1199,10 @@
 	  f rain_density = 50.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -1264,6 +1288,10 @@
 	{
 	  f rain_density = 100.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -1351,6 +1379,10 @@
 	  f rain_density = 200.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -1436,6 +1468,10 @@
 	{
 	  f rain_density = 300.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -1523,6 +1559,10 @@
 	  f rain_density = 300.000000;
 	  b lightning = true;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -1605,6 +1645,10 @@
 	{
 	  f rain_density = 400.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{

@@ -72,6 +72,10 @@
 	{
 	  f snow_density = 350.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
@@ -155,6 +159,10 @@
 	{
 	  f snow_density = 100.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
@@ -237,6 +245,10 @@
 	{
 	  f snow_density = 350.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
@@ -318,6 +330,10 @@
 	[snow]
 	{
 	  f snow_density = 100.000000;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -403,7 +419,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 3.140000;
 	}
 	[music]
@@ -490,7 +506,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 3.140000;
 	}
 	[music]
@@ -575,7 +591,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 1.500000;
+	  f wind_velocity = 4.500000;
 	  f wind_direction = 3.140000;
 	}
 	[music]
@@ -1058,6 +1074,10 @@
 	{
 	  f snow_density = 350.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
@@ -1140,6 +1160,10 @@
 	[snow]
 	{
 	  f snow_density = 200.000000;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -1382,6 +1406,10 @@
 	{
 	  f snow_density = 100.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
@@ -1466,7 +1494,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 2.000000;
+	  f wind_velocity = 5.000000;
 	  f wind_direction = 3.140000;
 	}
 	[music]
@@ -1550,6 +1578,10 @@
 	[snow]
 	{
 	  f snow_density = 350.000000;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -1978,6 +2010,10 @@
 	{
 	  f snow_density = 550.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 		ambient_track = s_e_ambient_wind_ice_cavern;
@@ -2061,6 +2097,10 @@
 	{
 	  f snow_density = 550.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 		ambient_track = s_e_ambient_wind_ice_cavern;
@@ -2142,6 +2182,10 @@
 	[snow]
 	{
 	  f snow_density = 700.000000;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -2399,6 +2443,10 @@
 	[snow]
 	{
 	  f snow_density = 100.000000;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{

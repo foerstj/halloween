@@ -76,6 +76,10 @@
 	{
 	  f snow_density = 250.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
@@ -156,6 +160,10 @@
 	[rain]
 	{
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -242,6 +250,10 @@
 	{
 	  f snow_density = 100.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
@@ -326,6 +338,10 @@
 	[snow]
 	{
 	  f snow_density = 100.000000;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -412,6 +428,10 @@
 	{
 	  f snow_density = 100.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
@@ -492,6 +512,10 @@
 	[rain]
 	{
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -578,6 +602,10 @@
 	{
 	  f snow_density = 250.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
@@ -662,6 +690,10 @@
 	[snow]
 	{
 	  f snow_density = 150.000000;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -748,6 +780,10 @@
 	{
 	  f snow_density = 150.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
@@ -828,6 +864,10 @@
 	[rain]
 	{
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -914,6 +954,10 @@
 	{
 	  f snow_density = 150.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
@@ -999,6 +1043,10 @@
 	{
 	  f snow_density = 100.000000;
 	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
@@ -1083,6 +1131,10 @@
 	[snow]
 	{
 	  f snow_density = 250.000000;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
