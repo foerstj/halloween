@@ -1,0 +1,57 @@
+[mood_setting*]
+{
+	mood_name = eos_interstellar_hub_teleport;
+  f transition_time = 40.000000;
+  b interior = true;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[fog]
+	{
+	  f fog_near_dist = 25.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 25.000000;
+	  f fog_lowdetail_far_dist = 55.000000;
+	  x fog_color = 0xFF000000;
+		fog_density = 0.5f;
+	}
+	[rain]
+	{
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_crypt;
+		standard_track = s_m_chamber_01;
+		room_type = rt_parkinglot;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_teleport;
+  f transition_time = 2.000000;
+  b interior = true;
+	[frustum]
+	{
+	  f frustum_width = 5.000000;
+	  f frustum_height = 60.000000;
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 25.000000;
+	  f fog_lowdetail_near_dist = 7.500000;
+	  f fog_lowdetail_far_dist = 20.000000;
+	  x fog_color = 0xFF000000;
+		fog_density = 0.5f;
+	}
+	[rain]
+	{
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_crypt;
+		room_type = rt_generic;
+	}
+}

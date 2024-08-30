@@ -1,0 +1,1673 @@
+[mood_setting*]
+{
+	mood_name = eos_rigel_dry_teleport;
+  f transition_time = 20.000000;
+  b interior = false;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xFF000000;
+		}
+		[04h00m]
+		{
+			color = 0xFF000022;
+		}
+		[05h00m]
+		{
+			color = 0xFF002244;
+		}
+		[06h00m]
+		{
+			color = 0xFF224488;
+		}
+		[07h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[08h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[09h00m]
+		{
+			color = 0xFFFFFFFF;
+		}
+		[19h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[20h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[21h00m]
+		{
+			color = 0xFF224488;
+		}
+		[22h00m]
+		{
+			color = 0xFF002244;
+		}
+		[23h00m]
+		{
+			color = 0xFF000022;
+		}
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFFA1C5E0;
+	  f fog_density = 1.000000;
+	}
+	[snow]
+	{
+	  f snow_density = 100.000000;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_crypt;
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = s_m_desertcanyons_03;
+		room_type = rt_alley;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_dry_oasis;
+  f transition_time = 5.000000;
+  b interior = false;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xFF000000;
+		}
+		[04h00m]
+		{
+			color = 0xFF000022;
+		}
+		[05h00m]
+		{
+			color = 0xFF002244;
+		}
+		[06h00m]
+		{
+			color = 0xFF224488;
+		}
+		[07h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[08h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[09h00m]
+		{
+			color = 0xFFFFFFFF;
+		}
+		[19h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[20h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[21h00m]
+		{
+			color = 0xFF224488;
+		}
+		[22h00m]
+		{
+			color = 0xFF002244;
+		}
+		[23h00m]
+		{
+			color = 0xFF000022;
+		}
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFFA1C5E0;
+	  f fog_density = 1.000000;
+	}
+	[snow]
+	{
+	  f snow_density = 100.000000;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_crypt;
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = s_m_desertcanyons_03;
+		room_type = rt_alley;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_dry_lion;
+  f transition_time = 5.000000;
+  b interior = false;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xFF000000;
+		}
+		[04h00m]
+		{
+			color = 0xFF000022;
+		}
+		[05h00m]
+		{
+			color = 0xFF002244;
+		}
+		[06h00m]
+		{
+			color = 0xFF224488;
+		}
+		[07h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[08h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[09h00m]
+		{
+			color = 0xFFFFFFFF;
+		}
+		[19h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[20h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[21h00m]
+		{
+			color = 0xFF224488;
+		}
+		[22h00m]
+		{
+			color = 0xFF002244;
+		}
+		[23h00m]
+		{
+			color = 0xFF000022;
+		}
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFFA1C5E0;
+	  f fog_density = 1.000000;
+	}
+	[snow]
+	{
+	  f snow_density = 100.000000;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_crypt;
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = s_m_desertcanyons_05;
+		room_type = rt_alley;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_dry_pyramid;
+  f transition_time = 5.000000;
+  b interior = false;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xFF000000;
+		}
+		[04h00m]
+		{
+			color = 0xFF000022;
+		}
+		[05h00m]
+		{
+			color = 0xFF002244;
+		}
+		[06h00m]
+		{
+			color = 0xFF224488;
+		}
+		[07h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[08h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[09h00m]
+		{
+			color = 0xFFFFFFFF;
+		}
+		[19h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[20h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[21h00m]
+		{
+			color = 0xFF224488;
+		}
+		[22h00m]
+		{
+			color = 0xFF002244;
+		}
+		[23h00m]
+		{
+			color = 0xFF000022;
+		}
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFFA1C5E0;
+	  f fog_density = 1.000000;
+	}
+	[snow]
+	{
+	  f snow_density = 100.000000;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_crypt;
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = s_m_desertcanyons_02;
+		room_type = rt_alley;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_dry_ruins;
+  f transition_time = 5.000000;
+  b interior = false;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xFF000000;
+		}
+		[04h00m]
+		{
+			color = 0xFF000022;
+		}
+		[05h00m]
+		{
+			color = 0xFF002244;
+		}
+		[06h00m]
+		{
+			color = 0xFF224488;
+		}
+		[07h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[08h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[09h00m]
+		{
+			color = 0xFFFFFFFF;
+		}
+		[19h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[20h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[21h00m]
+		{
+			color = 0xFF224488;
+		}
+		[22h00m]
+		{
+			color = 0xFF002244;
+		}
+		[23h00m]
+		{
+			color = 0xFF000022;
+		}
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFFA1C5E0;
+	  f fog_density = 1.000000;
+	}
+	[snow]
+	{
+	  f snow_density = 100.000000;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_crypt;
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = s_m_desertcanyons_01;
+		room_type = rt_alley;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_dry_pyramid_entrance;
+  f transition_time = 2.000000;
+  b interior = true;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xFF000000;
+		}
+		[04h00m]
+		{
+			color = 0xFF000022;
+		}
+		[05h00m]
+		{
+			color = 0xFF002244;
+		}
+		[06h00m]
+		{
+			color = 0xFF224488;
+		}
+		[07h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[08h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[09h00m]
+		{
+			color = 0xFFFFFFFF;
+		}
+		[19h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[20h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[21h00m]
+		{
+			color = 0xFF224488;
+		}
+		[22h00m]
+		{
+			color = 0xFF002244;
+		}
+		[23h00m]
+		{
+			color = 0xFF000022;
+		}
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF000000;
+	  f fog_density = 1.000000;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_crypt;
+	  f standard_intro_delay = 0.000000;
+	  f standard_repeat_delay = 0.000000;
+		standard_track = ;
+		room_type = rt_stonecorridor;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_dry_pyramid_dungeon_1;
+  f transition_time = 4.000000;
+  b interior = true;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[fog]
+	{
+	  f fog_near_dist = 17.500000;
+	  f fog_far_dist = 45.000000;
+	  f fog_lowdetail_near_dist = 17.500000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF000000;
+		fog_density = 0.5f;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_crypt;
+		standard_repeat_delay = 5.0f;
+		standard_track = s_m_drums_03;
+		room_type = rt_stonecorridor;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_dry_pyramid_dungeon_2;
+  f transition_time = 4.000000;
+  b interior = true;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[fog]
+	{
+	  f fog_near_dist = 17.500000;
+	  f fog_far_dist = 45.000000;
+	  f fog_lowdetail_near_dist = 17.500000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF000000;
+		fog_density = 0.5f;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_crypt;
+		standard_repeat_delay = 0.0f;
+		standard_track = s_m_drums_03;
+		room_type = rt_stonecorridor;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_wet_teleport;
+  f transition_time = 20.000000;
+  b interior = true;
+	[frustum]
+	{
+	  f frustum_width = 90.000000;
+	  f frustum_height = 90.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xFF000000;
+		}
+		[04h00m]
+		{
+			color = 0xFF000022;
+		}
+		[05h00m]
+		{
+			color = 0xFF002244;
+		}
+		[06h00m]
+		{
+			color = 0xFF224488;
+		}
+		[07h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[08h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[09h00m]
+		{
+			color = 0xFFFFFFFF;
+		}
+		[19h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[20h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[21h00m]
+		{
+			color = 0xFF224488;
+		}
+		[22h00m]
+		{
+			color = 0xFF002244;
+		}
+		[23h00m]
+		{
+			color = 0xFF000022;
+		}
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF8DADC5;
+	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	  b lightning = false;
+	}
+	[wind]
+	{
+	  f wind_velocity = 1.000000;
+	  f wind_direction = 0.700000;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = s_m_desertcanyons_03;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_wet_town_1;
+  f transition_time = 3.000000;
+  b interior = true;
+	[frustum]
+	{
+	  f frustum_width = 90.000000;
+	  f frustum_height = 90.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xFF000000;
+		}
+		[04h00m]
+		{
+			color = 0xFF000022;
+		}
+		[05h00m]
+		{
+			color = 0xFF002244;
+		}
+		[06h00m]
+		{
+			color = 0xFF224488;
+		}
+		[07h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[08h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[09h00m]
+		{
+			color = 0xFFFFFFFF;
+		}
+		[19h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[20h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[21h00m]
+		{
+			color = 0xFF224488;
+		}
+		[22h00m]
+		{
+			color = 0xFF002244;
+		}
+		[23h00m]
+		{
+			color = 0xFF000022;
+		}
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF8DADC5;
+	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	  b lightning = false;
+	}
+	[wind]
+	{
+	  f wind_velocity = 1.000000;
+	  f wind_direction = 0.700000;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = s_m_desertcanyons_03;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_wet_town_1a;
+  f transition_time = 3.000000;
+  b interior = true;
+	[frustum]
+	{
+	  f frustum_width = 90.000000;
+	  f frustum_height = 90.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xFF000000;
+		}
+		[04h00m]
+		{
+			color = 0xFF000022;
+		}
+		[05h00m]
+		{
+			color = 0xFF002244;
+		}
+		[06h00m]
+		{
+			color = 0xFF224488;
+		}
+		[07h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[08h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[09h00m]
+		{
+			color = 0xFFFFFFFF;
+		}
+		[19h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[20h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[21h00m]
+		{
+			color = 0xFF224488;
+		}
+		[22h00m]
+		{
+			color = 0xFF002244;
+		}
+		[23h00m]
+		{
+			color = 0xFF000022;
+		}
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF8DADC5;
+	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 200.000000;
+	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 0.750000;
+	  f wind_direction = 0.700000;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = s_m_desertcanyons_03;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_wet_town_2;
+  f transition_time = 3.500000;
+  b interior = false;
+	[frustum]
+	{
+	  f frustum_width = 90.000000;
+	  f frustum_height = 90.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xFF000000;
+		}
+		[04h00m]
+		{
+			color = 0xFF000022;
+		}
+		[05h00m]
+		{
+			color = 0xFF002244;
+		}
+		[06h00m]
+		{
+			color = 0xFF224488;
+		}
+		[07h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[08h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[09h00m]
+		{
+			color = 0xFFFFFFFF;
+		}
+		[19h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[20h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[21h00m]
+		{
+			color = 0xFF224488;
+		}
+		[22h00m]
+		{
+			color = 0xFF002244;
+		}
+		[23h00m]
+		{
+			color = 0xFF000022;
+		}
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF8DADC5;
+	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 300.000000;
+	  b lightning = false;
+	}
+	[wind]
+	{
+	  f wind_velocity = 1.300000;
+	  f wind_direction = 0.600000;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = s_m_desertcanyons_03;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_wet_town_backtrack;
+  f transition_time = 5.000000;
+  b interior = true;
+	[frustum]
+	{
+	  f frustum_width = 90.000000;
+	  f frustum_height = 90.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xFF000000;
+		}
+		[04h00m]
+		{
+			color = 0xFF000022;
+		}
+		[05h00m]
+		{
+			color = 0xFF002244;
+		}
+		[06h00m]
+		{
+			color = 0xFF224488;
+		}
+		[07h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[08h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[09h00m]
+		{
+			color = 0xFFFFFFFF;
+		}
+		[19h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[20h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[21h00m]
+		{
+			color = 0xFF224488;
+		}
+		[22h00m]
+		{
+			color = 0xFF002244;
+		}
+		[23h00m]
+		{
+			color = 0xFF000022;
+		}
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF8DADC5;
+	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	  b lightning = false;
+	}
+	[wind]
+	{
+	  f wind_velocity = 1.000000;
+	  f wind_direction = 0.700000;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = s_m_DarkForest_03;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_wet_wetlands_begin_1;
+  f transition_time = 3.000000;
+  b interior = false;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xFF000000;
+		}
+		[04h00m]
+		{
+			color = 0xFF000022;
+		}
+		[05h00m]
+		{
+			color = 0xFF002244;
+		}
+		[06h00m]
+		{
+			color = 0xFF224488;
+		}
+		[07h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[08h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[09h00m]
+		{
+			color = 0xFFFFFFFF;
+		}
+		[19h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[20h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[21h00m]
+		{
+			color = 0xFF224488;
+		}
+		[22h00m]
+		{
+			color = 0xFF002244;
+		}
+		[23h00m]
+		{
+			color = 0xFF000022;
+		}
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF8DADC5;
+	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	  b lightning = false;
+	}
+	[wind]
+	{
+	  f wind_velocity = 0.750000;
+	  f wind_direction = 0.700000;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 0.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = s_m_DarkForest_03;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_wet_wetlands_begin_2;
+  f transition_time = 3.000000;
+  b interior = false;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xFF000000;
+		}
+		[04h00m]
+		{
+			color = 0xFF000022;
+		}
+		[05h00m]
+		{
+			color = 0xFF002244;
+		}
+		[06h00m]
+		{
+			color = 0xFF224488;
+		}
+		[07h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[08h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[09h00m]
+		{
+			color = 0xFFFFFFFF;
+		}
+		[19h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[20h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[21h00m]
+		{
+			color = 0xFF224488;
+		}
+		[22h00m]
+		{
+			color = 0xFF002244;
+		}
+		[23h00m]
+		{
+			color = 0xFF000022;
+		}
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF8DADC5;
+	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 50.000000;
+	  b lightning = false;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 0.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = s_m_darkswamp_03;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_wet_wetlands_r1_1;
+  f transition_time = 5.000000;
+  b interior = false;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xFF000000;
+		}
+		[04h00m]
+		{
+			color = 0xFF000022;
+		}
+		[05h00m]
+		{
+			color = 0xFF002244;
+		}
+		[06h00m]
+		{
+			color = 0xFF224488;
+		}
+		[07h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[08h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[09h00m]
+		{
+			color = 0xFFFFFFFF;
+		}
+		[19h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[20h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[21h00m]
+		{
+			color = 0xFF224488;
+		}
+		[22h00m]
+		{
+			color = 0xFF002244;
+		}
+		[23h00m]
+		{
+			color = 0xFF000022;
+		}
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF8DADC5;
+	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	  b lightning = true;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 0.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = s_m_DarkSwamp_01;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_wet_wetlands_r1_2;
+  f transition_time = 5.000000;
+  b interior = false;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xFF000000;
+		}
+		[04h00m]
+		{
+			color = 0xFF000022;
+		}
+		[05h00m]
+		{
+			color = 0xFF002244;
+		}
+		[06h00m]
+		{
+			color = 0xFF224488;
+		}
+		[07h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[08h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[09h00m]
+		{
+			color = 0xFFFFFFFF;
+		}
+		[19h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[20h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[21h00m]
+		{
+			color = 0xFF224488;
+		}
+		[22h00m]
+		{
+			color = 0xFF002244;
+		}
+		[23h00m]
+		{
+			color = 0xFF000022;
+		}
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF8DADC5;
+	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 200.000000;
+	  b lightning = false;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 0.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = s_m_DarkSwamp_01;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_wet_wetlands_r2_1;
+  f transition_time = 5.000000;
+  b interior = false;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xFF000000;
+		}
+		[04h00m]
+		{
+			color = 0xFF000022;
+		}
+		[05h00m]
+		{
+			color = 0xFF002244;
+		}
+		[06h00m]
+		{
+			color = 0xFF224488;
+		}
+		[07h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[08h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[09h00m]
+		{
+			color = 0xFFFFFFFF;
+		}
+		[19h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[20h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[21h00m]
+		{
+			color = 0xFF224488;
+		}
+		[22h00m]
+		{
+			color = 0xFF002244;
+		}
+		[23h00m]
+		{
+			color = 0xFF000022;
+		}
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF8DADC5;
+	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 300.000000;
+	  b lightning = true;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 0.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = s_m_DarkSwamp_02;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_wet_wetlands_r2_1_1;
+  f transition_time = 0.500000;
+  b interior = false;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xFF000000;
+		}
+		[04h00m]
+		{
+			color = 0xFF000022;
+		}
+		[05h00m]
+		{
+			color = 0xFF002244;
+		}
+		[06h00m]
+		{
+			color = 0xFF224488;
+		}
+		[07h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[08h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[09h00m]
+		{
+			color = 0xFFFFFFFF;
+		}
+		[19h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[20h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[21h00m]
+		{
+			color = 0xFF224488;
+		}
+		[22h00m]
+		{
+			color = 0xFF002244;
+		}
+		[23h00m]
+		{
+			color = 0xFF000022;
+		}
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF8DADC5;
+	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 300.000000;
+	  b lightning = true;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_swamp;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_wet_wetlands_r2_2;
+  f transition_time = 5.000000;
+  b interior = false;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[sun]
+	{
+		[00h00m]
+		{
+			color = 0xFF000000;
+		}
+		[04h00m]
+		{
+			color = 0xFF000022;
+		}
+		[05h00m]
+		{
+			color = 0xFF002244;
+		}
+		[06h00m]
+		{
+			color = 0xFF224488;
+		}
+		[07h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[08h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[09h00m]
+		{
+			color = 0xFFFFFFFF;
+		}
+		[19h00m]
+		{
+			color = 0xFF88FFFF;
+		}
+		[20h00m]
+		{
+			color = 0xFF4488FF;
+		}
+		[21h00m]
+		{
+			color = 0xFF224488;
+		}
+		[22h00m]
+		{
+			color = 0xFF002244;
+		}
+		[23h00m]
+		{
+			color = 0xFF000022;
+		}
+	}
+	[fog]
+	{
+	  f fog_near_dist = 10.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF8DADC5;
+	  f fog_density = 1.000000;
+	}
+	[rain]
+	{
+	  f rain_density = 400.000000;
+	  b lightning = false;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 0.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = s_m_DarkSwamp_02;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_wet_drystorage_1;
+  f transition_time = 2.000000;
+  b interior = true;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[fog]
+	{
+	  f fog_near_dist = 17.500000;
+	  f fog_far_dist = 45.000000;
+	  f fog_lowdetail_near_dist = 17.500000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF000000;
+		fog_density = 0.4f;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_crypt;
+		standard_repeat_delay = 10.0f;
+		standard_track = s_m_swanny;
+		room_type = rt_stonecorridor;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_rigel_wet_drystorage_2;
+  f transition_time = 0.500000;
+  b interior = true;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[fog]
+	{
+	  f fog_near_dist = 17.500000;
+	  f fog_far_dist = 45.000000;
+	  f fog_lowdetail_near_dist = 17.500000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF000000;
+		fog_density = 0.4f;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_crypt;
+		standard_repeat_delay = 10.0f;
+		standard_track = s_m_swanny;
+		room_type = rt_stonecorridor;
+	}
+}

@@ -1,0 +1,123 @@
+[mood_setting*]
+{
+	mood_name = upza_swamp_town_1;
+  f transition_time = 5.000000;
+  b interior = false;
+	[frustum]
+	{
+	  f frustum_width = 45.000000;
+	  f frustum_height = 60.000000;
+	}
+	[fog]
+	{
+	  f fog_near_dist = 5.000000;
+	  f fog_far_dist = 45.000000;
+	  f fog_lowdetail_near_dist = 5.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF1F241F;
+		fog_density = 0.5f;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_swamp;
+		standard_repeat_delay = 10.0f;
+		standard_track = s_m_darkswamp_03;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = upza_swamp_town_teleport;
+  f transition_time = 22.000000;
+  b interior = false;
+	[frustum]
+	{
+	  f frustum_width = 45.000000;
+	  f frustum_height = 60.000000;
+	}
+	[fog]
+	{
+	  f fog_near_dist = 5.000000;
+	  f fog_far_dist = 45.000000;
+	  f fog_lowdetail_near_dist = 5.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF1F241F;
+		fog_density = 0.5f;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_swamp;
+		standard_repeat_delay = 10.0f;
+		standard_track = s_m_darkswamp_03;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = upza_swamp_town_teleport_2;
+  f transition_time = 20.000000;
+  b interior = false;
+	[frustum]
+	{
+	  f frustum_width = 45.000000;
+	  f frustum_height = 60.000000;
+	}
+	[fog]
+	{
+	  f fog_near_dist = 5.000000;
+	  f fog_far_dist = 45.000000;
+	  f fog_lowdetail_near_dist = 5.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF1F241F;
+		fog_density = 0.5f;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_swamp;
+		standard_repeat_delay = 10.0f;
+		standard_track = s_m_darkswamp_03;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = upza_gi_a_2a;
+  f transition_time = 1.000000;
+  b interior = true;
+	[frustum]
+	{
+	  f frustum_width = 45.000000;
+	  f frustum_height = 60.000000;
+	}
+	[fog]
+	{
+	  f fog_near_dist = 12.500000;
+	  f fog_far_dist = 35.000000;
+	  f fog_lowdetail_near_dist = 12.500000;
+	  f fog_lowdetail_far_dist = 30.000000;
+	  x fog_color = 0xFF000000;
+		fog_density = 0.5f;
+	}
+	[rain]
+	{
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_crypt;
+		standard_repeat_delay = 10.0f;
+		standard_track = s_m_ArcticCaverns_06;
+		room_type = rt_arena;
+	}
+}
