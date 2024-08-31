@@ -2,10 +2,10 @@
 {
 	category_name = "1W_character";
 	doc = "lyssa";
-	specializes = base_pm_fg;	
+	specializes = base_pm_fg_sk;	
 	[actor]
 	{
-		portrait_icon = b_gui_ig_i_ic_c_lyssa;
+		//portrait_icon = b_gui_ig_i_ic_c_lyssa;
 		[skills]
 		{
 			strength 		=   0.50, 0, 10;
@@ -18,11 +18,11 @@
 	}	
 	[aspect]
 	{
-		[textures]
-		{
-			0 = b_c_gan_fg_skin_lyssa;
-			1 = b_c_pos_a1_lyssa;
-		}
+		//[textures]
+		//{
+		//	0 = b_c_gan_fg_skin_lyssa;
+		//	1 = b_c_pos_a1_lyssa;
+		//}
 		[voice]
 		{
 			[die]		{ priority = high; * = s_v_lyssa_die; }
