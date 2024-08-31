@@ -21,3 +21,13 @@
 	{
 	}
 }
+
+[t:template,n:base_pm_fg_sk]
+{
+    specializes = base_pm_sk;
+    aspect:scale_base = 0.95;
+}
+[t:template,n:base_pm_fb_sk]
+{
+    specializes = base_pm_sk;
+}
