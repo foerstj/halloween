@@ -5679,7 +5679,7 @@
 	{
 		ambient_track = s_e_ambient_woods_01;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_DarkForest_02;
+		standard_track = s_m_the_butcher;
 		room_type = rt_generic;
 	}
 }
@@ -5711,7 +5711,7 @@
 	{
 		ambient_track = s_e_ambient_woods_01;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_DarkForest_02;
+		standard_track = s_m_the_butcher;
 		room_type = rt_generic;
 	}
 }
@@ -5774,7 +5774,7 @@
 	{
 		ambient_track = s_e_ambient_woods_01;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_DarkForest_02;
+		standard_track = s_m_the_butcher;
 		room_type = rt_generic;
 	}
 }
@@ -5806,7 +5806,7 @@
 	{
 		ambient_track = s_e_ambient_woods_01;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_DarkForest_02;
+		standard_track = s_m_the_butcher;
 		room_type = rt_generic;
 	}
 }
@@ -5828,7 +5828,7 @@
 	{
 		ambient_track = s_e_ambient_woods_01;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_DarkForest_02;
+		standard_track = s_m_the_butcher;
 		room_type = rt_generic;
 	}
 }
@@ -5860,7 +5860,7 @@
 	{
 		ambient_track = s_e_ambient_woods_01;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_DarkForest_02;
+		standard_track = s_m_the_butcher;
 		room_type = rt_generic;
 	}
 }
@@ -5892,7 +5892,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_DarkForest_03;
+		standard_track = s_m_the_butcher;
 		room_type = rt_generic;
 	}
 }
@@ -5923,7 +5923,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_DarkForest_02;
+		standard_track = s_m_the_butcher;
 		room_type = rt_generic;
 	}
 }

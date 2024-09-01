@@ -191,7 +191,7 @@
 		ambient_track = s_e_ambient_wind_02;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 30.000000;
-		standard_track = s_m_maintheme_02;
+		standard_track = s_m_executioner;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -257,7 +257,7 @@
 		ambient_track = s_e_ambient_wind_02;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 30.000000;
-		standard_track = s_m_maintheme_02;
+		standard_track = s_m_executioner;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
