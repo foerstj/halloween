@@ -736,7 +736,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_Path2Stonebridge_01;
+		standard_track = s_m_hor_hor;
 		room_type = rt_generic;
 	}
 }
@@ -768,7 +768,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_Path2Stonebridge_01;
+		standard_track = s_m_hor_hor;
 		room_type = rt_generic;
 	}
 }
@@ -799,7 +799,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_Path2Stonebridge_01;
+		standard_track = s_m_hor_hor;
 		room_type = rt_generic;
 	}
 }
@@ -830,7 +830,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_Path2Stonebridge_01;
+		standard_track = s_m_hor_hor;
 		room_type = rt_generic;
 	}
 }
@@ -861,7 +861,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_Path2Stonebridge_01;
+		standard_track = s_m_hor_hor;
 		room_type = rt_generic;
 	}
 }
@@ -893,7 +893,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_Path2Stonebridge_01;
+		standard_track = s_m_hor_hor;
 		room_type = rt_generic;
 	}
 }
@@ -5616,7 +5616,7 @@
 	{
 		ambient_track = s_e_ambient_woods_01;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_DarkForest_01;
+		standard_track = s_m_the_butcher;
 		room_type = rt_generic;
 	}
 }
@@ -6604,7 +6604,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_TempleRuins_02;
+		standard_track = s_m_pantscrapper;
 		room_type = rt_generic;
 	}
 }
@@ -6635,7 +6635,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_TempleRuins_02;
+		standard_track = s_m_pantscrapper;
 		room_type = rt_generic;
 	}
 }
@@ -6666,7 +6666,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_TempleRuins_02;
+		standard_track = s_m_pantscrapper;
 		room_type = rt_generic;
 	}
 }
@@ -7087,7 +7087,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 5.0f;
-		standard_track = s_m_FortKroth_02;
+		standard_track = s_m_headless_horseman;
 		room_type = rt_generic;
 	}
 }
@@ -7280,7 +7280,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 0.0f;
-		standard_track = s_m_DesertCanyons_03;
+		standard_track = s_m_cockroaches;
 		room_type = rt_arena;
 	}
 }
@@ -7311,7 +7311,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 0.0f;
-		standard_track = s_m_DesertCanyons_03;
+		standard_track = s_m_cockroaches;
 		room_type = rt_stonecorridor;
 	}
 }
@@ -7342,7 +7342,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 0.0f;
-		standard_track = s_m_DesertCanyons_03;
+		standard_track = s_m_cockroaches;
 		room_type = rt_arena;
 	}
 }

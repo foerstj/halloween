@@ -83,7 +83,7 @@
 		ambient_track = s_e_ambient_crypt;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_desertcanyons_03;
+		standard_track = s_m_cockroaches;
 		room_type = rt_alley;
 	}
 }
@@ -172,7 +172,7 @@
 		ambient_track = s_e_ambient_crypt;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_desertcanyons_03;
+		standard_track = s_m_cockroaches;
 		room_type = rt_alley;
 	}
 }
@@ -665,7 +665,7 @@
 		ambient_track = s_e_ambient_swamp;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_desertcanyons_03;
+		standard_track = s_m_cockroaches;
 		room_type = rt_generic;
 	}
 }
@@ -756,7 +756,7 @@
 		ambient_track = s_e_ambient_swamp;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_desertcanyons_03;
+		standard_track = s_m_cockroaches;
 		room_type = rt_generic;
 	}
 }
@@ -847,7 +847,7 @@
 		ambient_track = s_e_ambient_swamp;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_desertcanyons_03;
+		standard_track = s_m_cockroaches;
 		room_type = rt_generic;
 	}
 }
@@ -938,7 +938,7 @@
 		ambient_track = s_e_ambient_swamp;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_desertcanyons_03;
+		standard_track = s_m_cockroaches;
 		room_type = rt_generic;
 	}
 }

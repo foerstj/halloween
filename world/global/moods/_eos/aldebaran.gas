@@ -31,7 +31,7 @@
 		ambient_track = s_e_ambient_crypt;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
-		standard_track = s_m_fortkroth_02;
+		standard_track = s_m_headless_horseman;
 		room_type = rt_generic;
 	}
 }
@@ -68,7 +68,7 @@
 		ambient_track = s_e_ambient_crypt;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
-		standard_track = s_m_fortkroth_02;
+		standard_track = s_m_headless_horseman;
 		room_type = rt_generic;
 	}
 }
@@ -142,7 +142,7 @@
 		ambient_track = s_e_env_tavern;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
-		standard_track = s_m_fortkroth_02;
+		standard_track = s_m_headless_horseman;
 		room_type = rt_generic;
 	}
 }

@@ -3043,7 +3043,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 0.0f;
-		standard_track = s_m_FortKroth_02;
+		standard_track = s_m_headless_horseman;
 		room_type = rt_generic;
 	}
 }
@@ -3079,7 +3079,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 0.0f;
-		standard_track = s_m_FortKroth_02;
+		standard_track = s_m_headless_horseman;
 		room_type = rt_generic;
 	}
 }
@@ -3115,7 +3115,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 0.0f;
-		standard_track = s_m_FortKroth_02;
+		standard_track = s_m_headless_horseman;
 		room_type = rt_generic;
 	}
 }

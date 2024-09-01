@@ -480,7 +480,7 @@
 		ambient_track = s_e_ambient_jungle_2;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_darkforest_01;
+		standard_track = s_m_the_butcher;
 		room_type = rt_forest;
 	}
 }

@@ -3514,7 +3514,7 @@
 		ambient_track = s_e_ambient_crypt;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 15.000000;
-		standard_track = s_m_frontend;
+		standard_track = s_m_haunted_house;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -7120,7 +7120,7 @@
 		ambient_track = s_e_ambient_crypt;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 30.000000;
-		standard_track = s_m_frontend;
+		standard_track = s_m_haunted_house;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -8597,7 +8597,7 @@
 		ambient_track = s_e_ambient_wind_mines;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_templeruins_02;
+		standard_track = s_m_pantscrapper;
 	  f battle_intro_delay = 3.000000;
 	  f battle_repeat_delay = 10.000000;
 		battle_track = s_m_battle;
