@@ -80,7 +80,7 @@
 		ambient_track = s_e_env_bats;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_intro;
+		standard_track = s_m_halloween_textures;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -164,7 +164,7 @@
 		ambient_track = s_e_ambient_wind_ice_cavern;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_intro;
+		standard_track = s_m_halloween_textures;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -253,7 +253,7 @@
 		ambient_track = s_e_env_scream_male;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_intro;
+		standard_track = s_m_halloween_textures;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -761,7 +761,7 @@
 		ambient_track = s_e_ambient_crypt;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_intro;
+		standard_track = s_m_halloween_textures;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -1271,7 +1271,7 @@
 		ambient_track = s_e_ambient_crypt;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 5.000000;
-		standard_track = s_m_intro;
+		standard_track = s_m_halloween_textures;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -1346,7 +1346,7 @@
 		ambient_track = s_e_env_wind_gust;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_intro;
+		standard_track = s_m_halloween_textures;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -1594,7 +1594,7 @@
 		ambient_track = s_e_ambient_crypt;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_arhok;
+		standard_track = s_m_halloween_textures;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -1682,7 +1682,7 @@
 		ambient_track = s_e_ambient_crypt;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_arhok;
+		standard_track = s_m_halloween_textures;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -2512,7 +2512,7 @@
 		ambient_track = s_e_env_tavern;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 5.000000;
-		standard_track = s_m_intro;
+		standard_track = s_m_halloween_textures;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -2587,7 +2587,7 @@
 		ambient_track = s_e_ambient_crypt;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 5.000000;
-		standard_track = s_m_intro;
+		standard_track = s_m_halloween_textures;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -2675,7 +2675,7 @@
 		ambient_track = s_e_ambient_crypt;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_intro;
+		standard_track = s_m_halloween_textures;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -2763,7 +2763,7 @@
 		ambient_track = s_e_ambient_crypt;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_intro;
+		standard_track = s_m_halloween_textures;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -3775,7 +3775,7 @@
 		ambient_track = s_e_env_wind_gust;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_the_ultreans;
+		standard_track = s_m_halloween_theme_2;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -3813,7 +3813,7 @@
 		ambient_track = s_e_ambient_bird1;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_the_ultreans;
+		standard_track = s_m_halloween_theme_2;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -3856,7 +3856,7 @@
 		ambient_track = s_e_ambient_wind_01;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_the_ultreans;
+		standard_track = s_m_halloween_theme_2;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -3899,7 +3899,7 @@
 		ambient_track = s_e_env_thunder_rumble_distant;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_the_ultreans;
+		standard_track = s_m_halloween_theme_2;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -7941,7 +7941,7 @@
 		ambient_track = s_e_ambient_crypt;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_the_ultreans;
+		standard_track = s_m_halloween_theme_2;
 	  f battle_intro_delay = 10.000000;
 	  f battle_repeat_delay = 10.000000;
 		battle_track = s_m_battle;
@@ -7984,7 +7984,7 @@
 		ambient_track = s_e_ambient_wind_mines;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_the_ultreans;
+		standard_track = s_m_halloween_theme_2;
 	  f battle_intro_delay = 10.000000;
 	  f battle_repeat_delay = 10.000000;
 		battle_track = s_m_battle;
@@ -9160,7 +9160,7 @@
 		ambient_track = s_e_ambient_wind_01;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_intro;
+		standard_track = s_m_halloween_textures;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -9277,7 +9277,7 @@
 		ambient_track = s_e_ambient_wind_mines;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_the_ultreans;
+		standard_track = s_m_halloween_theme_2;
 	  f battle_intro_delay = 5.000000;
 	  f battle_repeat_delay = 10.000000;
 		battle_track = s_m_gom_battle;

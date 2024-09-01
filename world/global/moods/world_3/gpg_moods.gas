@@ -3959,7 +3959,7 @@
 	{
 		ambient_track = s_e_ambient_wind_01b;
 		standard_repeat_delay = 0.0f;
-		standard_track = s_m_Path2Stonebridge_02;
+		standard_track = s_m_hor_hor;
 		room_type = rt_mountains;
 	}
 }
@@ -3991,7 +3991,7 @@
 	{
 		ambient_track = s_e_ambient_wind_01b;
 		standard_repeat_delay = 0.0f;
-		standard_track = s_m_Path2Stonebridge_02;
+		standard_track = s_m_hor_hor;
 		room_type = rt_mountains;
 	}
 }
