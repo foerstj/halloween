@@ -1,7 +1,0 @@
-[t:tsd,n:b_a_hlmt_pumpkin]
-{
-  b dither = true;
-  b hasalpha = true;
-    layer1texture1 = b_a_hlmt_pumpkin;
-  i texturedetail = 0;
-}
