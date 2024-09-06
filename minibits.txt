@@ -1,1 +1,3 @@
 items/pumpkin
+landscape/death-forest
+landscape/webbed-rhods
