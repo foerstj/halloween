@@ -10,7 +10,6 @@ Enjoy this special blend of autumn and horror mood with some witches and jack-o'
   - Replaces wolves with zombie wolves (texture replacement)
   - Replaces bears with zombie bears / ursae (texture replacement)
   - Replaces packmules with zombie packmules (texture replacement)
-  - Replaces some KoE and LoA companions with skeletons (template replacement)
 - Spiders
   - Makes spiders larger (template replacement)
   - Replaces some pines with webbed ones (template replacement)
