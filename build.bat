@@ -15,7 +15,7 @@ set author=Johannes Förstner
 
 :: Compile main resource file
 rmdir /S /Q "%tmp%\Bits"
-robocopy "%bits%\art" "%tmp%\Bits\art" /E /xf .gitignore /xf *.psd
+robocopy "%bits%\art" "%tmp%\Bits\art" /E /xf .gitignore /xf *.psd /xd new
 robocopy "%bits%\sound" "%tmp%\Bits\sound" /E
 robocopy "%bits%\world\contentdb\templates" "%tmp%\Bits\world\contentdb\templates" /E /xd git-ignore
 robocopy "%bits%\world\global\moods" "%tmp%\Bits\world\global\moods" /E
