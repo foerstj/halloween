@@ -1,0 +1,95 @@
+[start_positions]
+{
+	[t:start_group,n:blood]
+	{
+	  b default = false;
+		description = "";
+	  b dev_only = false;
+	  i id = 1699120;
+		screen_name = "";
+		[start_position]
+		{
+		  i id = 1;
+			position = 0.172004,0.000001,0.515028,0x5C2CAC83;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.172004,0.000001,0.515028,0x5C2CAC83;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:default]
+	{
+	  b default = false;
+		description = "This is the default group.";
+	  b dev_only = false;
+	  i id = 0;
+		screen_name = "";
+		[start_position]
+		{
+		  i id = 1;
+			position = 0.019981,0.000000,-0.005098,0x51A2AD75;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.019981,0.000000,-0.005098,0x51A2AD75;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:witches]
+	{
+	  b default = true;
+		description = "";
+	  b dev_only = false;
+	  i id = 1698464;
+		screen_name = "";
+		[start_position]
+		{
+		  i id = 1;
+			position = 0.128870,0.000000,1.036084,0x764DCCCF;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.128870,0.000000,1.036084,0x764DCCCF;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:zombies-companions]
+	{
+	  b default = false;
+		description = "";
+	  b dev_only = false;
+	  i id = 1698464;
+		screen_name = "";
+		[start_position]
+		{
+		  i id = 1;
+			position = 0.089346,0.000000,2.664783,0xCD6BA643;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.089346,0.000000,2.664783,0xCD6BA643;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+}

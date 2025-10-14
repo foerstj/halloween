@@ -1,0 +1,7 @@
+[t:spell_lightning,n:0x0070000f]
+{
+	[placement]
+	{
+	  p position = -0.412809,1.90735e-006,3.46133,0x764dcccf;
+	}
+}

@@ -1,0 +1,129 @@
+[t:ulora,n:0x00800000]
+{
+	[aspect]
+	{
+	  f max_life = 49;
+	  f max_mana = 30;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = ulora;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.172652,0,0.984983;
+	  p position = -1.96599,0,-2.43616,0x51a2ad75;
+	}
+}
+[t:ulora,n:0x00800002]
+{
+	[aspect]
+	{
+	  f max_life = 49;
+	  f max_mana = 30;
+	}
+	[common]
+	{
+		screen_name = "hddl";
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.999835,0,-0.018163;
+	  p position = -3.14854,9.53674e-007,2.1594,0x51a2ad75;
+	}
+}
+[t:ulora,n:0x00800003]
+{
+	[aspect]
+	{
+	  f max_life = 49;
+	  f max_mana = 30;
+	}
+	[common]
+	{
+		screen_name = "gtup";
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.998283,0,0.0585788;
+	  p position = -1.41086,9.53674e-007,2.1955,0x51a2ad75;
+	}
+}
+[t:ulora,n:0x00800006]
+{
+	[aspect]
+	{
+	  f max_life = 49;
+	  f max_mana = 30;
+	}
+	[common]
+	{
+		screen_name = "ulor";
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.998283,0,0.0585788;
+	  p position = 0.191466,9.53674e-007,2.17392,0x51a2ad75;
+	}
+}
+[t:ulora,n:0x00800008]
+{
+	[aspect]
+	{
+	  f max_life = 49;
+	  f max_mana = 30;
+	}
+	[common]
+	{
+		screen_name = "frtd";
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.998283,0,0.0585788;
+	  p position = 1.67224,9.53674e-007,2.23074,0x51a2ad75;
+	}
+}
+[t:ulora,n:0x0080000a]
+{
+	[aspect]
+	{
+	  f max_life = 49;
+	  f max_mana = 30;
+	}
+	[common]
+	{
+		screen_name = "hdup";
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.998283,0,0.0585788;
+	  p position = 3.18661,9.53674e-007,2.19372,0x51a2ad75;
+	}
+}

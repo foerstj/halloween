@@ -1,0 +1,130 @@
+[t:cmd_animation_command,n:0x00a00018]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1634624617;
+	  x client_scid = 0x00A00014;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  p position = 2.09133,0,-3.4589,0xbeb68efb;
+	}
+}
+[t:cmd_animation_command,n:0x00a00019]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1718775674;
+	  x client_scid = 0x00A00013;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  p position = 0.0755224,0,-3.41897,0xbeb68efb;
+	}
+}
+[t:cmd_animation_command,n:0x00a0001a]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1836214635;
+	  x client_scid = 0x00A00012;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  p position = -2.31355,0,-3.49034,0xbeb68efb;
+	}
+}
+[t:cmd_animation_command,n:0x00a0001b]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1970040690;
+	  x client_scid = 0x00A00017;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  p position = 2.20113,1.90735e-006,-0.48312,0xbeb68efb;
+	}
+}
+[t:cmd_animation_command,n:0x00a0001c]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1751409772;
+	  x client_scid = 0x00A00016;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  p position = 0.0502672,0,-0.505453,0xbeb68efb;
+	}
+}
+[t:cmd_animation_command,n:0x00a0001d]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1751414128;
+	  x client_scid = 0x00A00015;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  p position = -2.18287,0,-0.478046,0xbeb68efb;
+	}
+}
+[t:cmd_animation_command,n:0x00a0001e]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1685220971;
+	  x client_scid = 0x00A00021;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  p position = 2.21027,0,1.58178,0xbeb68efb;
+	}
+}
+[t:cmd_animation_command,n:0x00a0001f]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1735685488;
+	  x client_scid = 0x00A00022;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  p position = -0.171229,0,1.53393,0xbeb68efb;
+	}
+}
+[t:cmd_animation_command,n:0x00a00020]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1718776932;
+	  x client_scid = 0x00A00023;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  p position = -2.28162,0,1.60093,0xbeb68efb;
+	}
+}
+[t:cmd_animation_command,n:0x00a00025]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1735160430;
+	  x client_scid = 0x00A00024;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  p position = -3.68856,0,-1.8157,0xbeb68efb;
+	}
+}

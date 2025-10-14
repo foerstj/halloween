@@ -3,10 +3,6 @@
 
 git-ignore
 
-/world/maps/*
-
-*demo*.bat
-
 /language/dscore-text.gas
 
 /art/bitmaps/new

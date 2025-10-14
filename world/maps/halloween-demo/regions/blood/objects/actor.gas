@@ -1,0 +1,46 @@
+[t:skrubb_small,n:0x00400001]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.66939e-007;
+	  p position = 1.86777,0,-0.275351,0xa87a6552;
+	}
+}
+[t:skrubb_farm,n:0x00400003]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.66939e-007;
+	  p position = -1.40066,0,0.0801144,0xa87a6552;
+	}
+}
+[t:dsx_skrubb_jungle,n:0x00400004]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.262341,0,-0.279319,0xfd270724;
+	}
+}
+[t:skrubb,n:0x00400000]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.536341,0,0.609077,0xbfcf9645;
+	}
+}
+[t:phrak_piercer,n:0x00400007]
+{
+	[placement]
+	{
+	  p position = 3.253,0,1.76076,0x06eb25b0;
+	}
+}
+[t:phrak_piercer,n:0x00400008]
+{
+	[placement]
+	{
+	  p position = 3.49561,0,2.86868,0x06eb25b0;
+	}
+}

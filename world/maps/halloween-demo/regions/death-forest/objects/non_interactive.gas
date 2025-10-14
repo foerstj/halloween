@@ -1,0 +1,32 @@
+[t:tree_grs_pine_01,n:0x00900000]
+{
+	[placement]
+	{
+	  q orientation = 0,0.958572,0,0.28485;
+	  p position = -3.18755,0,-2.9594,0xe1f3a517;
+	}
+}
+[t:tree_grs_pine_02,n:0x00900001]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.804363,0,0.594138;
+	  p position = 0.438171,-9.53674e-007,-3.02983,0xe1f3a517;
+	}
+}
+[t:tree_grs_pine_05,n:0x00900002]
+{
+	[placement]
+	{
+	  q orientation = 0,0.574278,0,0.818661;
+	  p position = -2.72196,0,2.96889,0xe1f3a517;
+	}
+}
+[t:tree_grs_pine_06,n:0x00900003]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.521316,0,0.853364;
+	  p position = 1.28837,0,2.66733,0xe1f3a517;
+	}
+}

@@ -1,0 +1,646 @@
+[t:ulora,n:0x00a00001]
+{
+	[aspect]
+	{
+	  f max_life = 49;
+	  f max_mana = 30;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = -2.50782,4.76837e-007,-0.00207424,0x24c26dd5;
+	}
+}
+[t:gyorn,n:0x00a00002]
+{
+	[aspect]
+	{
+	  f max_life = 78.4;
+	  f max_mana = 31;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = -1.07274,4.76837e-007,-0.109117,0x24c26dd5;
+	}
+}
+[t:naidi,n:0x00a00003]
+{
+	[aspect]
+	{
+	  f max_life = 58.8;
+	  f max_mana = 34;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = 0.631054,0,-0.0966711,0x24c26dd5;
+	}
+}
+[t:rusk,n:0x00a00004]
+{
+	[aspect]
+	{
+	  f max_life = 78.4;
+	  f max_mana = 31;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = 2.01748,0,-0.19613,0x24c26dd5;
+	}
+}
+[t:zed,n:0x00a00005]
+{
+	[aspect]
+	{
+	  f max_life = 68.6;
+	  f max_mana = 80;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = 3.27571,0,-0.163553,0x24c26dd5;
+	}
+}
+[t:jondar,n:0x00a00028]
+{
+	[aspect]
+	{
+	  f max_life = 49;
+	  f max_mana = 30;
+	}
+	[placement]
+	{
+	  p position = 2.00322,0,-2.65656,0x24c26dd5;
+	}
+}
+[t:lyssa,n:0x00a00029]
+{
+	[aspect]
+	{
+	  f max_life = 78.4;
+	  f max_mana = 42;
+	}
+	[placement]
+	{
+	  p position = 3.39074,0,-2.66988,0x24c26dd5;
+	}
+}
+[t:andiemus,n:0x00a00000]
+{
+	[aspect]
+	{
+	  f max_life = 333.2;
+	  f max_mana = 449;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = 3.24318,0,-0.197492,0xcd6ba643;
+	}
+}
+[t:gloern,n:0x00a00006]
+{
+	[aspect]
+	{
+	  f max_life = 147;
+	  f max_mana = 37;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = -3.33447,0,-0.184128,0xcd6ba643;
+	}
+}
+[t:kroduk,n:0x00a00007]
+{
+	[aspect]
+	{
+	  f max_life = 215.6;
+	  f max_mana = 43;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = -2.19019,-4.76837e-007,-0.189655,0xcd6ba643;
+	}
+}
+[t:lorun,n:0x00a00008]
+{
+	[aspect]
+	{
+	  f max_life = 147;
+	  f max_mana = 185;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = -0.772002,0,-0.222902,0xcd6ba643;
+	}
+}
+[t:merik,n:0x00a00009]
+{
+	[aspect]
+	{
+	  f max_life = 186.2;
+	  f max_mana = 264;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = 0.498884,0,-0.224053,0xcd6ba643;
+	}
+}
+[t:phaedriel,n:0x00a0000a]
+{
+	[aspect]
+	{
+	  f max_life = 284.2;
+	  f max_mana = 124;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = 1.89241,-4.76837e-007,-0.147111,0xcd6ba643;
+	}
+}
+[t:najj,n:0x00a0002a]
+{
+	[aspect]
+	{
+	  f max_life = 147;
+	  f max_mana = 37;
+	}
+	[placement]
+	{
+	  p position = -3.02218,0,-2.73891,0xcd6ba643;
+	}
+}
+[t:dsx_nardulo,n:0x00a0002b]
+{
+	[aspect]
+	{
+	  f max_life = 147;
+	  f max_mana = 164;
+	}
+	[placement]
+	{
+	  p position = -1.11424,0,-2.59298,0xcd6ba643;
+	}
+}
+[t:kraal,n:0x00a0002c]
+{
+	[aspect]
+	{
+	  f max_life = 215.6;
+	  f max_mana = 43;
+	}
+	[placement]
+	{
+	  p position = 0.246771,0,-2.58147,0xcd6ba643;
+	}
+}
+[t:algher_mhankur,n:0x00a0002d]
+{
+	[aspect]
+	{
+	  f max_life = 245;
+	  f max_mana = 76;
+	}
+	[placement]
+	{
+	  p position = 1.5413,0,-2.57935,0xcd6ba643;
+	}
+}
+[t:mheagan,n:0x00a0002e]
+{
+	[aspect]
+	{
+	  f max_life = 176.4;
+	  f max_mana = 81;
+	}
+	[placement]
+	{
+	  p position = 2.84913,0,-2.6031,0xcd6ba643;
+	}
+}
+[t:boryev,n:0x00a0000b]
+{
+	[aspect]
+	{
+	  f max_life = 558.6;
+	  f max_mana = 464;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = -3.29279,-4.76837e-007,-0.274645,0x9fd42ed1;
+	}
+}
+[t:rhut,n:0x00a0000c]
+{
+	[aspect]
+	{
+	  f max_life = 842.8;
+	  f max_mana = 164;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = -1.84273,0,-0.17356,0x9fd42ed1;
+	}
+}
+[t:ulfgrim,n:0x00a0000d]
+{
+	[aspect]
+	{
+	  f max_life = 882;
+	  f max_mana = 169;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = -0.265011,0,-0.10489,0x9fd42ed1;
+	}
+}
+[t:sikra,n:0x00a0000e]
+{
+	[aspect]
+	{
+	  f max_life = 480.2;
+	  f max_mana = 708;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = 1.11092,-9.53674e-007,0.0384932,0x9fd42ed1;
+	}
+}
+[t:lord_bolingar,n:0x00a0000f]
+{
+	[aspect]
+	{
+	  f max_life = 980;
+	  f max_mana = 176;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = join;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = 2.77717,9.53674e-007,0.0825734,0x9fd42ed1;
+	}
+}
+[t:konus,n:0x00a0002f]
+{
+	[aspect]
+	{
+	  f max_life = 215.6;
+	  f max_mana = 191;
+	}
+	[placement]
+	{
+	  p position = -3.71934,0,-2.64613,0x9fd42ed1;
+	}
+}
+[t:dsx_jharmaya,n:0x00a00030]
+{
+	[aspect]
+	{
+	  f max_life = 196;
+	  f max_mana = 289;
+	}
+	[placement]
+	{
+	  p position = -2.26122,0,-2.58154,0x9fd42ed1;
+	}
+}
+[t:andiemus,n:0x00a00012]
+{
+	[aspect]
+	{
+	  f max_life = 333.2;
+	  f max_mana = 449;
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-1.66939e-007;
+	  p position = -2.10719,0,-2.20979,0xbeb68efb;
+	}
+}
+[t:andiemus,n:0x00a00013]
+{
+	[aspect]
+	{
+	  f max_life = 333.2;
+	  f max_mana = 449;
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-1.66939e-007;
+	  p position = 0.0136108,0,-2.11323,0xbeb68efb;
+	}
+}
+[t:andiemus,n:0x00a00014]
+{
+	[aspect]
+	{
+	  f max_life = 333.2;
+	  f max_mana = 449;
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-1.66939e-007;
+	  p position = 2.1799,0,-2.19726,0xbeb68efb;
+	}
+}
+[t:andiemus,n:0x00a00015]
+{
+	[aspect]
+	{
+	  f max_life = 333.2;
+	  f max_mana = 449;
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-1.66939e-007;
+	  p position = -2.20865,0,0.689863,0xbeb68efb;
+	}
+}
+[t:andiemus,n:0x00a00016]
+{
+	[aspect]
+	{
+	  f max_life = 333.2;
+	  f max_mana = 449;
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-1.66939e-007;
+	  p position = 0.0155296,0,0.577095,0xbeb68efb;
+	}
+}
+[t:andiemus,n:0x00a00017]
+{
+	[aspect]
+	{
+	  f max_life = 333.2;
+	  f max_mana = 449;
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-1.66939e-007;
+	  p position = 2.08712,0,0.567608,0xbeb68efb;
+	}
+}
+[t:andiemus,n:0x00a00021]
+{
+	[aspect]
+	{
+	  f max_life = 333.2;
+	  f max_mana = 449;
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.66939e-007;
+	  p position = 2.23959,0,2.68922,0xbeb68efb;
+	}
+}
+[t:andiemus,n:0x00a00022]
+{
+	[aspect]
+	{
+	  f max_life = 333.2;
+	  f max_mana = 449;
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.66939e-007;
+	  p position = -0.0282784,0,2.742,0xbeb68efb;
+	}
+}
+[t:andiemus,n:0x00a00023]
+{
+	[aspect]
+	{
+	  f max_life = 333.2;
+	  f max_mana = 449;
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.66939e-007;
+	  p position = -2.28099,0,2.7257,0xbeb68efb;
+	}
+}
+[t:andiemus,n:0x00a00024]
+{
+	[aspect]
+	{
+	  f max_life = 333.2;
+	  f max_mana = 449;
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-1.66939e-007;
+	  p position = -3.4822,0,-0.535151,0xbeb68efb;
+	}
+}

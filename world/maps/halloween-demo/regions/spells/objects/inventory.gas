@@ -1,0 +1,28 @@
+[t:spell_summon_wolf_black,n:0x00300000]
+{
+	[placement]
+	{
+	  p position = -2.41458,0,-2.36086,0xc463f1db;
+	}
+}
+[t:spell_transform_wolf,n:0x00300001]
+{
+	[placement]
+	{
+	  p position = -1.28776,4.76837e-007,-2.32512,0xc463f1db;
+	}
+}
+[t:spell_transform_bear,n:0x00300002]
+{
+	[placement]
+	{
+	  p position = 2.40737,0,-2.46181,0xc463f1db;
+	}
+}
+[t:spell_summon_dsx_bear,n:0x00300003]
+{
+	[placement]
+	{
+	  p position = 1.29437,4.76837e-007,-2.39736,0xc463f1db;
+	}
+}
