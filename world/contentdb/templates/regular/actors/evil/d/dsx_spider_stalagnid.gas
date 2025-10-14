@@ -1,5 +1,4 @@
-
-[t:template,n:dsx_spider_stalagnid]
+[t:template,n:dsx_spider_stalagnid_base]  // = dsx_spider_stalagnid
 {
 	category_name = "1W_evil_d";
 	doc = "dsx_spider_stalagnid";
@@ -26,7 +25,6 @@
 		{
 			[die]	{ priority = high; * = s_e_die_grub_SED; }
 		}
-        scale_base = 1.26;  // EDITED: 2x volume
 	}
 	[attack]
 	{
@@ -118,9 +116,14 @@
 		}
 	}
 }
+[t:template,n:dsx_spider_stalagnid]
+{
+	specializes = dsx_spider_stalagnid_base;
 
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+}
 
-[t:template,n:dsx_spider_stalagnid_island]
+[t:template,n:dsx_spider_stalagnid_island_base]  // = dsx_spider_stalagnid_island
 //balanced to Level 12
 {
 	category_name = "1W_evil_d";
@@ -144,8 +147,7 @@
 		mana = 12;
 		max_mana = 12;
 		model = m_c_edm_sn_pos_1;
-		//scale_base = 0.5;
-        scale_base = 0.63;  // EDITED: 2x volume
+		scale_base = 0.5;
 		[voice]
 		{
 			[die]	{ priority = high; * = s_e_die_grub_SED; }
@@ -271,4 +273,10 @@
 			frag_glb_dsx_stalagnid_05 = 1;
 		}
 	}
+}
+[t:template,n:dsx_spider_stalagnid_island]
+{
+	specializes = dsx_spider_stalagnid_island_base;
+
+	aspect:scale_base = 0.63;  // EDITED: 2x volume
 }

@@ -11,7 +11,6 @@
 			[die]			{ priority = high; * = s_e_die_spider; }
 			[enemy_spotted]	{ priority = high; * = s_e_call_spider_SED; }
 		}
-        scale_base = 1.26;  // EDITED: 2x volume
 	}
 	[body]
 	{
@@ -92,7 +91,8 @@
 		}
 	}
 }
-[t:template,n:spider_frostnid]
+
+[t:template,n:spider_frostnid_hw_base]  // = spider_frostnid
 {
 	category_name = "1W_evil_d";
 	doc = "spider_frostnid";
@@ -124,7 +124,14 @@
 	[common] { screen_name="Frostnid"; }
     [defend] { defense=60; }
 }
-[t:template,n:spider_frostnid_ranged]
+[t:template,n:spider_frostnid]
+{
+	specializes = spider_frostnid_hw_base;
+
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+}
+
+[t:template,n:spider_frostnid_ranged_base]  // = spider_frostnid_ranged
 {
 	category_name = "1W_evil_d";
 	doc = "spider_frostnid_ranged";
@@ -173,4 +180,10 @@
 		actor_auto_switches_to_karate	= false;
 		actor_auto_switches_to_melee	= false;
 	}
+}
+[t:template,n:spider_frostnid_ranged]
+{
+	specializes = spider_frostnid_ranged_base;
+
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
 }

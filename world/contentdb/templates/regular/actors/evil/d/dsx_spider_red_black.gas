@@ -1,4 +1,4 @@
-[t:template,n:dsx_spider_red_black]
+[t:template,n:dsx_spider_red_black_base]  // = dsx_spider_red_black
 {
 	category_name = "1W_evil_d";
 	doc = "dsx_spider_red_black";
@@ -26,7 +26,6 @@
 			[die]			{ priority = high; * = s_e_die_spider; }
 			[enemy_spotted]	{ priority = high; * = s_e_call_spider; }
 		}
-        scale_base = 1.26;  // EDITED: 2x volume
 	}
 	[attack]
 	{
@@ -107,4 +106,10 @@
 			frag_glb_spider_05 = 1;
 		}
 	}
+}
+[t:template,n:dsx_spider_red_black]
+{
+	specializes = dsx_spider_red_black_base;
+
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
 }

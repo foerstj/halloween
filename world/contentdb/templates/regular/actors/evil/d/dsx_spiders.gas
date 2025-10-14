@@ -1,4 +1,4 @@
-[t:template,n:dsx_spider_emerald]
+[t:template,n:dsx_spider_emerald_base]  // = dsx_spider_emerald
 {
   category_name = "1W_evil_d";
   doc = "dsx_spider_emerald";
@@ -24,8 +24,7 @@
       mana = 0;
       max_mana = 0;
       model = m_c_edm_sp_pos_1;
-            //scale_base = 1.5;
-        scale_base = 1.89;  // EDITED: 2x volume
+            scale_base = 1.5;
 		[voice]
 		{
 			[die]			{ priority = high; * = s_e_die_spider_SED; }
@@ -146,8 +145,14 @@
 	}
 		}
 }
+[t:template,n:dsx_spider_emerald]
+{
+	specializes = dsx_spider_emerald_base;
 
-[t:template,n:dsx_spider_frost]
+	aspect:scale_base = 1.89;  // EDITED: 2x volume
+}
+
+[t:template,n:dsx_spider_frost_base]  // = dsx_spider_frost
 {
   category_name = "1W_evil_d";
   doc = "dsx_spider_frostnid";
@@ -175,7 +180,6 @@
 			[enemy_spotted]	{ priority = high; * = s_e_call_spider_SED; }
 			[attack]	{ priority = high; * = s_e_attack_spider_SED; }
 		}
-        scale_base = 1.26;  // EDITED: 2x volume
     }
   [attack]
     {
@@ -192,8 +196,14 @@
 			
 		}
 }
+[t:template,n:dsx_spider_frost]
+{
+	specializes = dsx_spider_frost_base;
 
-[t:template,n:dsx_spider_frost_range]
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+}
+
+[t:template,n:dsx_spider_frost_range_base]  // = dsx_spider_frost_range
 {
   category_name = "1W_evil_d";
   doc = "dsx_spider_frostnid_ranged";
@@ -216,7 +226,6 @@
       max_life = 39;
       mana = 0;
       max_mana = 0;
-        scale_base = 1.26;  // EDITED: 2x volume
       [voice]
 	{
 	  [cast]			{ * = s_e_attack_frostnid_SED; }
@@ -251,8 +260,14 @@
 				
 		}
 }
+[t:template,n:dsx_spider_frost_range]
+{
+	specializes = dsx_spider_frost_range_base;
 
-[t:template,n:dsx_spider_sm] //Small Yellow Spider
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+}
+
+[t:template,n:dsx_spider_sm_base]  // = dsx_spider_sm //Small Yellow Spider
 {
   category_name = "1W_evil_d";
   doc = "dsx_spider_sm";
@@ -275,8 +290,7 @@
       mana = 0;
       max_mana = 0;
       model = m_c_edm_as_pos_1;
-      //scale_base = 0.5;
-        scale_base = 0.63;  // EDITED: 2x volume
+      scale_base = 0.5;
       [textures] { 0=b_c_edm_as-yel; }
       [voice]
 	{
@@ -381,8 +395,14 @@
 	}
     }
 }
+[t:template,n:dsx_spider_sm]
+{
+	specializes = dsx_spider_sm_base;
 
-[t:template,n:dsx_spider_med] //Pink Spider
+	aspect:scale_base = 0.63;  // EDITED: 2x volume
+}
+
+[t:template,n:dsx_spider_med_base] //Pink Spider
 {
   category_name = "1W_evil_d";
   doc = "dsx_spider_med";
@@ -405,7 +425,6 @@
       mana = 0;
       max_mana = 0;
       model = m_c_edm_as_pos_1;
-        scale_base = 1.26;  // EDITED: 2x volume
       [voice]
 	{
 	  [die]			{ priority = high; * = s_e_die_grub_SED; }
@@ -506,4 +525,10 @@
 	  frag_glb_adolescent_spider_05 = 1;
 	}
     }
+}
+[t:template,n:dsx_spider_med]
+{
+	specializes = dsx_spider_med_base;
+
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
 }

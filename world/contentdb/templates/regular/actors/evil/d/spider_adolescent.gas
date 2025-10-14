@@ -1,4 +1,4 @@
-[t:template,n:spider_adolescent]
+[t:template,n:spider_adolescent_base]  // = spider_adolescent
 {
 	category_name = "1W_evil_d";
 	doc = "spider_pink";
@@ -26,7 +26,6 @@
 			[die]			{ priority = high; * = s_e_die_spider; }
 			[enemy_spotted]	{ priority = high; * = s_e_call_spider_SED; }
 		}
-        scale_base = 1.26;  // EDITED: 2x volume
 	}
 	[attack]
 	{
@@ -121,4 +120,10 @@
 			frag_glb_adolescent_spider_05 = 1;
 		}
 	}
+}
+[t:template,n:spider_adolescent]
+{
+	specializes = spider_adolescent_base;
+
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
 }

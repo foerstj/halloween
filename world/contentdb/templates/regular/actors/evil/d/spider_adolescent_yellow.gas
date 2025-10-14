@@ -1,4 +1,4 @@
-[t:template,n:spider_adolescent_yellow]
+[t:template,n:spider_adolescent_yellow_base]  // = spider_adolescent_yellow
 {
 	category_name = "1W_evil_d";
 	doc = "spider_sm_yllw";
@@ -21,8 +21,7 @@
 		mana = 2;
 		max_mana = 2;
 		model = m_c_edm_as_pos_1;
-		//scale_base = 0.5;
-        scale_base = 0.63;  // EDITED: 2x volume
+		scale_base = 0.5;
 		[textures] { 0=b_c_edm_as-yel; }
 		[voice]
 		{
@@ -126,4 +125,10 @@
 			frag_glb_adolescent_spider_yel_05 = 2;
 		}
 	}
+}
+[t:template,n:spider_adolescent_yellow]
+{
+	specializes = spider_adolescent_yellow_base;
+
+	aspect:scale_base = 0.63;  // EDITED: 2x volume
 }
