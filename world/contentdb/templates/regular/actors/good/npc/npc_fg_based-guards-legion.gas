@@ -2,7 +2,7 @@
 {
 	category_name = "1W_character";
 	doc = "guard_04";
-	specializes = base_npc_fg;
+	specializes = base_npc_sk;
 	[aspect]
 	{
 		draw_selection_indicator = TRUE;
@@ -43,7 +43,7 @@
 {
 	category_name = "1W_character";
 	doc = "guard_05";
-	specializes = base_npc_fg;
+	specializes = base_npc_sk;
 	[aspect]
 	{
 		draw_selection_indicator = TRUE;
@@ -84,7 +84,7 @@
 {
 	category_name = "1W_character";
 	doc = "mp_guard_04";
-	specializes = base_npc_fg_multiplayer;
+	specializes = base_npc_sk_multiplayer;
 	[aspect]
 	{
 		draw_selection_indicator = TRUE;
@@ -130,7 +130,7 @@
 {
 	category_name = "1W_character";
 	doc = "Barracks_Guard";
-	specializes = base_npc_fg_multiplayer;
+	specializes = base_npc_sk_multiplayer;
 	[aspect]
 	{
 		model = m_c_gah_fg_pos_a3;
@@ -177,7 +177,7 @@
 {
 	category_name = "1W_character";
 	doc = "mp_guard_05";
-	specializes = base_npc_fg_multiplayer;
+	specializes = base_npc_sk_multiplayer;
 	[aspect]
 	{
 		draw_selection_indicator = TRUE;

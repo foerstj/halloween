@@ -2,7 +2,7 @@
 {
 	category_name = "1W_character";
 	doc = "guard";
-	specializes = base_npc_fb;
+	specializes = base_npc_sk;
 	[actor]
 	{
 		[skills]
@@ -56,7 +56,7 @@
 {
 	category_name = "1W_character";
 	doc = "guard_captain";
-	specializes = base_npc_fb;
+	specializes = base_npc_sk;
 	[actor]
 	{
 		[skills]
@@ -110,7 +110,7 @@
 {
 	category_name = "1W_character";
 	doc = "guard_ranged";
-	specializes = base_npc_fb;
+	specializes = base_npc_sk;
 	[actor]
 	{
 		[skills]
@@ -163,7 +163,7 @@
 {
 	category_name = "1W_character";
 	doc = "guard_02";
-	specializes = base_npc_fb;
+	specializes = base_npc_sk;
 	[aspect]
 	{
 		is_collidable = true;
@@ -203,7 +203,7 @@
 {
 	category_name = "1W_character";
 	doc = "mp_guard_02";
-	specializes = base_npc_fb_multiplayer;
+	specializes = base_npc_sk_multiplayer;
 	[aspect]
 	{
 		is_collidable = true;
@@ -248,7 +248,7 @@
 {
 	category_name = "1W_character";
 	doc = "guard_03";
-	specializes = base_npc_fb;
+	specializes = base_npc_sk;
 	[aspect]
 	{
 		is_collidable = true;
@@ -288,7 +288,7 @@
 {
 	category_name = "1W_character";
 	doc = "mp_guard_03";
-	specializes = base_npc_fb_multiplayer;
+	specializes = base_npc_sk_multiplayer;
 	[aspect]
 	{
 		is_collidable = true;
@@ -334,7 +334,7 @@
 {
 	category_name = "1W_character";
 	doc = "mp_guard";
-	specializes = base_npc_fb_multiplayer;
+	specializes = base_npc_sk_multiplayer;
 	[actor]
 	{
 		[skills]
@@ -385,7 +385,7 @@
 {
 	category_name = "1W_character";
 	doc = "mp_guard_captain";
-	specializes = base_npc_fb_multiplayer;
+	specializes = base_npc_sk_multiplayer;
 	[actor]
 	{
 		[skills]
@@ -436,7 +436,7 @@
 {
 	category_name = "1W_character";
 	doc = "mp_guard_captain_elddim";
-	specializes = base_npc_fb_multiplayer;
+	specializes = base_npc_sk_multiplayer;
 
 	[actor]
 	{
@@ -498,7 +498,7 @@
 {
 	category_name = "1W_character";
 	doc = "mp_guard_ranged";
-	specializes = base_npc_fb_multiplayer;
+	specializes = base_npc_sk_multiplayer;
 	[actor]
 	{
 		[skills]
