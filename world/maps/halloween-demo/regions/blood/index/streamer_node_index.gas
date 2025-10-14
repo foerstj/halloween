@@ -2,10 +2,22 @@
 {
   x * = 0x06EB25B0;
   x * = 0x0E7F9E40;
+  x * = 0x2333036A;
+  x * = 0x28B171EE;
+  x * = 0x2F5C4205;
+  x * = 0x3A158284;
+  x * = 0x46E0A67B;
   x * = 0x5C2CAC83;
   x * = 0x69E64CED;
+  x * = 0x6A5503C4;
+  x * = 0x73D4B313;
+  x * = 0x8A6CB00F;
   x * = 0xA87A6552;
   x * = 0xBFCF9645;
+  x * = 0xD5B31BC3;
+  x * = 0xE40AA432;
+  x * = 0xE50CF3A2;
+  x * = 0xE75BA753;
   x * = 0xEA8BFB65;
   x * = 0xF72693F3;
   x * = 0xFD270724;

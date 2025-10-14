@@ -36,6 +36,13 @@
 	  p position = -0.262341,0,-0.279319,0xfd270724;
 	}
 }
+[t:googore,n:0x0040000b]
+{
+	[placement]
+	{
+	  p position = 0.0032177,0,0.0977707,0xd5b31bc3;
+	}
+}
 [t:skrubb,n:0x00400000]
 {
 	[placement]
