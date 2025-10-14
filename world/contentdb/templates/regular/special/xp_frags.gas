@@ -1,7 +1,7 @@
 [t:template,n:frag_xp_emerald_spider_01]
 {
 	doc = "frag_glb_emerald_spider_01";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect]
 	{
 		model = m_i_glb_frag-emerald_spider-01;
@@ -12,7 +12,7 @@
 [t:template,n:frag_xp_emerald_spider_02]
 {
 	doc = "frag_glb_emerald_spider_02";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect]
 	{
 		model = m_i_glb_frag-emerald_spider-02;
@@ -23,7 +23,7 @@
 [t:template,n:frag_xp_emerald_spider_03]
 {
 	doc = "frag_glb_emerald_spider_03";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect]
 	{
 		model = m_i_glb_frag-emerald_spider-03;
@@ -34,7 +34,7 @@
 [t:template,n:frag_xp_emerald_spider_04]
 {
 	doc = "frag_glb_emerald_spider_04";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect]
 	{
 		model = m_i_glb_frag-emerald_spider-04;
@@ -45,7 +45,7 @@
 [t:template,n:frag_xp_emerald_spider_05]
 {
 	doc = "frag_glb_emerald_spider_05";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect]
 	{
 		model = m_i_glb_frag-emerald_spider-05;
