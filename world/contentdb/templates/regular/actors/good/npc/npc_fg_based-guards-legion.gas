@@ -16,10 +16,6 @@
 	{
 		screen_name = "Guard";
 	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
-	}
 	[inventory]
 	{
 		[equipment]
@@ -54,10 +50,6 @@
 	[common]
 	{
 		screen_name = "Guard";
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{
@@ -97,10 +89,6 @@
 	}
 	[conversation]
 	{
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{
@@ -142,10 +130,6 @@
 	[conversation]
 	{
 	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
-	}
 	[inventory]
 	{
 		[equipment]
@@ -185,10 +169,6 @@
 	}
 	[conversation]
 	{
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{

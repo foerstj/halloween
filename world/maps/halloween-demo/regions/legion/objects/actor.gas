@@ -96,3 +96,45 @@
 	  p position = -2.70186,0,2.24529,0x1dbe266a;
 	}
 }
+[t:droog_archer,n:0x00b00013]
+{
+	[placement]
+	{
+	  p position = -3.28925,0,-2.41696,0x1dbe266a;
+	}
+}
+[t:droog_archer,n:0x00b00014]
+{
+	[placement]
+	{
+	  p position = -2.29296,0,-3.13485,0x1dbe266a;
+	}
+}
+[t:droog_grunt,n:0x00b00015]
+{
+	[placement]
+	{
+	  p position = -3.75392,9.53674e-007,-1.09506,0x1dbe266a;
+	}
+}
+[t:droog_grunt,n:0x00b00016]
+{
+	[placement]
+	{
+	  p position = -1.91555,0,-1.64502,0x1dbe266a;
+	}
+}
+[t:droog_grunt,n:0x00b00017]
+{
+	[placement]
+	{
+	  p position = -0.482068,0,-3.13725,0x1dbe266a;
+	}
+}
+[t:droog_mage,n:0x00b00018]
+{
+	[placement]
+	{
+	  p position = -3.5828,9.53674e-007,-3.44436,0x1dbe266a;
+	}
+}

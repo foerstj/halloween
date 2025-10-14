@@ -101,6 +101,10 @@
 			}
 		}
 	}
+	[guts_manager]
+	{
+		effect_name = melee_hit_1;
+	}
 
 	// from base_npc_fb
 	[aspect]

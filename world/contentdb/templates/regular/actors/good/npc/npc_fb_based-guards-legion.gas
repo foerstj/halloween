@@ -47,10 +47,6 @@
         actor_may_be_attacked = true;
 		jat_talk = world\ai\jobs\common\job_talk.skrit;
 	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
-	}
 }
 [t:template,n:guard_captain]
 {
@@ -82,10 +78,6 @@
 	}
 	[conversation]
 	{
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{
@@ -137,10 +129,6 @@
 	[conversation]
 	{
 	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
-	}
 	[inventory]
 	{
 		selected_active_location = il_active_ranged_weapon;
@@ -175,10 +163,6 @@
 	[common]
 	{
 		screen_name = "Legionnaire Guard";
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{
@@ -219,10 +203,6 @@
 	[conversation]
 	{
 	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
-	}
 	[inventory]
 	{
 		[equipment]
@@ -258,10 +238,6 @@
 	[common]
 	{
 		screen_name = "Legionnaire Guard";
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{
@@ -314,10 +290,6 @@
 			es_weapon_hand = #sd_g_c_st_1h_avg:o_avg;
 		}
 	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
-	}
 	[mind]
 	{
 		actor_may_attack = true;
@@ -353,10 +325,6 @@
 	[common]
 	{
 		screen_name = "Legionnaire Guard";
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{
@@ -405,10 +373,6 @@
 	{
 		screen_name = "Legionnaire Captain";
 	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
-	}
 	[inventory]
 	{
 		[equipment]
@@ -456,10 +420,6 @@
 	[common]
 	{
 		screen_name = "Guard Captain of Elddim";
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{
@@ -516,10 +476,6 @@
 	[common]
 	{
 		screen_name = "Legionnaire Archer";
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{
