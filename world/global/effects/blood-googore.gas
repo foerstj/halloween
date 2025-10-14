@@ -1,0 +1,130 @@
+[effect_script*]
+{
+	name	=googore_goo;
+
+	script	=[[
+			sfx create explosion #TARGET
+				"alphastart(.4)splatskip(1)stexture(b_sfx_blood_004)
+				scale(.66)dark()radius(.5)use_fog()splat()dur(12)splat_life(8)
+				color0(0,.4,0)color2(.3,.2,.2)color1(0,0,0)fade_range(0,0,0)
+				scale_range(.8,.9,0)count(20)vmin(3)vmax(4)omni_dir()";
+				
+				
+			sfx attach_point #PEEK bone07 target;
+			sfx snap_to_ground #PEEK;
+			sfx start #POP;
+			
+			sfx create explosion #TARGET
+				"alphastart(.4)splatskip(1)stexture(b_sfx_blood_006)
+				scale(.66)dark()radius(1)use_fog()splat()dur(12)splat_life(8)
+				color0(.2,.4,0)color2(.4,.2,.2)color1(0,0,0)fade_range(0,0,0)
+				scale_range(.8,.9,0)count(20)vmin(3)vmax(4)omni_dir()";
+				
+				
+			sfx attach_point #PEEK bone07 target;
+			sfx snap_to_ground #PEEK;
+			sfx start #POP;
+			]];
+}
+
+[effect_script*]
+{
+	name	=googore_spit;
+
+	script	=[[
+			set $size .3;
+
+			sound play s_e_attack_skrubb at #SOURCE_POSITION dist 8 20;
+
+			pause .1;
+
+			/////////////////////////////////////////
+			// This is the main trackball for the effect, everything is based off of this.
+			sfx create trackball #TARGET_KB 
+				"must_update()invisible()scale(.5)color0(.1,.3,.1)dur(6)afterlife(2)ts(1.4)";
+			set $trackball #POP;
+			sfx position_at $trackball @weapon_bone source;
+			sfx friendly party $trackball;
+			
+			sfx create orbiter #TARGET 
+				"must_update()delay(.05)scale(.5)color0(.1,.3,.1)dur(6)radius(.66)phi(0)iphi(10)
+				itheta(10)invisible()free()";
+			sfx rat #PEEK;
+			sfx target #PEEK $trackball;
+			set $orb1 #PEEK;
+			sfx start #POP;
+			
+			sfx create orbiter #TARGET 
+				"must_update()delay(.05)scale(.5)color0(.1,.3,.1)dur(6)radius(.6)phi(3.14)iphi(10)
+				itheta(10)invisible()free()";
+			sfx rat #PEEK;
+			sfx target #PEEK $trackball;
+			set $orb2 #PEEK;
+			sfx start #POP;
+			
+			sfx create fire #SOURCE
+				"must_update()dark()delay(.05)count(60)color0(.3,1,.1)velocity(0,0,0)
+				accel(0,0,0)flamesize(.66)alphafade(1.2)max_radius(6)scale(3)";
+			sfx rat #PEEK;
+			sfx target #PEEK $trackball;
+			sfx start #POP;
+
+			sfx create fire #SOURCE
+				"must_update()delay(.05)count(30)color0(.66,1,.2)velocity(0,0,0)accel(0,0,0)
+				flamesize(.2)alphafade(1.2)min_radius(0)max_radius(1.5)scale(2)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb1;
+			sfx start #POP;
+
+			sfx create fire #SOURCE
+				"must_update()delay(.05)count(30)color0(.66,1,.2)velocity(0,0,0)accel(0,0,0)
+				flamesize(.2)alphafade(1.2)min_radius(0)max_radius(1.5)scale(2)";
+			sfx rat #PEEK;
+			sfx target #PEEK $orb2;
+			sfx start #POP;
+
+			sfx start $trackball;
+
+			waitfor collision $trackball #DEFAULT_TIMEOUT;
+			
+			set $collision_type #POP;
+			
+			if ( $collision_type != #NO_COLLISION )
+			{
+				get target_position $trackball target;
+				sound play s_e_meat_explosion at #POP dist 3 20;
+				
+				get collision point $trackball;
+				sfx create fire #POP
+					"ts(1)scale(1.2)count(60)color0(.35,.8,.1)color1(.05,.05,0)
+					alphafade(.6)velocity(0,5,0)accel(0,5,0)flamesize(2)max_displace(1)
+					min_displace(-1)max_radius(6)dur(.33)offset(0,-.33,0)";
+				sfx start #POP;
+				
+				get collision point $trackball;
+				sfx create explosion #POP 
+					"collide()ts(1)offset(0,-.2,0)color0(.66,1,.2)radius(0)vmin(5)omni_dir()
+					vmax(5)rvel(1,0,1)ivel(0,-.5,0)dur(1.2)scale(1.6)fade_range(.5,1,0)count(20)
+					rebound(.3)";
+				sfx start #POP;
+				
+				get collision point $trackball;
+				sfx create explosion #POP 
+					"collide()ts(1)offset(0,-.2,0)color0(.3,1,.1)radius(0)vmin(5)omni_dir()
+					vmax(5)rvel(1,0,1)ivel(0,-.5,0)dur(1.2)scale(1.6)fade_range(.5,1,0)
+					texture(b_sfx_sparkle01)count(20)rebound(.3)";
+				sfx start #POP;
+				
+				get collision point $trackball;
+				sfx create explosion #POP 
+					"collide()scale(.5)dark()radius(.5)use_fog()dur(.33)
+					color0(0,.4,0)color1(0,0,0)color2(.25,.6,0)fade_range(0,0,0)
+					scale_range(.8,.9,0)count(20)vmin(1)vmax(3)omni_dir()rebound(.3)";
+				sfx start #POP;
+			}
+			
+			sfx destroy $trackball;
+			
+			worldmsg WE_SPELL_SYNC_END #OWNER_GOID #OWNER_GOID #TARGET_GOID;
+			]];
+}
