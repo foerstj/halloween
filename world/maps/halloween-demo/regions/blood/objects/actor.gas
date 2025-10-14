@@ -14,6 +14,20 @@
 	  p position = -1.40066,0,0.0801144,0xa87a6552;
 	}
 }
+[t:phrak_piercer,n:0x00400007]
+{
+	[placement]
+	{
+	  p position = 3.253,0,1.76076,0x06eb25b0;
+	}
+}
+[t:phrak_piercer,n:0x00400008]
+{
+	[placement]
+	{
+	  p position = 3.49561,0,2.86868,0x06eb25b0;
+	}
+}
 [t:dsx_skrubb_jungle,n:0x00400004]
 {
 	[placement]
@@ -28,19 +42,5 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -0.536341,0,0.609077,0xbfcf9645;
-	}
-}
-[t:phrak_piercer,n:0x00400007]
-{
-	[placement]
-	{
-	  p position = 3.253,0,1.76076,0x06eb25b0;
-	}
-}
-[t:phrak_piercer,n:0x00400008]
-{
-	[placement]
-	{
-	  p position = 3.49561,0,2.86868,0x06eb25b0;
 	}
 }

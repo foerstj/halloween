@@ -19,20 +19,6 @@
 	  p position = 2.20028,-4.76837e-007,-1.65985,0x5c7e9247;
 	}
 }
-[t:swamp_witch,n:0x0070000a]
-{
-	[placement]
-	{
-	  p position = 0.192183,3.8147e-006,1.35312,0xf266b69c;
-	}
-}
-[t:ice_mage,n:0x00700009]
-{
-	[placement]
-	{
-	  p position = -0.651268,0,-2.23154,0xf92a6dd2;
-	}
-}
 [t:braak_magic,n:0x00700006]
 {
 	[placement]
@@ -66,5 +52,19 @@
 	[placement]
 	{
 	  p position = -0.278714,9.53674e-007,1.07387,0x9af5a7bb;
+	}
+}
+[t:swamp_witch,n:0x0070000a]
+{
+	[placement]
+	{
+	  p position = 0.192183,3.8147e-006,1.35312,0xf266b69c;
+	}
+}
+[t:ice_mage,n:0x00700009]
+{
+	[placement]
+	{
+	  p position = -0.651268,0,-2.23154,0xf92a6dd2;
 	}
 }
