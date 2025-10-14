@@ -1,7 +1,7 @@
-[t:template,n:base_fragment_krug]
+[t:template,n:base_fragment_bloody]
 {
-	doc = "krug piece.";
 	specializes = fragment;
+	doc = "bloody frag";
 	[common]
 	{
 		[template_triggers]
@@ -15,6 +15,13 @@
 		}
 	}
 }
+
+[t:template,n:base_fragment_krug]
+{
+	specializes = base_fragment_bloody;
+	doc = "krug piece.";
+}
+
 [t:template,n:frag_glb_blaster_01]
 {
 	doc = "blaster fragment";
@@ -45,6 +52,7 @@
 	specializes = fragment;
 	[aspect] { model=m_i_glb_frag-blaster-05; }
 }
+
 [t:template,n:frag_glb_boardwalk_01]
 {
 	doc = "boardwalk fragment";
@@ -81,6 +89,7 @@
 	specializes = fragment;
 	[aspect] { model=m_i_swp_frag-boardwalk-06; }
 }
+
 [t:template,n:frag_glb_bone_01]
 {
 	doc = "bone fragment";
@@ -117,6 +126,7 @@
 	specializes = fragment;
 	[aspect] { model=m_i_glb_frag-bone-06; }
 }
+
 [t:template,n:frag_glb_copter_01]
 {
 	doc = "copter fragment";
@@ -147,6 +157,7 @@
 	specializes = fragment;
 	[aspect] { model=m_i_glb_frag-copter-05; }
 }
+
 [t:template,n:frag_glb_dung_01]
 {
 	doc = "chunk o' dung";
@@ -171,6 +182,7 @@
 		}
 	}
 }
+
 [t:template,n:frag_glb_egg_dragon_large_01]
 {
 	doc = "dragon_egg_frag_01";
@@ -219,6 +231,7 @@
 	specializes 	= fragment;
 	aspect:model	= m_i_glb_frag-egg-dragon-large-08; 
 }
+
 [t:template,n:frag_glb_gargoyle_01]
 {
 	doc = "Gargoyle fragment";
@@ -255,6 +268,7 @@
 	specializes = fragment;
 	[aspect] { model=m_i_glb_frag-gargoyle-06; }
 }
+
 [t:template,n:frag_glb_gargoyle_large_01]
 {
 	doc = "Gargoyle fragment";
@@ -321,6 +335,7 @@
 		textures:0	= b_c_edm_ga-02;
 	}
 }
+
 [t:template,n:frag_glb_gargoyle_bronze_01]
 {
 	doc = "Gargoyle fragment";
@@ -363,6 +378,7 @@
 	aspect:model=m_i_glb_frag-gargoyle-06;
 	aspect:textures:0	= b_c_edm_ga-03;
 }
+
 [t:template,n:frag_glb_glass_01]
 {
 	doc = "ice fragment";
@@ -435,6 +451,7 @@
 	specializes = fragment;
 	[aspect] { model=m_i_glb_frag-glass-12; }
 }
+
 [t:template,n:frag_glb_robo-suit_01]
 {
 	doc = "Robo Suit fragment";
@@ -561,6 +578,7 @@
 	specializes = fragment;
 	[aspect] { model=m_i_glb_frag-robo-suit-21; }
 }
+
 [t:template,n:frag_glb_heater_01]
 {
 	doc = "heater fragment";
@@ -591,6 +609,7 @@
 	specializes = fragment;
 	[aspect] { model=m_i_glb_frag-heater-05; }
 }
+
 [t:template,n:frag_glb_ice_01]
 {
 	doc = "ice fragment";
@@ -669,6 +688,7 @@
 	specializes = fragment;
 	[aspect] { model=m_i_glb_frag-ice-13; }
 }
+
 [t:template,n:frag_glb_krug_01]
 {
 	doc = "misc";
@@ -1149,6 +1169,7 @@
 		[textures] { 0=b_c_eam_ksv; }
 	}
 }
+
 [t:template,n:frag_glb_metal_01]
 {
 	doc = "metal fragment";
@@ -1185,6 +1206,7 @@
 	specializes = fragment;
 	[aspect] { model=m_i_glb_frag-metal-06; }
 }
+
 [t:template,n:frag_glb_molten_golem_01]
 {
 	doc = "molten golem fragment";
@@ -1235,36 +1257,39 @@
 		[textures] { 0=b_c_edm_rg-03; }
 	}
 }
+
+[t:template,n:base_frag_glb_moth] { specializes = base_fragment_bloody; }
 [t:template,n:frag_glb_moth_01]
 {
 	doc = "moth fragment";
-	specializes = fragment;
+	specializes = base_frag_glb_moth;
 	[aspect] { model=m_i_glb_frag-moth-01; }
 }
 [t:template,n:frag_glb_moth_02]
 {
 	doc = "moth fragment";
-	specializes = fragment;
+	specializes = base_frag_glb_moth;
 	[aspect] { model=m_i_glb_frag-moth-02; }
 }
 [t:template,n:frag_glb_moth_03]
 {
 	doc = "moth fragment";
-	specializes = fragment;
+	specializes = base_frag_glb_moth;
 	[aspect] { model=m_i_glb_frag-moth-03; }
 }
 [t:template,n:frag_glb_moth_04]
 {
 	doc = "moth fragment";
-	specializes = fragment;
+	specializes = base_frag_glb_moth;
 	[aspect] { model=m_i_glb_frag-moth-04; }
 }
 [t:template,n:frag_glb_moth_05]
 {
 	doc = "moth fragment";
-	specializes = fragment;
+	specializes = base_frag_glb_moth;
 	[aspect] { model=m_i_glb_frag-moth-05; }
 }
+
 [t:template,n:frag_glb_perforator_01]
 {
 	doc = "perforator fragment";
@@ -1295,6 +1320,7 @@
 	specializes = fragment;
 	[aspect] { model=m_i_glb_frag-perforator-05; }
 }
+
 [t:template,n:frag_glb_proxo_01]
 {
 	doc = "proxo fragment - used for the proxo robot.";
@@ -1331,68 +1357,70 @@
 	specializes = fragment;
 	[aspect] { model=m_i_glb_frag-proxo-06; }
 }
+
+[t:template,n:base_frag_glb_rector] { specializes = base_fragment_bloody; }
 [t:template,n:frag_glb_rector_01]
 {
 	doc = "frag_glb_rector_01";
-	specializes = fragment;
+	specializes = base_frag_glb_rector;
 	[aspect] { model=m_i_glb_frag-rector-01; }
 }
 [t:template,n:frag_glb_rector_02]
 {
 	doc = "frag_glb_rector_02";
-	specializes = fragment;
+	specializes = base_frag_glb_rector;
 	[aspect] { model=m_i_glb_frag-rector-02; }
 }
 [t:template,n:frag_glb_rector_03]
 {
 	doc = "frag_glb_rector_03";
-	specializes = fragment;
+	specializes = base_frag_glb_rector;
 	[aspect] { model=m_i_glb_frag-rector-03; }
 }
 [t:template,n:frag_glb_rector_04]
 {
 	doc = "frag_glb_rector_04";
-	specializes = fragment;
+	specializes = base_frag_glb_rector;
 	[aspect] { model=m_i_glb_frag-rector-04; }
 }
 [t:template,n:frag_glb_rector_05]
 {
 	doc = "frag_glb_rector_05";
-	specializes = fragment;
+	specializes = base_frag_glb_rector;
 	[aspect] { model=m_i_glb_frag-rector-05; }
 }
 [t:template,n:frag_glb_punisher_01]
 {
 	doc = "frag_glb_punisher_01";
-	specializes = fragment;
+	specializes = base_frag_glb_rector;
 	aspect:model = m_i_glb_frag-rector-01; 
 	aspect:textures:0 = b_c_edm_rt-03;
 }
 [t:template,n:frag_glb_punisher_02]
 {
 	doc = "frag_glb_punisher_02";
-	specializes = fragment;
+	specializes = base_frag_glb_rector;
 	aspect:model = m_i_glb_frag-rector-02; 
 	aspect:textures:0 = b_c_edm_rt-03;
 }
 [t:template,n:frag_glb_punisher_03]
 {
 	doc = "frag_glb_punisher_03";
-	specializes = fragment;
+	specializes = base_frag_glb_rector;
 	aspect:model = m_i_glb_frag-rector-03; 
 	aspect:textures:0 = b_c_edm_rt-03;
 }
 [t:template,n:frag_glb_punisher_04]
 {
 	doc = "frag_glb_punisher_04";
-	specializes = fragment;
+	specializes = base_frag_glb_rector;
 	aspect:model = m_i_glb_frag-rector-04; 
 	aspect:textures:0 = b_c_edm_rt-03;
 }
 [t:template,n:frag_glb_punisher_05]
 {
 	doc = "frag_glb_punisher_05";
-	specializes = fragment;
+	specializes = base_frag_glb_rector;
 	aspect:model = m_i_glb_frag-rector-05; 
 	aspect:textures:0 = b_c_edm_rt-03;
 }
@@ -1460,6 +1488,7 @@
 	}
 	physics:sim_duration = 2;
 }
+
 [t:template,n:frag_glb_rock_golem_01]
 {
 	doc = "rock golem fragment";
@@ -1510,6 +1539,7 @@
 		[textures] { 0=b_c_edm_rg-04; }
 	}
 }
+
 [t:template,n:frag_glb_stone_01]
 {
 	doc = "stone fragment";
@@ -1546,7 +1576,6 @@
 	specializes = fragment;
 	[aspect] { model=m_i_glb_frag-stone-06; }
 }
-
 [t:template,n:frag_glb_stone_07]
 {
 	doc = "stone fragment";
@@ -1557,7 +1586,6 @@
 		[textures]	{0=b_i_cav_container-01;}
 	}
 }
-
 [t:template,n:frag_glb_stone_08]
 {
 	doc = "stone fragment";
@@ -1625,6 +1653,7 @@
 	specializes = fragment;
 	[aspect] { model=m_i_glb_frag-wood-06; }
 }
+
 [t:template,n:frag_glb_swamp_door_01]
 {
 	doc = "Swamp door fragment";
@@ -1656,35 +1685,30 @@
 	specializes = fragment;
 	[aspect] { model=m_i_swp_frag-boardwalk-01; }
 }
-
 [t:template,n:frag_swp_boardwalk_02]
 {
 	doc = "frag_swp_boardwalk_02";
 	specializes = fragment;
 	[aspect] { model=m_i_swp_frag-boardwalk-02; }
 }
-
 [t:template,n:frag_swp_boardwalk_03]
 {
 	doc = "frag_swp_boardwalk_03";
 	specializes = fragment;
 	[aspect] { model=m_i_swp_frag-boardwalk-03; }
 }
-
 [t:template,n:frag_swp_boardwalk_04]
 {
 	doc = "frag_swp_boardwalk_04";
 	specializes = fragment;
 	[aspect] { model=m_i_swp_frag-boardwalk-04; }
 }
-
 [t:template,n:frag_swp_boardwalk_05]
 {
 	doc = "frag_swp_boardwalk_05";
 	specializes = fragment;
 	[aspect] { model=m_i_swp_frag-boardwalk-05; }
 }
-
 [t:template,n:frag_swp_boardwalk_06]
 {
 	doc = "frag_swp_boardwalk_06";
@@ -1742,6 +1766,7 @@
 		scale_base = 0.55;
 	}
 }
+
 //Temp model... need to replace with real ice frags for Meriks tomb. -Ernsie
 [t:template,n:frag_ice_boulder_01]
 {
@@ -1853,6 +1878,7 @@
 		[textures] {0 = b_c_ecm_sk-02; }
 	}
 }
+
 [t:template,n:frag_glb_roundstone_01]
 {
 	doc = "bone fragment";
@@ -2006,10 +2032,11 @@
 	}
 }
 
+[t:template,n:base_frag_glb_spider] { specializes = base_fragment_bloody; }
 [t:template,n:frag_glb_adolescent_spider_01]
 {
 	doc = "adolescent spider frag";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect]
 	{
 		model = m_i_glb_frag-spider-adolescent-01;
@@ -2019,7 +2046,7 @@
 [t:template,n:frag_glb_adolescent_spider_02]
 {
 	doc = "adolescent spider frag";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect]
 	{
 		model = m_i_glb_frag-spider-adolescent-02;
@@ -2029,7 +2056,7 @@
 [t:template,n:frag_glb_adolescent_spider_03]
 {
 	doc = "adolescent spider frag";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect]
 	{
 		model = m_i_glb_frag-spider-adolescent-03;
@@ -2039,7 +2066,7 @@
 [t:template,n:frag_glb_adolescent_spider_04]
 {
 	doc = "adolescent spider frag";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect]
 	{
 		model = m_i_glb_frag-spider-adolescent-04;
@@ -2049,7 +2076,7 @@
 [t:template,n:frag_glb_adolescent_spider_05]
 {
 	doc = "adolescent spider frag";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect]
 	{
 		model = m_i_glb_frag-spider-adolescent-05;
@@ -2059,7 +2086,7 @@
 [t:template,n:frag_glb_adolescent_spider_yel_01]
 {
 	doc = "adolescent yellow spider frag";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect]
 	{
 		model = m_i_glb_frag-spider-adolescent-01;
@@ -2070,7 +2097,7 @@
 [t:template,n:frag_glb_adolescent_spider_yel_02]
 {
 	doc = "adolescent yellow spider frag";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect]
 	{
 		model = m_i_glb_frag-spider-adolescent-02;
@@ -2078,11 +2105,10 @@
 		[textures] {0 = b_c_edm_as-yel; }
 	}
 }
-
 [t:template,n:frag_glb_adolescent_spider_yel_03]
 {
 	doc = "adolescent yellow spider frag";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect]
 	{
 		model = m_i_glb_frag-spider-adolescent-03;
@@ -2093,7 +2119,7 @@
 [t:template,n:frag_glb_adolescent_spider_yel_04]
 {
 	doc = "adolescent yellow spider frag";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect]
 	{
 		model = m_i_glb_frag-spider-adolescent-04;
@@ -2104,7 +2130,7 @@
 [t:template,n:frag_glb_adolescent_spider_yel_05]
 {
 	doc = "adolescent yellow spider frag";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect]
 	{
 		model = m_i_glb_frag-spider-adolescent-05;
@@ -2112,10 +2138,12 @@
 		[textures] {0 = b_c_edm_as-yel; }
 	}
 }
+
+[t:template,n:base_frag_glb_mucosa] { specializes = base_fragment_bloody; }
 [t:template,n:frag_glb_mucosa_01]
 {
 	doc = "frag_glb_mucosa_01";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-01;
@@ -2125,7 +2153,7 @@
 [t:template,n:frag_glb_mucosa_02]
 {
 	doc = "frag_glb_mucosa_02";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-02;
@@ -2135,7 +2163,7 @@
 [t:template,n:frag_glb_mucosa_03]
 {
 	doc = "frag_glb_mucosa_03";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-03;
@@ -2145,7 +2173,7 @@
 [t:template,n:frag_glb_mucosa_04]
 {
 	doc = "frag_glb_mucosa_04";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-04;
@@ -2155,7 +2183,7 @@
 [t:template,n:frag_glb_mucosa_05]
 {
 	doc = "frag_glb_mucosa_05";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-05;
@@ -2165,7 +2193,7 @@
 [t:template,n:frag_glb_mucosa_06]
 {
 	doc = "frag_glb_mucosa_06";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-06;
@@ -2175,7 +2203,7 @@
 [t:template,n:frag_glb_mucosa_07]
 {
 	doc = "frag_glb_mucosa_07";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-07;
@@ -2185,7 +2213,7 @@
 [t:template,n:frag_glb_mucosa_small_01]
 {
 	doc = "frag_glb_mucosa_small_01";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-01;
@@ -2196,7 +2224,7 @@
 [t:template,n:frag_glb_mucosa_small_02]
 {
 	doc = "frag_glb_mucosa_small_02";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-02;
@@ -2207,7 +2235,7 @@
 [t:template,n:frag_glb_mucosa_small_03]
 {
 	doc = "frag_glb_mucosa_small_03";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-03;
@@ -2218,7 +2246,7 @@
 [t:template,n:frag_glb_mucosa_small_04]
 {
 	doc = "frag_glb_mucosa_small_04";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-04;
@@ -2229,7 +2257,7 @@
 [t:template,n:frag_glb_mucosa_small_05]
 {
 	doc = "frag_glb_mucosa_small_05";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-05;
@@ -2240,7 +2268,7 @@
 [t:template,n:frag_glb_mucosa_small_06]
 {
 	doc = "frag_glb_mucosa_small_06";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-06;
@@ -2251,7 +2279,7 @@
 [t:template,n:frag_glb_mucosa_small_07]
 {
 	doc = "frag_glb_mucosa_small_07";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-07;
@@ -2259,11 +2287,10 @@
 		[textures] {0 = b_c_edm_mu-02; }
 	}
 }
-
 [t:template,n:frag_glb_mucosa_large_01]
 {
 	doc = "frag_glb_mucosa_large_01";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-01;
@@ -2274,7 +2301,7 @@
 [t:template,n:frag_glb_mucosa_large_02]
 {
 	doc = "frag_glb_mucosa_large_02";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-02;
@@ -2285,7 +2312,7 @@
 [t:template,n:frag_glb_mucosa_large_03]
 {
 	doc = "frag_glb_mucosa_large_03";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-03;
@@ -2296,7 +2323,7 @@
 [t:template,n:frag_glb_mucosa_large_04]
 {
 	doc = "frag_glb_mucosa_large_04";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-04;
@@ -2307,7 +2334,7 @@
 [t:template,n:frag_glb_mucosa_large_05]
 {
 	doc = "frag_glb_mucosa_large_05";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-05;
@@ -2318,7 +2345,7 @@
 [t:template,n:frag_glb_mucosa_large_06]
 {
 	doc = "frag_glb_mucosa_large_06";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-06;
@@ -2329,7 +2356,7 @@
 [t:template,n:frag_glb_mucosa_large_07]
 {
 	doc = "frag_glb_mucosa_large_07";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-07;
@@ -2337,11 +2364,10 @@
 		[textures] {0 = b_c_edm_mu-03; }
 	}
 }
-
 [t:template,n:frag_glb_mucosa_predator_01]
 {
 	doc = "frag_glb_mucosa_predator_01";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-01;
@@ -2352,7 +2378,7 @@
 [t:template,n:frag_glb_mucosa_predator_02]
 {
 	doc = "frag_glb_mucosa_predator_02";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-02;
@@ -2363,7 +2389,7 @@
 [t:template,n:frag_glb_mucosa_predator_03]
 {
 	doc = "frag_glb_mucosa_predator_03";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-03;
@@ -2374,7 +2400,7 @@
 [t:template,n:frag_glb_mucosa_predator_04]
 {
 	doc = "frag_glb_mucosa_predator_04";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-04;
@@ -2385,7 +2411,7 @@
 [t:template,n:frag_glb_mucosa_predator_05]
 {
 	doc = "frag_glb_mucosa_predator_05";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-05;
@@ -2396,7 +2422,7 @@
 [t:template,n:frag_glb_mucosa_predator_06]
 {
 	doc = "frag_glb_mucosa_predator_06";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-06;
@@ -2407,7 +2433,7 @@
 [t:template,n:frag_glb_mucosa_predator_07]
 {
 	doc = "frag_glb_mucosa_predator_07";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-07;
@@ -2418,7 +2444,7 @@
 [t:template,n:frag_glb_mucosa_raider_01]
 {
 	doc = "frag_glb_mucosa_raider_01";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-01;
@@ -2429,7 +2455,7 @@
 [t:template,n:frag_glb_mucosa_raider_02]
 {
 	doc = "frag_glb_mucosa_raider_02";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-02;
@@ -2440,7 +2466,7 @@
 [t:template,n:frag_glb_mucosa_raider_03]
 {
 	doc = "frag_glb_mucosa_raider_03";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-03;
@@ -2451,7 +2477,7 @@
 [t:template,n:frag_glb_mucosa_raider_04]
 {
 	doc = "frag_glb_mucosa_raider_04";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-04;
@@ -2462,7 +2488,7 @@
 [t:template,n:frag_glb_mucosa_raider_05]
 {
 	doc = "frag_glb_mucosa_raider_05";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-05;
@@ -2473,7 +2499,7 @@
 [t:template,n:frag_glb_mucosa_raider_06]
 {
 	doc = "frag_glb_mucosa_raider_06";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-06;
@@ -2484,7 +2510,7 @@
 [t:template,n:frag_glb_mucosa_raider_07]
 {
 	doc = "frag_glb_mucosa_raider_07";
-	specializes = fragment;
+	specializes = base_frag_glb_mucosa;
 	[aspect]
 	{
 		model = m_i_glb_frag-mucosa-07;
@@ -2496,109 +2522,106 @@
 [t:template,n:frag_glb_spider_frostnid_01]
 {
 	doc = "frag_glb_spider_frostnid_01";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect] { model = m_i_glb_frag-frostnid-01; }
 }
 [t:template,n:frag_glb_spider_frostnid_02]
 {
 	doc = "frag_glb_spider_frostnid_02";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect] { model = m_i_glb_frag-frostnid-02; }
 }
 [t:template,n:frag_glb_spider_frostnid_03]
 {
 	doc = "frag_glb_spider_frostnid_03";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect] { model = m_i_glb_frag-frostnid-03; }
 }
 [t:template,n:frag_glb_spider_frostnid_04]
 {
 	doc = "frag_glb_spider_frostnid_04";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect] { model = m_i_glb_frag-frostnid-04; }
 }
 [t:template,n:frag_glb_spider_frostnid_05]
 {
 	doc = "frag_glb_spider_frostnid_05";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	[aspect] { model = m_i_glb_frag-frostnid-05; }
 }
 [t:template,n:frag_glb_spider_frostnid_ranged_01]
 {
 	doc = "frag_glb_spider_frostnid_ranged_01";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	aspect:model = m_i_glb_frag-frostnid-01;
 	aspect:textures:0 = b_c_edm_fn-02;
 }
 [t:template,n:frag_glb_spider_frostnid_ranged_02]
 {
 	doc = "frag_glb_spider_frostnid_ranged_02";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	aspect:model = m_i_glb_frag-frostnid-02;
 	aspect:textures:0 = b_c_edm_fn-02;
 }
 [t:template,n:frag_glb_spider_frostnid_ranged_03]
 {
 	doc = "frag_glb_spider_frostnid_ranged_03";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	aspect:model = m_i_glb_frag-frostnid-03;
 	aspect:textures:0 = b_c_edm_fn-02;
 }
 [t:template,n:frag_glb_spider_frostnid_ranged_04]
 {
 	doc = "frag_glb_spider_frostnid_ranged_04";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	aspect:model = m_i_glb_frag-frostnid-04;
 	aspect:textures:0 = b_c_edm_fn-02;
 }
 [t:template,n:frag_glb_spider_frostnid_ranged_05]
 {
 	doc = "frag_glb_spider_frostnid_ranged_05";
-	specializes = fragment;
+	specializes = base_frag_glb_spider;
 	aspect:model = m_i_glb_frag-frostnid-05;
 	aspect:textures:0 = b_c_edm_fn-02;
 }
+
 [t:template,n:frag_glb_window_chapel_01]
 {
 	doc = "frag_glb_window_chapel_01";
 	specializes = fragment;
 	[aspect] { model = m_i_glb_frag-window-chapel-01; }
 }
-
 [t:template,n:frag_glb_window_chapel_02]
 {
 	doc = "frag_glb_window_chapel_02";
 	specializes = fragment;
 	[aspect] { model = m_i_glb_frag-window-chapel-02; }
 }
-
 [t:template,n:frag_glb_window_chapel_03]
 {
 	doc = "frag_glb_window_chapel_03";
 	specializes = fragment;
 	[aspect] { model = m_i_glb_frag-window-chapel-03; }
 }
-
 [t:template,n:frag_glb_window_chapel_04]
 {
 	doc = "frag_glb_window_chapel_04";
 	specializes = fragment;
 	[aspect] { model = m_i_glb_frag-window-chapel-04; }
 }
-
 [t:template,n:frag_glb_window_chapel_05]
 {
 	doc = "frag_glb_window_chapel_05";
 	specializes = fragment;
 	[aspect] { model = m_i_glb_frag-window-chapel-05; }
 }
-
 [t:template,n:frag_glb_window_chapel_06]
 {
 	doc = "frag_glb_window_chapel_06";
 	specializes = fragment;
 	[aspect] { model = m_i_glb_frag-window-chapel-06; }
 }
+
 [t:template,n:frag_glb_cage_door_01]
 {
 	doc = "frag_glb_cage_door_01";
@@ -2629,6 +2652,7 @@
 		[textures] { 0 = b_i_glb_door-cage-01; }
 	}
 }
+
 [t:template,n:frag_glb_ice_shrine_door_01]
 {
 	doc = "ice_shrine_door_01";
@@ -2679,6 +2703,7 @@
 		[textures] { 0 = b_t_sc01_shrine-stone-2x2; }
 	}
 }
+
 [t:template,n:frag_glb_shard_teal_01]
 {
 	doc = "frag_glb_shard_01";
@@ -2690,7 +2715,6 @@
 		[textures] { 0 = b_i_cav_gems-01-static; }
 	}
 }
-
 [t:template,n:frag_glb_shard_teal_02]
 {
 	doc = "frag_glb_shard_02";
@@ -2702,7 +2726,6 @@
 		[textures] { 0 = b_i_cav_gems-01-static; }
 	}
 }
-
 [t:template,n:frag_glb_shard_teal_03]
 {
 	doc = "frag_glb_shard_03";
@@ -2714,7 +2737,6 @@
 		[textures] { 0 = b_i_cav_gems-01-static; }
 	}
 }
-
 [t:template,n:frag_glb_shard_teal_04]
 {
 	doc = "frag_glb_shard_04";
@@ -2726,7 +2748,6 @@
 		[textures] { 0 = b_i_cav_gems-01-static; }
 	}
 }
-
 [t:template,n:frag_glb_shard_teal_05]
 {
 	doc = "frag_glb_shard_05";
@@ -2749,7 +2770,6 @@
 		[textures] { 0 = b_i_cav_gems-02-static; }
 	}
 }
-
 [t:template,n:frag_glb_shard_purple_02]
 {
 	doc = "frag_glb_shard_02";
@@ -2761,7 +2781,6 @@
 		[textures] { 0 = b_i_cav_gems-02-static; }
 	}
 }
-
 [t:template,n:frag_glb_shard_purple_03]
 {
 	doc = "frag_glb_shard_03";
@@ -2773,7 +2792,6 @@
 		[textures] { 0 = b_i_cav_gems-02-static; }
 	}
 }
-
 [t:template,n:frag_glb_shard_purple_04]
 {
 	doc = "frag_glb_shard_04";
@@ -2785,7 +2803,6 @@
 		[textures] { 0 = b_i_cav_gems-02-static; }
 	}
 }
-
 [t:template,n:frag_glb_shard_purple_05]
 {
 	doc = "frag_glb_shard_05";
@@ -2808,7 +2825,6 @@
 		[textures] { 0 = b_i_cav_gems-03-static; }
 	}
 }
-
 [t:template,n:frag_glb_shard_green_02]
 {
 	doc = "frag_glb_shard_02";
@@ -2820,7 +2836,6 @@
 		[textures] { 0 = b_i_cav_gems-03-static; }
 	}
 }
-
 [t:template,n:frag_glb_shard_green_03]
 {
 	doc = "frag_glb_shard_03";
@@ -2832,7 +2847,6 @@
 		[textures] { 0 = b_i_cav_gems-03-static; }
 	}
 }
-
 [t:template,n:frag_glb_shard_green_04]
 {
 	doc = "frag_glb_shard_04";
@@ -2844,7 +2858,6 @@
 		[textures] { 0 = b_i_cav_gems-03-static; }
 	}
 }
-
 [t:template,n:frag_glb_shard_green_05]
 {
 	doc = "frag_glb_shard_05";
@@ -2867,7 +2880,6 @@
 		[textures] { 0 = b_i_cav_gems-04-static; }
 	}
 }
-
 [t:template,n:frag_glb_shard_blue_02]
 {
 	doc = "frag_glb_shard_02";
@@ -2879,7 +2891,6 @@
 		[textures] { 0 = b_i_cav_gems-04-static; }
 	}
 }
-
 [t:template,n:frag_glb_shard_blue_03]
 {
 	doc = "frag_glb_shard_03";
@@ -2891,7 +2902,6 @@
 		[textures] { 0 = b_i_cav_gems-04-static; }
 	}
 }
-
 [t:template,n:frag_glb_shard_blue_04]
 {
 	doc = "frag_glb_shard_04";
@@ -2903,7 +2913,6 @@
 		[textures] { 0 = b_i_cav_gems-04-static; }
 	}
 }
-
 [t:template,n:frag_glb_shard_blue_05]
 {
 	doc = "frag_glb_shard_05";
@@ -2922,63 +2931,54 @@
 	specializes = fragment;
 	[aspect] { model = m_i_glb_frag-lava-spirit-01; }
 }
-
 [t:template,n:frag_glb_lava_spirit_02]
 {
 	doc = "frag_glb_lava_spirit_02";
 	specializes = fragment;
 	[aspect] { model = m_i_glb_frag-lava-spirit-02; }
 }
-
 [t:template,n:frag_glb_lava_spirit_03]
 {
 	doc = "frag_glb_lava_spirit_03";
 	specializes = fragment;
 	[aspect] { model = m_i_glb_frag-lava-spirit-03; }
 }
-
 [t:template,n:frag_glb_lava_spirit_04]
 {
 	doc = "frag_glb_lava_spirit_04";
 	specializes = fragment;
 	[aspect] { model = m_i_glb_frag-lava-spirit-04; }
 }
-
 [t:template,n:frag_glb_lava_spirit_05]
 {
 	doc = "frag_glb_lava_spirit_05";
 	specializes = fragment;
 	[aspect] { model = m_i_glb_frag-lava-spirit-05; }
 }
-
 [t:template,n:frag_glb_lava_spirit_06]
 {
 	doc = "frag_glb_lava_spirit_06";
 	specializes = fragment;
 	[aspect] { model = m_i_glb_frag-lava-spirit-06; }
 }
-
 [t:template,n:frag_glb_lava_spirit_07]
 {
 	doc = "frag_glb_lava_spirit_07";
 	specializes = fragment;
 	[aspect] { model = m_i_glb_frag-lava-spirit-07; }
 }
-
 [t:template,n:frag_glb_lava_spirit_08]
 {
 	doc = "frag_glb_lava_spirit_08";
 	specializes = fragment;
 	[aspect] { model = m_i_glb_frag-lava-spirit-08; }
 }
-
 [t:template,n:frag_glb_lava_spirit_09]
 {
 	doc = "frag_glb_lava_spirit_09";
 	specializes = fragment;
 	[aspect] { model = m_i_glb_frag-lava-spirit-09; }
 }
-
 [t:template,n:frag_glb_lava_spirit_10]
 {
 	doc = "frag_glb_lava_spirit_10";
@@ -2986,173 +2986,164 @@
 	[aspect] { model = m_i_glb_frag-lava-spirit-10; }
 }
 
+[t:template,n:base_frag_glb_generic] { specializes = base_fragment_bloody; }
 [t:template,n:frag_glb_generic_01]
 {
 	doc = "frag_glb_generic_01";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	[aspect] { model = m_i_glb_frag-generic-01; }
 }
-
 [t:template,n:frag_glb_generic_02]
 {
 	doc = "frag_glb_generic_02";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	[aspect] { model = m_i_glb_frag-generic-02; }
 }
-
 [t:template,n:frag_glb_generic_03]
 {
 	doc = "frag_glb_generic_03";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	[aspect] { model = m_i_glb_frag-generic-03; }
 }
-
 [t:template,n:frag_glb_generic_04]
 {
 	doc = "frag_glb_generic_04";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	[aspect] { model = m_i_glb_frag-generic-04; }
 }
-
 [t:template,n:frag_glb_generic_05]
 {
 	doc = "frag_glb_generic_05";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	[aspect] { model = m_i_glb_frag-generic-05; }
 }
-
 [t:template,n:frag_glb_generic_06]
 {
 	doc = "frag_glb_generic_06";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	[aspect] { model = m_i_glb_frag-generic-06; }
 }
-
 [t:template,n:frag_glb_generic_07]
 {
 	doc = "frag_glb_generic_07";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	[aspect] { model = m_i_glb_frag-generic-07; }
 }
-
 [t:template,n:frag_glb_generic_08]
 {
 	doc = "frag_glb_generic_08";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	[aspect] { model = m_i_glb_frag-generic-08; }
 }
-
 [t:template,n:frag_glb_generic_09]
 {
 	doc = "frag_glb_generic_09";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	[aspect] { model = m_i_glb_frag-generic-09; }
 }
-
 [t:template,n:frag_glb_generic_10]
 {
 	doc = "frag_glb_generic_10";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	[aspect] { model = m_i_glb_frag-generic-10; }
 }
-
 [t:template,n:frag_glb_generic_11]
 {
 	doc = "frag_glb_generic_11";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	[aspect] { model = m_i_glb_frag-generic-11; }
 }
-
 [t:template,n:frag_glb_generic_12]
 {
 	doc = "frag_glb_generic_12";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	[aspect] { model = m_i_glb_frag-generic-12; }
 }
 [t:template,n:frag_glb_generic_darker_01]
 {
 	doc = "darker_version_of_generic_frag";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	aspect:model = m_i_glb_frag-generic-01; 
 	aspect:textures:0 = b_i_glb_frag-generic-02;
 }
 [t:template,n:frag_glb_generic_darker_02]
 {
 	doc = "darker_version_of_generic_frag";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	aspect:model = m_i_glb_frag-generic-02; 
 	aspect:textures:0 = b_i_glb_frag-generic-02;
 }
 [t:template,n:frag_glb_generic_darker_03]
 {
 	doc = "darker_version_of_generic_frag";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	aspect:model = m_i_glb_frag-generic-03; 
 	aspect:textures:0 = b_i_glb_frag-generic-02;
 }
 [t:template,n:frag_glb_generic_darker_04]
 {
 	doc = "darker_version_of_generic_frag";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	aspect:model = m_i_glb_frag-generic-04; 
 	aspect:textures:0 = b_i_glb_frag-generic-02;
 }
 [t:template,n:frag_glb_generic_darker_05]
 {
 	doc = "darker_version_of_generic_frag";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	aspect:model = m_i_glb_frag-generic-05; 
 	aspect:textures:0 = b_i_glb_frag-generic-02;
 }
 [t:template,n:frag_glb_generic_darker_06]
 {
 	doc = "darker_version_of_generic_frag";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	aspect:model = m_i_glb_frag-generic-06; 
 	aspect:textures:0 = b_i_glb_frag-generic-02;
 }
 [t:template,n:frag_glb_generic_darker_07]
 {
 	doc = "darker_version_of_generic_frag";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	aspect:model = m_i_glb_frag-generic-07; 
 	aspect:textures:0 = b_i_glb_frag-generic-02;
 }
 [t:template,n:frag_glb_generic_darker_08]
 {
 	doc = "darker_version_of_generic_frag";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	aspect:model = m_i_glb_frag-generic-08; 
 	aspect:textures:0 = b_i_glb_frag-generic-02;
 }
 [t:template,n:frag_glb_generic_darker_09]
 {
 	doc = "darker_version_of_generic_frag";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	aspect:model = m_i_glb_frag-generic-09; 
 	aspect:textures:0 = b_i_glb_frag-generic-02;
 }
 [t:template,n:frag_glb_generic_darker_10]
 {
 	doc = "darker_version_of_generic_frag";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	aspect:model = m_i_glb_frag-generic-10; 
 	aspect:textures:0 = b_i_glb_frag-generic-02;
 }
 [t:template,n:frag_glb_generic_darker_11]
 {
 	doc = "darker_version_of_generic_frag";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	aspect:model = m_i_glb_frag-generic-11; 
 	aspect:textures:0 = b_i_glb_frag-generic-02;
 }
 [t:template,n:frag_glb_generic_darker_12]
 {
 	doc = "darker_version_of_generic_frag";
-	specializes = fragment;
+	specializes = base_frag_glb_generic;
 	aspect:model = m_i_glb_frag-generic-12; 
 	aspect:textures:0 = b_i_glb_frag-generic-02;
 }
+
 /////////////////////////////////////////////////////
 [t:template,n:chunks_ice_01]
 {
@@ -3225,72 +3216,75 @@
 	specializes = fragment;
 	[aspect] { model = m_i_ice_spire-chunk-05; }
 }
+
 /////////////////////////////////////////////////////
+[t:template,n:base_frag_glb_googore_grub] { specializes = base_fragment_bloody; }
 [t:template,n:frag_glb_googore_grub_01]
 {
 	doc = "googore_grub frag";
-	specializes = fragment;
+	specializes = base_frag_glb_googore_grub;
 	aspect:model = m_i_glb_frag-googore-grub-01; 
 }
 [t:template,n:frag_glb_googore_grub_02]
 {
 	doc = "googore_grub frag";
-	specializes = fragment;
+	specializes = base_frag_glb_googore_grub;
 	aspect:model = m_i_glb_frag-googore-grub-02; 
 }
 [t:template,n:frag_glb_googore_grub_03]
 {
 	doc = "googore_grub frag";
-	specializes = fragment;
+	specializes = base_frag_glb_googore_grub;
 	aspect:model = m_i_glb_frag-googore-grub-03; 
 }
 [t:template,n:frag_glb_googore_grub_04]
 {
 	doc = "googore_grub frag";
-	specializes = fragment;
+	specializes = base_frag_glb_googore_grub;
 	aspect:model = m_i_glb_frag-googore-grub-04; 
 }
 [t:template,n:frag_glb_googore_grub_05]
 {
 	doc = "googore_grub frag";
-	specializes = fragment;
+	specializes = base_frag_glb_googore_grub;
 	aspect:model = m_i_glb_frag-googore-grub-05; 
 }
+
+[t:template,n:base_frag_glb_scorpion] { specializes = base_fragment_bloody; }
 [t:template,n:frag_glb_scorpion_01]
 {
 	doc = "frag_glb_scorpion_01";
-	specializes = fragment;
+	specializes = base_frag_glb_scorpion;
 	[aspect] { model = m_i_glb_frag-scorpion-01; }
 }
 [t:template,n:frag_glb_scorpion_02]
 {
 	doc = "frag_glb_scorpion_02";
-	specializes = fragment;
+	specializes = base_frag_glb_scorpion;
 	[aspect] { model = m_i_glb_frag-scorpion-02; }
 }
 [t:template,n:frag_glb_scorpion_03]
 {
 	doc = "frag_glb_scorpion_03";
-	specializes = fragment;
+	specializes = base_frag_glb_scorpion;
 	[aspect] { model = m_i_glb_frag-scorpion-03; }
 }
 [t:template,n:frag_glb_scorpion_04]
 {
 	doc = "frag_glb_scorpion_04";
-	specializes = fragment;
+	specializes = base_frag_glb_scorpion;
 	[aspect] { model = m_i_glb_frag-scorpion-04; }
 }
 [t:template,n:frag_glb_scorpion_05]
 {
 	doc = "frag_glb_scorpion_05";
-	specializes = fragment;
+	specializes = base_frag_glb_scorpion;
 	[aspect] { model = m_i_glb_frag-scorpion-05; }
 }
-
 [t:template,n:frag_glb_impaler_01]
 {
 	doc = "frag_glb_impaler_01";
-	specializes = fragment;
+	specializes = base_frag_glb_scorpion;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-impaler-01; 
@@ -3300,7 +3294,7 @@
 [t:template,n:frag_glb_impaler_02]
 {
 	doc = "frag_glb_impaler_02";
-	specializes = fragment;
+	specializes = base_frag_glb_scorpion;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-impaler-02; 
@@ -3310,7 +3304,7 @@
 [t:template,n:frag_glb_impaler_03]
 {
 	doc = "frag_glb_impaler_03";
-	specializes = fragment;
+	specializes = base_frag_glb_scorpion;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-impaler-03; 
@@ -3320,7 +3314,7 @@
 [t:template,n:frag_glb_impaler_04]
 {
 	doc = "frag_glb_impaler_04";
-	specializes = fragment;
+	specializes = base_frag_glb_scorpion;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-impaler-04; 
@@ -3330,77 +3324,83 @@
 [t:template,n:frag_glb_impaler_05]
 {
 	doc = "frag_glb_impaler_05";
-	specializes = fragment;
+	specializes = base_frag_glb_scorpion;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-impaler-05; 
 		scale_base = 1.45;
 	}
 }
+
+[t:template,n:base_frag_glb_stalagnid] { specializes = base_fragment_bloody; }
 [t:template,n:frag_glb_stalagnid_01]
 {
 	doc = "frag_glb_stalagnid_01";
-	specializes = fragment;
+	specializes = base_frag_glb_stalagnid;
 	[aspect] { model = m_i_glb_frag-stalagnid-01; }
 }
 [t:template,n:frag_glb_stalagnid_02]
 {
 	doc = "frag_glb_stalagnid_02";
-	specializes = fragment;
+	specializes = base_frag_glb_stalagnid;
 	[aspect] { model = m_i_glb_frag-stalagnid-02; }
 }
 [t:template,n:frag_glb_stalagnid_03]
 {
 	doc = "frag_glb_stalagnid_03";
-	specializes = fragment;
+	specializes = base_frag_glb_stalagnid;
 	[aspect] { model = m_i_glb_frag-stalagnid-03; }
 }
 [t:template,n:frag_glb_stalagnid_04]
 {
 	doc = "frag_glb_stalagnid_04";
-	specializes = fragment;
+	specializes = base_frag_glb_stalagnid;
 	[aspect] { model = m_i_glb_frag-stalagnid-04; }
 }
 [t:template,n:frag_glb_stalagnid_05]
 {
 	doc = "frag_glb_stalagnid_05";
-	specializes = fragment;
+	specializes = base_frag_glb_stalagnid;
 	[aspect] { model = m_i_glb_frag-stalagnid-05; }
 }
+
+[t:template,n:base_frag_glb_skick] { specializes = base_fragment_bloody; }
 [t:template,n:frag_glb_skick_01]
 {
 	doc = "frag_glb_skick_01";
-	specializes = fragment;
+	specializes = base_frag_glb_skick;
 	[aspect] { model = m_i_glb_frag-skick-01; }
 }
 [t:template,n:frag_glb_skick_02]
 {
 	doc = "frag_glb_skick_02";
-	specializes = fragment;
+	specializes = base_frag_glb_skick;
 	[aspect] { model = m_i_glb_frag-skick-02; }
 }
 [t:template,n:frag_glb_skick_03]
 {
 	doc = "frag_glb_skick_03";
-	specializes = fragment;
+	specializes = base_frag_glb_skick;
 	[aspect] { model = m_i_glb_frag-skick-03; }
 }
 [t:template,n:frag_glb_skick_04]
 {
 	doc = "frag_glb_skick_04";
-	specializes = fragment;
+	specializes = base_frag_glb_skick;
 	[aspect] { model = m_i_glb_frag-skick-04; }
 }
 [t:template,n:frag_glb_skick_05]
 {
 	doc = "frag_glb_skick_05";
-	specializes = fragment;
+	specializes = base_frag_glb_skick;
 	[aspect] { model = m_i_glb_frag-skick-05; }
 }
+
+[t:template,n:base_frag_glb_phrak] { specializes = base_fragment_bloody; }
 [t:template,n:frag_glb_phrak_01]
 {
 	doc = "frag_glb_phrak_01";
-	specializes = fragment;
+	specializes = base_frag_glb_phrak;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-phrak-01;
@@ -3410,7 +3410,7 @@
 [t:template,n:frag_glb_phrak_02]
 {
 	doc = "frag_glb_phrak_02";
-	specializes = fragment;
+	specializes = base_frag_glb_phrak;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-phrak-02;
@@ -3420,7 +3420,7 @@
 [t:template,n:frag_glb_phrak_03]
 {
 	doc = "frag_glb_phrak_03";
-	specializes = fragment;
+	specializes = base_frag_glb_phrak;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-phrak-03;
@@ -3430,7 +3430,7 @@
 [t:template,n:frag_glb_phrak_04]
 {
 	doc = "frag_glb_phrak_04";
-	specializes = fragment;
+	specializes = base_frag_glb_phrak;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-phrak-04;
@@ -3440,7 +3440,7 @@
 [t:template,n:frag_glb_phrak_05]
 {
 	doc = "frag_glb_phrak_05";
-	specializes = fragment;
+	specializes = base_frag_glb_phrak;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-phrak-05;
@@ -3450,7 +3450,7 @@
 [t:template,n:frag_glb_phrak_piercer_01]
 {
 	doc = "frag_glb_phrak_piercer_01";
-	specializes = fragment;
+	specializes = base_frag_glb_phrak;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-phrak-01;
@@ -3461,7 +3461,7 @@
 [t:template,n:frag_glb_phrak_piercer_02]
 {
 	doc = "frag_glb_phrak_piercer_02";
-	specializes = fragment;
+	specializes = base_frag_glb_phrak;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-phrak-02;
@@ -3472,7 +3472,7 @@
 [t:template,n:frag_glb_phrak_piercer_03]
 {
 	doc = "frag_glb_phrak_piercer_03";
-	specializes = fragment;
+	specializes = base_frag_glb_phrak;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-phrak-03;
@@ -3483,7 +3483,7 @@
 [t:template,n:frag_glb_phrak_piercer_04]
 {
 	doc = "frag_glb_phrak_piercer_04";
-	specializes = fragment;
+	specializes = base_frag_glb_phrak;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-phrak-04;
@@ -3494,7 +3494,7 @@
 [t:template,n:frag_glb_phrak_piercer_05]
 {
 	doc = "frag_glb_phrak_piercer_05";
-	specializes = fragment;
+	specializes = base_frag_glb_phrak;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-phrak-05;
@@ -3505,7 +3505,7 @@
 [t:template,n:frag_glb_swamp_stinger_01]
 {
 	doc = "frag_glb_swamp_stinger_01";
-	specializes = fragment;
+	specializes = base_frag_glb_phrak;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-phrak-01;
@@ -3515,7 +3515,7 @@
 [t:template,n:frag_glb_swamp_stinger_02]
 {
 	doc = "frag_glb_swamp_stinger_02";
-	specializes = fragment;
+	specializes = base_frag_glb_phrak;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-phrak-02;
@@ -3525,7 +3525,7 @@
 [t:template,n:frag_glb_swamp_stinger_03]
 {
 	doc = "frag_glb_swamp_stinger_03";
-	specializes = fragment;
+	specializes = base_frag_glb_phrak;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-phrak-03;
@@ -3535,7 +3535,7 @@
 [t:template,n:frag_glb_swamp_stinger_04]
 {
 	doc = "frag_glb_swamp_stinger_04";
-	specializes = fragment;
+	specializes = base_frag_glb_phrak;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-phrak-04;
@@ -3545,7 +3545,7 @@
 [t:template,n:frag_glb_swamp_stinger_05]
 {
 	doc = "frag_glb_swamp_stinger_05";
-	specializes = fragment;
+	specializes = base_frag_glb_phrak;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-phrak-05;
@@ -3553,235 +3553,240 @@
 	}
 }
 
+[t:template,n:base_frag_glb_lunger] { specializes = base_fragment_bloody; }
 [t:template,n:frag_glb_dark_lunger_01]
 {
 	doc = "frag_glb_dark_lunger_01";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	[aspect] { model = m_i_glb_frag-dark-lunger-01; }
 }
 [t:template,n:frag_glb_dark_lunger_02]
 {
 	doc = "frag_glb_dark_lunger_02";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	[aspect] { model = m_i_glb_frag-dark-lunger-02; }
 }
 [t:template,n:frag_glb_dark_lunger_03]
 {
 	doc = "frag_glb_dark_lunger_03";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	[aspect] { model = m_i_glb_frag-dark-lunger-03; }
 }
 [t:template,n:frag_glb_dark_lunger_04]
 {
 	doc = "frag_glb_dark_lunger_04";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	[aspect] { model = m_i_glb_frag-dark-lunger-04; }
 }
 [t:template,n:frag_glb_dark_lunger_05]
 {
 	doc = "frag_glb_dark_lunger_05";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	[aspect] { model = m_i_glb_frag-dark-lunger-05; }
 }
 /////////////////////////////////////////////////////////////////
 [t:template,n:frag_glb_dark_caster_01]
 {
 	doc = "frag_glb_dark_caster_01";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-01; 
 	aspect:textures:0 = b_c_edm_dl-02;
 }
 [t:template,n:frag_glb_dark_caster_02]
 {
 	doc = "frag_glb_dark_caster_02";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-02; 
 	aspect:textures:0 = b_c_edm_dl-02;
 }
 [t:template,n:frag_glb_dark_caster_03]
 {
 	doc = "frag_glb_dark_caster_03";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-03; 
 	aspect:textures:0 = b_c_edm_dl-02;
 }
 [t:template,n:frag_glb_dark_caster_04]
 {
 	doc = "frag_glb_dark_caster_04";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-04; 
 	aspect:textures:0 = b_c_edm_dl-02;
 }
 [t:template,n:frag_glb_dark_caster_05]
 {
 	doc = "frag_glb_dark_caster_05";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-05; 
 	aspect:textures:0 = b_c_edm_dl-02;
 }
 [t:template,n:frag_glb_dark_slinger_01]
 {
 	doc = "frag_glb_dark_slinger_01";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-01; 
 	aspect:textures:0 = b_c_edm_dl-03;
 }
 [t:template,n:frag_glb_dark_slinger_02]
 {
 	doc = "frag_glb_dark_slinger_02";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-02; 
 	aspect:textures:0 = b_c_edm_dl-03;
 }
 [t:template,n:frag_glb_dark_slinger_03]
 {
 	doc = "frag_glb_dark_slinger_03";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-03; 
 	aspect:textures:0 = b_c_edm_dl-03;
 }
 [t:template,n:frag_glb_dark_slinger_04]
 {
 	doc = "frag_glb_dark_slinger_04";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-04; 
 	aspect:textures:0 = b_c_edm_dl-03;
 }
 [t:template,n:frag_glb_dark_slinger_05]
 {
 	doc = "frag_glb_dark_slinger_05";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-05; 
 	aspect:textures:0 = b_c_edm_dl-03;
 }
 [t:template,n:frag_glb_water_lunger_01]
 {
 	doc = "frag_glb_water_lunger_01";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-01; 
 	aspect:textures:0 = b_c_edm_dl-04;
 }
 [t:template,n:frag_glb_water_lunger_02]
 {
 	doc = "frag_glb_water_lunger_02";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-02; 
 	aspect:textures:0 = b_c_edm_dl-04;
 }
 [t:template,n:frag_glb_water_lunger_03]
 {
 	doc = "frag_glb_water_lunger_03";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-03; 
 	aspect:textures:0 = b_c_edm_dl-04;
 }
 [t:template,n:frag_glb_water_lunger_04]
 {
 	doc = "frag_glb_water_lunger_04";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-04; 
 	aspect:textures:0 = b_c_edm_dl-04;
 }
 [t:template,n:frag_glb_water_lunger_05]
 {
 	doc = "frag_glb_water_lunger_05";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-05; 
 	aspect:textures:0 = b_c_edm_dl-04;
 }
 [t:template,n:frag_glb_water_slinger_01]
 {
 	doc = "frag_glb_water_slinger_01";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-01; 
 	aspect:textures:0 = b_c_edm_dl-05;
 }
 [t:template,n:frag_glb_water_slinger_02]
 {
 	doc = "frag_glb_water_slinger_02";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-02; 
 	aspect:textures:0 = b_c_edm_dl-05;
 }
 [t:template,n:frag_glb_water_slinger_03]
 {
 	doc = "frag_glb_water_slinger_03";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-03; 
 	aspect:textures:0 = b_c_edm_dl-05;
 }
 [t:template,n:frag_glb_water_slinger_04]
 {
 	doc = "frag_glb_water_slinger_04";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-04; 
 	aspect:textures:0 = b_c_edm_dl-05;
 }
 [t:template,n:frag_glb_water_slinger_05]
 {
 	doc = "frag_glb_water_slinger_05";
-	specializes = fragment;
+	specializes = base_frag_glb_lunger;
 	aspect:model = m_i_glb_frag-dark-lunger-05; 
 	aspect:textures:0 = b_c_edm_dl-05;
 }
+
+[t:template,n:base_frag_glb_wasped] { specializes = base_fragment_bloody; }
 [t:template,n:frag_glb_wasped_01]
 {
 	doc = "frag_glb_wasped_01";
-	specializes = fragment;
+	specializes = base_frag_glb_wasped;
 	[aspect] { model = m_i_glb_frag-wasped-01; }
 }
 [t:template,n:frag_glb_wasped_02]
 {
 	doc = "frag_glb_wasped_02";
-	specializes = fragment;
+	specializes = base_frag_glb_wasped;
 	[aspect] { model = m_i_glb_frag-wasped-02; }
 }
 [t:template,n:frag_glb_wasped_03]
 {
 	doc = "frag_glb_wasped_03";
-	specializes = fragment;
+	specializes = base_frag_glb_wasped;
 	[aspect] { model = m_i_glb_frag-wasped-03; }
 }
 [t:template,n:frag_glb_wasped_04]
 {
 	doc = "frag_glb_wasped_04";
-	specializes = fragment;
+	specializes = base_frag_glb_wasped;
 	[aspect] { model = m_i_glb_frag-wasped-04; }
 }
 [t:template,n:frag_glb_wasped_05]
 {
 	doc = "frag_glb_wasped_05";
-	specializes = fragment;
+	specializes = base_frag_glb_wasped;
 	[aspect] { model = m_i_glb_frag-wasped-05; }
 }
+
+[t:template,n:base_frag_glb_synged] { specializes = base_fragment_bloody; }
 [t:template,n:frag_glb_synged_01]
 {
 	doc = "frag_glb_synged_01";
-	specializes = fragment;
+	specializes = base_frag_glb_synged;
 	[aspect] { model = m_i_glb_frag-synged-01; }
 }
 [t:template,n:frag_glb_synged_02]
 {
 	doc = "frag_glb_synged_02";
-	specializes = fragment;
+	specializes = base_frag_glb_synged;
 	[aspect] { model = m_i_glb_frag-synged-02; }
 }
 [t:template,n:frag_glb_synged_03]
 {
 	doc = "frag_glb_synged_03";
-	specializes = fragment;
+	specializes = base_frag_glb_synged;
 	[aspect] { model = m_i_glb_frag-synged-03; }
 }
 [t:template,n:frag_glb_synged_04]
 {
 	doc = "frag_glb_synged_04";
-	specializes = fragment;
+	specializes = base_frag_glb_synged;
 	[aspect] { model = m_i_glb_frag-synged-04; }
 }
 [t:template,n:frag_glb_synged_05]
 {
 	doc = "frag_glb_synged_05";
-	specializes = fragment;
+	specializes = base_frag_glb_synged;
 	[aspect] { model = m_i_glb_frag-synged-05; }
 }
 
@@ -3997,7 +4002,6 @@
 	aspect:model 	= m_i_glb_frag-pots-clay-01;
 	aspect:textures:0 = b_i_des_pot-clay-03;
 }
-
 [t:template,n:frag_glb_pot_clay_02]
 {
 	doc = "frag_des_pot_clay_02";
@@ -4082,7 +4086,6 @@
 	aspect:model 	= m_i_glb_frag-pots-clay-05;
 	aspect:textures:0 = b_i_des_pot-clay-01;
 }
-
 [t:template,n:frag_glb_pot_clay_14]
 {
 	doc = "frag_cav_pot_14";
@@ -4132,6 +4135,7 @@
 	aspect:model 	= m_i_glb_frag-pots-clay-05;
 	aspect:textures:0 = b_i_lav_vase-obsidian;
 }
+
 [t:template,n:base_fragment_giant_spider]
 {
 	doc = "spider piece.";
@@ -4143,6 +4147,7 @@
 			[*]
 			{
 				action* = call_sfx_script("spider_guts_trail");
+				action* = call_sfx_script("gib_blood");  // ADDED
 				condition* = receive_world_message("WE_ENTERED_WORLD");
 				single_shot = true;
 			}
@@ -4209,7 +4214,6 @@
 	specializes 	= base_fragment_giant_spider;
 	aspect:model 	= m_i_glb_frag-spider-giant-10;
 }
-
 [t:template,n:frag_glb_spider_giant_11] // used for hit effect. -ET
 {
 	doc = "frag_glb_spider_giant_11";
@@ -4280,36 +4284,39 @@
 	aspect:model 	= m_i_glb_frag-spider-giant-10;
 	aspect:scale_base = 0.35;
 }
+
+[t:template,n:base_frag_glb_picker] { specializes = base_fragment_bloody; }
 [t:template,n:frag_glb_picker_01]
 {
 	doc = "frag_glb_picker_01";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_picker;
 	aspect:model 	= m_i_glb_frag-picker-01;
 }
 [t:template,n:frag_glb_picker_02]
 {
 	doc = "frag_glb_picker_02";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_picker;
 	aspect:model 	= m_i_glb_frag-picker-02;
 }
 [t:template,n:frag_glb_picker_03]
 {
 	doc = "frag_glb_picker_03";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_picker;
 	aspect:model 	= m_i_glb_frag-picker-03;
 }
 [t:template,n:frag_glb_picker_04]
 {
 	doc = "frag_glb_picker_04";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_picker;
 	aspect:model 	= m_i_glb_frag-picker-04;
 }
 [t:template,n:frag_glb_picker_05]
 {
 	doc = "frag_glb_picker_05";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_picker;
 	aspect:model 	= m_i_glb_frag-picker-05;
 }
+
 [t:template,n:frag_glb_kill_bot_01]
 {
 	doc = "frag_glb_kill_bot_01";
@@ -4380,162 +4387,168 @@
 	aspect:model 	= m_i_glb_frag-picker-05;
 	aspect:textures:0 = b_c_edm_pr-03;
 }
+
 [t:template,n:frag_glb_quadscale_01]
 {
 	doc = "frag_glb_quadscale_01";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_picker;
 	aspect:model 	= m_i_glb_frag-quadscale-01;
 }
 [t:template,n:frag_glb_quadscale_02]
 {
 	doc = "frag_glb_quadscale_02";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_picker;
 	aspect:model 	= m_i_glb_frag-quadscale-02;
 }
 [t:template,n:frag_glb_quadscale_03]
 {
 	doc = "frag_glb_quadscale_03";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_picker;
 	aspect:model 	= m_i_glb_frag-quadscale-03;
 }
 [t:template,n:frag_glb_quadscale_04]
 {
 	doc = "frag_glb_quadscale_04";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_picker;
 	aspect:model 	= m_i_glb_frag-quadscale-04;
 }
 [t:template,n:frag_glb_quadscale_05]
 {
 	doc = "frag_glb_quadscale_05";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_picker;
 	aspect:model 	= m_i_glb_frag-quadscale-05;
 }
+
 [t:template,n:frag_glb_spider_01]
 {
 	doc = "frag_glb_spider_01";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_spider;
 	aspect:model 	= m_i_glb_frag-spider-01;
 }
 [t:template,n:frag_glb_spider_02]
 {
 	doc = "frag_glb_spider_02";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_spider;
 	aspect:model 	= m_i_glb_frag-spider-02;
 }
 [t:template,n:frag_glb_spider_03]
 {
 	doc = "frag_glb_spider_03";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_spider;
 	aspect:model 	= m_i_glb_frag-spider-03;
 }
 [t:template,n:frag_glb_spider_04]
 {
 	doc = "frag_glb_spider_04";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_spider;
 	aspect:model 	= m_i_glb_frag-spider-04;
 }
 [t:template,n:frag_glb_spider_05]
 {
 	doc = "frag_glb_spider_05";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_spider;
 	aspect:model 	= m_i_glb_frag-spider-05;
 }
+
+[t:template,n:base_frag_glb_soul_stinger] { specializes = base_fragment_bloody; }
 [t:template,n:frag_glb_soul_stinger_01]
 {
 	doc = "frag_glb_soul_stinger_01";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_soul_stinger;
 	aspect:model 	= m_i_glb_frag-soul-stinger-01;
 }
 [t:template,n:frag_glb_soul_stinger_02]
 {
 	doc = "frag_glb_soul_stinger_02";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_soul_stinger;
 	aspect:model 	= m_i_glb_frag-soul-stinger-02;
 }
 [t:template,n:frag_glb_soul_stinger_03]
 {
 	doc = "frag_glb_soul_stinger_03";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_soul_stinger;
 	aspect:model 	= m_i_glb_frag-soul-stinger-03;
 }
 [t:template,n:frag_glb_soul_stinger_04]
 {
 	doc = "frag_glb_soul_stinger_04";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_soul_stinger;
 	aspect:model 	= m_i_glb_frag-soul-stinger-04;
 }
 [t:template,n:frag_glb_soul_stinger_05]
 {
 	doc = "frag_glb_soul_stinger_05";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_soul_stinger;
 	aspect:model 	= m_i_glb_frag-soul-stinger-05;
 }
 
+[t:template,n:base_frag_glb_spiker] { specializes = base_fragment_bloody; }
 [t:template,n:frag_glb_spiked_maw_01]
 {
 	doc = "spiked_maw frag";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_spiker;
 	aspect:model 	= m_i_glb_frag-spiked-maw-01;
 }
 [t:template,n:frag_glb_spiked_maw_02]
 {
 	doc = "spiked_maw frag";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_spiker;
 	aspect:model 	= m_i_glb_frag-spiked-maw-02;
 }
 [t:template,n:frag_glb_spiked_maw_03]
 {
 	doc = "spiked_maw frag";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_spiker;
 	aspect:model 	= m_i_glb_frag-spiked-maw-03;
 }
 [t:template,n:frag_glb_spiked_maw_04]
 {
 	doc = "spiked_maw frag";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_spiker;
 	aspect:model 	= m_i_glb_frag-spiked-maw-04;
 }
 [t:template,n:frag_glb_spiked_maw_05]
 {
 	doc = "spiked_maw frag";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_spiker;
 	aspect:model 	= m_i_glb_frag-spiked-maw-05;
 }
 [t:template,n:frag_glb_spiked_dweller_01]
 {
 	doc = "spiked_dweller frag";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_spiker;
 	aspect:model 	= m_i_glb_frag-spiked-maw-01;
 	aspect:textures:0 = b_c_edm_sm-02;
 }
 [t:template,n:frag_glb_spiked_dweller_02]
 {
 	doc = "spiked_dweller frag";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_spiker;
 	aspect:model 	= m_i_glb_frag-spiked-maw-02;
 	aspect:textures:0 = b_c_edm_sm-02;
 }
 [t:template,n:frag_glb_spiked_dweller_03]
 {
 	doc = "spiked_dweller frag";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_spiker;
 	aspect:model 	= m_i_glb_frag-spiked-maw-03;
 	aspect:textures:0 = b_c_edm_sm-02;
 }
 [t:template,n:frag_glb_spiked_dweller_04]
 {
 	doc = "spiked_dweller frag";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_spiker;
 	aspect:model 	= m_i_glb_frag-spiked-maw-04;
 	aspect:textures:0 = b_w_weapons;
 }
 [t:template,n:frag_glb_spiked_dweller_05]
 {
 	doc = "spiked_dweller frag";
-	specializes 	= fragment;
+	specializes 	= base_frag_glb_spiker;
 	aspect:model 	= m_i_glb_frag-spiked-maw-05;
 	aspect:textures:0 = b_w_weapons;
 }
+
 [t:template,n:frag_glb_wraith_01]
 {
 	doc = "frag_glb_wraith_01";
@@ -4762,6 +4775,7 @@
 	specializes = fragment;
 	aspect:model = m_i_glb_rubble-06;
 }
+
 [t:template,n:frag_spiked_maw_spike]
 {
 	doc = "spiked_maw_spike";
@@ -4769,6 +4783,7 @@
 	aspect:model = m_w_misc_015;
 	physics:sim_duration = 7;
 }
+
 [t:template,n:frag_glb_spike_rock_01]
 {
 	doc = "rock spike frag";
@@ -4849,6 +4864,7 @@
 		textures:0 = b_t_lc01_wal_04x08-d;
 	}
 }
+
 [t:template,n:frag_gob_box_shipping_01]
 {
 	doc = "frag_gob_box_shipping_01";
@@ -4999,6 +5015,7 @@
 		textures:0 = b_i_gob_box-shipping-03;
 	}
 }
+
 [t:template,n:frag_glb_debris_bone_rock_01]
 {
 	doc = "frag_glb_debris_bone_rock_01";
@@ -5065,58 +5082,60 @@
 		scale_base = 5.0;
 	}
 }
+
+[t:template,n:base_frag_glb_fury] { specializes = base_fragment_bloody; }
 [t:template,n:frag_glb_fury_01]
 {
 	doc = "frag_glb_fury_01";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] { model = m_i_glb_frag-fury-01; }
 }
 [t:template,n:frag_glb_fury_02]
 {
 	doc = "frag_glb_fury_02";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] { model = m_i_glb_frag-fury-02; }
 }
 [t:template,n:frag_glb_fury_03]
 {
 	doc = "frag_glb_fury_03";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] { model = m_i_glb_frag-fury-03; }
 }
 [t:template,n:frag_glb_fury_04]
 {
 	doc = "frag_glb_fury_04";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] { model = m_i_glb_frag-fury-04; }
 }
 [t:template,n:frag_glb_fury_05]
 {
 	doc = "frag_glb_fury_05";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] { model = m_i_glb_frag-fury-05; }
 }
 [t:template,n:frag_glb_fury_06]
 {
 	doc = "frag_glb_fury_06";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] { model = m_i_glb_frag-fury-06; }
 }
 [t:template,n:frag_glb_fury_07]
 {
 	doc = "frag_glb_fury_07";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] { model = m_i_glb_frag-fury-07; }
 }
 [t:template,n:frag_glb_fury_08]
 {
 	doc = "frag_glb_fury_08";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] { model = m_i_glb_frag-fury-08; }
 }
 [t:template,n:frag_glb_fury_09]
 {
 	doc = "frag_glb_fury_09";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-fury-01; 
@@ -5126,7 +5145,7 @@
 [t:template,n:frag_glb_fury_10]
 {
 	doc = "frag_glb_fury_10";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-fury-02; 
@@ -5136,7 +5155,7 @@
 [t:template,n:frag_glb_fury_11]
 {
 	doc = "frag_glb_fury_11";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-fury-03; 
@@ -5146,7 +5165,7 @@
 [t:template,n:frag_glb_fury_12]
 {
 	doc = "frag_glb_fury_12";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-fury-04; 
@@ -5156,7 +5175,7 @@
 [t:template,n:frag_glb_fury_13]
 {
 	doc = "frag_glb_fury_13";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-fury-05; 
@@ -5166,7 +5185,7 @@
 [t:template,n:frag_glb_fury_14]
 {
 	doc = "frag_glb_fury_14";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-fury-06; 
@@ -5176,7 +5195,7 @@
 [t:template,n:frag_glb_fury_15]
 {
 	doc = "frag_glb_fury_15";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-fury-07; 
@@ -5186,7 +5205,7 @@
 [t:template,n:frag_glb_fury_16]
 {
 	doc = "frag_glb_fury_16";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-fury-08; 
@@ -5196,7 +5215,7 @@
 [t:template,n:frag_glb_fury_17]
 {
 	doc = "frag_glb_fury_17";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-fury-01; 
@@ -5206,7 +5225,7 @@
 [t:template,n:frag_glb_fury_18]
 {
 	doc = "frag_glb_fury_18";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-fury-02; 
@@ -5216,7 +5235,7 @@
 [t:template,n:frag_glb_fury_19]
 {
 	doc = "frag_glb_fury_19";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-fury-03; 
@@ -5226,7 +5245,7 @@
 [t:template,n:frag_glb_fury_20]
 {
 	doc = "frag_glb_fury_20";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-fury-04; 
@@ -5236,7 +5255,7 @@
 [t:template,n:frag_glb_fury_21]
 {
 	doc = "frag_glb_fury_21";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-fury-05; 
@@ -5246,7 +5265,7 @@
 [t:template,n:frag_glb_fury_22]
 {
 	doc = "frag_glb_fury_22";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-fury-06; 
@@ -5256,7 +5275,7 @@
 [t:template,n:frag_glb_fury_23]
 {
 	doc = "frag_glb_fury_23";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-fury-07; 
@@ -5266,13 +5285,14 @@
 [t:template,n:frag_glb_fury_24]
 {
 	doc = "frag_glb_fury_24";
-	specializes = fragment;
+	specializes = base_frag_glb_fury;
 	[aspect] 
 	{ 
 		model = m_i_glb_frag-fury-08; 
 		scale_base = 0.40;
 	}
 }
+
 [t:template,n:frag_glb_gresh_pathspike_01]
 {
 	doc = "frag_glb_gresh_pathspike_01";
@@ -5303,6 +5323,7 @@
 	specializes = fragment;
 	[aspect] { model = m_i_glb_frag-gresh-pathspike-05; }
 }
+
 [t:template,n:frag_glb_cocoon_mucosa_01]
 {
 	doc = "frag_glb_cocoon_mucosa_01";
@@ -5333,6 +5354,7 @@
 	specializes = fragment;
 	[aspect] { model = m_i_glb_frag-cocoon-mucosa-05; }
 }
+
 [t:template,n:frag_glb_gobbot_01]
 {
 	doc = "frag_glb_gobbot_01";
@@ -5375,6 +5397,7 @@
 	specializes = fragment;
 	[aspect] { model = m_i_glb_frag-gobbot-07; }
 }
+
 [t:template,n:base_fragment_gom_super]
 {
 	doc = "Gom piece.";
@@ -5386,6 +5409,7 @@
 			[*]
 			{
 				action* = call_sfx_script("gom_guts_trail");
+				action* = call_sfx_script("gib_blood");  // ADDED
 				condition* = receive_world_message("WE_ENTERED_WORLD");
 				single_shot = true;
 			}
@@ -5397,7 +5421,6 @@
 		elasticity = .25;
 	}
 }
-
 [t:template,n:frag_glb_gom_super_01]
 {
 	doc = "frag_glb_gom_super_01";
