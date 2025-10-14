@@ -1,0 +1,231 @@
+// ScidBits Key.
+// lower 16 bits, number remaining creatures to spawn
+// 17th bit = modified
+// 18th bit = active
+
+//////////////////////////////////////////////////////////////////////////////
+// public definitions
+
+// reserved tags
+property bool   _server_only$        = true;
+property string _doc$                = "Dungeon Zerg generator";
+property string _required_component$ = "placement";
+
+// exported properties
+property string 	child_template_name$						doc = "Template name of the child you want to spawn.";
+property int    	num_children_incubating$	= 3				doc = "How many children total do you want to spawn?";
+property float  	spawn_period$            	= 0.1			doc = "Period between spawns.";
+property int    	max_alive_children$      	= 3        		doc = "Maximum number of children which can be alive at a time.";
+property float  	spawn_range$             	= 8.0			doc = "A radius around the generator used for collision detection.";
+property float  	trigger_range$             	= 32			doc = "When a party member is within this radius, the generator will activate.";
+
+owner = GoSkritComponent;
+
+//////////////////////////////////////////////////////////////////////////////
+// global states
+
+trigger OnGoPreload$
+{
+	if(!StringTool.IsEmpty(child_template_name$))
+	{
+		GoDb.PreloadCloneSource( owner.Go, child_template_name$ );
+	}
+}
+
+event OnGoDrawDebugHud$
+{
+	World.DrawDebugSphere( owner.Go.Placement.Position,
+						   spawn_range$,
+						   MakeColor( 1.0, 0.0, 0.0 ),
+						   Debug.Format( "incubating: %d\nspawn period: %f\nmax alive: %d\nspawn template: %s",
+										 num_children_incubating$, spawn_period$, max_alive_children$, child_template_name$  ) );
+}
+
+//////////////////////////////////////////////////////////////////////////////
+// functions
+
+bool spawn_guy$
+{
+    bool blocked$ = false;
+
+    if ( AiQuery.DoesSphereHaveHumanControlledOccupants ( owner.go.placement.position, spawn_range$ ) )
+    {
+		Report.ReportF("jedi","[%8.3f] Blocked = True on [Opening$] for %s\n",WorldTime.time,owner.goid.go.templatename);
+        blocked$ = true;
+	}
+
+	Report.ReportF("jedi","[%8.3f] Blocking Check for %s\n",WorldTime.time,owner.goid.go.templatename);
+	if ( !blocked$ )
+	{
+		// one less monster
+		num_children_incubating$ = num_children_incubating$ - 1;
+	
+		Report.ReportF("jedi","kids left: %d\n",num_children_incubating$);
+		
+        // make a new child
+		GoCloneReq cloneReq$ = MakeGoCloneReq( owner.Goid, child_template_name$ );
+
+        SiegePos SpawnPos$ = owner.go.placement.position;
+        cloneReq$.StartingPos	= SpawnPos$;
+        cloneReq$.SetStartingOrient = owner.Go.Placement.Orientation;
+
+  		Report.ReportF("jedi","[%8.3f] Clone Monster for %s\n",WorldTime.time,owner.goid.go.templatename);
+		cloneReq$.SnapToTerrain = true;
+        Goid newGoid$	= GoDb.SCloneGo( cloneReq$ );
+
+		return true;
+	}
+	return false;
+}
+
+void Close_gen$
+{
+	Report.ReportF("jedi","[%8.3f] Transition [Closing$ -> CheckSpawn$] for %s\n",WorldTime.time,owner.goid.go.templatename);
+}
+
+//////////////////////////////////////////////////////////////////////////////
+// local states
+
+Trigger OnGoHandleMessage$( WE_LEFT_WORLD )
+{
+    // Commented this out to prevent equipment incl. enemy spellbooks from dropping. Not sure what its purpose was
+	//owner.Go.RemoveAllChildren;
+	
+	int bits$ = Godb.GetScidBits( owner.scid );
+	
+	bits$ &= 0xFFFF0000;
+	
+	if( ( num_children_incubating$ <= 10000 ) && ( num_children_incubating$ >= 0 ) )
+	{
+		bits$ += num_children_incubating$;
+	}
+	
+	Godb.SetScidBits( owner.scid, bits$ );
+}
+
+startup state Startup$
+{
+	Trigger OnGoHandleMessage$( WE_ENTERED_WORLD )
+	{
+		#only( game )
+		[[
+		if( num_children_incubating$ > 10000 ) // sanity check
+		{
+			Report.ErrorF("Sanity Check.\nGenerator: 0x%08x has over 10000 incubating children!!\n",MakeInt( owner.scid ) );
+			num_children_incubating$ = 10000;
+		}
+		
+		int bits$ = Godb.GetScidBits( owner.scid );
+		
+		if( !( bits$ == 0 ) )
+		{
+			int num_left$ = bits$ & 0x0000FFFF;
+			
+			if( num_left$ < num_children_incubating$ )
+			{
+				num_children_incubating$ = num_left$;
+			} 
+			if ( Godb.GetScidBit( owner.scid, 17 ) )  // generator is active
+			{
+				SetState CheckSpawn$;
+				return;
+			}
+		}
+		SetState Inactive$;
+		]]
+	}
+	event OnExitState$
+	{
+		Godb.SetScidBit( owner.scid, 16, true);  // generator is modified
+	}
+}
+
+state Inactive$
+{
+	transition -> CheckSpawn$: OnGoHandleMessage( WE_REQ_ACTIVATE );
+	transition -> CheckSpawn$: OnTimer( 1 );
+	transition -> Inactive$: OnTimer( 2 );
+
+	event OnEnterState$
+	{
+		Godb.SetScidBit( owner.scid, 17, false );  // generator is active
+
+		if( Trigger_Range$ > 0.0 )
+		{
+			if ( AiQuery.DoesSphereHaveHumanControlledOccupants( owner.Go.Placement.Position, Trigger_Range$))
+	        {
+	        	this.CreateTimer( 1, 0.5 );
+	        }
+			else
+			{
+	            This.CreateTimer( 2, 0.25 );
+			}
+		}
+	}
+}
+
+state CheckSpawn$
+{
+    transition -> Inactive$: OnGoHandleMessage( WE_REQ_DEACTIVATE );
+	
+	trigger OnTimer$( 1 )
+	{
+		if ( AiQuery.GetCount( owner.Go, QT_ALIVE_CONSCIOUS, owner.Go.Children ) < max_alive_children$ )
+		{
+			Report.ReportF("jedi","[%8.3f] Transition [CheckSpawn$ -> Opening$] for %s\n",WorldTime.time,owner.goid.go.templatename);
+			SetState Opening$;
+		} else {
+			this.CreateTimer( 1, spawn_period$ );
+		}
+	}
+	
+	event OnEnterState$
+	{
+		Godb.SetScidBit( owner.scid, 17, true );  // generator is active
+		
+		if ( num_children_incubating$ > 0 )
+		{
+			Report.ReportF("jedi","[%8.3f] Incubating Check for %s\n",WorldTime.time,owner.goid.go.templatename);
+    		this.CreateTimer( 1, spawn_period$ );
+		}
+		else
+		{
+			Report.ReportF("jedi","[%8.3f] Transition [CheckSpawn$ -> Exiting$] for %s\n",WorldTime.time,owner.goid.go.templatename);
+			SetState Exiting$;
+		}
+    }
+}
+
+State Opening$
+{
+	transition -> Closing$: OnTimer( 1 );
+
+    event OnEnterState$
+    {
+		this.CreateTimer( 1, spawn_period$ );
+		
+		if( !spawn_guy$ )
+		{
+			SetState CheckSpawn$;
+		}
+	}
+}
+
+State Closing$
+{
+	event OnEnterState$
+	{
+   		Close_gen$;
+   		
+		SetState CheckSpawn$;
+	}
+}
+
+State Exiting$
+{
+	event OnEnterState$
+	{
+		Godb.SetScidBit( owner.scid, 17, false );  // generator is active
+		num_children_incubating$ = 0;
+	}
+}

@@ -121,9 +121,22 @@
 		}
 	}
 }
+[t:template,n:zergling_spider_adolescent]
+{
+	specializes = spider_adolescent_base;
+
+	aspect:experience_value = 0;
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+}
 [t:template,n:spider_adolescent]
 {
 	specializes = spider_adolescent_base;
 
 	aspect:scale_base = 1.26;  // EDITED: 2x volume
+
+    // ADDED
+    [generator_halloween]
+    {
+        child_template_name = zergling_spider_adolescent;
+    }
 }

@@ -145,11 +145,24 @@
 	}
 		}
 }
+[t:template,n:zergling_dsx_spider_emerald]
+{
+	specializes = dsx_spider_emerald_base;
+
+	aspect:experience_value = 0;
+	aspect:scale_base = 1.89;  // EDITED: 2x volume
+}
 [t:template,n:dsx_spider_emerald]
 {
 	specializes = dsx_spider_emerald_base;
 
 	aspect:scale_base = 1.89;  // EDITED: 2x volume
+
+    // ADDED
+    [generator_halloween]
+    {
+        child_template_name = zergling_dsx_spider_emerald;
+    }
 }
 
 [t:template,n:dsx_spider_frost_base]  // = dsx_spider_frost
@@ -196,11 +209,24 @@
 			
 		}
 }
+[t:template,n:zergling_dsx_spider_frost]
+{
+	specializes = dsx_spider_frost_base;
+
+	aspect:experience_value = 0;
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+}
 [t:template,n:dsx_spider_frost]
 {
 	specializes = dsx_spider_frost_base;
 
 	aspect:scale_base = 1.26;  // EDITED: 2x volume
+
+    // ADDED
+    [generator_halloween]
+    {
+        child_template_name = zergling_dsx_spider_frost;
+    }
 }
 
 [t:template,n:dsx_spider_frost_range_base]  // = dsx_spider_frost_range
@@ -260,11 +286,24 @@
 				
 		}
 }
+[t:template,n:zergling_dsx_spider_frost_range]
+{
+	specializes = dsx_spider_frost_range_base;
+
+	aspect:experience_value = 0;
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+}
 [t:template,n:dsx_spider_frost_range]
 {
 	specializes = dsx_spider_frost_range_base;
 
 	aspect:scale_base = 1.26;  // EDITED: 2x volume
+
+    // ADDED
+    [generator_halloween]
+    {
+        child_template_name = zergling_dsx_spider_frost_range;
+    }
 }
 
 [t:template,n:dsx_spider_sm_base]  // = dsx_spider_sm //Small Yellow Spider
@@ -395,11 +434,24 @@
 	}
     }
 }
+[t:template,n:zergling_dsx_spider_sm]
+{
+	specializes = dsx_spider_sm_base;
+
+	aspect:experience_value = 0;
+	aspect:scale_base = 0.63;  // EDITED: 2x volume
+}
 [t:template,n:dsx_spider_sm]
 {
 	specializes = dsx_spider_sm_base;
 
 	aspect:scale_base = 0.63;  // EDITED: 2x volume
+
+    // ADDED
+    [generator_halloween]
+    {
+        child_template_name = zergling_dsx_spider_sm;
+    }
 }
 
 [t:template,n:dsx_spider_med_base] //Pink Spider
@@ -526,9 +578,22 @@
 	}
     }
 }
+[t:template,n:zergling_dsx_spider_med]
+{
+	specializes = dsx_spider_med_base;
+
+	aspect:experience_value = 0;
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+}
 [t:template,n:dsx_spider_med]
 {
 	specializes = dsx_spider_med_base;
 
 	aspect:scale_base = 1.26;  // EDITED: 2x volume
+
+    // ADDED
+    [generator_halloween]
+    {
+        child_template_name = zergling_dsx_spider_med;
+    }
 }

@@ -116,11 +116,24 @@
 		}
 	}
 }
+[t:template,n:zergling_dsx_spider_stalagnid]
+{
+	specializes = dsx_spider_stalagnid_base;
+
+	aspect:experience_value = 0;
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+}
 [t:template,n:dsx_spider_stalagnid]
 {
 	specializes = dsx_spider_stalagnid_base;
 
 	aspect:scale_base = 1.26;  // EDITED: 2x volume
+
+    // ADDED
+    [generator_halloween]
+    {
+        child_template_name = zergling_dsx_spider_stalagnid;
+    }
 }
 
 [t:template,n:dsx_spider_stalagnid_island_base]  // = dsx_spider_stalagnid_island
@@ -274,9 +287,22 @@
 		}
 	}
 }
+[t:template,n:zergling_dsx_spider_stalagnid_island]
+{
+	specializes = dsx_spider_stalagnid_island_base;
+
+	aspect:experience_value = 0;
+	aspect:scale_base = 0.63;  // EDITED: 2x volume
+}
 [t:template,n:dsx_spider_stalagnid_island]
 {
 	specializes = dsx_spider_stalagnid_island_base;
 
 	aspect:scale_base = 0.63;  // EDITED: 2x volume
+
+    // ADDED
+    [generator_halloween]
+    {
+        child_template_name = zergling_dsx_spider_stalagnid_island;
+    }
 }

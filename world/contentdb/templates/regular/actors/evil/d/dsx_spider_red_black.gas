@@ -107,9 +107,22 @@
 		}
 	}
 }
+[t:template,n:zergling_dsx_spider_red_black]
+{
+	specializes = dsx_spider_red_black_base;
+
+	aspect:experience_value = 0;
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+}
 [t:template,n:dsx_spider_red_black]
 {
 	specializes = dsx_spider_red_black_base;
 
 	aspect:scale_base = 1.26;  // EDITED: 2x volume
+
+    // ADDED
+    [generator_halloween]
+    {
+        child_template_name = zergling_dsx_spider_red_black;
+    }
 }
