@@ -4,9 +4,9 @@
 
 	script	=[[
 			sfx create explosion #TARGET
-				"alphastart(.4)splatskip(1)stexture(b_sfx_blood_004)
+				"alphastart(.4)splatskip(1)stexture(b_sfx_blood_001)
 				scale(.66)dark()radius(.5)use_fog()splat()dur(12)splat_life(8)
-				color0(.4,0,0)color2(.2,.3,.2)color1(0,0,0)fade_range(0,0,0)
+				color0(.4,0,0)color2(.3,.2,.2)color1(0,0,0)fade_range(0,0,0)
 				scale_range(.8,.9,0)count(20)vmin(3)vmax(4)omni_dir()";
 				
 				
@@ -15,9 +15,9 @@
 			sfx start #POP;
 			
 			sfx create explosion #TARGET
-				"alphastart(.4)splatskip(1)stexture(b_sfx_blood_006)
+				"alphastart(.4)splatskip(1)stexture(b_sfx_blood_003)
 				scale(.66)dark()radius(1)use_fog()splat()dur(12)splat_life(8)
-				color0(.4,.2,0)color2(.2,.4,.2)color1(0,0,0)fade_range(0,0,0)
+				color0(.4,.2,0)color2(.4,.2,.2)color1(0,0,0)fade_range(0,0,0)
 				scale_range(.8,.9,0)count(20)vmin(3)vmax(4)omni_dir()";
 				
 				
