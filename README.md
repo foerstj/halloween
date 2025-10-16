@@ -13,16 +13,18 @@ Enjoy this special blend of autumn and horror mood with some witches and jack-o'
   - Replaces Legionnaires with skeletons (template replacement)
 - Spiders
   - Makes spiders larger (template replacement)
-  - Quadruple amount of spiders (template replacement)
+  - Quadruples amount of spiders (template replacement)
   - Replaces some pines with webbed ones (template replacement)
   - Replaces rhod bushes & dead bushes with webbed ones (template replacement)
 - Witches
   - Replaces Krug mages (shamans & apprentices) with witches (template replacement)
   - Replaces Braak mages with witches (template replacement)
+  - Replaces forest darklings with witches (template replacement)
+  - Replaces sand mages with witches (template replacement)
 - Autumn
   - Replaces flowers with mushrooms (template replacement)
   - Makes fog grayer and closer (mood replacement)
-  - Increase rain and snow, as well as wind speed (mood replacement)
+  - Increases rain and snow, as well as wind speed (mood replacement)
   - Replaces green trees with autumn trees (texture replacement) and adds falling leaves (template replacement)
 - Horror
   - Crypt ambience if no other was used (mood replacement)
