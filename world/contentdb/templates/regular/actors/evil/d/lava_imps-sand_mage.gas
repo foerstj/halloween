@@ -1,0 +1,109 @@
+[t:template,n:sand_mage_base]
+{
+	category_name = "1W_evil_d";
+	doc = "sand_mage";
+	specializes = base_imp;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 		13, 0;
+			intelligence = 	12, 0;
+			dexterity = 	14, 0;
+			combat_magic = 	31, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 30000;
+		life = 798;
+		max_life = 798;
+		mana = 16;
+		max_mana = 16;
+		model = m_c_edm_li_pos_2;
+		[textures] { 0=b_c_edm_li-06; }
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 150;
+		damage_min = 130;
+	}
+	[common] { screen_name="Sand Mage"; }
+	[defend] { defense=344; }
+   	[inventory]
+	{
+    	selected_active_location = il_active_primary_spell;
+		[other] { il_active_primary_spell=spell_sand_mage_blast; }
+    	[pcontent]
+		{
+   			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.25;
+					il_main = #*/78-114;
+               		il_main = #nmagic/45-55;
+               		il_main = #cmagic/45-55;
+				}
+				[gold*]
+				{
+					chance = 0.125;
+                    max = 17980;
+					min = 15487;
+				}
+			}
+		}
+	}
+	[mind]
+	{
+		jat_brain					 = world\ai\jobs\common\brain_hero.skrit
+			?actor_creates_own_party = true
+			&party_template			 = "party_sand_mage";
+
+		jat_fidget					 = world\ai\jobs\common\job_fidget.skrit;
+
+		actor_weapon_preference			= WP_MAGIC;
+		actor_auto_switches_to_magic	= true;
+		actor_auto_switches_to_karate	= false;
+		actor_auto_switches_to_melee	= false;
+
+		melee_engage_range = 14;
+		personal_space_range = 0.7;
+		ranged_engage_range = 14.0;
+		sight_range = 14;
+	}
+}
+[t:template,n:sand_mage]
+{
+	category_name = "1W_evil_d";
+	doc = "sand mage";
+	specializes = sand_mage_base;
+}
+
+[t:template,n:sand_mage_reveal]
+{
+	category_name = "1W_evil_d";
+	doc = "revealing sand mage";
+	specializes = sand_mage_base;
+	[mind]
+	{
+		jat_brain	= world\ai\jobs\common\brain_hero.skrit;
+		jat_startup = world\ai\jobs\common\job_startup_reveal.skrit
+			?invisible = true;
+		sight_origin_height = 1;
+		actor_auto_fidgets = false;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				single_shot = true;
+				action* = call_sfx_script("sand_mage_reveal");
+				condition* = receive_world_message("we_enemy_spotted");
+			}
+		}
+	}
+}
