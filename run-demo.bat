@@ -11,7 +11,7 @@ set copyright=CC-BY-SA 2025
 set author=Johannes Förstner
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%bits%\world\maps\halloween-demo" "%tmp%\Bits\world\maps\halloween-demo" /E
-"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\halloween-demo.dsmap" -copyright "%copyright%" -title "%map_cs%" -author "%author%"
+"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\Halloween-demo.dsmap" -copyright "%copyright%" -title "%map_cs%" -author "%author%"
 if %errorlevel% neq 0 pause
 
 ::pause
