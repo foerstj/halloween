@@ -229,9 +229,10 @@
 
 [t:template,n:darkling_forest_base]
 {
+    specializes = base_swamp_witch;
+
 	category_name = "1W_evil_d";
 	doc = "darkling_forest";
-	specializes = base_darkling;
 	[actor]
 	{
 		[skills]
@@ -249,7 +250,8 @@
 		max_life = 441;
 		mana = 16;
 		max_mana = 16;
-		textures:0 = b_c_edm_dg-02;
+		//textures:0 = b_c_edm_dg-02;
+		textures:0 = b_c_edm_sw-02;
 	}
 	[attack]
 	{
@@ -257,7 +259,7 @@
 		damage_max = 140;
 		damage_min = 129;
 	}
-	[common] { screen_name="Forest Darkling"; }
+	[common] { screen_name="Forest Witch"; }
 	[defend] { defense=390; }
 	[inventory]
 	{
@@ -293,17 +295,17 @@
 			}
         }
 	}
-	[physics]
-	{
-		[break_particulate]
-		{
-			frag_glb_darkling_forest_01 = 1;
-			frag_glb_darkling_forest_02 = 2;
-			frag_glb_darkling_forest_03 = 1;
-			frag_glb_darkling_forest_04 = 1;
-			frag_glb_darkling_forest_05 = 1;
-		}
-	}
+	//[physics]
+	//{
+	//	[break_particulate]
+	//	{
+	//		frag_glb_darkling_forest_01 = 1;
+	//		frag_glb_darkling_forest_02 = 2;
+	//		frag_glb_darkling_forest_03 = 1;
+	//		frag_glb_darkling_forest_04 = 1;
+	//		frag_glb_darkling_forest_05 = 1;
+	//	}
+	//}
 	[mind]
 	{
 		jat_fidget	= world\ai\jobs\common\job_fidget.skrit
