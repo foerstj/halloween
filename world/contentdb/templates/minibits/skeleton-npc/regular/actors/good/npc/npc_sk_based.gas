@@ -138,3 +138,26 @@
 	{
 	}
 }
+
+[t:template,n:npc_skeleton]
+{
+	specializes = base_npc_sk;
+
+	category_name = "1W_townsperson";
+	doc = "Skeleton NPC";
+	[common]
+	{
+		screen_name = "Skeleton";
+	}
+}
+[t:template,n:mp_npc_skeleton]
+{
+	specializes = base_npc_sk_multiplayer;
+
+	category_name = "1W_townsperson";
+	doc = "Skeleton NPC (mp)";
+	[common]
+	{
+		screen_name = "Skeleton";
+	}
+}
