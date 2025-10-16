@@ -1,8 +1,9 @@
 [t:template,n:sand_mage_base]
 {
+	specializes = base_swamp_witch;
+
 	category_name = "1W_evil_d";
 	doc = "sand_mage";
-	specializes = base_imp;
 	[actor]
 	{
 		[skills]
@@ -20,8 +21,10 @@
 		max_life = 798;
 		mana = 16;
 		max_mana = 16;
-		model = m_c_edm_li_pos_2;
-		[textures] { 0=b_c_edm_li-06; }
+		//model = m_c_edm_li_pos_2;
+		//[textures] { 0=b_c_edm_li-06; }
+		textures:0 = b_c_edm_sw-02;
+		scale_base = 0.7;
 	}
 	[attack]
 	{
@@ -29,7 +32,7 @@
 		damage_max = 150;
 		damage_min = 130;
 	}
-	[common] { screen_name="Sand Mage"; }
+	[common] { screen_name="Sand Witch"; }
 	[defend] { defense=344; }
    	[inventory]
 	{
