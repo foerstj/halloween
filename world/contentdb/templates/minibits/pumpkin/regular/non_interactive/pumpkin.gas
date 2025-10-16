@@ -1,10 +1,8 @@
-[t:template,n:pumpkin] { specializes = pumpkin_base; }
-[t:template,n:pumpkin_base]
+[t:template,n:base_pumpkin]
 {
 	specializes = non_interactive_nonblocking;
 
 	category_name = "outdoor";
-	doc = "pumpkin";
 	[aspect]
 	{
 		lodfi_lower = 0.05;
@@ -13,6 +11,36 @@
 		[textures]
 		{
 			0 = b_i_glb_pumpkin;
+		}
+	}
+}
+
+[t:template,n:pumpkin] { specializes = pumpkin_base; }
+[t:template,n:pumpkin_base]
+{
+	specializes = base_pumpkin;
+
+	doc = "pumpkin";
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_i_glb_pumpkin;
+		}
+	}
+}
+
+[t:template,n:pumpkin_noface] { specializes = pumpkin_noface_base; }
+[t:template,n:pumpkin_noface_base]
+{
+	specializes = base_pumpkin;
+
+	doc = "pumpkin_noface";
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_i_glb_pumpkin-noface;
 		}
 	}
 }
