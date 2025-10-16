@@ -81,3 +81,93 @@
 			sfx start #POP;
 			]];
 }
+
+[effect_script*]
+{
+	name	=darkling_spark_green_delayed;
+
+	script	=[[
+            pause 1.0;
+
+
+			set $size .3;
+
+
+			/////////////////////////////////////////
+			// This is the main trackball for the effect, everything is based off of this.
+			sfx create trackball #TARGET_KB 
+				"must_update()radius(.15)spin(2)texture(b_sfx_sparkle01)scale(1.6)
+				color0(.6,1,.6)homing()damped()kdamp(.1)dur(6)afterlife(2)";
+			set $trackball #POP;
+			sfx position_at $trackball @weapon_bone source;
+			sfx friendly party $trackball;
+
+			////////////////////////////////////////////
+			//// Create a light to attach to our trackball
+			sfx create lightsource #SOURCE 
+				"must_update()color0(.6,1,.6)color1(0,0,1)";
+			set $light #POP;
+			sfx rat $light;
+			sfx target $light $trackball;
+			sfx attach $trackball $light;
+
+			sfx create fire #SOURCE
+				"must_update()count(10)color0(.6,1,.6)alphafade(3)velocity(0,0,0)
+				accel(0,-2,0)flamesize(5)max_displace(0)";
+			set $fire #POP;
+			sfx rat $fire;
+			sfx target $fire $trackball;
+			sfx attach $trackball $fire;
+
+			sfx create fire #SOURCE
+				"must_update()texture(b_sfx_sparkle01)count(10)color0(.6,1,.6)velocity(0,0,0)
+				accel(0,-2,0)flamesize(5)max_displace(0)";
+			set $sparkle1 #POP;
+			sfx rat $sparkle1;
+			sfx target $sparkle1 $trackball;
+			sfx attach $trackball $sparkle1;
+
+			sfx create fire #SOURCE
+				"must_update()texture(b_sfx_star_01)count(12)color0(.6,1,.6)velocity(0,0,0)
+				accel(0,-2,0)flamesize(.45)max_displace(0)";
+			set $sparkle2 #POP;
+			sfx rat $sparkle2;
+			sfx target $sparkle2 $trackball;
+			sfx attach $trackball $sparkle2;
+
+			sfx create fire #SOURCE
+				"must_update()texture(b_sfx_star_02)count(15)color0(.6,1,.6)velocity(0,0,0)
+				accel(0,-2,0)flamesize(1.75)max_displace(0)";
+			set $sparkle3 #POP;
+			sfx rat $sparkle3;
+			sfx target $sparkle3 $trackball;
+			sfx attach $trackball $sparkle3;
+
+			sfx start $trackball;
+
+			waitfor collision $trackball #DEFAULT_TIMEOUT;
+
+			set $collision_type #POP;
+
+			if ( $collision_type != #NO_COLLISION )
+			{
+				get collision point $trackball;
+
+				sfx create flurry #POP 
+					"texture(b_sfx_sparkle01)color0(.6,1,.6)radius(1)dur(.5)
+					grow_params(0,1,0)tin(0)tout(0)count(20)";
+				sfx start #POP;
+
+				get collision point $trackball;
+
+				sfx create explosion #POP 
+					"texture(b_sfx_sparkle01)color0(.6,1,.6)radius(0)dur(2)
+					omni_dir()";
+				sfx start #POP;
+			}
+
+			sfx destroy $trackball;
+
+			worldmsg WE_SPELL_SYNC_END #OWNER_GOID #OWNER_GOID #TARGET_GOID;
+			]];
+}
