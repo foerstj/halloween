@@ -320,6 +320,7 @@
 		on_enemy_entered_icz_attack = false;
 		flee_count 					= 1;
 
+		jat_die = world\ai\jobs\common\job_die.skrit;
 	}
 }
 [t:template,n:darkling_forest]
