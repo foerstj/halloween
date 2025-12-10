@@ -1,0 +1,469 @@
+[mood_setting*] // 1 - town, beach, startpos
+{
+	mood_name				= upza_ocean_1;
+	transition_time			= 6.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 5.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 5.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFF646484;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_swanny";  // was s_m_BesiegedTown_02
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*] // 2 - northern middle area
+{
+	mood_name				= upza_ocean_2;
+	transition_time			= 6.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF747484;
+		fog_density			= 0.5f;
+	}
+
+	[rain]
+	{
+		rain_density		= 50.0f;
+		lightning			= false;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.0f;
+		wind_direction		= 0.0f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_BesiegedTown_03";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*] // 3 - upper area
+{
+	mood_name				= upza_ocean_3;
+	transition_time			= 6.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF505552;
+		fog_density			= 0.5f;
+	}
+	[rain]
+	{
+		rain_density		= 75.0f;
+		lightning			= false;
+	}
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+   	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_BesiegedTown_03";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*] // 3_2 - upper area, transition from crystal caverns
+{
+	mood_name				= upza_ocean_3_2;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF505552;
+		fog_density			= 0.5f;
+	}
+	[rain]
+	{
+		rain_density		= 75.0f;
+		lightning			= false;
+	}
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+   	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_BesiegedTown_03";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*] // 4 - beginning of cloud forest
+{
+	mood_name				= upza_ocean_4;
+	transition_time			= 6.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF303830;
+		fog_density			= 0.5f;
+	}
+
+	[rain]
+	{
+		rain_density		= 150.0f;
+		lightning			= false;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.0f;
+		wind_direction		= 0.0f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_TempleRuins_03";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*] // tavern
+{
+	mood_name				= upza_ocean_tavern;
+	transition_time			= 1.5f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFF646484;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		// ambient_track		= "s_e_env_tavern";
+		standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_swanny";  // was s_m_BesiegedTown_02
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]	// tavern_2 - To be used on exit from building, to quickly transition to mood ocean_1 
+{
+	mood_name				= upza_ocean_tavern_2;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 5.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 5.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFF646484;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_swanny";  // was s_m_BesiegedTown_02
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]	// 5 - For use inside buildings
+{
+	mood_name				= upza_ocean_5;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFF646484;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_swanny";  // was s_m_BesiegedTown_02
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]	// teleport - This is the mood for entry via the hub
+{
+	mood_name				= upza_ocean_teleport;
+	transition_time			= 22.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 5.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 5.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFF646484;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_swanny";  // was s_m_BesiegedTown_02
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]	// teleport_2 -  This is for entry via the small teleporter
+{
+	mood_name				= upza_ocean_teleport_2;
+	transition_time			= 20.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF505552;
+		fog_density			= 0.5f;
+	}
+	[rain]
+	{
+		rain_density		= 75.0f;
+		lightning			= false;
+	}
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+   	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_BesiegedTown_03";
+		room_type			= rt_generic;
+	}
+}
+
+// OWN
+[mood_setting*] // captain
+{
+	mood_name				= upza_ocean_captain;
+	transition_time			= 2.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 5.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 5.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFF404040;  // darker than 0xFF646484
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		//standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_battle";  // unused in original UP
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*] // captain_defeated
+{
+	mood_name				= upza_ocean_captain_defeated;
+	transition_time			= 4.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 5.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 5.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFF646484;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 0.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_dragonlair_03";  // dragon victory music
+		room_type			= rt_generic;
+	}
+}

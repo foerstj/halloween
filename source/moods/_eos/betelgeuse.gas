@@ -1,0 +1,807 @@
+[mood_setting*]
+{
+	mood_name = eos_betelgeuse_teleport;
+  f transition_time = 20.000000;
+  b interior = false;
+
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 60.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFE0A0E0;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "s_e_ambient_bird2";
+	  f standard_intro_delay = 2.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = "s_m_subriver_05";
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]  // palim palim town
+{
+	mood_name = eos_betelgeuse_palimpalim;
+  f transition_time = 5.000000;
+  b interior = false;
+
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 60.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFE0A0E0;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "s_e_ambient_bird2";
+	  f standard_intro_delay = 5.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = "s_m_subriver_03";
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]  // palim palim mood but with DK music
+{
+	mood_name = eos_betelgeuse_victory;
+  f transition_time = 5.000000;
+  b interior = false;
+
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 60.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFE0A0E0;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "s_e_ambient_bird2";
+	  f standard_intro_delay = 2.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = "s_m_d_k_theme";
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]  // landing around palim palim
+{
+	mood_name = eos_betelgeuse_1;
+	transition_time = 5.0f;
+	interior = false;
+
+	[frustum]
+	{
+		frustum_width		= 60.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFE0A0E0;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+	[wind]
+	{
+		wind_direction = 0.0f;
+		wind_velocity = 1.0f;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "s_e_ambient_bird2";
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = "s_m_subriver_05";
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]  // flower forest
+{
+	mood_name = eos_betelgeuse_2;
+	transition_time = 15.0f;
+	interior = false;
+
+	[frustum]
+	{
+		frustum_width		= 60.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFE0A0E0;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+	[wind]
+	{
+		wind_direction = 0.0f;
+		wind_velocity = 1.0f;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "s_e_ambient_bird1";
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = "s_m_subriver_05";
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]  // mucosa cave
+{
+	mood_name				= eos_betelgeuse_cave;
+	transition_time			= 1.0f;
+	interior				= true;
+
+	[frustum]
+	{
+		frustum_width		= 60.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_color			= 0xFF202028;
+		fog_density			= 0.5f;
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+        standard_intro_delay = 5.0f;
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_subriver_01";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]  // flower forest (mucosa cave exit)
+{
+	mood_name = eos_betelgeuse_2_from_cave;
+	transition_time = 3.0f;
+	interior = false;
+
+	[frustum]
+	{
+		frustum_width		= 60.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFE0A0E0;
+	  f fog_density = 0.600000;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+	[wind]
+	{
+		wind_direction = 0.0f;
+		wind_velocity = 1.0f;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "s_e_ambient_bird1";
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = "s_m_subriver_05";
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]  // wishy-washy town
+{
+	mood_name = eos_betelgeuse_wishywashy;
+  f transition_time = 5.000000;
+  b interior = false;
+
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 60.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFE0A0E0;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "s_e_ambient_bird2";
+	  f standard_intro_delay = 5.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = "s_m_subriver_03";
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]  // lakeshore
+{
+	mood_name = eos_betelgeuse_lakeshore;
+  f transition_time = 5.000000;
+  b interior = false;
+
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 60.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFE0A0E0;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "s_e_ambient_bird2";
+	  f standard_intro_delay = 5.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = "s_m_subriver_03";
+		room_type = rt_generic;
+	}
+}
+
+[mood_setting*]
+{
+	mood_name = eos_betelgeuse_moon_teleport;
+  f transition_time = 20.000000;
+  b interior = false;
+
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 60.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFD090D0;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "s_e_ambient_wind_01";
+	  f standard_intro_delay = 2.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = "s_m_subriver_02";
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_betelgeuse_moon_1;
+  f transition_time = 5.000000;
+  b interior = false;
+
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 60.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFD090D0;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "s_e_ambient_wind_01";
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = "s_m_subriver_02";
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_betelgeuse_moon_2;
+  f transition_time = 5.000000;
+  b interior = false;
+
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 60.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFD090D0;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[rain]
+	{
+	  b lightning = false;
+	  f rain_density = 100.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "s_e_ambient_wind_01b";
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = "s_m_subriver_02";
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_betelgeuse_moon_3;
+  f transition_time = 5.000000;
+  b interior = false;
+
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 60.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFD090D0;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[rain]
+	{
+	  b lightning = false;
+	  f rain_density = 100.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "s_e_ambient_wind_01";
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = "s_m_waterdungeon_01";
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_betelgeuse_moon_4;
+  f transition_time = 5.000000;
+  b interior = false;
+
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 60.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFD090D0;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[rain]
+	{
+	  b lightning = false;
+	  f rain_density = 200.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "s_e_ambient_wind_01b";
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = "s_m_waterdungeon_01";
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]  // bottom
+{
+	mood_name = eos_betelgeuse_moon_5;
+  f transition_time = 5.000000;
+  b interior = false;
+
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 60.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFD090D0;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[rain]
+	{
+	  b lightning = false;
+	  f rain_density = 100.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "s_e_ambient_wind_01";
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = "s_m_waterdungeon_02";
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]  // bottom
+{
+	mood_name = eos_betelgeuse_moon_6;
+  f transition_time = 5.000000;
+  b interior = false;
+
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 60.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFD090D0;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[rain]
+	{
+	  b lightning = true;
+	  f rain_density = 500.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "s_e_ambient_rain1";
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = "s_m_waterdungeon_02";
+		room_type = rt_generic;
+	}
+}

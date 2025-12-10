@@ -1,0 +1,709 @@
+[mood_setting*]
+{
+	mood_name = eos_aranna_teleport;
+	transition_time = 20.0f;
+	interior = false;
+
+	[frustum]
+	{
+		frustum_height = 60.0f;
+		frustum_width = 60.0f;
+	}
+
+	[fog]
+	{
+		fog_color = 0xff757585;
+		fog_density = 0.5f;
+		fog_near_dist = 35.0f;
+		fog_far_dist = 50.0f;
+		fog_lowdetail_near_dist = 35.0f;
+		fog_lowdetail_far_dist = 45.0f;
+	}
+
+	[music]
+	{
+		ambient_track = "";
+        standard_intro_delay = 2.0f;
+		standard_repeat_delay = 10.0f;
+		standard_track = "s_m_BesiegedTown_02";
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]  // different initial music
+{
+	mood_name				= eos_aranna_island_init;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 60.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_color			= 0xFF606063;
+		fog_density			= 0.5f;
+		fog_near_dist		= 2.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 2.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+	}
+	[rain]
+	{
+		rain_density		= 400.0f;
+		lightning			= true;
+	}
+	[wind]
+	{
+		wind_velocity		= 3.0f;
+		wind_direction		= 2.0f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+        standard_intro_delay = 0.0f;
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_BesiegedTown_01";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= eos_aranna_island_1;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 60.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_color			= 0xFF757585;
+		fog_density			= 0.5f;
+		fog_near_dist		= 35.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 35.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+        standard_intro_delay = 10.0f;
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_BesiegedTown_02";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= eos_aranna_island_2_1;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 60.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_color			= 0xFF707080;
+		fog_density			= 0.5f;
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+	}
+	[rain]
+	{
+		rain_density		= 75.0f;
+		lightning			= false;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+        standard_intro_delay = 10.0f;
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_BesiegedTown_02";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= eos_aranna_island_2_2;
+	transition_time			= 11.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 60.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_color			= 0xFF606063;
+		fog_density			= 0.5f;
+		fog_near_dist		= 2.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 2.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+	}
+	[rain]
+	{
+		rain_density		= 400.0f;
+		lightning			= true;
+	}
+	[wind]
+	{
+		wind_velocity		= 3.0f;
+		wind_direction		= 2.0f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+        standard_intro_delay = 10.0f;
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_BesiegedTown_02";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= eos_aranna_island_3;
+	transition_time			= 7.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 60.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_color			= 0xFF757584;
+		fog_density			= 0.5f;
+		fog_near_dist		= 40.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 40.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+	}
+	[wind]
+	{
+		wind_velocity		= 1.0f;
+		wind_direction		= 2.0f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+        standard_intro_delay = 10.0f;
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_BesiegedTown_02";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= eos_aranna_island_cave;
+	transition_time			= 1.0f;
+	interior				= true;
+
+	[frustum]
+	{
+		frustum_width		= 60.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+        standard_intro_delay	= 10.0f;
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_BesiegedTown_03";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]  // teleport(area) mood but with DK music
+{
+	mood_name = eos_aranna_victory;
+	transition_time = 5.0f;
+	interior = false;
+
+	[frustum]
+	{
+		frustum_height = 60.0f;
+		frustum_width = 60.0f;
+	}
+
+	[fog]
+	{
+		fog_color = 0xff757585;
+		fog_density = 0.5f;
+		fog_near_dist = 35.0f;
+		fog_far_dist = 50.0f;
+		fog_lowdetail_near_dist = 35.0f;
+		fog_lowdetail_far_dist = 45.0f;
+	}
+
+	[music]
+	{
+		ambient_track = "";
+		standard_intro_delay = 2.0f;  // not 0, await tooltip first
+		standard_repeat_delay = 10.0f;
+		standard_track = "s_m_d_k_theme";
+		room_type = rt_generic;
+	}
+}
+
+[mood_setting*]
+{
+	mood_name = eos_aranna_moon_teleport;
+  f transition_time = 20.000000;
+  b interior = false;
+
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 60.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFE2E2E2;
+	  f fog_density = 0.600000;
+	  f fog_near_dist = 35.000000;
+	  f fog_far_dist = 45.000000;
+	  f fog_lowdetail_near_dist = 25.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+	[wind]
+	{
+	  f wind_direction = 0.000000;
+	  f wind_velocity = 1.000000;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "";
+	  f standard_intro_delay = 0.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = "s_m_Glacern_02";
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_aranna_moon_1;
+  f transition_time = 10.000000;
+  b interior = false;
+
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 60.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFE2E2E2;
+	  f fog_density = 0.600000;
+	  f fog_near_dist = 35.000000;
+	  f fog_far_dist = 45.000000;
+	  f fog_lowdetail_near_dist = 25.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+	[wind]
+	{
+	  f wind_direction = 0.000000;
+	  f wind_velocity = 1.000000;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "";
+	  f standard_intro_delay = 2.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = "s_m_Glacern_02";
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_aranna_moon_2;
+  f transition_time = 10.000000;
+  b interior = false;
+
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 60.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFE2E2E2;
+	  f fog_density = 0.600000;
+	  f fog_near_dist = 35.000000;
+	  f fog_far_dist = 45.000000;
+	  f fog_lowdetail_near_dist = 25.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+	[wind]
+	{
+	  f wind_direction = 0.000000;
+	  f wind_velocity = 1.000000;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "";
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = "s_m_Glacern_02";
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_aranna_moon_tavern;
+  f transition_time = 1.000000;
+  b interior = true;
+
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 60.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFE2E2E2;
+	  f fog_density = 0.600000;
+	  f fog_near_dist = 35.000000;
+	  f fog_far_dist = 45.000000;
+	  f fog_lowdetail_near_dist = 25.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+	[wind]
+	{
+	  f wind_direction = 0.000000;
+	  f wind_velocity = 1.000000;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = "s_e_env_tavern";
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = "s_m_Glacern_02";
+		room_type = rt_generic;
+	}
+}
+
+// red planet moods differ by canyon lvl: 1 = lowest, 3 = village bottom, 4 = highest & teleport
+[mood_setting*]
+{
+	mood_name = eos_aranna_redplanet_teleport;
+	transition_time = 20.0f;
+	interior = false;
+
+	[frustum]
+	{
+	  f frustum_height = 60.000000;
+	  f frustum_width = 60.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFB0DDF2;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 45.000000;
+	  f fog_far_dist = 65.000000;
+	  f fog_lowdetail_near_dist = 40.000000;
+	  f fog_lowdetail_far_dist = 60.000000;
+	}
+	[wind]
+	{
+		wind_direction = 4.7f;
+		wind_velocity = 2;
+	}
+
+	[music]
+	{
+		ambient_track = "s_e_ambient_wind_01b";
+        standard_intro_delay = 2.0f;
+		standard_repeat_delay = 20.0f;
+		standard_track = "s_m_nonataya";
+		room_type = rt_arena;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_aranna_redplanet_lvl4;
+	transition_time = 5.0f;
+	interior = false;
+
+	[frustum]
+	{
+		frustum_width		= 60.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFB0DDF2;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 45.000000;
+	  f fog_far_dist = 65.000000;
+	  f fog_lowdetail_near_dist = 40.000000;
+	  f fog_lowdetail_far_dist = 60.000000;
+	}
+	[wind]
+	{
+		wind_direction = 4.7f;
+		wind_velocity = 2;
+	}
+
+	[music]
+	{
+		ambient_track = "s_e_ambient_wind_01b";
+        standard_intro_delay = 10.0f;
+		standard_repeat_delay = 20.0f;
+		standard_track = "s_m_nonataya";
+		room_type = rt_arena;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= eos_aranna_redplanet_lvl3_village;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 60.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFB0DDF2;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 40.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 35.000000;
+	  f fog_lowdetail_far_dist = 55.000000;
+	}
+	[wind]
+	{
+		wind_direction = 4.7f;
+		wind_velocity = 1;
+	}
+
+	[music]
+	{
+		ambient_track = "";
+        standard_intro_delay = 10.0f;
+		standard_repeat_delay = 20.0f;
+		standard_track = "s_m_farmhouse_04";
+		room_type = rt_arena;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_aranna_redplanet_lvl3;
+	transition_time = 5.0f;
+	interior = false;
+
+	[frustum]
+	{
+		frustum_width		= 60.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFB0DDF2;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 40.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 35.000000;
+	  f fog_lowdetail_far_dist = 55.000000;
+	}
+	[wind]
+	{
+		wind_direction = 4.7f;
+		wind_velocity = 1.5f;
+	}
+
+	[music]
+	{
+		ambient_track = "s_e_ambient_bird2";
+        standard_intro_delay = 10.0f;
+		standard_repeat_delay = 30.0f;
+		standard_track = "s_m_jungle_battle";
+		room_type = rt_arena;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_aranna_redplanet_lvl2;
+	transition_time = 5.0f;
+	interior = false;
+
+	[frustum]
+	{
+		frustum_width		= 60.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFB0DDF2;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 35.000000;
+	  f fog_far_dist = 55.000000;
+	  f fog_lowdetail_near_dist = 30.000000;
+	  f fog_lowdetail_far_dist = 50.000000;
+	}
+	[wind]
+	{
+		wind_direction = 4.7f;
+		wind_velocity = 1;
+	}
+
+	[music]
+	{
+		ambient_track = "s_e_ambient_bird1";
+        standard_intro_delay = 10.0f;
+		standard_repeat_delay = 30.0f;
+		standard_track = "s_m_jungle_battle";
+		room_type = rt_arena;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_aranna_redplanet_lvl1;
+	transition_time = 5.0f;
+	interior = false;
+
+	[frustum]
+	{
+		frustum_width		= 60.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFFB0DDF2;
+	  f fog_density = 0.500000;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 50.000000;
+	  f fog_lowdetail_near_dist = 25.000000;
+	  f fog_lowdetail_far_dist = 45.000000;
+	}
+	[wind]
+	{
+		wind_direction = 4.7f;
+		wind_velocity = 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track = "s_e_ambient_jungle_1";
+        standard_intro_delay = 10.0f;
+		standard_repeat_delay = 30.0f;
+		standard_track = "s_m_jungle_battle";
+		room_type = rt_arena;
+	}
+}
