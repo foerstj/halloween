@@ -144,7 +144,7 @@
 		ambient_track = s_e_ambient_jungle_1;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_dark_n_deep;
+		standard_track = s_m_farmhouse_04;
 		room_type = rt_parkinglot;
 	}
 }
@@ -480,7 +480,7 @@
 		ambient_track = s_e_ambient_jungle_2;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_the_butcher;
+		standard_track = s_m_darkforest_01;
 		room_type = rt_forest;
 	}
 }
@@ -505,7 +505,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_track = s_m_drums_01;
 	}
 }

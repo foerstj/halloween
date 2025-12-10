@@ -517,7 +517,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 5.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_subriver_01;

@@ -82,7 +82,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_track = s_m_Glacern_01;
 		room_type = rt_generic;
 	}
@@ -167,7 +167,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_track = s_m_Glacern_07;
 		room_type = rt_generic;
 	}
@@ -256,7 +256,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_track = s_m_Glacern_06;
 		room_type = rt_generic;
 	}
@@ -345,7 +345,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_track = s_m_Glacern_06;
 		room_type = rt_generic;
 	}
@@ -434,7 +434,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_track = s_m_Glacern_07;
 		room_type = rt_generic;
 	}
@@ -519,7 +519,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_track = s_m_Glacern_07;
 		room_type = rt_generic;
 	}
@@ -608,7 +608,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_track = s_m_Glacern_01;
 		room_type = rt_generic;
 	}
@@ -697,7 +697,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_track = s_m_Glacern_07;
 		room_type = rt_generic;
 	}
@@ -786,7 +786,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_track = s_m_Glacern_01;
 		room_type = rt_generic;
 	}
@@ -871,7 +871,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_track = s_m_Glacern_01;
 		room_type = rt_generic;
 	}
@@ -960,7 +960,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_track = s_m_Glacern_01;
 		room_type = rt_generic;
 	}
@@ -1049,7 +1049,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_track = s_m_Glacern_07;
 		room_type = rt_generic;
 	}
@@ -1138,7 +1138,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_track = s_m_Glacern_01;
 		room_type = rt_generic;
 	}

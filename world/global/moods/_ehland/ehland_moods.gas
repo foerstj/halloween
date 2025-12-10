@@ -31,7 +31,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 30.000000;
 		standard_track = s_m_credits;
@@ -77,7 +77,7 @@
 		ambient_track = s_e_ambient_wind_01;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_executioner;
+		standard_track = s_m_maintheme;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -115,7 +115,7 @@
 		ambient_track = s_e_ambient_wind_01b;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_executioner;
+		standard_track = s_m_maintheme;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -191,7 +191,7 @@
 		ambient_track = s_e_ambient_wind_02;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 30.000000;
-		standard_track = s_m_executioner;
+		standard_track = s_m_maintheme_02;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -257,7 +257,7 @@
 		ambient_track = s_e_ambient_wind_02;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 30.000000;
-		standard_track = s_m_executioner;
+		standard_track = s_m_maintheme_02;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -295,7 +295,7 @@
 		ambient_track = s_e_ambient_crypt;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_executioner;
+		standard_track = s_m_maintheme_03;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;

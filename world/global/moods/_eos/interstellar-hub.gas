@@ -23,7 +23,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_track = s_m_chamber_01;
 		room_type = rt_parkinglot;
 	}
@@ -53,7 +53,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		room_type = rt_generic;
 	}
 }

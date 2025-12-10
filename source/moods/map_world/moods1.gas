@@ -1072,7 +1072,7 @@
 	[music]
 	{
 		ambient_track		= "";
-		//standard_repeat_delay = 10.0f;
+		standard_repeat_delay = 10.0f;
 		standard_track		= "s_m_BesiegedTown_02";
 		room_type			= rt_generic;
 	}

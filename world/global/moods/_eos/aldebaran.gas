@@ -28,10 +28,10 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
-		standard_track = s_m_headless_horseman;
+		standard_track = s_m_fortkroth_02;
 		room_type = rt_generic;
 	}
 }
@@ -65,10 +65,10 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
-		standard_track = s_m_headless_horseman;
+		standard_track = s_m_fortkroth_02;
 		room_type = rt_generic;
 	}
 }
@@ -142,7 +142,7 @@
 		ambient_track = s_e_env_tavern;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
-		standard_track = s_m_headless_horseman;
+		standard_track = s_m_fortkroth_02;
 		room_type = rt_generic;
 	}
 }
@@ -176,7 +176,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
 		standard_track = s_m_misc_01;
@@ -204,7 +204,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
 		standard_track = s_m_misc_01;
@@ -242,7 +242,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
 		standard_track = s_m_fortkroth_01;
@@ -270,7 +270,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
 		standard_track = s_m_chamber_02;
@@ -298,7 +298,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
 		standard_track = s_m_chamber_03;
@@ -385,7 +385,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 5.0f;
 		standard_track = s_m_subriver_04;
 		room_type = rt_psychotic;

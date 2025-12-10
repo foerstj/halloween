@@ -21,10 +21,10 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 3.0f;
 		standard_repeat_delay = 100.0f;
-		standard_track = s_m_pantscrapper;
+		standard_track = s_m_templeruins_02;
 		room_type = rt_generic;
 	}
 }
@@ -59,10 +59,10 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 3.0f;
 		standard_repeat_delay = 100.0f;
-		standard_track = s_m_pantscrapper;
+		standard_track = s_m_templeruins_02;
 		room_type = rt_generic;
 	}
 }

@@ -80,7 +80,7 @@
 		ambient_track = s_e_env_bats;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_halloween_textures;
+		standard_track = s_m_intro;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -164,7 +164,7 @@
 		ambient_track = s_e_ambient_wind_ice_cavern;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_halloween_textures;
+		standard_track = s_m_intro;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -253,7 +253,7 @@
 		ambient_track = s_e_env_scream_male;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_halloween_textures;
+		standard_track = s_m_intro;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -423,7 +423,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 20.000000;
 		standard_track = s_m_the_shadowjumper_theme;
@@ -456,7 +456,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
 		standard_track = s_m_the_dead_theme;
@@ -537,7 +537,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 5.000000;
 		standard_track = ;
@@ -575,7 +575,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 5.000000;
 		standard_track = ;
@@ -683,7 +683,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_path2crypts_03;
@@ -725,7 +725,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_rescue_nl;
@@ -758,10 +758,10 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_halloween_textures;
+		standard_track = s_m_intro;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -931,7 +931,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_arcticcaverns_07;
@@ -1015,7 +1015,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
 		standard_track = s_m_icebridge;
@@ -1104,7 +1104,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_arcticcaverns_05;
@@ -1193,7 +1193,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_arcticcaverns_01;
@@ -1268,10 +1268,10 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 5.000000;
-		standard_track = s_m_halloween_textures;
+		standard_track = s_m_intro;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -1346,7 +1346,7 @@
 		ambient_track = s_e_env_wind_gust;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_halloween_textures;
+		standard_track = s_m_intro;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -1591,10 +1591,10 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_halloween_textures;
+		standard_track = s_m_arhok;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -1679,10 +1679,10 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_halloween_textures;
+		standard_track = s_m_arhok;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -1768,7 +1768,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
 		standard_track = s_m_glacern_07;
@@ -2114,7 +2114,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_the_dead_theme;
@@ -2194,7 +2194,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_crypts_02;
@@ -2354,7 +2354,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_the_dead_theme;
@@ -2512,7 +2512,7 @@
 		ambient_track = s_e_env_tavern;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 5.000000;
-		standard_track = s_m_halloween_textures;
+		standard_track = s_m_intro;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -2584,10 +2584,10 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 5.000000;
-		standard_track = s_m_halloween_textures;
+		standard_track = s_m_intro;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -2672,10 +2672,10 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_halloween_textures;
+		standard_track = s_m_intro;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -2760,10 +2760,10 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_halloween_textures;
+		standard_track = s_m_intro;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -2793,7 +2793,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_crypts_02;
@@ -3066,7 +3066,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_path2crypts_03;
@@ -3179,7 +3179,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 30.000000;
 		standard_track = s_m_darkswamp_04;
@@ -3212,7 +3212,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 30.000000;
 		standard_track = s_m_darkswamp_04;
@@ -3478,7 +3478,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 20.000000;
 		standard_track = s_m_drums_02;
@@ -3511,10 +3511,10 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 15.000000;
-		standard_track = s_m_haunted_house;
+		standard_track = s_m_frontend;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -3582,7 +3582,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 16.000000;
 		standard_track = s_m_jungle_2_theme;
@@ -3775,7 +3775,7 @@
 		ambient_track = s_e_env_wind_gust;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_halloween_theme_2;
+		standard_track = s_m_the_ultreans;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -3813,7 +3813,7 @@
 		ambient_track = s_e_ambient_bird1;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_halloween_theme_2;
+		standard_track = s_m_the_ultreans;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -3856,7 +3856,7 @@
 		ambient_track = s_e_ambient_wind_01;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_halloween_theme_2;
+		standard_track = s_m_the_ultreans;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -3899,7 +3899,7 @@
 		ambient_track = s_e_env_thunder_rumble_distant;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_halloween_theme_2;
+		standard_track = s_m_the_ultreans;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -4344,7 +4344,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_drums_03;
@@ -6388,7 +6388,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_credits;
@@ -6616,7 +6616,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_hallofskulls_01;
@@ -6659,7 +6659,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_waterdungeon_02;
@@ -6702,7 +6702,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = ;
@@ -6745,7 +6745,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = ;
@@ -6783,7 +6783,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_path2crypts_01;
@@ -7084,7 +7084,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = ;
@@ -7120,7 +7120,7 @@
 		ambient_track = s_e_ambient_crypt;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 30.000000;
-		standard_track = s_m_haunted_house;
+		standard_track = s_m_frontend;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -7515,7 +7515,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_desertcanyons_01;
@@ -7601,7 +7601,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_nonataya;
@@ -7644,7 +7644,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_dragonlair_01;
@@ -7938,10 +7938,10 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_halloween_theme_2;
+		standard_track = s_m_the_ultreans;
 	  f battle_intro_delay = 10.000000;
 	  f battle_repeat_delay = 10.000000;
 		battle_track = s_m_battle;
@@ -7984,7 +7984,7 @@
 		ambient_track = s_e_ambient_wind_mines;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_halloween_theme_2;
+		standard_track = s_m_the_ultreans;
 	  f battle_intro_delay = 10.000000;
 	  f battle_repeat_delay = 10.000000;
 		battle_track = s_m_battle;
@@ -8597,7 +8597,7 @@
 		ambient_track = s_e_ambient_wind_mines;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_pantscrapper;
+		standard_track = s_m_templeruins_02;
 	  f battle_intro_delay = 3.000000;
 	  f battle_repeat_delay = 10.000000;
 		battle_track = s_m_battle;
@@ -8703,7 +8703,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_zaurask_theme;
@@ -8746,7 +8746,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_zaurask_theme;
@@ -8789,7 +8789,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 12.000000;
 		standard_track = s_m_the_zaurask_stronghold_theme;
@@ -9160,7 +9160,7 @@
 		ambient_track = s_e_ambient_wind_01;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_halloween_textures;
+		standard_track = s_m_intro;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
@@ -9277,7 +9277,7 @@
 		ambient_track = s_e_ambient_wind_mines;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_halloween_theme_2;
+		standard_track = s_m_the_ultreans;
 	  f battle_intro_delay = 5.000000;
 	  f battle_repeat_delay = 10.000000;
 		battle_track = s_m_gom_battle;

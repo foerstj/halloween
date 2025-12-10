@@ -80,10 +80,10 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_cockroaches;
+		standard_track = s_m_desertcanyons_03;
 		room_type = rt_alley;
 	}
 }
@@ -169,10 +169,10 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_cockroaches;
+		standard_track = s_m_desertcanyons_03;
 		room_type = rt_alley;
 	}
 }
@@ -258,7 +258,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
 		standard_track = s_m_desertcanyons_05;
@@ -347,7 +347,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
 		standard_track = s_m_desertcanyons_02;
@@ -436,7 +436,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
 		standard_track = s_m_desertcanyons_01;
@@ -517,7 +517,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
 		standard_track = ;
@@ -545,7 +545,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 5.0f;
 		standard_track = s_m_drums_03;
 		room_type = rt_stonecorridor;
@@ -572,7 +572,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 0.0f;
 		standard_track = s_m_drums_03;
 		room_type = rt_stonecorridor;
@@ -665,7 +665,7 @@
 		ambient_track = s_e_ambient_swamp;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_cockroaches;
+		standard_track = s_m_desertcanyons_03;
 		room_type = rt_generic;
 	}
 }
@@ -756,7 +756,7 @@
 		ambient_track = s_e_ambient_swamp;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_cockroaches;
+		standard_track = s_m_desertcanyons_03;
 		room_type = rt_generic;
 	}
 }
@@ -847,7 +847,7 @@
 		ambient_track = s_e_ambient_swamp;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_cockroaches;
+		standard_track = s_m_desertcanyons_03;
 		room_type = rt_generic;
 	}
 }
@@ -938,7 +938,7 @@
 		ambient_track = s_e_ambient_swamp;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_cockroaches;
+		standard_track = s_m_desertcanyons_03;
 		room_type = rt_generic;
 	}
 }
@@ -1029,7 +1029,7 @@
 		ambient_track = s_e_ambient_swamp;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_the_butcher;
+		standard_track = s_m_DarkForest_03;
 		room_type = rt_generic;
 	}
 }
@@ -1120,7 +1120,7 @@
 		ambient_track = s_e_ambient_swamp;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_the_butcher;
+		standard_track = s_m_DarkForest_03;
 		room_type = rt_generic;
 	}
 }
@@ -1682,7 +1682,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_swanny;
 		room_type = rt_stonecorridor;
@@ -1709,7 +1709,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_swanny;
 		room_type = rt_stonecorridor;

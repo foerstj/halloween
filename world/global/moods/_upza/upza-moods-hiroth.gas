@@ -164,7 +164,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_track = s_m_the_skull_theme_cicatrix_theme;
 		room_type = rt_generic;
 	}
@@ -301,7 +301,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_the_dead_theme;
 		room_type = rt_generic;
@@ -332,7 +332,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 0.0f;
 		standard_track = s_m_gom_battle;
 		room_type = rt_generic;
@@ -363,7 +363,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 5.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_gom_victory;

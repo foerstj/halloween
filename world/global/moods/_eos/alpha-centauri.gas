@@ -29,10 +29,10 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 2.0f;
 		standard_repeat_delay = 20.0f;
-		standard_track = s_m_executioner;
+		standard_track = s_m_maintheme_02;
 		room_type = rt_generic;
 	}
 }
@@ -67,10 +67,10 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
-		standard_track = s_m_halloween_theme_2;
+		standard_track = s_m_besiegedtown_04;
 		room_type = rt_generic;
 	}
 }
@@ -95,10 +95,10 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
-		standard_track = s_m_halloween_theme_2;
+		standard_track = s_m_besiegedtown_04;
 		room_type = rt_generic;
 	}
 }
@@ -133,10 +133,10 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
-		standard_track = s_m_executioner;
+		standard_track = s_m_maintheme_03;
 		room_type = rt_generic;
 	}
 }
@@ -171,10 +171,10 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
-		standard_track = s_m_executioner;
+		standard_track = s_m_maintheme_03;
 		room_type = rt_generic;
 	}
 }
@@ -209,7 +209,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_Farmhouse_02;
@@ -247,7 +247,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_Farmhouse_02;
@@ -275,7 +275,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_Drums_01;
 		room_type = rt_stoneroom;
@@ -302,7 +302,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_Drums_01;
@@ -340,7 +340,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_Path2Crypts_01;
 		room_type = rt_generic;
@@ -377,7 +377,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_Path2Crypts_01;
 		room_type = rt_generic;
@@ -561,7 +561,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_Farmhouse_02;
 		room_type = rt_generic;
@@ -588,7 +588,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_Drums_01;
 		room_type = rt_cave;
@@ -615,7 +615,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_Path2Crypts_04;
 		room_type = rt_stonecorridor;
@@ -761,7 +761,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 2.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_path2crypts_01;
@@ -798,7 +798,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_path2crypts_01;
 		room_type = rt_generic;
@@ -834,7 +834,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_path2crypts_03;
 		room_type = rt_generic;
@@ -870,7 +870,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_path2crypts_01;
 		room_type = rt_generic;
@@ -906,7 +906,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_path2crypts_03;
 		room_type = rt_generic;
