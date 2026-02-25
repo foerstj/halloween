@@ -2,7 +2,6 @@
 {
 	specializes = non_interactive_nonblocking;
 
-	category_name = "outdoor";
 	[aspect]
 	{
 		lodfi_lower = 0.05;
@@ -20,6 +19,7 @@
 {
 	specializes = base_pumpkin;
 
+	category_name = "outdoor";
 	doc = "pumpkin";
 	[aspect]
 	{
@@ -35,6 +35,7 @@
 {
 	specializes = base_pumpkin;
 
+	category_name = "foliage";  // like cabbage & squash
 	doc = "pumpkin_noface";
 	[aspect]
 	{
