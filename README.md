@@ -48,7 +48,7 @@ Enjoy this special blend of autumn and horror mood with some witches and jack-o'
 ## Installation & Compatibility
 - This mod is made for LoA, and also alters LoA content. It should work with Vanilla, but wasn't tested thoroughly.
   - The pumpkin texture is misaligned in Vanilla. This can be remedied by using "Halloween - Pumpkin-vanilla-fix.dsres".
-- This mod supports the original maps (KoE/UP/Yh/LoA/R2A) as well as some of my own (Ehland/EoS/UPZA). It affects other maps to a lesser extent.
+- This mod supports the original maps (KoE/UP/Yh/LoA/R2A) as well as my own (Ehland/PG/EoS/GR/UPZA). It affects other maps to a lesser extent.
 - To install, simply put the .dsres files in the DSLOA folder.
 - The "de" and "es" .dsres files are optional and contain translations into German and Spanish, which will be picked up if you have a German or Spanish installation.
 - This mod adds the Pumpkin helmet to the pcontent pool, but it's low-level and not overpowered.
