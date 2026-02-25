@@ -1,0 +1,295 @@
+[mood_setting*]
+{
+	mood_name = gr-psw-s;
+  f transition_time = 8.000000;
+  b interior = false;
+	[fog]
+	{
+	  f fog_near_dist = 15.000000;
+	  f fog_far_dist = 50.000000;
+	  f fog_lowdetail_near_dist = 12.500000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF808080;
+	  f fog_density = 0.500000;
+	}
+	[rain]
+	{
+	  f rain_density = 600.000000;
+	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 5.000000;
+	  f wind_direction = 0.785400;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 16.000000;
+		standard_track = s_m_darkswamp_02;
+		room_type = rt_mountains;
+	}
+}
+[mood_setting*]
+{
+	mood_name = gr-psw-s-indoor;
+  f transition_time = 1.000000;
+  b interior = false;
+	[fog]
+	{
+	  f fog_near_dist = 15.000000;
+	  f fog_far_dist = 50.000000;
+	  f fog_lowdetail_near_dist = 12.500000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF808080;
+	  f fog_density = 0.500000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 16.000000;
+		standard_track = s_m_darkswamp_02;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = gr-psw-m;
+  f transition_time = 8.000000;
+  b interior = false;
+	[fog]
+	{
+	  f fog_near_dist = 15.000000;
+	  f fog_far_dist = 50.000000;
+	  f fog_lowdetail_near_dist = 12.500000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF808080;
+	  f fog_density = 0.500000;
+	}
+	[rain]
+	{
+	  f rain_density = 600.000000;
+	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 5.000000;
+	  f wind_direction = 0.785400;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 16.000000;
+		standard_track = s_m_darkswamp_03;
+		room_type = rt_mountains;
+	}
+}
+[mood_setting*]
+{
+	mood_name = gr-psw-n;
+  f transition_time = 8.000000;
+  b interior = false;
+	[fog]
+	{
+	  f fog_near_dist = 15.000000;
+	  f fog_far_dist = 50.000000;
+	  f fog_lowdetail_near_dist = 12.500000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  x fog_color = 0xFF808080;
+	  f fog_density = 0.500000;
+	}
+	[rain]
+	{
+	  f rain_density = 600.000000;
+	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 5.000000;
+	  f wind_direction = 0.785400;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 16.000000;
+		standard_track = s_m_darkswamp_04;
+		room_type = rt_mountains;
+	}
+}
+[mood_setting*]
+{
+	mood_name = gr-psw-coast-cliff;
+  f transition_time = 8.000000;
+  b interior = false;
+	[fog]
+	{
+	  f fog_near_dist = 2.500000;
+	  f fog_far_dist = 35.000000;
+	  f fog_lowdetail_near_dist = 2.500000;
+	  f fog_lowdetail_far_dist = 30.000000;
+	  x fog_color = 0xFF808080;
+	  f fog_density = 0.500000;
+	}
+	[rain]
+	{
+	  f rain_density = 1100.000000;
+	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 5.000000;
+	  f wind_direction = 0.785400;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_rain1;
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 16.000000;
+		standard_track = s_m_BesiegedTown_03;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = gr-psw-coast-beach;
+  f transition_time = 8.000000;
+  b interior = false;
+	[fog]
+	{
+	  f fog_near_dist = 2.500000;
+	  f fog_far_dist = 35.000000;
+	  f fog_lowdetail_near_dist = 2.500000;
+	  f fog_lowdetail_far_dist = 30.000000;
+	  x fog_color = 0xFFA0A0A0;
+	  f fog_density = 0.500000;
+	}
+	[rain]
+	{
+	  f rain_density = 1100.000000;
+	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 8.000000;
+	  f wind_direction = 0.785400;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_rain1;
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 16.000000;
+		standard_track = s_m_BesiegedTown_03;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = gr-psw-coast-shelter;
+  f transition_time = 1.000000;
+  b interior = false;
+	[fog]
+	{
+	  f fog_near_dist = 2.500000;
+	  f fog_far_dist = 35.000000;
+	  f fog_lowdetail_near_dist = 2.500000;
+	  f fog_lowdetail_far_dist = 30.000000;
+	  x fog_color = 0xFFA0A0A0;
+	  f fog_density = 0.500000;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_rain1;
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 16.000000;
+		standard_track = s_m_BesiegedTown_03;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = gr-psw-coast-climb-s;
+  f transition_time = 8.000000;
+  b interior = false;
+	[fog]
+	{
+	  f fog_near_dist = 2.500000;
+	  f fog_far_dist = 35.000000;
+	  f fog_lowdetail_near_dist = 2.500000;
+	  f fog_lowdetail_far_dist = 30.000000;
+	  x fog_color = 0xFF808080;
+	  f fog_density = 0.500000;
+	}
+	[rain]
+	{
+	  f rain_density = 600.000000;
+	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 5.000000;
+	  f wind_direction = 0.785400;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 16.000000;
+		standard_track = s_m_darkswamp_02;
+		room_type = rt_mountains;
+	}
+}
+[mood_setting*]
+{
+	mood_name = gr-psw-coast-climb-n;
+  f transition_time = 8.000000;
+  b interior = false;
+	[fog]
+	{
+	  f fog_near_dist = 2.500000;
+	  f fog_far_dist = 35.000000;
+	  f fog_lowdetail_near_dist = 2.500000;
+	  f fog_lowdetail_far_dist = 30.000000;
+	  x fog_color = 0xFF808080;
+	  f fog_density = 0.500000;
+	}
+	[rain]
+	{
+	  f rain_density = 600.000000;
+	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 5.000000;
+	  f wind_direction = 0.785400;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 16.000000;
+		standard_track = s_m_darkswamp_03;
+		room_type = rt_mountains;
+	}
+}

@@ -1,0 +1,576 @@
+// Dripstone Caverns
+[mood_setting*]  // dsc west 1
+{
+	mood_name				= gr-dsc-west-1;
+	transition_time			= 2.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xff121926;
+		fog_density			= 0.5f;
+	}
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+        standard_intro_delay = 8.0f;
+		standard_repeat_delay	= 24.0f;
+		standard_track		= s_m_wonderland;
+		battle_track		= s_m_SubRiver_05;
+		room_type			= rt_auditorium;
+	}
+}
+[mood_setting*]  // dsc west 2 (around caverns crossroads)
+{
+	mood_name				= gr-dsc-west-2;
+	transition_time			= 8.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xff121926;
+		fog_density			= 0.5f;
+	}
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+        standard_intro_delay = 8.0f;
+		standard_repeat_delay	= 24.0f;
+		standard_track		= s_m_wonderland;
+		battle_track		= s_m_SubRiver_01;
+		room_type			= rt_auditorium;
+	}
+}
+[mood_setting*]  // dsc west 3
+{
+	mood_name				= gr-dsc-west-3;
+	transition_time			= 2.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xff122619;
+		fog_density			= 0.5f;
+	}
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+        standard_intro_delay = 8.0f;
+		standard_repeat_delay	= 24.0f;
+		standard_track		= s_m_wonderland;
+		battle_track		= s_m_SubRiver_02;
+		room_type			= rt_auditorium;
+	}
+}
+
+[mood_setting*]  // dsc east 1 (black / exit)
+{
+    //black quick transition mood
+    mood_name				= gr-dsc-east-1;
+	transition_time			= 1.0f;
+	interior				= true;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xff000000;
+		fog_density			= 0.5f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_SubRiver_04";  // the psychotic track
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]  // dsc east 2 (purple hue)
+{
+    //purple hued mood
+	mood_name				= gr-dsc-east-2;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xff121926;
+		fog_density			= 0.5f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_SubRiver_01";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]  // dsc east 3 (blue hue)
+{
+    //blue hued mood
+	mood_name				= gr-dsc-east-3;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 5.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 5.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xFF00182F;
+		fog_density			= 0.5f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 0.0f;
+		standard_track		= "s_m_SubRiver_05";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]  // dsc east 4 (end arena)
+{
+    // this is for the area near the end of the level where you are in an
+    // arena-like circular cavern
+	mood_name				= gr-dsc-east-4;
+	transition_time			= 3.0f;
+	interior				= true;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF121828;
+		fog_density			= 0.5f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 10.0f;
+		standard_track		= "s_m_SubRiver_02";
+		room_type			= rt_arena;
+	}
+}
+
+// Stairs & Shelter
+[mood_setting*]  // dsc/gc stairs tx
+{
+	mood_name				= gr-tm-stairs;
+	transition_time			= 8.0f;
+	interior				= true;
+
+    // snow sun
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF1b1b23;  // fog color from glacier caverns
+		fog_density			= 0.5f;
+	}
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= s_e_ambient_wind_ice_cavern;  // ambient from glacier caverns
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 24.000000;
+		standard_track		= s_m_gates_of_glory;
+        battle_track = s_m_SubRiver_03;  // the calm track
+		room_type			= rt_auditorium;
+	}
+}
+[mood_setting*]  // dsc/gc stairs tx (quick)
+{
+	mood_name				= gr-tm-stairs-quick;
+	transition_time			= 1.0f;  // quick transition when entering from shelter
+	interior				= true;
+
+    // snow sun
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF1b1b23;  // fog color from glacier caverns
+		fog_density			= 0.5f;
+	}
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[rain] {} // empty [rain] block for lightning manipulation
+
+	[music]
+	{
+		ambient_track		= s_e_ambient_wind_ice_cavern;  // ambient from glacier caverns
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 24.000000;
+		standard_track		= s_m_gates_of_glory;
+        battle_track = s_m_SubRiver_03;  // the calm track
+		room_type			= rt_auditorium;
+	}
+}
+[mood_setting*]  // tm shelter (outside)
+{
+	mood_name				= gr-tm-shelter-outside;
+	transition_time			= 1.0f;
+	interior				= false;
+
+    // snow sun
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+
+	[frustum]
+	{
+		frustum_width		= 60.0f;  // wider frustum to see further
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_color			= 0xFFA0A8B0;
+		fog_density			= 0.5f;
+	  f fog_near_dist = 40.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 30.000000;
+	  f fog_lowdetail_far_dist = 45.000000;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.0f;
+		wind_direction		= 3.14f;
+	}
+
+	// Snowing
+	[snow]
+	{
+		snow_density		= 250;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 24.000000;
+		standard_track		= s_m_gates_of_glory;
+        battle_track = s_m_SubRiver_03;  // the calm track
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]  // tm shelter (inside)
+{
+	mood_name				= gr-tm-shelter-inside;
+	transition_time			= 0.5f;
+	interior				= false;
+
+    // snow sun
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		05h00m:color = 0xFF1A1A00;
+		06h00m:color = 0xFF66330D;
+		07h00m:color = 0xFFB39A40;
+		08h00m:color = 0xFFB3B3B3;
+		10h00m:color = 0xFFF0F0FF;
+		12h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFFB39A9A;
+		20h00m:color = 0xFF66334D;
+		21h00m:color = 0xFF330D40;
+		22h00m:color = 0xFF000000;
+		23h00m:color = 0xFF000000;
+	}
+
+	[fog]
+	{
+		fog_color			= 0xFFc0c0c8;
+		fog_density			= 0.5f;
+	  f fog_near_dist = 40.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_near_dist = 30.000000;
+	  f fog_lowdetail_far_dist = 45.000000;
+	}
+
+	// No snow while in buildings
+
+	[music]
+	{
+		ambient_track		= "";
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 24.000000;
+		standard_track		= s_m_gates_of_glory;
+        battle_track = s_m_SubRiver_03;  // the calm track
+		room_type			= rt_generic;
+	}
+}
+
+// Glacier Caverns
+[mood_setting*]  // north / trail
+{
+	mood_name				= gr-gc-north;
+	transition_time			= 1.0f;  // quick exit transition
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF202028;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= s_e_ambient_wind_ice_cavern;
+        standard_intro_delay = 8.0f;
+		standard_repeat_delay	= 24.0f;
+		standard_track		= s_m_efter_storm_instrumental;
+		battle_track		= s_m_ArcticCaverns_06;  // the long one
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]  // river north / trail
+{
+	mood_name				= gr-gc-river-north;
+	transition_time			= 8.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF1b1b23;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= s_e_ambient_wind_ice_cavern;
+        standard_intro_delay = 8.0f;
+		standard_repeat_delay	= 24.0f;
+		standard_track		= s_m_efter_storm_instrumental;
+		battle_track		= s_m_ArcticCaverns_07;  // magical/mysterious
+		room_type			= rt_cave;
+	}
+
+}
+[mood_setting*]  // river south / off-trail
+{
+	mood_name				= gr-gc-river-south;
+	transition_time			= 4.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF202028;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= s_e_ambient_wind_ice_cavern;
+		standard_repeat_delay	= 10.0f;
+		standard_track		= s_m_ArcticCaverns_03;
+		room_type			= rt_cave;
+	}
+
+}
+[mood_setting*]  // south bridge / off-trail
+{
+	mood_name				= gr-gc-bridge;
+	transition_time			= 4.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF282830;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= s_e_ambient_wind_ice_cavern;
+		standard_repeat_delay	= 10.0f;
+		standard_track		= s_m_ArcticCaverns_02;
+		room_type			= rt_cave;
+	}
+
+}
+[mood_setting*]  // south / off-trail
+{
+	mood_name				= gr-gc-south;
+	transition_time			= 1.0f;  // quick exit transition
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xff121926;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= s_e_ambient_wind_ice_cavern;
+		standard_repeat_delay	= 10.0f;
+		standard_track		= s_m_ArcticCaverns_01;
+		room_type			= rt_cave;
+	}
+}

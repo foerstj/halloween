@@ -1,0 +1,297 @@
+// Moods for rainy foothills
+
+[mood_setting*]  // south
+{
+	mood_name = gr-psw-s;
+  f transition_time = 8.000000;
+  b interior = false;
+
+	[fog]
+	{
+	  x fog_color = 0xff808080;
+	  f fog_density = 0.5;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 50.000000;
+	  f fog_lowdetail_near_dist = 25.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 16.000000;
+		standard_track = s_m_darkswamp_02;
+		room_type = rt_mountains;
+	}
+	[wind]
+	{
+	  f wind_direction = 0.7854;  // NW
+	  f wind_velocity = 2.000000;
+	}
+	[rain]
+	{
+		rain_density = 500.0f;
+		lightning = false;
+	}
+}
+[mood_setting*]  // south indoor (troll shop)
+{
+	mood_name = gr-psw-s-indoor;
+  f transition_time = 1.000000;
+  b interior = false;
+
+	[fog]
+	{
+	  x fog_color = 0xff808080;
+	  f fog_density = 0.5;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 50.000000;
+	  f fog_lowdetail_near_dist = 25.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 16.000000;
+		standard_track = s_m_darkswamp_02;
+		room_type = rt_generic;
+	}
+}
+
+[mood_setting*]  // middle/main mountain
+{
+	mood_name = gr-psw-m;
+  f transition_time = 8.000000;
+  b interior = false;
+
+	[fog]
+	{
+	  x fog_color = 0xff808080;
+	  f fog_density = 0.5;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 50.000000;
+	  f fog_lowdetail_near_dist = 25.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 16.000000;
+		standard_track = s_m_darkswamp_03;
+		room_type = rt_mountains;
+	}
+	[wind]
+	{
+	  f wind_direction = 0.7854;  // NW
+	  f wind_velocity = 2.000000;
+	}
+	[rain]
+	{
+		rain_density = 500.0f;
+		lightning = false;
+	}
+}
+
+[mood_setting*]  // north mountain
+{
+	mood_name = gr-psw-n;
+  f transition_time = 8.000000;
+  b interior = false;
+
+	[fog]
+	{
+	  x fog_color = 0xff808080;
+	  f fog_density = 0.5;
+	  f fog_near_dist = 30.000000;
+	  f fog_far_dist = 50.000000;
+	  f fog_lowdetail_near_dist = 25.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 16.000000;
+		standard_track = s_m_darkswamp_04;
+		room_type = rt_mountains;
+	}
+	[wind]
+	{
+	  f wind_direction = 0.7854;  // NW
+	  f wind_velocity = 2.000000;
+	}
+	[rain]
+	{
+		rain_density = 500.0f;
+		lightning = false;
+	}
+}
+
+// Greilyn Coast
+[mood_setting*]  // coast: cliff (tx mood between climb & beach)
+{
+	mood_name = gr-psw-coast-cliff;
+  f transition_time = 8.000000;
+  b interior = false;
+
+	[fog]
+	{
+	  x fog_color = 0xff808080;  // greilyn hills shade
+	  f fog_density = 0.5;
+        // meren fog-dists
+		fog_near_dist = 5.0f;
+		fog_far_dist = 35.0f;
+		fog_lowdetail_near_dist = 5.0f;
+		fog_lowdetail_far_dist = 30.0f;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_rain1;
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 16.000000;
+		standard_track = s_m_BesiegedTown_03;  // beach music
+		room_type = rt_generic;
+	}
+	[wind]
+	{
+	  f wind_direction = 0.7854;  // NW
+	  f wind_velocity = 2.000000;  // normal hills wind
+	}
+	[rain]
+	{
+		rain_density = 1000.0f;  // humongous amounts of rain
+		lightning = false;
+	}
+}
+[mood_setting*]  // coast: beach (out in the open)
+{
+	mood_name = gr-psw-coast-beach;
+  f transition_time = 8.000000;
+  b interior = false;
+
+	[fog]
+	{
+	  x fog_color = 0xffa0a0a0;  // bright shade
+	  f fog_density = 0.5;
+		fog_near_dist = 5.0f;
+		fog_far_dist = 35.0f;
+		fog_lowdetail_near_dist = 5.0f;
+		fog_lowdetail_far_dist = 30.0f;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_rain1;
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 16.000000;
+		standard_track = s_m_BesiegedTown_03;
+		room_type = rt_generic;
+	}
+	[wind]
+	{
+	  f wind_direction = 0.7854;  // NW
+	  f wind_velocity = 5.000000;  // strong wind
+	}
+	[rain]
+	{
+		rain_density = 1000.0f;
+		lightning = false;
+	}
+}
+[mood_setting*]  // coast: beach shelter
+{
+	mood_name = gr-psw-coast-shelter;
+  f transition_time = 1.000000;
+  b interior = false;
+
+	[fog]
+	{
+	  x fog_color = 0xffa0a0a0;
+	  f fog_density = 0.5;
+		fog_near_dist = 5.0f;
+		fog_far_dist = 35.0f;
+		fog_lowdetail_near_dist = 5.0f;
+		fog_lowdetail_far_dist = 30.0f;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_rain1;
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 16.000000;
+		standard_track = s_m_BesiegedTown_03;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]  // coast climb south (tx mood)
+{
+	mood_name = gr-psw-coast-climb-s;
+  f transition_time = 8.000000;
+  b interior = false;
+
+	[fog]
+	{
+	  x fog_color = 0xff808080;
+	  f fog_density = 0.5;
+        // meren fog-dists
+		fog_near_dist = 5.0f;
+		fog_far_dist = 35.0f;
+		fog_lowdetail_near_dist = 5.0f;
+		fog_lowdetail_far_dist = 30.0f;
+	}
+	[music]
+	{
+        // mountains ambience & south music
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 16.000000;
+		standard_track = s_m_darkswamp_02;
+		room_type = rt_mountains;
+	}
+	[wind]
+	{
+	  f wind_direction = 0.7854;  // NW
+	  f wind_velocity = 2.000000;
+	}
+	[rain]
+	{
+		rain_density = 500.0f;  // mountains rainfall
+		lightning = false;
+	}
+}
+[mood_setting*]  // coast climb north (tx mood)
+{
+	mood_name = gr-psw-coast-climb-n;
+  f transition_time = 8.000000;
+  b interior = false;
+
+	[fog]
+	{
+	  x fog_color = 0xff808080;
+	  f fog_density = 0.5;
+        // meren fog-dists
+		fog_near_dist = 5.0f;
+		fog_far_dist = 35.0f;
+		fog_lowdetail_near_dist = 5.0f;
+		fog_lowdetail_far_dist = 30.0f;
+	}
+	[music]
+	{
+        // mountains ambience & middle music
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 8.000000;
+	  f standard_repeat_delay = 16.000000;
+		standard_track = s_m_darkswamp_03;
+		room_type = rt_mountains;
+	}
+	[wind]
+	{
+	  f wind_direction = 0.7854;  // NW
+	  f wind_velocity = 2.000000;
+	}
+	[rain]
+	{
+		rain_density = 500.0f;  // mountains rainfall
+		lightning = false;
+	}
+}
