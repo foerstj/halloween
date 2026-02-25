@@ -1,7 +1,7 @@
 :: name of mod
 set mod=halloween
 :: name of mod, case-sensitive
-set mod_cs=Halloween
+set mod_cs=A Halloween Mod
 
 :: path of Bits dir
 set bits=%~dp0.
@@ -10,7 +10,7 @@ set ds=%DungeonSiege%
 :: path of TankCreator
 set tc=%TankCreator%
 
-set copyright=CC-BY-SA 2025
+set copyright=CC-BY-SA 2026
 set author=Johannes Förstner
 
 :: Compile main resource file

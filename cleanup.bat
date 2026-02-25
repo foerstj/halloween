@@ -1,5 +1,5 @@
 :: name of mod, case-sensitive
-set mod_cs=Halloween
+set mod_cs=A Halloween Mod
 :: path of DS installation
 set ds=%DungeonSiege%
 
