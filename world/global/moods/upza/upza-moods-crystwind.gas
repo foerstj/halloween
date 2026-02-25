@@ -2,7 +2,7 @@
 {
 	mood_name = upza_mine_town_1;
   f transition_time = 4.000000;
-  b interior = true;
+  b interior = false;
 	[frustum]
 	{
 	  f frustum_width = 45.000000;
@@ -19,7 +19,12 @@
 	}
 	[rain]
 	{
+	  f rain_density = 100.000000;
 	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{

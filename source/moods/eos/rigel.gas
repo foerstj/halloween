@@ -1,4 +1,5 @@
-[mood_setting*]
+// Dry Planet
+[mood_setting*]  // teleport
 {
 	mood_name = eos_rigel_dry_teleport;
   f transition_time = 20.000000;
@@ -46,7 +47,7 @@
 		room_type = rt_alley;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // oasis
 {
 	mood_name = eos_rigel_dry_oasis;
   f transition_time = 5.000000;
@@ -94,7 +95,7 @@
 		room_type = rt_alley;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // lion
 {
 	mood_name = eos_rigel_dry_lion;
   f transition_time = 5.000000;
@@ -142,7 +143,7 @@
 		room_type = rt_alley;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // pyramid
 {
 	mood_name = eos_rigel_dry_pyramid;
   f transition_time = 5.000000;
@@ -190,7 +191,7 @@
 		room_type = rt_alley;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // ruins
 {
 	mood_name = eos_rigel_dry_ruins;
   f transition_time = 5.000000;
@@ -238,7 +239,7 @@
 		room_type = rt_alley;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // pyramid entrance
 {
 	mood_name = eos_rigel_dry_pyramid_entrance;
   f transition_time = 2.000000;
@@ -286,7 +287,7 @@
 		room_type = rt_stonecorridor;
 	}
 }
-[mood_setting*]  // pyramid dungeon
+[mood_setting*]  // pyramid dungeon 1
 {
 	mood_name				= eos_rigel_dry_pyramid_dungeon_1;
 	transition_time			= 4.0f;
@@ -316,7 +317,7 @@
 		room_type			= rt_stonecorridor;
 	}
 }
-[mood_setting*]  // pyramid dungeon
+[mood_setting*]  // pyramid dungeon 2
 {
 	mood_name				= eos_rigel_dry_pyramid_dungeon_2;
 	transition_time			= 4.0f;
@@ -347,187 +348,11 @@
 	}
 }
 
-[mood_setting*]
+// Wet Planet
+[mood_setting*]  // teleport
 {
 	mood_name = eos_rigel_wet_teleport;
   f transition_time = 20.000000;
-  b interior = true;
-
-	[frustum]
-	{
-        // high frustum to keep h2o floor nodes connected
-	  f frustum_height = 90.000000;
-	  f frustum_width = 90.000000;
-	}
-
-	[fog]
-	{
-	  x fog_color = 0xFF70B0E0;
-	  f fog_density = 1.000000;
-	  f fog_near_dist = 20.000000;
-	  f fog_far_dist = 40.000000;
-	  f fog_lowdetail_near_dist = 20.000000;
-	  f fog_lowdetail_far_dist = 40.000000;
-	}
-	[rain]
-	{
-	  b lightning = false;
-	  f rain_density = 100.000000;
-	}
-	[sun]
-	{
-		00h00m:color = 0xFF000000;
-		04h00m:color = 0xFF000022;
-		05h00m:color = 0xFF002244;
-		06h00m:color = 0xFF224488;
-		07h00m:color = 0xFF4488FF;
-		08h00m:color = 0xFF88FFFF;
-		09h00m:color = 0xFFFFFFFF;
-		19h00m:color = 0xFF88FFFF;
-		20h00m:color = 0xFF4488FF;
-		21h00m:color = 0xFF224488;
-		22h00m:color = 0xFF002244;
-		23h00m:color = 0xFF000022;
-	}
-	[wind]
-	{
-	  f wind_direction = 0.700000;
-	  f wind_velocity = 1.000000;
-	}
-
-	[music]
-	{
-	  f ambient_intro_delay = 0.000000;
-	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_swamp;
-	  f standard_intro_delay = 10.000000;
-	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_desertcanyons_03;
-		room_type = rt_generic;
-	}
-}
-[mood_setting*]
-{
-	mood_name = eos_rigel_wet_town_1;
-  f transition_time = 3.000000;
-  b interior = true;
-
-	[frustum]
-	{
-        // high frustum to keep h2o floor nodes connected
-	  f frustum_height = 90.000000;
-	  f frustum_width = 90.000000;
-	}
-
-	[fog]
-	{
-	  x fog_color = 0xFF70B0E0;
-	  f fog_density = 1.000000;
-	  f fog_near_dist = 20.000000;
-	  f fog_far_dist = 40.000000;
-	  f fog_lowdetail_near_dist = 20.000000;
-	  f fog_lowdetail_far_dist = 40.000000;
-	}
-	[rain]
-	{
-	  b lightning = false;
-	  f rain_density = 100.000000;
-	}
-	[sun]
-	{
-		00h00m:color = 0xFF000000;
-		04h00m:color = 0xFF000022;
-		05h00m:color = 0xFF002244;
-		06h00m:color = 0xFF224488;
-		07h00m:color = 0xFF4488FF;
-		08h00m:color = 0xFF88FFFF;
-		09h00m:color = 0xFFFFFFFF;
-		19h00m:color = 0xFF88FFFF;
-		20h00m:color = 0xFF4488FF;
-		21h00m:color = 0xFF224488;
-		22h00m:color = 0xFF002244;
-		23h00m:color = 0xFF000022;
-	}
-	[wind]
-	{
-	  f wind_direction = 0.700000;
-	  f wind_velocity = 1.000000;
-	}
-
-	[music]
-	{
-	  f ambient_intro_delay = 0.000000;
-	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_swamp;
-	  f standard_intro_delay = 10.000000;
-	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_desertcanyons_03;
-		room_type = rt_generic;
-	}
-}
-[mood_setting*]
-{
-	mood_name = eos_rigel_wet_town_1a;
-  f transition_time = 3.000000;
-  b interior = true;
-
-	[frustum]
-	{
-        // high frustum to keep h2o floor nodes connected
-	  f frustum_height = 90.000000;
-	  f frustum_width = 90.000000;
-	}
-
-	[fog]
-	{
-	  x fog_color = 0xFF70B0E0;
-	  f fog_density = 1.000000;
-	  f fog_near_dist = 20.000000;
-	  f fog_far_dist = 40.000000;
-	  f fog_lowdetail_near_dist = 20.000000;
-	  f fog_lowdetail_far_dist = 40.000000;
-	}
-	[rain]
-	{
-	  b lightning = true;
-	  f rain_density = 200.000000;
-	}
-	[sun]
-	{
-		00h00m:color = 0xFF000000;
-		04h00m:color = 0xFF000022;
-		05h00m:color = 0xFF002244;
-		06h00m:color = 0xFF224488;
-		07h00m:color = 0xFF4488FF;
-		08h00m:color = 0xFF88FFFF;
-		09h00m:color = 0xFFFFFFFF;
-		19h00m:color = 0xFF88FFFF;
-		20h00m:color = 0xFF4488FF;
-		21h00m:color = 0xFF224488;
-		22h00m:color = 0xFF002244;
-		23h00m:color = 0xFF000022;
-	}
-	[wind]
-	{
-	  f wind_direction = 0.700000;
-	  f wind_velocity = 0.750000;
-	}
-
-	[music]
-	{
-	  f ambient_intro_delay = 0.000000;
-	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_swamp;
-	  f standard_intro_delay = 10.000000;
-	  f standard_repeat_delay = 20.000000;
-		standard_track = s_m_desertcanyons_03;
-		room_type = rt_generic;
-	}
-}
-[mood_setting*]
-{
-	mood_name = eos_rigel_wet_town_2;
-  f transition_time = 3.500000;
   b interior = false;
 
 	[frustum]
@@ -549,7 +374,7 @@
 	[rain]
 	{
 	  b lightning = false;
-	  f rain_density = 300.000000;
+	  f rain_density = 100.000000;
 	}
 	[sun]
 	{
@@ -568,8 +393,8 @@
 	}
 	[wind]
 	{
-	  f wind_direction = 0.600000;
-	  f wind_velocity = 1.300000;
+	  f wind_direction = 0.700000;
+	  f wind_velocity = 1.000000;
 	}
 
 	[music]
@@ -583,11 +408,120 @@
 		room_type = rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // town
+{
+	mood_name = eos_rigel_wet_town;
+  f transition_time = 3.000000;
+  b interior = false;
+
+	[frustum]
+	{
+        // high frustum to keep h2o floor nodes connected
+	  f frustum_height = 90.000000;
+	  f frustum_width = 90.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFF70B0E0;
+	  f fog_density = 1.000000;
+	  f fog_near_dist = 20.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[rain]
+	{
+	  b lightning = false;
+	  f rain_density = 100.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		04h00m:color = 0xFF000022;
+		05h00m:color = 0xFF002244;
+		06h00m:color = 0xFF224488;
+		07h00m:color = 0xFF4488FF;
+		08h00m:color = 0xFF88FFFF;
+		09h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFF88FFFF;
+		20h00m:color = 0xFF4488FF;
+		21h00m:color = 0xFF224488;
+		22h00m:color = 0xFF002244;
+		23h00m:color = 0xFF000022;
+	}
+	[wind]
+	{
+	  f wind_direction = 0.700000;
+	  f wind_velocity = 1.000000;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = s_m_desertcanyons_03;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]  // town indoor
+{
+    // no rain, no wind
+	mood_name = eos_rigel_wet_town_indoor;
+  f transition_time = 1.000000;
+  b interior = false;
+
+	[frustum]
+	{
+        // high frustum to keep h2o floor nodes connected
+	  f frustum_height = 90.000000;
+	  f frustum_width = 90.000000;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFF70B0E0;
+	  f fog_density = 1.000000;
+	  f fog_near_dist = 20.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		04h00m:color = 0xFF000022;
+		05h00m:color = 0xFF002244;
+		06h00m:color = 0xFF224488;
+		07h00m:color = 0xFF4488FF;
+		08h00m:color = 0xFF88FFFF;
+		09h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFF88FFFF;
+		20h00m:color = 0xFF4488FF;
+		21h00m:color = 0xFF224488;
+		22h00m:color = 0xFF002244;
+		23h00m:color = 0xFF000022;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = s_m_desertcanyons_03;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]  // town backtrack
 {
 	mood_name = eos_rigel_wet_town_backtrack;
   f transition_time = 5.000000;
-  b interior = true;
+  b interior = false;
 
 	[frustum]
 	{
@@ -642,7 +576,7 @@
 		room_type = rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // wetlands begin 1
 {
 	mood_name = eos_rigel_wet_wetlands_begin_1;
   f transition_time = 3.000000;
@@ -700,7 +634,7 @@
 		room_type = rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // wetlands begin 2
 {
 	mood_name = eos_rigel_wet_wetlands_begin_2;
   f transition_time = 3.000000;
@@ -753,11 +687,11 @@
 		room_type = rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // wetlands r1 1
 {
-  b interior = false;
 	mood_name = eos_rigel_wet_wetlands_r1_1;
   f transition_time = 5.000000;
+  b interior = false;
 
 	[frustum]
 	{
@@ -806,7 +740,7 @@
 		room_type = rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // wetlands r1 2
 {
 	mood_name = eos_rigel_wet_wetlands_r1_2;
   f transition_time = 5.000000;
@@ -859,7 +793,55 @@
 		room_type = rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // wetlands r1 shack
+{
+	mood_name = eos_rigel_wet_wetlands_r1_shack;
+  f transition_time = 1.000000;
+  b interior = false;
+
+	[frustum]
+	{
+		frustum_width		= 60.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+	  x fog_color = 0xFF70B0E0;
+	  f fog_density = 1.000000;
+	  f fog_near_dist = 20.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	}
+	[sun]
+	{
+		00h00m:color = 0xFF000000;
+		04h00m:color = 0xFF000022;
+		05h00m:color = 0xFF002244;
+		06h00m:color = 0xFF224488;
+		07h00m:color = 0xFF4488FF;
+		08h00m:color = 0xFF88FFFF;
+		09h00m:color = 0xFFFFFFFF;
+		19h00m:color = 0xFF88FFFF;
+		20h00m:color = 0xFF4488FF;
+		21h00m:color = 0xFF224488;
+		22h00m:color = 0xFF002244;
+		23h00m:color = 0xFF000022;
+	}
+
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_swamp;
+	  f standard_intro_delay = 0.000000;
+	  f standard_repeat_delay = 10.000000;
+		standard_track = s_m_DarkSwamp_01;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]  // wetlands r2 1
 {
 	mood_name = eos_rigel_wet_wetlands_r2_1;
   f transition_time = 5.000000;
@@ -911,11 +893,10 @@
 		room_type = rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // wetlands r2 shack
 {
-    // no music during speech
-	mood_name = eos_rigel_wet_wetlands_r2_1_1;
-	transition_time			= 0.5f;
+	mood_name = eos_rigel_wet_wetlands_r2_shack;
+  f transition_time = 1.000000;
   b interior = false;
 
 	[frustum]
@@ -926,17 +907,12 @@
 
 	[fog]
 	{
-	  x fog_color = 0xFF70B0E0;
+	  x fog_color = 0xFF6096BE;  // 85% of 0xFF70B0E0 (mood manager will auto reduce brightness due to heavy rain)
 	  f fog_density = 1.000000;
 	  f fog_near_dist = 20.000000;
 	  f fog_far_dist = 40.000000;
 	  f fog_lowdetail_near_dist = 20.000000;
 	  f fog_lowdetail_far_dist = 40.000000;
-	}
-	[rain]
-	{
-	  b lightning = true;
-	  f rain_density = 300.000000;
 	}
 	[sun]
 	{
@@ -953,59 +929,6 @@
 		22h00m:color = 0xFF002244;
 		23h00m:color = 0xFF000022;
 	}
-	[music]
-	{
-	  f ambient_intro_delay = 0.000000;
-	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_swamp;
-	    //f standard_intro_delay = 0.000000;
-	    //f standard_repeat_delay = 10.000000;
-		//standard_track = s_m_DarkSwamp_02;
-		room_type = rt_generic;
-	}
-}
-[mood_setting*]
-{
-	mood_name = eos_rigel_wet_wetlands_r2_2;
-  f transition_time = 5.000000;
-  b interior = false;
-
-	[frustum]
-	{
-		frustum_width		= 60.0f;
-		frustum_height		= 60.0f;
-	}
-
-	[fog]
-	{
-	  x fog_color = 0xFF70B0E0;
-	  f fog_density = 1.000000;
-	  f fog_near_dist = 20.000000;
-	  f fog_far_dist = 40.000000;
-	  f fog_lowdetail_near_dist = 20.000000;
-	  f fog_lowdetail_far_dist = 40.000000;
-	}
-	[rain]
-	{
-	  b lightning = false;
-	  f rain_density = 400.000000;
-	}
-	[sun]
-	{
-		00h00m:color = 0xFF000000;
-		04h00m:color = 0xFF000022;
-		05h00m:color = 0xFF002244;
-		06h00m:color = 0xFF224488;
-		07h00m:color = 0xFF4488FF;
-		08h00m:color = 0xFF88FFFF;
-		09h00m:color = 0xFFFFFFFF;
-		19h00m:color = 0xFF88FFFF;
-		20h00m:color = 0xFF4488FF;
-		21h00m:color = 0xFF224488;
-		22h00m:color = 0xFF002244;
-		23h00m:color = 0xFF000022;
-	}
-
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
@@ -1017,7 +940,7 @@
 		room_type = rt_generic;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // wetlands drystorage 1
 {
 	mood_name				= eos_rigel_wet_drystorage_1;
 	transition_time			= 2.0f;
@@ -1047,7 +970,7 @@
 		room_type			= rt_stonecorridor;
 	}
 }
-[mood_setting*]
+[mood_setting*]  // wetlands drystorage 2 (fast transition for sinkhole)
 {
 	// fast transition for sinkhole
 	mood_name				= eos_rigel_wet_drystorage_2;

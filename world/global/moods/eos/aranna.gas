@@ -562,7 +562,7 @@
 {
 	mood_name = eos_aranna_moon_tavern;
   f transition_time = 1.000000;
-  b interior = true;
+  b interior = false;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -628,9 +628,13 @@
 	  x fog_color = 0xFFE2E2E2;
 	  f fog_density = 0.600000;
 	}
+	[snow]
+	{
+	  f snow_density = 100.000000;
+	}
 	[wind]
 	{
-	  f wind_velocity = 1.000000;
+	  f wind_velocity = 4.000000;
 	  f wind_direction = 0.000000;
 	}
 	[music]

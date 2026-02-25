@@ -187,7 +187,7 @@
 {
 	mood_name = eos_aldebaran_palace_house;
   f transition_time = 6.000000;
-  b interior = true;
+  b interior = false;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -201,6 +201,15 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFFCAC2AA;
 		fog_density = 0.5f;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -253,7 +262,7 @@
 {
 	mood_name = eos_aldebaran_palace_3;
   f transition_time = 1.000000;
-  b interior = true;
+  b interior = false;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -267,6 +276,15 @@
 	  f fog_lowdetail_far_dist = 25.000000;
 	  x fog_color = 0xFFCAC2AA;
 		fog_density = 0.5f;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -281,7 +299,7 @@
 {
 	mood_name = eos_aldebaran_palace_roof;
   f transition_time = 1.000000;
-  b interior = true;
+  b interior = false;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -295,6 +313,15 @@
 	  f fog_lowdetail_far_dist = 25.000000;
 	  x fog_color = 0xFFCAC2AA;
 		fog_density = 0.5f;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{

@@ -153,7 +153,7 @@
 {
 	mood_name = eos_sirius_banditmoon_3;
   f transition_time = 1.000000;
-  b interior = false;
+  b interior = true;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -168,15 +168,6 @@
 	  x fog_color = 0xFF000000;
 		fog_density = 0.5f;
 	}
-	[rain]
-	{
-	  f rain_density = 100.000000;
-	  b lightning = true;
-	}
-	[wind]
-	{
-	  f wind_velocity = 3.000000;
-	}
 	[music]
 	{
 		ambient_track = s_e_ambient_crypt;
@@ -189,7 +180,7 @@
 {
 	mood_name = eos_sirius_banditmoon_4;
   f transition_time = 4.000000;
-  b interior = true;
+  b interior = false;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -206,12 +197,12 @@
 	}
 	[rain]
 	{
-	  f rain_density = 30.000000;
+	  f rain_density = 130.000000;
 	  b lightning = true;
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.500000;
+	  f wind_velocity = 3.500000;
 	  f wind_direction = 4.700000;
 	}
 	[music]
@@ -226,7 +217,7 @@
 {
 	mood_name = eos_sirius_banditmoon_5;
   f transition_time = 4.000000;
-  b interior = true;
+  b interior = false;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -243,12 +234,12 @@
 	}
 	[rain]
 	{
-	  f rain_density = 150.000000;
+	  f rain_density = 250.000000;
 	  b lightning = true;
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.500000;
+	  f wind_velocity = 3.500000;
 	  f wind_direction = 4.700000;
 	}
 	[music]
@@ -263,7 +254,7 @@
 {
 	mood_name = eos_sirius_banditmoon_6;
   f transition_time = 0.000000;
-  b interior = true;
+  b interior = false;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -278,6 +269,15 @@
 	  x fog_color = 0xFF98B0C8;
 		fog_density = 0.5f;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
+	}
 	[music]
 	{
 		ambient_track = s_e_ambient_woods_01;
@@ -290,7 +290,7 @@
 {
 	mood_name = eos_sirius_banditmoon_7;
   f transition_time = 0.000000;
-  b interior = true;
+  b interior = false;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -307,12 +307,12 @@
 	}
 	[rain]
 	{
-	  f rain_density = 30.000000;
+	  f rain_density = 130.000000;
 	  b lightning = true;
 	}
 	[wind]
 	{
-	  f wind_velocity = 0.500000;
+	  f wind_velocity = 3.500000;
 	  f wind_direction = 4.700000;
 	}
 	[music]
@@ -513,7 +513,7 @@
 {
 	mood_name = eos_sirius_deathmoon_teleport;
   f transition_time = 20.000000;
-  b interior = true;
+  b interior = false;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -530,12 +530,12 @@
 	}
 	[rain]
 	{
-	  f rain_density = 100.000000;
+	  f rain_density = 200.000000;
 	  b lightning = true;
 	}
 	[wind]
 	{
-	  f wind_velocity = 2.000000;
+	  f wind_velocity = 5.000000;
 	  f wind_direction = 3.140000;
 	}
 	[music]
@@ -551,7 +551,7 @@
 {
 	mood_name = eos_sirius_deathmoon_1;
   f transition_time = 4.000000;
-  b interior = true;
+  b interior = false;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -566,9 +566,14 @@
 	  x fog_color = 0xFFD7EBF3;
 		fog_density = 0.6f;
 	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	  b lightning = true;
+	}
 	[wind]
 	{
-	  f wind_velocity = 0.500000;
+	  f wind_velocity = 3.500000;
 	  f wind_direction = 3.140000;
 	}
 	[music]
@@ -582,7 +587,81 @@
 {
 	mood_name = eos_sirius_deathmoon_2;
   f transition_time = 5.000000;
-  b interior = true;
+  b interior = false;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[fog]
+	{
+	  f fog_near_dist = 5.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 5.000000;
+	  f fog_lowdetail_far_dist = 30.000000;
+	  x fog_color = 0xFFD7EBF3;
+		fog_density = 0.5f;
+	}
+	[rain]
+	{
+	  f rain_density = 200.000000;
+	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 5.000000;
+	  f wind_direction = 3.140000;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_crypt;
+		standard_repeat_delay = 10.0f;
+		standard_track = s_m_the_mountain_theme;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_sirius_deathmoon_3;
+  f transition_time = 4.000000;
+  b interior = false;
+	[frustum]
+	{
+	  f frustum_width = 60.000000;
+	  f frustum_height = 60.000000;
+	}
+	[fog]
+	{
+	  f fog_near_dist = 5.000000;
+	  f fog_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 5.000000;
+	  f fog_lowdetail_far_dist = 30.000000;
+	  x fog_color = 0xFFD7EBF3;
+		fog_density = 0.5f;
+	}
+	[rain]
+	{
+	  f rain_density = 500.000000;
+	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 7.000000;
+	  f wind_direction = 3.140000;
+	}
+	[music]
+	{
+		ambient_track = s_e_ambient_crypt;
+		standard_repeat_delay = 10.0f;
+		standard_track = s_m_the_dead_theme;
+		room_type = rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name = eos_sirius_deathmoon_4;
+  f transition_time = 4.000000;
+  b interior = false;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -604,72 +683,7 @@
 	}
 	[wind]
 	{
-	  f wind_velocity = 2.000000;
-	  f wind_direction = 3.140000;
-	}
-	[music]
-	{
-		ambient_track = s_e_ambient_crypt;
-		standard_repeat_delay = 10.0f;
-		standard_track = s_m_the_mountain_theme;
-		room_type = rt_generic;
-	}
-}
-[mood_setting*]
-{
-	mood_name = eos_sirius_deathmoon_3;
-  f transition_time = 4.000000;
-  b interior = true;
-	[frustum]
-	{
-	  f frustum_width = 60.000000;
-	  f frustum_height = 60.000000;
-	}
-	[fog]
-	{
-	  f fog_near_dist = 5.000000;
-	  f fog_far_dist = 40.000000;
-	  f fog_lowdetail_near_dist = 5.000000;
-	  f fog_lowdetail_far_dist = 30.000000;
-	  x fog_color = 0xFFD7EBF3;
-		fog_density = 0.5f;
-	}
-	[rain]
-	{
-	  f rain_density = 400.000000;
-	  b lightning = true;
-	}
-	[wind]
-	{
-	  f wind_velocity = 4.000000;
-	  f wind_direction = 3.140000;
-	}
-	[music]
-	{
-		ambient_track = s_e_ambient_crypt;
-		standard_repeat_delay = 10.0f;
-		standard_track = s_m_the_dead_theme;
-		room_type = rt_generic;
-	}
-}
-[mood_setting*]
-{
-	mood_name = eos_sirius_deathmoon_4;
-  f transition_time = 4.000000;
-  b interior = true;
-	[frustum]
-	{
-	  f frustum_width = 60.000000;
-	  f frustum_height = 60.000000;
-	}
-	[fog]
-	{
-	  f fog_near_dist = 5.000000;
-	  f fog_far_dist = 40.000000;
-	  f fog_lowdetail_near_dist = 5.000000;
-	  f fog_lowdetail_far_dist = 30.000000;
-	  x fog_color = 0xFFD7EBF3;
-		fog_density = 0.5f;
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -756,7 +770,7 @@
 {
 	mood_name = eos_sirius_planet_r1a_1;
   f transition_time = 1.000000;
-  b interior = false;
+  b interior = true;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -770,15 +784,6 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFF000000;
 		fog_density = 0.5f;
-	}
-	[rain]
-	{
-	  f rain_density = 100.000000;
-	  b lightning = true;
-	}
-	[wind]
-	{
-	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{

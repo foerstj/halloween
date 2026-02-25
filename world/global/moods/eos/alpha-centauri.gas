@@ -78,7 +78,7 @@
 {
 	mood_name = eos_alphacentauri_eddiloo_indoor;
   f transition_time = 0.200000;
-  b interior = true;
+  b interior = false;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -92,6 +92,15 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFF646464;
 		fog_density = 0.5f;
+	}
+	[rain]
+	{
+	  f rain_density = 100.000000;
+	  b lightning = true;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{

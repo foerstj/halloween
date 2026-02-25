@@ -1178,7 +1178,7 @@
 {
 	mood_name = eos_altair_wnw_shrine_indoor;
   f transition_time = 1.000000;
-  b interior = true;
+  b interior = false;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -1243,6 +1243,14 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFF585870;
 		fog_density = 0.5f;
+	}
+	[snow]
+	{
+	  f snow_density = 100.000000;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -1257,7 +1265,7 @@
 {
 	mood_name = eos_altair_wnw_cave;
   f transition_time = 1.000000;
-  b interior = true;
+  b interior = false;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -1322,6 +1330,14 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFF585870;
 		fog_density = 0.5f;
+	}
+	[snow]
+	{
+	  f snow_density = 100.000000;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -2199,7 +2215,7 @@
 {
 	mood_name = eos_altair_moon_haunted;
   f transition_time = 2.000000;
-  b interior = true;
+  b interior = false;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -2267,7 +2283,11 @@
 	}
 	[snow]
 	{
-	  f snow_density = 450.000000;
+	  f snow_density = 550.000000;
+	}
+	[wind]
+	{
+	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
@@ -2284,7 +2304,7 @@
 {
 	mood_name = eos_altair_moon_snow_heavy;
   f transition_time = 5.000000;
-  b interior = true;
+  b interior = false;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -2352,11 +2372,11 @@
 	}
 	[snow]
 	{
-	  f snow_density = 600.000000;
+	  f snow_density = 700.000000;
 	}
 	[wind]
 	{
-	  f wind_velocity = 4.000000;
+	  f wind_velocity = 7.000000;
 	  f wind_direction = 1.140000;
 	}
 	[music]
@@ -2374,7 +2394,7 @@
 {
 	mood_name = eos_altair_moon_cave;
   f transition_time = 2.000000;
-  b interior = false;
+  b interior = true;
 	[frustum]
 	{
 	  f frustum_width = 60.000000;
@@ -2439,14 +2459,6 @@
 	  f fog_lowdetail_far_dist = 45.000000;
 	  x fog_color = 0xFF000000;
 	  f fog_density = 50.000000;
-	}
-	[snow]
-	{
-	  f snow_density = 100.000000;
-	}
-	[wind]
-	{
-	  f wind_velocity = 3.000000;
 	}
 	[music]
 	{
