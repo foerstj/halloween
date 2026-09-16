@@ -23,7 +23,7 @@ Enjoy this special blend of autumn and horror mood with some witches and jack-o'
   - Replaces sand mages with witches (template replacement)
 - Autumn
   - Replaces flowers with mushrooms (template replacement)
-  - Replaces green trees with autumn trees (texture replacement) and adds falling leaves (template replacement)
+  - Adds falling leaves to trees (template replacement)
 - Horror
   - Replaces small candles with skull candles (template replacement)
   - Replaces music with Halloween themes (sound file replacement)
