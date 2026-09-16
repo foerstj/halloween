@@ -76,7 +76,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_arhok;
@@ -165,7 +165,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 20.000000;
 		standard_track = s_m_arhok;
@@ -197,7 +197,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -240,7 +239,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -283,7 +281,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -350,7 +347,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 5.000000;
 		standard_track = s_m_crypts_01;
@@ -406,7 +403,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 5.000000;
 		standard_track = s_m_crypts_01;

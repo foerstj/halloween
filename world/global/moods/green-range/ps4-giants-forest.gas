@@ -15,7 +15,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -49,7 +48,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -116,7 +114,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -154,7 +151,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -187,7 +183,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -220,7 +215,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -257,7 +251,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -290,7 +283,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -328,7 +320,7 @@
 	[rain]
 	{
 	  f rain_density = 300.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -361,7 +353,7 @@
 	[rain]
 	{
 	  f rain_density = 300.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -399,7 +391,7 @@
 	[rain]
 	{
 	  f rain_density = 400.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -437,7 +429,7 @@
 	[rain]
 	{
 	  f rain_density = 400.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -506,7 +498,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 0.0f;
 		standard_track = s_m_GoblinInventor_06;
 		room_type = rt_cave;
@@ -528,7 +520,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 5.0f;
 		standard_track = s_m_GoblinInventor_04;
 		room_type = rt_arena;
@@ -550,7 +542,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 5.0f;
 		standard_track = s_m_GoblinInventor_02;
 		room_type = rt_arena;
@@ -572,7 +564,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 5.0f;
 		standard_track = s_m_subriver_04;
 		room_type = rt_arena;
@@ -594,7 +586,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 5.0f;
 		standard_track = s_m_subriver_03;
 		room_type = rt_arena;

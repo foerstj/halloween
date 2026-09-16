@@ -15,7 +15,7 @@
 	[rain]
 	{
 	  f rain_density = 600.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -48,7 +48,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -80,7 +79,7 @@
 	[rain]
 	{
 	  f rain_density = 600.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -113,7 +112,7 @@
 	[rain]
 	{
 	  f rain_density = 600.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -146,7 +145,7 @@
 	[rain]
 	{
 	  f rain_density = 1100.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -179,7 +178,7 @@
 	[rain]
 	{
 	  f rain_density = 1100.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -212,7 +211,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -244,7 +242,7 @@
 	[rain]
 	{
 	  f rain_density = 600.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -277,7 +275,7 @@
 	[rain]
 	{
 	  f rain_density = 600.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{

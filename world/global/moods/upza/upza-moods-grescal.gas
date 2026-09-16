@@ -20,7 +20,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -28,7 +27,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 5.0f;
 		standard_track = s_m_FortKroth_01;
 		room_type = rt_generic;
@@ -56,7 +55,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -64,7 +62,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 5.0f;
 		standard_track = s_m_FortKroth_03;
 		room_type = rt_generic;

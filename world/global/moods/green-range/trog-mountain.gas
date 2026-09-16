@@ -19,11 +19,10 @@
 	}
 	[rain]
 	{
-	  b lightning = true;
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 8.0f;
 		standard_repeat_delay = 24.0f;
 		standard_track = s_m_wonderland;
@@ -52,11 +51,10 @@
 	}
 	[rain]
 	{
-	  b lightning = true;
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 8.0f;
 		standard_repeat_delay = 24.0f;
 		standard_track = s_m_wonderland;
@@ -85,11 +83,10 @@
 	}
 	[rain]
 	{
-	  b lightning = true;
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 8.0f;
 		standard_repeat_delay = 24.0f;
 		standard_track = s_m_wonderland;
@@ -118,11 +115,10 @@
 	}
 	[rain]
 	{
-	  b lightning = true;
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_SubRiver_04;
 		room_type = rt_cave;
@@ -149,11 +145,10 @@
 	}
 	[rain]
 	{
-	  b lightning = true;
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_SubRiver_01;
 		room_type = rt_cave;
@@ -180,11 +175,10 @@
 	}
 	[rain]
 	{
-	  b lightning = true;
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 0.0f;
 		standard_track = s_m_SubRiver_05;
 		room_type = rt_cave;
@@ -211,11 +205,10 @@
 	}
 	[rain]
 	{
-	  b lightning = true;
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_SubRiver_02;
 		room_type = rt_arena;
@@ -293,7 +286,6 @@
 	}
 	[rain]
 	{
-	  b lightning = true;
 	}
 	[music]
 	{
@@ -377,7 +369,6 @@
 	}
 	[rain]
 	{
-	  b lightning = true;
 	}
 	[music]
 	{
@@ -470,7 +461,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 8.000000;
 	  f standard_repeat_delay = 24.000000;
 		standard_track = s_m_gates_of_glory;
@@ -553,7 +544,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 8.000000;
 	  f standard_repeat_delay = 24.000000;
 		standard_track = s_m_gates_of_glory;

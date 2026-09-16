@@ -20,7 +20,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -30,7 +29,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 2.000000;
 	  f standard_repeat_delay = 0.000000;
 		standard_track = s_m_furyden_01;
@@ -59,7 +58,7 @@
 	[rain]
 	{
 	  f rain_density = 250.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -97,7 +96,7 @@
 	[rain]
 	{
 	  f rain_density = 250.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -134,7 +133,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -170,7 +168,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_Drums_01;
 		room_type = rt_cave;
@@ -198,7 +196,7 @@
 	[rain]
 	{
 	  f rain_density = 130.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -235,7 +233,7 @@
 	[rain]
 	{
 	  f rain_density = 250.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -272,7 +270,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -308,7 +305,7 @@
 	[rain]
 	{
 	  f rain_density = 130.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -345,7 +342,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -383,7 +379,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -420,7 +415,7 @@
 	[rain]
 	{
 	  f rain_density = 250.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -457,7 +452,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -494,7 +488,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -531,7 +524,7 @@
 	[rain]
 	{
 	  f rain_density = 200.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -540,7 +533,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 2.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_the_mountain_theme;
@@ -569,7 +562,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -578,7 +570,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_track = s_m_the_skull_theme_cicatrix_theme;
 		room_type = rt_generic;
 	}
@@ -605,7 +597,7 @@
 	[rain]
 	{
 	  f rain_density = 200.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -614,7 +606,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_the_mountain_theme;
 		room_type = rt_generic;
@@ -651,7 +643,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_the_dead_theme;
 		room_type = rt_generic;
@@ -679,7 +671,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -687,7 +678,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_the_mountain_theme;
 		room_type = rt_generic;
@@ -715,7 +706,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -723,7 +713,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 2.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_haunted_ruins_accents_2;
@@ -752,7 +742,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -760,7 +749,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_haunted_ruins_accents_2;
 		room_type = rt_generic;
@@ -787,7 +776,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_furyden_02;
 		room_type = rt_cave;
@@ -815,7 +804,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -823,7 +811,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_haunted_ruins_battle;
 		room_type = rt_generic;
@@ -851,7 +839,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -859,7 +846,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_misc_03;
 		room_type = rt_generic;
@@ -887,7 +874,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -895,7 +881,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_CastleEhb_02;
 		room_type = rt_generic;
@@ -923,7 +909,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -931,7 +916,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_CastleEhb_03;
 		room_type = rt_generic;
@@ -959,7 +944,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -967,7 +951,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_CastleEhb_04;
 		room_type = rt_generic;
@@ -995,7 +979,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -1003,7 +986,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_CastleEhb_05;
 		room_type = rt_generic;
@@ -1031,7 +1014,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -1039,7 +1021,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_haunted_ruins_accents_2;
 		room_type = rt_generic;
@@ -1067,7 +1049,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -1075,7 +1056,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_haunted_ruins_accents_2;
 		room_type = rt_generic;
@@ -1102,7 +1083,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_dragonlair_01;
 		room_type = rt_stonecorridor;
@@ -1183,7 +1164,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_Gom;
 		room_type = rt_arena;
@@ -1210,7 +1191,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_track = ;
 		room_type = rt_arena;
 	}
@@ -1236,7 +1217,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 0.0f;
 		standard_track = s_m_dragonlair_02;
 		room_type = rt_arena;
@@ -1263,7 +1244,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_dragonlair_03;
 		room_type = rt_arena;

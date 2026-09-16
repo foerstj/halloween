@@ -27,9 +27,7 @@ Enjoy this special blend of autumn and horror mood with some witches and jack-o'
   - Increases rain and snow, as well as wind speed (mood replacement)
   - Replaces green trees with autumn trees (texture replacement) and adds falling leaves (template replacement)
 - Horror
-  - Crypt ambience if no other was used (mood replacement)
   - Replaces small candles with skull candles (template replacement)
-  - Adds lightning to all rainy moods (mood replacement)
   - Replaces music with Halloween themes (sound file replacement)
     - Main menu
     - The KoE & LoA intros

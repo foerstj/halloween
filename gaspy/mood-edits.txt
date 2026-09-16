@@ -1,5 +1,4 @@
 rain:add-density:100
-rain:lightning:true
 
 snow:add-density:100
 
@@ -7,7 +6,3 @@ fog:near-dists:half
 fog:color:half-gray
 
 wind:add-velocity:3.0
-
-
-
-music:default-ambience:s_e_ambient_crypt

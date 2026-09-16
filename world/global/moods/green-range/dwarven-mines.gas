@@ -14,7 +14,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 8.000000;
 	  f standard_repeat_delay = 24.000000;
 		standard_track = s_m_highland_song;
@@ -38,7 +38,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 8.000000;
 	  f standard_repeat_delay = 24.000000;
 		standard_track = s_m_highland_song;
@@ -62,7 +62,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 8.000000;
 	  f standard_repeat_delay = 24.000000;
 		standard_track = s_m_highland_song;
@@ -86,7 +86,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 8.000000;
 	  f standard_repeat_delay = 24.000000;
 		standard_track = s_m_highland_song;
@@ -115,7 +115,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 8.000000;
 	  f standard_repeat_delay = 24.000000;
 		standard_track = s_m_planning;
@@ -139,7 +139,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 32.000000;
 	  f standard_repeat_delay = 16.000000;
 		standard_track = s_m_besiegedtown_03;
@@ -367,7 +367,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 4.000000;
 	  f standard_repeat_delay = 24.000000;
 		standard_track = s_m_shelter_song;
@@ -451,7 +451,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 4.000000;
 	  f standard_repeat_delay = 24.000000;
 		standard_track = s_m_shelter_song;

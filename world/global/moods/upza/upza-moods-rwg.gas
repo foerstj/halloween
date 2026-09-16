@@ -19,7 +19,6 @@
 	}
 	[rain]
 	{
-	  b lightning = true;
 	}
 	[music]
 	{

@@ -20,7 +20,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -28,7 +27,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 2.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_BesiegedTown_02;
@@ -66,7 +65,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 0.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_BesiegedTown_01;
@@ -95,7 +94,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -103,7 +101,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_BesiegedTown_02;
@@ -132,7 +130,7 @@
 	[rain]
 	{
 	  f rain_density = 175.000000;
-	  b lightning = true;
+	  b lightning = false;
 	}
 	[wind]
 	{
@@ -140,7 +138,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_BesiegedTown_02;
@@ -178,7 +176,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_BesiegedTown_02;
@@ -207,7 +205,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -216,7 +213,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_BesiegedTown_02;
@@ -244,7 +241,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_BesiegedTown_03;
@@ -273,7 +270,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -281,7 +277,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 2.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_d_k_theme;
@@ -371,7 +367,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_Glacern_02;
@@ -461,7 +457,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 2.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_Glacern_02;
@@ -551,7 +547,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_Glacern_02;
@@ -670,7 +666,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -708,7 +703,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -746,7 +740,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -755,7 +748,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
 		standard_track = s_m_farmhouse_04;
@@ -784,7 +777,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -822,7 +814,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{
@@ -860,7 +851,6 @@
 	[rain]
 	{
 	  f rain_density = 100.000000;
-	  b lightning = true;
 	}
 	[wind]
 	{

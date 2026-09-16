@@ -78,7 +78,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 2.0f;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_Glacern_04;
@@ -165,7 +165,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_Glacern_04;
 		room_type = rt_generic;
@@ -251,7 +251,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_Glacern_04;
 		room_type = rt_generic;
@@ -424,7 +424,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_glacern_01;
 		room_type = rt_generic;
@@ -511,7 +511,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		room_type = rt_generic;
 	}
 }
@@ -596,7 +596,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 13.0f;
 		standard_track = s_m_glacern_08;
 		room_type = rt_generic;
@@ -679,7 +679,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		room_type = rt_auditorium;
 	}
 }
@@ -760,7 +760,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_glacern_07;
 		room_type = rt_auditorium;
@@ -838,7 +838,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_Glacern_04;
 		room_type = rt_stoneroom;
@@ -916,7 +916,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 5.0f;
 		standard_track = s_m_glacern_07;
 		room_type = rt_stoneroom;
@@ -994,7 +994,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_Glacern_04;
 		room_type = rt_stoneroom;
@@ -1080,7 +1080,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
 		standard_track = s_m_glacern_06;
@@ -1167,7 +1167,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
 		standard_track = s_m_glacern_03;
@@ -1254,7 +1254,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
 		standard_track = s_m_glacern_03;
@@ -1341,7 +1341,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_intro_delay = 10.0f;
 		standard_repeat_delay = 20.0f;
 		standard_track = s_m_glacern_06;
@@ -1428,7 +1428,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_glacern_05;
 		room_type = rt_generic;
@@ -1515,7 +1515,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_glacern_05;
 		room_type = rt_generic;
@@ -1601,7 +1601,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_glacern_05;
 		room_type = rt_generic;
@@ -1655,7 +1655,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_DwarvenMines_02;
 		room_type = rt_cave;
@@ -1682,7 +1682,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_DwarvenMines_04;
 		room_type = rt_cave;
@@ -1709,7 +1709,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 5.0f;
 		standard_track = s_m_DwarvenMines_01;
 		room_type = rt_cave;
@@ -1736,7 +1736,7 @@
 	}
 	[music]
 	{
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 		standard_repeat_delay = 10.0f;
 		standard_track = s_m_DwarvenMines_03;
 		room_type = rt_cave;
@@ -2293,7 +2293,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_arcticcaverns_01;
@@ -2383,7 +2383,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_crypt;
+		ambient_track = ;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 10.000000;
 		standard_track = s_m_arcticcaverns_01;
