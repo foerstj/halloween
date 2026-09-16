@@ -1,0 +1,13 @@
+Attribution: Alexander Nakarada https://creatorchords.com/ licensed CC-BY.
+- maintheme, maintheme_02, maintheme_03: Executioner
+- king_intro, intro, arhok: Halloween Textures
+- farmhouse_04: Dark'n'Deep
+- besiegedtown_01: Halloween Theme 3
+- besiegedtown_02: Halloween Theme 1
+- besiegedtown_04, the_ultreans: Halloween Theme 2
+- frontend: Haunted House
+- path2stonebridge_01, path2stonebridge_02: Hor Hor
+- darkforest_01, darkforest_02, darkforest_03: The Butcher
+- templeruins_01, templeruins_02: Pantscrapper
+- fortkroth_02: Headless Horseman
+- desertcanyons_03: Cockroaches

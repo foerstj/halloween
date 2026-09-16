@@ -30,7 +30,7 @@ Enjoy this special blend of autumn and horror mood with some witches and jack-o'
   - Crypt ambience if no other was used (mood replacement)
   - Replaces small candles with skull candles (template replacement)
   - Adds lightning to all rainy moods (mood replacement)
-  - Replaces music with Halloween themes (mood replacement)
+  - Replaces music with Halloween themes (sound file replacement)
     - Main menu
     - The KoE & LoA intros
     - Farmhouse, Path to Stonebridge, Stonebridge, Dark Forest, Temple Ruins, Fortress Kroth, Droog Village

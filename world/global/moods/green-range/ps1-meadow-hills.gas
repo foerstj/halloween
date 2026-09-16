@@ -26,7 +26,7 @@
 		ambient_track = s_e_ambient_wind_01b;
 	  f standard_intro_delay = 4.000000;
 	  f standard_repeat_delay = 16.000000;
-		standard_track = s_m_halloween_textures;
+		standard_track = s_m_king_intro;
 		room_type = rt_mountains;
 	}
 }

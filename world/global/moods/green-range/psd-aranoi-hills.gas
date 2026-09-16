@@ -159,7 +159,7 @@
 		ambient_track = s_e_ambient_bird2;
 	  f standard_intro_delay = 8.000000;
 	  f standard_repeat_delay = 16.000000;
-		standard_track = s_m_headless_horseman;
+		standard_track = s_m_fortkroth_02;
 		room_type = rt_mountains;
 	}
 }
@@ -190,7 +190,7 @@
 	{
 	  f standard_intro_delay = 8.000000;
 	  f standard_repeat_delay = 16.000000;
-		standard_track = s_m_headless_horseman;
+		standard_track = s_m_fortkroth_02;
 		room_type = rt_mountains;
 	}
 }

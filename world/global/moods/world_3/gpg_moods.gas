@@ -677,7 +677,7 @@
 	{
 		ambient_track = s_e_ambient_wind_01b;
 		standard_repeat_delay = 0.0f;
-		standard_track = s_m_executioner;
+		standard_track = s_m_MainTheme;
 		room_type = rt_generic;
 	}
 }
@@ -3043,7 +3043,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 0.0f;
-		standard_track = s_m_headless_horseman;
+		standard_track = s_m_FortKroth_02;
 		room_type = rt_generic;
 	}
 }
@@ -3079,7 +3079,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 0.0f;
-		standard_track = s_m_headless_horseman;
+		standard_track = s_m_FortKroth_02;
 		room_type = rt_generic;
 	}
 }
@@ -3115,7 +3115,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 0.0f;
-		standard_track = s_m_headless_horseman;
+		standard_track = s_m_FortKroth_02;
 		room_type = rt_generic;
 	}
 }
@@ -3185,7 +3185,7 @@
 	{
 		ambient_track = s_e_ambient_woods_01;
 		standard_repeat_delay = 5.0f;
-		standard_track = s_m_executioner;
+		standard_track = s_m_MainTheme_02;
 		room_type = rt_generic;
 	}
 }
@@ -3221,7 +3221,7 @@
 	{
 		ambient_track = s_e_ambient_woods_01;
 		standard_repeat_delay = 0.0f;
-		standard_track = s_m_the_butcher;
+		standard_track = s_m_darkforest_03;
 		room_type = rt_generic;
 	}
 }
@@ -3609,7 +3609,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_halloween_theme_3;
+		standard_track = s_m_BesiegedTown_01;
 		room_type = rt_generic;
 	}
 }
@@ -3640,7 +3640,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_halloween_theme_3;
+		standard_track = s_m_BesiegedTown_01;
 		room_type = rt_generic;
 	}
 }
@@ -3671,7 +3671,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 10.0f;
-		standard_track = s_m_halloween_theme_3;
+		standard_track = s_m_BesiegedTown_01;
 		room_type = rt_generic;
 	}
 }
@@ -3703,7 +3703,7 @@
 	{
 		ambient_track = s_e_ambient_crypt;
 		standard_repeat_delay = 0.0f;
-		standard_track = s_m_executioner;
+		standard_track = s_m_MainTheme_03;
 		room_type = rt_arena;
 	}
 }
@@ -3959,7 +3959,7 @@
 	{
 		ambient_track = s_e_ambient_wind_01b;
 		standard_repeat_delay = 0.0f;
-		standard_track = s_m_hor_hor;
+		standard_track = s_m_Path2Stonebridge_02;
 		room_type = rt_mountains;
 	}
 }
@@ -3991,7 +3991,7 @@
 	{
 		ambient_track = s_e_ambient_wind_01b;
 		standard_repeat_delay = 0.0f;
-		standard_track = s_m_hor_hor;
+		standard_track = s_m_Path2Stonebridge_02;
 		room_type = rt_mountains;
 	}
 }
@@ -4454,7 +4454,7 @@
 	{
 		ambient_track = s_e_ambient_wind_01;
 		standard_repeat_delay = 0.0f;
-		standard_track = s_m_halloween_theme_2;
+		standard_track = s_m_BesiegedTown_04;
 		room_type = rt_generic;
 	}
 }

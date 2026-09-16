@@ -231,7 +231,7 @@
 		ambient_track = s_e_ambient_woods_01;
 	  f standard_intro_delay = 8.000000;
 	  f standard_repeat_delay = 16.000000;
-		standard_track = s_m_hor_hor;
+		standard_track = s_m_path2stonebridge_02;
 		room_type = rt_mountains;
 	}
 }
@@ -269,7 +269,7 @@
 		ambient_track = s_e_ambient_woods_01;
 	  f standard_intro_delay = 8.000000;
 	  f standard_repeat_delay = 16.000000;
-		standard_track = s_m_hor_hor;
+		standard_track = s_m_path2stonebridge_02;
 		room_type = rt_mountains;
 	}
 }
@@ -302,7 +302,7 @@
 		ambient_track = s_e_ambient_bird1;
 	  f standard_intro_delay = 8.000000;
 	  f standard_repeat_delay = 16.000000;
-		standard_track = s_m_cockroaches;
+		standard_track = s_m_desertcanyons_03;
 		room_type = rt_mountains;
 	}
 }
@@ -334,7 +334,7 @@
 		ambient_track = s_e_ambient_bird2;
 	  f standard_intro_delay = 8.000000;
 	  f standard_repeat_delay = 16.000000;
-		standard_track = s_m_cockroaches;
+		standard_track = s_m_desertcanyons_03;
 		room_type = rt_arena;
 	}
 }
@@ -366,7 +366,7 @@
 		ambient_track = s_e_ambient_bird2;
 	  f standard_intro_delay = 8.000000;
 	  f standard_repeat_delay = 16.000000;
-		standard_track = s_m_cockroaches;
+		standard_track = s_m_desertcanyons_03;
 		room_type = rt_room;
 	}
 }
