@@ -23,8 +23,6 @@ Enjoy this special blend of autumn and horror mood with some witches and jack-o'
   - Replaces sand mages with witches (template replacement)
 - Autumn
   - Replaces flowers with mushrooms (template replacement)
-  - Makes fog grayer and closer (mood replacement)
-  - Increases rain and snow, as well as wind speed (mood replacement)
   - Replaces green trees with autumn trees (texture replacement) and adds falling leaves (template replacement)
 - Horror
   - Replaces small candles with skull candles (template replacement)
@@ -54,7 +52,6 @@ Enjoy this special blend of autumn and horror mood with some witches and jack-o'
 - Not compatible with Wintermod.
   - Overrides original template files like natural_nonblocking.gas
   - Overrides original actor template files like of krug & spiders
-  - Overrides original mood files
 
 ## Attribution
 - Halloween music by Alexander Nakarada https://creatorchords.com/ licensed CC-BY

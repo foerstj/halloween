@@ -1,8 +1,0 @@
-rain:add-density:100
-
-snow:add-density:100
-
-fog:near-dists:half
-fog:color:half-gray
-
-wind:add-velocity:3.0
