@@ -5,14 +5,18 @@
   b 0x1e41bb35 = false;
   b 0x3fe3b4bf = false;
   b 0x44600ad9 = false;
+  b 0x4c6999de = false;
   b 0x54cfe197 = false;
   b 0x5d6d7eef = false;
   b 0x619c3263 = false;
   b 0x6569e918 = false;
+  b 0x78ab5053 = false;
   b 0x85a41975 = false;
   b 0x93112556 = false;
   b 0xb762e7ae = false;
   b 0xc2eb27fb = false;
   b 0xd6e8d790 = false;
+  b 0xe15a878d = false;
   b 0xea040cfc = false;
+  b 0xf8e145bf = false;
 }

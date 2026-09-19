@@ -1,8 +1,31 @@
 [start_positions]
 {
-	[t:start_group,n:blood]
+	[t:start_group,n:autumn]
 	{
 	  b default = true;
+		description = "";
+	  b dev_only = false;
+	  i id = 1698412;
+		screen_name = "";
+		[start_position]
+		{
+		  i id = 1;
+			position = 2.431318,-0.000002,1.960529,0x1E41BB35;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 2.431318,-0.000002,1.960529,0x1E41BB35;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:blood]
+	{
+	  b default = false;
 		description = "";
 	  b dev_only = false;
 	  i id = 1699120;
