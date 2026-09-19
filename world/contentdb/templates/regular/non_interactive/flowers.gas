@@ -1,8 +1,0 @@
-[t:template,n:flowers_grs_04] { specializes = mushroom_glb_07_base; }
-[t:template,n:flowers_grs_05] { specializes = mushroom_glb_06_base; }
-[t:template,n:flowers_grs_06] { specializes = mushroom_glb_08_base; }
-[t:template,n:flowers_grs_07] { specializes = mushroom_glb_09_base; }
-[t:template,n:flowers_grs_08] { specializes = mushrooms_cav_05_base; }
-[t:template,n:flowers_grs_blue] { specializes = mushrooms_cav_06_base; }
-[t:template,n:flowers_grs_red] { specializes = mushrooms_cav_03_base; }
-[t:template,n:flowers_grs_yellow] { specializes = mushrooms_cav_02_base; }
