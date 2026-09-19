@@ -11,14 +11,6 @@ set ds=%DungeonSiege%
 :: Compile resource file
 call "%bits%\build.bat" %*
 
-:: Compile map file
-set copyright=CC-BY-SA 2025
-set author=Johannes Förstner
-rmdir /S /Q "%tmp%\Bits"
-robocopy "%bits%\world\maps\%mod%-demo" "%tmp%\Bits\world\maps\%mod%-demo" /E
-"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%mod_cs%-demo.dsmap" -copyright "%copyright%" -title "%map_cs%" -author "%author%"
-if %errorlevel% neq 0 pause
-
 ::pause
 
 :: Run it!
