@@ -1,0 +1,23 @@
+[t:0x0407,n:text]
+{
+	[0x0000]
+	{
+		from = "Mr Pumpkin Head";
+		to = "Herr Kürbiskopf";
+	}
+	[0x0000]
+	{
+		from = "Pumpkin";
+		to = "Kürbis";
+	}
+	[0x0000]
+	{
+		from = "Makes you look seasonal.";
+		to = "Passend für Halloween.";
+	}
+	[0x0000]
+	{
+		from = "Makes you look seasonal.\n\nAdds <alter_armor> to Toughness.";
+		to = "Passend für Halloween.\n\nFügt <alter_armor> Härte hinzu.";
+	}
+}

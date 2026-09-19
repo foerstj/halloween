@@ -1,4 +1,5 @@
 characters/skeleton-npc
 items/pumpkin
+items/pumpkin-helmet
 landscape/death-forest
 landscape/webbed-rhods
