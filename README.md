@@ -2,7 +2,7 @@
 A little mod for Dungeon Siege 1 / LoA.
 
 Hallowe'en is All Hallows' Eve, the haunted night where the boundary to the Otherworld is thin and the dead and evil spirits walk the Earth!\
-Enjoy this special blend of autumn and horror mood with some witches and jack-o'-lanterns thrown into the mix!
+Enjoy this special blend of horror mood with some witches and jack-o'-lanterns thrown into the mix!
 
 - Zombies
   - Replaces lower Krug with zombie Krug (texture replacement)
@@ -21,9 +21,6 @@ Enjoy this special blend of autumn and horror mood with some witches and jack-o'
   - Replaces Braak mages with witches (template replacement)
   - Replaces forest darklings with witches (template replacement)
   - Replaces sand mages with witches (template replacement)
-- Autumn
-  - Replaces flowers with mushrooms (template replacement)
-  - Adds falling leaves to trees (template replacement)
 - Horror
   - Replaces small candles with skull candles (template replacement)
   - Replaces music with Halloween themes (sound file replacement)
@@ -43,7 +40,7 @@ Enjoy this special blend of autumn and horror mood with some witches and jack-o'
 
 ## Installation & Compatibility
 - This mod is made for LoA, and also alters LoA content. It should work with Vanilla, but wasn't tested thoroughly.
-  - The pumpkin texture is misaligned in Vanilla. This can be remedied by using "Halloween - Pumpkin-vanilla-fix.dsres".
+  - The pumpkin texture is misaligned in Vanilla. This can be remedied by using "A Halloween Mod - Pumpkin-vanilla-fix.dsres".
 - This mod supports the original maps (KoE/UP/Yh/LoA/R2A) as well as my own (Ehland/PG/EoS/GR/UPZA). It affects other maps to a lesser extent.
 - To install, simply put the .dsres files in the DSLOA folder.
 - The "de" and "es" .dsres files are optional and contain translations into German and Spanish, which will be picked up if you have a German or Spanish installation.
