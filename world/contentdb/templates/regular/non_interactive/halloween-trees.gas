@@ -1,0 +1,39 @@
+[t:template,n:tree_des_dead_03]
+{
+	specializes = gpg_bush_glb_dead_01_base;  // webbed_lots
+}
+
+[t:template,n:tree_grs_pine_01]
+{
+    specializes = gpg_tree_glb_pine_dead_04_base;  // webbed_some_green
+	[aspect]
+	{
+        scale_base = 1;  // revert proper scaling in death-forest...
+		scale_multiplier = 0.75;  // just to bring back this nonsense so it fits to the existing maps!
+	}
+}
+[t:template,n:tree_grs_pine_02]
+{
+    specializes = gpg_tree_glb_pine_dead_04_base;  // webbed_some_green
+	[aspect]
+	{
+        scale_base = 1;  // revert default 9m scaling in death-forest
+	}
+}
+[t:template,n:tree_grs_pine_05]
+{
+    specializes = gpg_tree_glb_pine_dead_01_base;  // webbed_lots
+	[aspect]
+	{
+        scale_base = 1;  // revert proper scaling in death-forest...
+		scale_multiplier = 0.75;  // just to bring back this nonsense so it fits to the existing maps!
+	}
+}
+[t:template,n:tree_grs_pine_06]
+{
+    specializes = gpg_tree_glb_pine_dead_01_base;  // webbed_lots
+	[aspect]
+	{
+        scale_base = 1;  // revert default 9m scaling in death-forest
+	}
+}
