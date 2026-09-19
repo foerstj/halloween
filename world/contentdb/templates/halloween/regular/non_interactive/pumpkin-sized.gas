@@ -1,3 +1,4 @@
+[t:template,n:pumpkin_s] { specializes = pumpkin_s_base; }
 [t:template,n:pumpkin_s_base]
 {
     specializes = pumpkin_base;
@@ -6,6 +7,7 @@
         scale_base = 0.79;  // 1/2 volume
     }
 }
+[t:template,n:pumpkin_m] { specializes = pumpkin_m_base; }
 [t:template,n:pumpkin_m_base]
 {
     specializes = pumpkin_base;
@@ -14,6 +16,7 @@
         scale_base = 1.0;  // 1x volume
     }
 }
+[t:template,n:pumpkin_l] { specializes = pumpkin_l_base; }
 [t:template,n:pumpkin_l_base]
 {
     specializes = pumpkin_base;
@@ -22,6 +25,7 @@
         scale_base = 1.26;  // 2x volume
     }
 }
+[t:template,n:pumpkin_xl] { specializes = pumpkin_xl_base; }
 [t:template,n:pumpkin_xl_base]
 {
     specializes = pumpkin_base;
@@ -30,6 +34,7 @@
         scale_base = 1.59;  // 4x volume
     }
 }
+[t:template,n:pumpkin_xxl] { specializes = pumpkin_xxl_base; }
 [t:template,n:pumpkin_xxl_base]
 {
     specializes = pumpkin_base;
