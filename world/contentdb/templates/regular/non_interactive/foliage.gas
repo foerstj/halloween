@@ -13,7 +13,6 @@
 [t:template,n:brush_des_dry_01] { specializes = pumpkin_l_base; }
 [t:template,n:brush_des_dry_02] { specializes = pumpkin_xl_base; }
 [t:template,n:brush_des_dry_03] { specializes = pumpkin_xl_base; }
-[t:template,n:cabbage_glb_01] { specializes = pumpkin_xxl_base; }
 [t:template,n:cactus_des_04]
 {
 	category_name = "foliage";
@@ -928,7 +927,6 @@
 		}
 	}
 }
-[t:template,n:plant_glb_squash] { specializes = pumpkin_l_base; }
 [t:template,n:reed_des_01]
 {
 	category_name = "foliage";

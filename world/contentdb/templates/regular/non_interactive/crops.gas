@@ -1,0 +1,2 @@
+[t:template,n:cabbage_glb_01] { specializes = pumpkin_xxl_base; }
+[t:template,n:plant_glb_squash] { specializes = pumpkin_l_base; }
