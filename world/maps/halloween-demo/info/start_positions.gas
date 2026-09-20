@@ -6,7 +6,7 @@
 		description = "";
 	  b dev_only = false;
 	  i id = 1698412;
-		screen_name = "";
+		screen_name = "Autumn";
 		[start_position]
 		{
 		  i id = 1;
@@ -29,7 +29,7 @@
 		description = "";
 	  b dev_only = false;
 	  i id = 1699120;
-		screen_name = "";
+		screen_name = "Blood";
 		[start_position]
 		{
 		  i id = 1;
@@ -46,13 +46,13 @@
 		{
 		}
 	}
-	[t:start_group,n:default]
+	[t:start_group,n:ulora]
 	{
 	  b default = false;
-		description = "This is the default group.";
+		description = "";
 	  b dev_only = false;
 	  i id = 0;
-		screen_name = "";
+		screen_name = "Ulora";
 		[start_position]
 		{
 		  i id = 1;
@@ -75,7 +75,7 @@
 		description = "";
 	  b dev_only = false;
 	  i id = 1698412;
-		screen_name = "";
+		screen_name = "Legion";
 		[start_position]
 		{
 		  i id = 1;
@@ -98,7 +98,7 @@
 		description = "";
 	  b dev_only = false;
 	  i id = 1698464;
-		screen_name = "";
+		screen_name = "Witches";
 		[start_position]
 		{
 		  i id = 1;
@@ -121,7 +121,7 @@
 		description = "";
 	  b dev_only = false;
 	  i id = 1698464;
-		screen_name = "";
+		screen_name = "Zombie Companions";
 		[start_position]
 		{
 		  i id = 1;
