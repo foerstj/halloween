@@ -36,6 +36,7 @@ Enjoy this special blend of horror mood with some witches and jack-o'-lanterns t
   - All meaty frags spill blood (template replacement)
 - Halloween
   - Pumpkin helmet available in pcontent (low shops & drops) (new template)
+  - Some Bandits & Skeletons are equipped with pumpkin helmets (template replacement)
   - Replaces some plants & items with pumpkins (template replacement)
 
 ## Installation & Compatibility
@@ -53,6 +54,7 @@ Enjoy this special blend of horror mood with some witches and jack-o'-lanterns t
 - Halloween music by Alexander Nakarada https://creatorchords.com/ licensed CC-BY
 - Zombie packmule textures from Lands of Hyperborea by Xaa plz dont sue me
 - Pumpkin courtesy of Ghastly, from HS LLS map/mod; Dwarf & Skeleton head models by Biddle
+- Equipping Bandits & Skeletons with pumpkin helmets: thx Andreou
 - Zombie wolf & bear textures courtesy of Eksevis
 - Webbed pines & bushes from Yesterhaven
 - Zombie Krug, Krug dog & black wolf textures: original textures, partly unused
