@@ -2,7 +2,7 @@
 {
 	category_name = "3W_character";
 	doc = "3W_guard";
-	specializes = 3W_base_npc_fb;
+	specializes = 3W_base_npc_sk;
 	[actor]
 	{
 		[skills]
@@ -19,7 +19,7 @@
 		is_collidable = true;
         [textures]
 		{
-			0 = b_c_gah_fb_skin_02;
+			0 = b_c_ecm_sk-02;
 		}
 	}
 	[common]
@@ -47,16 +47,12 @@
         actor_may_be_attacked = true;
 		jat_talk = world\ai\jobs\common\job_talk.skrit;
 	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
-	}
 }
 [t:template,n:3W_guard_captain]
 {
 	category_name = "3W_character";
 	doc = "3W_guard_captain";
-	specializes = 3W_base_npc_fb;
+	specializes = 3W_base_npc_sk;
 	[actor]
 	{
 		[skills]
@@ -73,7 +69,7 @@
 		is_collidable = true;
         [textures]
 		{
-			0 = b_c_gah_fb_skin_12;
+			0 = b_c_ecm_sk-03;
 		}
 	}
 	[common]
@@ -82,10 +78,6 @@
 	}
 	[conversation]
 	{
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{
@@ -110,7 +102,7 @@
 {
 	category_name = "3W_character";
 	doc = "3W_guard_ranged";
-	specializes = 3W_base_npc_fb;
+	specializes = 3W_base_npc_sk;
 	[actor]
 	{
 		[skills]
@@ -127,7 +119,7 @@
 		is_collidable = true;
         [textures]
 		{
-			0 = b_c_gah_fb_skin_004;
+			0 = b_c_ecm_sk-02;
 		}
 	}
 	[common]
@@ -136,10 +128,6 @@
 	}
 	[conversation]
 	{
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{
@@ -163,23 +151,18 @@
 {
 	category_name = "3W_character";
 	doc = "3W_guard_02";
-	specializes = 3W_base_npc_fb;
+	specializes = 3W_base_npc_sk;
 	[aspect]
 	{
 		is_collidable = true;
 		[textures]
 		{
-			0 = b_c_gah_fb_skin_03;
-			1 = b_c_pos_a1_003;
+			0 = b_c_ecm_sk-02;
 		}
 	}
 	[common]
 	{
 		screen_name = "Legionnaire Guard";
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{
@@ -203,14 +186,13 @@
 {
 	category_name = "3W_character";
 	doc = "3W_mp_guard_02";
-	specializes = 3W_base_npc_fb_multiplayer;
+	specializes = 3W_base_npc_sk_multiplayer;
 	[aspect]
 	{
 		is_collidable = true;
 		[textures]
 		{
-			0 = b_c_gah_fb_skin_03;
-			1 = b_c_pos_a1_003;
+			0 = b_c_ecm_sk-02;
 		}
 	}
 	[check_level] {}
@@ -220,10 +202,6 @@
 	}
 	[conversation]
 	{
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{
@@ -248,23 +226,18 @@
 {
 	category_name = "3W_character";
 	doc = "3W_guard_03";
-	specializes = 3W_base_npc_fb;
+	specializes = 3W_base_npc_sk;
 	[aspect]
 	{
 		is_collidable = true;
 		[textures]
 		{
-			0 = b_c_gah_fb_skin_05;
-			1 = b_c_pos_a1_009;
+			0 = b_c_ecm_sk-02;
 		}
 	}
 	[common]
 	{
 		screen_name = "Legionnaire Guard";
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{
@@ -288,14 +261,13 @@
 {
 	category_name = "3W_character";
 	doc = "3W_mp_guard_03";
-	specializes = 3W_base_npc_fb_multiplayer;
+	specializes = 3W_base_npc_sk_multiplayer;
 	[aspect]
 	{
 		is_collidable = true;
 		[textures]
 		{
-			0 = b_c_gah_fb_skin_05;
-			1 = b_c_pos_a1_009;
+			0 = b_c_ecm_sk-02;
 		}
 	}
 	[check_level] {}
@@ -318,10 +290,6 @@
 			es_weapon_hand = #sd_g_c_st_1h_avg:o_avg;
 		}
 	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
-	}
 	[mind]
 	{
 		actor_may_attack = true;
@@ -334,7 +302,7 @@
 {
 	category_name = "3W_character";
 	doc = "3W_mp_guard";
-	specializes = 3W_base_npc_fb_multiplayer;
+	specializes = 3W_base_npc_sk_multiplayer;
 	[actor]
 	{
 		[skills]
@@ -350,17 +318,13 @@
         is_collidable = true;
 		[textures]
 		{
-			0 = b_c_gah_fb_skin_02;
+			0 = b_c_ecm_sk-02;
 		}
 	}
 	[check_level] {}
 	[common]
 	{
 		screen_name = "Legionnaire Guard";
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{
@@ -385,7 +349,7 @@
 {
 	category_name = "3W_character";
 	doc = "3W_mp_guard_captain";
-	specializes = 3W_base_npc_fb_multiplayer;
+	specializes = 3W_base_npc_sk_multiplayer;
 	[actor]
 	{
 		[skills]
@@ -401,17 +365,13 @@
 		is_collidable = true;
 		[textures]
 		{
-			0 = b_c_gah_fb_skin_12;
+			0 = b_c_ecm_sk-03;
 		}
 	}
 	[check_level] {}
 	[common]
 	{
 		screen_name = "Legionnaire Captain";
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{
@@ -436,7 +396,7 @@
 {
 	category_name = "3W_character";
 	doc = "3W_mp_guard_captain_elddim";
-	specializes = 3W_base_npc_fb_multiplayer;
+	specializes = 3W_base_npc_sk_multiplayer;
 
 	[actor]
 	{
@@ -450,21 +410,16 @@
 	}
 	[aspect]
 	{
-		model = m_c_gah_fb_pos_a3;
 		is_collidable = true;
 		[textures]
 		{
-			0 = b_c_gah_fb_skin_12;
+			0 = b_c_ecm_sk-03;
 		}
 	}
 	[check_level] {}
 	[common]
 	{
 		screen_name = "Guard Captain of Elddim";
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{
@@ -498,7 +453,7 @@
 {
 	category_name = "3W_character";
 	doc = "3W_mp_guard_ranged";
-	specializes = 3W_base_npc_fb_multiplayer;
+	specializes = 3W_base_npc_sk_multiplayer;
 	[actor]
 	{
 		[skills]
@@ -514,17 +469,13 @@
 		is_collidable = true;
 		[textures]
 		{
-			0 = b_c_gah_fb_skin_004;
+			0 = b_c_ecm_sk-02;
 		}
 	}
 	[check_level] {}
 	[common]
 	{
 		screen_name = "Legionnaire Archer";
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{

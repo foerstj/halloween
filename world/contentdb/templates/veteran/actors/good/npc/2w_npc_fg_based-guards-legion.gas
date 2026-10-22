@@ -2,28 +2,22 @@
 {
 	category_name = "2W_character";
 	doc = "2W_guard_04";
-	specializes = 2W_base_npc_fg;
+	specializes = 2W_base_npc_sk;
 	[aspect]
 	{
 		draw_selection_indicator = TRUE;
 		is_collidable = true;
 		[textures]
 		{
-			0 = b_c_gah_fg_skin_22;
-			1 = b_c_pos_a1_059;
+			0 = b_c_ecm_sk-02;
 		}
 	}
 	[common]
 	{
 		screen_name = "Guard";
 	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
-	}
 	[inventory]
 	{
-		custom_head = m_c_gah_fg_hlmt_head-02;
 		[equipment]
 		{
 			es_chest = bd_un_pl_f_g_c_fun;
@@ -43,25 +37,19 @@
 {
 	category_name = "2W_character";
 	doc = "2W_guard_05";
-	specializes = 2W_base_npc_fg;
+	specializes = 2W_base_npc_sk;
 	[aspect]
 	{
 		draw_selection_indicator = TRUE;
 		is_collidable = true;
-		model = m_c_gah_fg_pos_b1;
 		[textures]
 		{
-			0 = b_c_gah_fg_skin_05;
-			1 = b_c_pos_b1_004;
+			0 = b_c_ecm_sk-02;
 		}
 	}
 	[common]
 	{
 		screen_name = "Guard";
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{
@@ -84,15 +72,14 @@
 {
 	category_name = "2W_character";
 	doc = "2W_mp_guard_04";
-	specializes = 2W_base_npc_fg_multiplayer;
+	specializes = 2W_base_npc_sk_multiplayer;
 	[aspect]
 	{
 		draw_selection_indicator = TRUE;
 		is_collidable = true;
 		[textures]
 		{
-			0 = b_c_gah_fg_skin_22;
-			1 = b_c_pos_a1_059;
+			0 = b_c_ecm_sk-02;
 		}
 	}
 	[check_level] {}
@@ -103,13 +90,8 @@
 	[conversation]
 	{
 	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
-	}
 	[inventory]
 	{
-		custom_head = m_c_gah_fg_hlmt_head-02;
 		[equipment]
 		{
 			es_chest = bd_un_pl_f_g_c_fun;
@@ -130,16 +112,14 @@
 {
 	category_name = "2W_character";
 	doc = "2W_Barracks_Guard";
-	specializes = 2W_base_npc_fg_multiplayer;
+	specializes = 2W_base_npc_sk_multiplayer;
 	[aspect]
 	{
-		model = m_c_gah_fg_pos_a3;
 		draw_selection_indicator = TRUE;
 		is_collidable = true;
 		[textures]
 		{
-			0 = b_c_gah_fg_skin_22;
-			1 = b_c_pos_a1_059;
+			0 = b_c_ecm_sk-03;
 		}
 	}
 	[check_level] {}
@@ -150,13 +130,8 @@
 	[conversation]
 	{
 	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
-	}
 	[inventory]
 	{
-		custom_head = m_c_gah_fg_hlmt_head-02;
 		[equipment]
 		{
 			es_chest = bd_un_pl_f_g_c_fun;
@@ -177,16 +152,14 @@
 {
 	category_name = "2W_character";
 	doc = "2W_mp_guard_05";
-	specializes = 2W_base_npc_fg_multiplayer;
+	specializes = 2W_base_npc_sk_multiplayer;
 	[aspect]
 	{
 		draw_selection_indicator = TRUE;
 		is_collidable = true;
-		model = m_c_gah_fg_pos_b1;
 		[textures]
 		{
-			0 = b_c_gah_fg_skin_05;
-			1 = b_c_pos_b1_004;
+			0 = b_c_ecm_sk-02;
 		}
 	}
 	[check_level] {}
@@ -196,10 +169,6 @@
 	}
 	[conversation]
 	{
-	}
-	[guts_manager]
-	{
-		effect_name = melee_hit_2;
 	}
 	[inventory]
 	{
