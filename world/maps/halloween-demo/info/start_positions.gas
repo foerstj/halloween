@@ -46,29 +46,6 @@
 		{
 		}
 	}
-	[t:start_group,n:ulora]
-	{
-	  b default = false;
-		description = "";
-	  b dev_only = false;
-	  i id = 0;
-		screen_name = "Ulora";
-		[start_position]
-		{
-		  i id = 1;
-			position = 0.019981,0.000000,-0.005098,0x51A2AD75;
-			[camera]
-			{
-			  f azimuth = 0.500000;
-			  f distance = 20.000000;
-			  f orbit = 0.000000;
-				position = 0.019981,0.000000,-0.005098,0x51A2AD75;
-			}
-		}
-		[world_levels]
-		{
-		}
-	}
 	[t:start_group,n:legion]
 	{
 	  b default = false;
@@ -86,6 +63,29 @@
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
 				position = 1.568506,0.000000,1.836063,0x1DBE266A;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:ulora]
+	{
+	  b default = false;
+		description = "";
+	  b dev_only = false;
+	  i id = 0;
+		screen_name = "Ulora";
+		[start_position]
+		{
+		  i id = 1;
+			position = 0.019981,0.000000,-0.005098,0x51A2AD75;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.019981,0.000000,-0.005098,0x51A2AD75;
 			}
 		}
 		[world_levels]
