@@ -116,7 +116,6 @@
 		}
 	}
 }
-
 [t:template,n:zergling_spider_stalagnid]
 {
 	specializes = spider_stalagnid_base;
