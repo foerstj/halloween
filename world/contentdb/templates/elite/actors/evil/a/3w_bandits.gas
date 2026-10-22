@@ -182,6 +182,11 @@
 				es_feet = bo_bo_le_light;
                 es_weapon_hand = sd_g_c_gl_1h_avg;
 			}
+			[all*]
+			{
+				chance = 0.15;
+				es_head = he_ca_pumpkin;
+			}
 			[oneof*]
 			{
 				[oneof*]
@@ -295,6 +300,7 @@
 			{
 				es_feet = bo_bo_le_light;
                 es_weapon_hand = sd_g_c_gl_1h_avg;
+				es_head = he_ca_pumpkin;
 			}
 			[oneof*]
 			{
@@ -396,6 +402,11 @@
 			{
 				es_feet = bo_bo_le_light;
                 es_shield_hand = bw_g_c_c_l_r_avg;
+			}
+			[all*]
+			{
+				chance = 0.15;
+				es_head = he_ca_pumpkin;
 			}
 			[oneof*]
 			{
@@ -512,6 +523,7 @@
 			{
 				es_feet = bo_bo_le_light;
                 es_weapon_hand = ax_g_c_1h2b_avg;
+				es_head = he_ca_pumpkin;
 			}
 			[all*]
 			{
