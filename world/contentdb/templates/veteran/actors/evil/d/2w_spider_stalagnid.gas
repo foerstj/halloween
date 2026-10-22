@@ -1,4 +1,4 @@
-[t:template,n:2W_spider_stalagnid]
+[t:template,n:2W_spider_stalagnid_base]  // = 2W_spider_stalagnid
 {
 	category_name = "2W_evil_d";
 	doc = "2W_spider_stalagnid";
@@ -115,4 +115,23 @@
 			frag_glb_stalagnid_05 = 1;
 		}
 	}
+}
+[t:template,n:2W_zergling_spider_stalagnid]
+{
+	specializes = 2W_spider_stalagnid_base;
+
+	aspect:experience_value = 0;
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+}
+[t:template,n:2W_spider_stalagnid]
+{
+	specializes = 2W_spider_stalagnid_base;
+
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+
+    // ADDED
+    [generator_halloween]
+    {
+        child_template_name = 2W_zergling_spider_stalagnid;
+    }
 }

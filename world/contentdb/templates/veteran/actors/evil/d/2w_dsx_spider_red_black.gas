@@ -1,4 +1,4 @@
-[t:template,n:2W_dsx_spider_red_black]
+[t:template,n:2W_dsx_spider_red_black_base]  // = 2W_dsx_spider_red_black
 {
 	category_name = "2W_evil_d";
 	doc = "2W_dsx_spider_red_black";
@@ -106,4 +106,23 @@
 			frag_glb_spider_05 = 1;
 		}
 	}
+}
+[t:template,n:2W_zergling_dsx_spider_red_black]
+{
+	specializes = 2W_dsx_spider_red_black_base;
+
+	aspect:experience_value = 0;
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+}
+[t:template,n:2W_dsx_spider_red_black]
+{
+	specializes = 2W_dsx_spider_red_black_base;
+
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+
+    // ADDED
+    [generator_halloween]
+    {
+        child_template_name = 2W_zergling_dsx_spider_red_black;
+    }
 }

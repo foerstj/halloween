@@ -454,7 +454,7 @@
     }
 }
 
-[t:template,n:dsx_spider_med_base] //Pink Spider
+[t:template,n:dsx_spider_med_base]  // = dsx_spider_med //Pink Spider
 {
   category_name = "1W_evil_d";
   doc = "dsx_spider_med";

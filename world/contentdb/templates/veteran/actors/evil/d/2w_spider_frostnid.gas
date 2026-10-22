@@ -91,7 +91,7 @@
 		}
 	}
 }
-[t:template,n:2W_spider_frostnid]
+[t:template,n:2W_spider_frostnid_hw_base]  // = 2W_spider_frostnid
 {
 	category_name = "2W_evil_d";
 	doc = "2W_spider_frostnid";
@@ -123,7 +123,27 @@
 	[common] { screen_name="Frostnid"; }
     [defend] { defense=414; }
 }
-[t:template,n:2W_spider_frostnid_ranged]
+[t:template,n:2W_zergling_spider_frostnid]
+{
+	specializes = 2W_spider_frostnid_hw_base;
+
+	aspect:experience_value = 0;
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+}
+[t:template,n:2W_spider_frostnid]
+{
+	specializes = 2W_spider_frostnid_hw_base;
+
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+
+    // ADDED
+    [generator_halloween]
+    {
+        child_template_name = 2W_zergling_spider_frostnid;
+    }
+}
+
+[t:template,n:2W_spider_frostnid_ranged_base]  // = 2W_spider_frostnid_ranged
 {
 	category_name = "2W_evil_d";
 	doc = "2W_spider_frostnid_ranged";
@@ -174,4 +194,23 @@
 		actor_auto_switches_to_karate	= false;
 		actor_auto_switches_to_melee	= false;
 	}
+}
+[t:template,n:2W_zergling_spider_frostnid_ranged]
+{
+	specializes = 2W_spider_frostnid_ranged_base;
+
+	aspect:experience_value = 0;
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+}
+[t:template,n:2W_spider_frostnid_ranged]
+{
+	specializes = 2W_spider_frostnid_ranged_base;
+
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+
+    // ADDED
+    [generator_halloween]
+    {
+        child_template_name = 2W_zergling_spider_frostnid_ranged;
+    }
 }
