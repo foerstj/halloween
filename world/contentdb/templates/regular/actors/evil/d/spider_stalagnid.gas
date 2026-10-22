@@ -1,4 +1,4 @@
-[t:template,n:spider_stalagnid]
+[t:template,n:spider_stalagnid_base]  // = spider_stalagnid
 {
 	category_name = "1W_evil_d";
 	doc = "spider_stalagnid";
@@ -115,4 +115,24 @@
 			frag_glb_stalagnid_05 = 1;
 		}
 	}
+}
+
+[t:template,n:zergling_spider_stalagnid]
+{
+	specializes = spider_stalagnid_base;
+
+	aspect:experience_value = 0;
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+}
+[t:template,n:spider_stalagnid]
+{
+	specializes = spider_stalagnid_base;
+
+	aspect:scale_base = 1.26;  // EDITED: 2x volume
+
+    // ADDED
+    [generator_halloween]
+    {
+        child_template_name = zergling_spider_stalagnid;
+    }
 }
